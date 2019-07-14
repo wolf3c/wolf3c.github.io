@@ -1,0 +1,280 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>4 分钟 web 设计教程 | Gridea</title>
+<link rel="shortcut icon" href="/Users/wolf3c/Documents/gridea/output/favicon.ico?v=1561822616174">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="/Users/wolf3c/Documents/gridea/output/styles/main.css">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="/Users/wolf3c/Documents/gridea/output">
+  <img class="avatar" src="/Users/wolf3c/Documents/gridea/output/images/avatar.png?v=1561822616174" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/Users/wolf3c/Documents/gridea/output//index.html" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/Users/wolf3c/Documents/gridea/output/archives/index.html" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/Users/wolf3c/Documents/gridea/output/tags/index.html" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/Users/wolf3c/Documents/gridea/output/post/about/index.html" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              4 分钟 web 设计教程
+            </h2>
+            <div class="post-info">
+              <time class="post-time">
+                · 2016-08-06 ·
+              </time>
+              
+                <a href="/Users/wolf3c/Documents/gridea/output/tag/technology/index.html" class="post-tag">
+                  # 技术
+                </a>
+              
+                <a href="/Users/wolf3c/Documents/gridea/output/tag/translation/index.html" class="post-tag">
+                  # 翻译
+                </a>
+              
+            </div>
+            
+            <div class="post-content">
+              <blockquote>
+<p>time：2016-08-06</p>
+<p>author：wolf3c</p>
+</blockquote>
+<p>译自<a href="http://jgthms.com/web-design-in-4-minutes">《Web Design in 4 minutes》</a></p>
+<p>目录：</p>
+<p>[TOC]</p>
+<p>假设你有一款产品、一个投资组合或仅仅是一个想法，你想要在自己的网站上分享给每个人，在你将它发布网上之前，你需要让它看起来很吸引人、很专业，或者至少能拿出手。</p>
+<p>那么你首先需要做什么？</p>
+<h2 id="内容content">内容（Content）</h2>
+<p><strong>设计</strong> 的目的是更好地帮助内容的呈现，这貌似是显而易见的，但 “内容是一个网站<strong>主要</strong>元素” 这件事情不应该是被最后关注。</p>
+<p>被写入的内容（就像你现在读的这段），撑起了这个 web 的 90%，这种样式的文本内容将一直延续下去。</p>
+<p>我们先假定你已经有了想要发布的内容了，却只有一个空的 style.css 文件，那么你首先需要写什么规则呢？</p>
+<h2 id="主体centering">主体（Centering）</h2>
+<p>太长的文本行既难被解析，也难以阅读，设定每行的最大字符数将大大提升可读性和长文本的吸引力。</p>
+<pre><code class="language-css">body {
+  margin: 0 auto;
+  max-width: 50em;
+}
+</code></pre>
+<p>设定好了文本块的样式后，我们怎么设置文本自身的样式呢？</p>
+<h2 id="字体库font-family">字体库（Font family）</h2>
+<p>浏览器的字体默认是 &quot;Times&quot;，没有一点吸引力（主要是因为它是“无样式”字体）换成一种无衬线字体（比如 &quot;Helvetica&quot; 或 &quot;Arial&quot; ）将瞬间提升网页的可观性。</p>
+<pre><code class="language-css">body {
+  font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
+}
+</code></pre>
+<p>如果你坚持使用有衬线字体，可以试试 &quot;Georgia&quot;。</p>
+<p>文字已经很具有吸引离了，我们需要让它更具可读性。</p>
+<h2 id="间距spacing">间距（Spacing）</h2>
+<p>当用户感到一个页面支离破碎，那多半是间距的问题，无论是内容周围还是内容之中，提供一些空间总能提升页面的吸引力。</p>
+<pre><code class="language-css">body {
+  line-height: 1.5;
+  padding: 4em 1em;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+</code></pre>
+<p>当布局提升了一大截后，我们需要做一下微调。</p>
+<h2 id="颜色和对比color-contrast">颜色和对比（Color &amp; contrast）</h2>
+<p>白底黑字太刺眼，为主体文本选择一个浅黑色 ( a softer shade of black ) 会让阅读变得舒服很多。</p>
+<pre><code class="language-css">body {
+  color: #555;
+}
+</code></pre>
+<p>为了体现不同层级的对比，我们需要为重要内容选择一个更深的颜色。</p>
+<pre><code class="language-css">h1,
+h2,
+strong {
+  color: #333;
+}
+</code></pre>
+<p>我们已经提升了大多数页面的视觉感受，一些元素（比如代码块）依旧格格不入。</p>
+<h2 id="平衡性balance">平衡性（Balance）</h2>
+<p>只需要略施小计就可以改善页面的平衡性。</p>
+<pre><code class="language-css">code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+</code></pre>
+<p>到了这一步，你大概已经想要将你的页面打上自己的标识并拿出去了。</p>
+<h2 id="主色primary-color">主色（Primary color）</h2>
+<p>大多数品牌都有一个主色调作为自己的视觉标识，在一个网站上，这种特色常被用在一些主要的互动元素上，比如链接。</p>
+<pre><code class="language-css">a {
+  color: #e81c4f;
+}
+</code></pre>
+<p>但是为了保持平衡性，我们需要一些其他颜色。</p>
+<h2 id="辅色secondary-colors">辅色（Secondary colors）</h2>
+<p>还可以在边框、背景或正文中找一些浅色来补充标识性颜色。</p>
+<pre><code class="language-css">body {
+  color: #566b78;
+}
+
+code,
+pre {
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  color: #a7adba;
+}
+
+pre {
+  border-left: 2px solid #69c;
+}
+</code></pre>
+<p>做了这些调整以后，何不对形状做些调整呢。</p>
+<h2 id="自定义字体custom-font">自定义字体（Custom font）</h2>
+<p>既然文本是网页主要内容，那使用一个自定义字体让页面更引人注目就无可厚非了。</p>
+<p>你既可以嵌入自己的字体，也可以使用线上服务（比如 <a href="https://typekit.com/">Typekit</a> ），我们可以使用免费的 <a href="https://fonts.google.com/">Google 字体</a> 服务：</p>
+<pre><code class="language-css">@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+  font-family: &quot;Roboto&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
+}
+
+</code></pre>
+<p>在文本方面提升了标识度后，何不加入“千言万语”   ( a thousand words )。</p>
+<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561820091621.png" alt=""></p>
+<p>图形和图标既可以作为装饰品支撑你的内容，还可以作为你想要传达的信息中的一部分。</p>
+<p>我们可以用一张来自 <a href="https://unsplash.com/photos/qH36EgNjPJY">Unsplash</a> 的漂亮背景图提升我们的 header。</p>
+<pre><code class="language-css">header {
+  background-color: #263d36;
+  background-image: url(&quot;header.jpg&quot;);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align: center;
+}
+
+</code></pre>
+<p>再加一个 logo</p>
+<pre><code class="language-css">header img {
+  display: inline-block;
+  height: 120px;
+  vertical-align: top;
+  width: 120px;
+}
+
+</code></pre>
+<p>同样，我们可以再次提升文本样式。</p>
+<pre><code class="language-css">header h1 {
+  color: white;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+header a {
+  border: 1px solid #e81c4f;
+  border-radius: 290486px;
+  color: white;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
+}
+
+header a:hover {
+  background:  #e81c4f;
+  color: white;
+}
+
+</code></pre>
+<p><a href="http://jgthms.com/web-design-in-4-minutes/#header">瞧瞧看</a></p>
+<p>我们仅仅用几分钟就靠基础的页面设计原则设计了一个像样的页面，还有最后一件事：</p>
+<p>去<a href="http://jgthms.com/web-design-in-4-minutes/#share">原文</a>中分享吧。</p>
+<hr>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a></p>
+
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="/Users/wolf3c/Documents/gridea/output/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+      </div>
+    </div>
+  </body>
+</html>
