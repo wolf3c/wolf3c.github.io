@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>/Users/wolf3c/Documents/gridea/output</id>
-    <title>Gridea</title>
-    <updated>2019-06-29T15:37:28.513Z</updated>
+    <id>https://wolf3c.github.io/</id>
+    <title>wolf3c&apos;s blog</title>
+    <updated>2019-07-15T06:47:41.691Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="/Users/wolf3c/Documents/gridea/output"/>
-    <link rel="self" href="/Users/wolf3c/Documents/gridea/output/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
-    <logo>/Users/wolf3c/Documents/gridea/output/images/avatar.png</logo>
-    <icon>/Users/wolf3c/Documents/gridea/output/favicon.ico</icon>
-    <rights>All rights reserved 2019, Gridea</rights>
+    <link rel="alternate" href="https://wolf3c.github.io/"/>
+    <link rel="self" href="https://wolf3c.github.io//atom.xml"/>
+    <subtitle>wolf3c|产品经理|Twitter@wolf3c_thinking</subtitle>
+    <logo>https://wolf3c.github.io//images/avatar.png</logo>
+    <icon>https://wolf3c.github.io//favicon.ico</icon>
+    <rights>All rights reserved 2019, wolf3c&apos;s blog</rights>
     <entry>
         <title type="html"><![CDATA[负责任]]></title>
-        <id>/Users/wolf3c/Documents/gridea/output/post/fu-ze-ren/index.html</id>
-        <link href="/Users/wolf3c/Documents/gridea/output/post/fu-ze-ren/index.html">
+        <id>https://wolf3c.github.io//post/fu-ze-ren</id>
+        <link href="https://wolf3c.github.io//post/fu-ze-ren">
         </link>
         <updated>2019-05-11T15:05:38.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -40,8 +40,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[现实]]></title>
-        <id>/Users/wolf3c/Documents/gridea/output/post/xian-shi/index.html</id>
-        <link href="/Users/wolf3c/Documents/gridea/output/post/xian-shi/index.html">
+        <id>https://wolf3c.github.io//post/xian-shi</id>
+        <link href="https://wolf3c.github.io//post/xian-shi">
         </link>
         <updated>2019-04-28T15:15:35.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -64,41 +64,9 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>/Users/wolf3c/Documents/gridea/output/post/hello-gridea/index.html</id>
-        <link href="/Users/wolf3c/Documents/gridea/output/post/hello-gridea/index.html">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="http://hvenotes.fehey.com/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>𝖶𝗂𝗇𝖽𝗈𝗐𝗌</strong> 或 <strong>𝖬𝖺𝖼𝖮𝖲</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[我的 Telegram Channel：「值得关注」]]></title>
-        <id>/Users/wolf3c/Documents/gridea/output/post/wo-de-telegram-channelzhi-de-guan-zhu/index.html</id>
-        <link href="/Users/wolf3c/Documents/gridea/output/post/wo-de-telegram-channelzhi-de-guan-zhu/index.html">
+        <id>https://wolf3c.github.io//post/wo-de-telegram-channelzhi-de-guan-zhu</id>
+        <link href="https://wolf3c.github.io//post/wo-de-telegram-channelzhi-de-guan-zhu">
         </link>
         <updated>2017-10-26T15:14:43.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -126,8 +94,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Chrome 书签管理新方案 —— Neater Bookmarks]]></title>
-        <id>/Users/wolf3c/Documents/gridea/output/post/chrome-shu-qian-guan-li-xin-fang-an-neater-bookmarks/index.html</id>
-        <link href="/Users/wolf3c/Documents/gridea/output/post/chrome-shu-qian-guan-li-xin-fang-an-neater-bookmarks/index.html">
+        <id>https://wolf3c.github.io//post/chrome-shu-qian-guan-li-xin-fang-an-neater-bookmarks</id>
+        <link href="https://wolf3c.github.io//post/chrome-shu-qian-guan-li-xin-fang-an-neater-bookmarks">
         </link>
         <updated>2017-08-15T15:17:54.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -146,17 +114,17 @@
 <p>在 chrome web store 一通乱翻后，果然找到了「药」—— Neater Bookmarks。</p>
 <h3 id="树状结构">树状结构</h3>
 <p>Neater Bookmarks 作为插件，需要在插件栏中点击图标打开，书签在弹出窗中树状呈现，很适合管理大量书签。</p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561821517169.png" alt="Neater Bookmarks_tree"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561821517169.png" alt="Neater Bookmarks_tree"></p>
 <p>同时，Neater Bookmarks 提供了非常实用的自定义设置，我最喜欢「左键单击书签在新标签打开」和「记住上次状态」。</p>
 <h3 id="左键单击书签在新标签打开">左键单击书签在新标签打开</h3>
 <p>这个功能解决了一直被我吐槽的 Chrome 自带书签打开方式，只需要点击左键即可在新标签页中打开书签。</p>
 <p>如果配合「鼠标中键或按住 Ctrl 键左击时在后台打开书签」设置项，一次性打开多个书签变得非常高效。</p>
 <p>再也不用跟傻子似的一遍又一遍地沿着相同的路径点开文件夹打开书签了。</p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561821537043.gif" alt="NeaterBookmarks_newTab"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561821537043.gif" alt="NeaterBookmarks_newTab"></p>
 <h3 id="记住上次状态">记住上次状态</h3>
 <p>开启「记住上次状态」功能后，每次打开 Neater Bookmarks 时，显示位置就是使用时打开的位置。</p>
 <p>我根据自己使用场景建了几个文件夹，并将同类书签放在相同的文件夹下。比如，我有一个叫「开发常用」的文件夹，里面放着Underscore.js、MongoDB、Materialize……的 document 网站和开发资源网站，在写代码的时候，常需要查文档，每次打开 Neater Bookmarks，位置就在已经打开的「开发常用」文件夹，使用起来方便很多。</p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561821550942.gif" alt="NeaterBookmarks_rememberStatus"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561821550942.gif" alt="NeaterBookmarks_rememberStatus"></p>
 <h3 id="不足">不足</h3>
 <p>在使用过程中也发现 Neater Bookmarks 一些小问题。</p>
 <p>中文支持不足。「地址栏搜索」功能是在地址栏输入星号「*」，再按 tab 或空格，就可以搜索 Neater Bookmarks 中的标签，但使用中文搜索经常出现搜索不到的情况，该功能在几年前还是很有用的（Neater Bookmarks 是 2010 年发布，最后一次更新是 2014 年），但现在 Chrome 自己已经把书签搜索加入到地址栏中，所以该功能好坏变得无足轻重。</p>
@@ -168,9 +136,39 @@
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[做有魅力的产品 之 初次见面]]></title>
+        <id>https://wolf3c.github.io//post/zuo-you-mei-li-de-chan-pin-zhi-chu-ci-jian-mian</id>
+        <link href="https://wolf3c.github.io//post/zuo-you-mei-li-de-chan-pin-zhi-chu-ci-jian-mian">
+        </link>
+        <updated>2017-07-27T15:56:59.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-07-27</p>
+<p>author：wolf3c</p>
+<p>字数：1.3K</p>
+</blockquote>
+<hr>
+<p>今天，一位产品同事问我，对于老师一键注册的用户，是不是在首次登陆时自动跳转到修改密码页面，让他先将密码修改自己容易记住的。这件事的起因是一个沉积好长时间的测试 bug，iOS 和 Android 客户端都没有实现此功能，测试和开发意见不合，反馈到产品同事这里，同事有点拿不定，所以来问我。</p>
+<p>事实上，同事倾向于可以自动跳转到修改密码页面，理由是方便用户修改一个自己容易记住的密码，用户以后使用也方便，不然，等到用户下次登录时发现自己忘了密码，再去找回密码就会很麻烦，所以，不论怎么看，跳到修改密码页面都是一个「为用户考虑」的做法。</p>
+<p>但我观点不同，我更倾向于让新用户第一时间了解产品的用途和优点，期望在用户进来后尽力去抓住用户的心，让用户知道产品对他有价值，甚至让用户喜欢这个产品。这就涉及到了我自己一个比较污的产品思维（由于那位同事是女生，我当时没有向她灌输自己的这套理论）。</p>
+<p>在我看来，我们可以把自己打造的产品比作一个女生（暂且就叫「静静」吧），而这个产品的目标用户就是静静喜欢的男生。</p>
+<p>上面问题场景可以类比为：有人给静静介绍相亲，看到了个一见倾心的男生，静静的目标必然是让男生对她死心塌地，但是如何做到？</p>
+<p>难道是给那个男生手里塞个避孕套和家门钥匙？让他知道「请君入瓮，贴心周到，随时再次光临」？这或许能让一个男生上钩一次，但很难死心塌地。</p>
+<p>不要急着让男生成为自己的瓮中鳖，让他离不开你的最好方式是让他一直想着你，满脑子都是你。</p>
+<p>正确的做法是，从介绍人那里了解到这个男子的喜好，然后投其所好，如果他喜欢萝莉，那就不要下班后穿着正装直接去见面，一定要说话带点嗲，动作有点傻，没事多问「那是啥」。如果他喜欢青春活力型，运动鞋、短裤、运动短袖是不能少了，再扎个马尾，脱了眼镜，语气干净利落，动作韵律轻盈，面带阳光笑容，吃饭细嚼慢咽。如果他是御姐控……</p>
+<p>静静只需投其所好，让那个男生一见倾心，一顿饭下来，男生已是「我想念你的笑，想念你的外套，想念你白色袜子，和你身上的味道」，然而，回到家后，男生发现两人除了加个微信，自己对于静静的所有记忆都是神秘中带着无法自拔，这时候，他就夜不能寐地想要知道更多。</p>
+<p>一个产品，在用户与第一次接触时，如果能达到如此地步，算做得很不错了。用户在此之后便有了喜爱之情和探索的动力。</p>
+<p>在第一次接触时建立喜爱之情很重要。心理学研究表明，第一印象对于一个人对于其他人（或事物）的后续态度影响巨大。有些人听多了人说 Snapchat 的优点，第一次使用时，面对其奇特的交互方式称之为特立独行、大胆奇妙，大为称赞，而有些人拿起 Snapchat 没有明白，后来，即使听很多人说 Snapchat 多么好，再次使用也是无法接受这个怪异的交互方式。</p>
+<p>探索的动力也很重要。很多时候，产品功能是无法在产品介绍或新手引导中尽数说明的，如果用户没有探索的欲望，产品提供的很多功能便无用武之地。在 To B 产品中常常碰到这样的问题，采购软件的人和使用软件的人不是一波人，导致使用产品的人不喜欢采购的产品，所以他们就没有多大动力去探索产品的各个功能，每次发现有个需求无法实现时，就反馈产品很烂、功能不全，其实是由于功能使用场景少不频繁，所以被放到了比较深入或隐蔽的地方，稍有点耐心找找就能发现。</p>
+<p>回到最初的问题，让用户上来改个密码对「静静」的目的并无多大意义，反倒让用户心生烦躁，聪明的「静静」都不会在初次见面时要求换个见面地点还迟到半个小时。</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[论人民网评王者荣耀]]></title>
-        <id>/Users/wolf3c/Documents/gridea/output/post/lun-ren-min-wang-ping-wang-zhe-rong-yao/index.html</id>
-        <link href="/Users/wolf3c/Documents/gridea/output/post/lun-ren-min-wang-ping-wang-zhe-rong-yao/index.html">
+        <id>https://wolf3c.github.io//post/lun-ren-min-wang-ping-wang-zhe-rong-yao</id>
+        <link href="https://wolf3c.github.io//post/lun-ren-min-wang-ping-wang-zhe-rong-yao">
         </link>
         <updated>2017-07-09T15:13:37.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -235,8 +233,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[指纹和虹膜，不是密码]]></title>
-        <id>/Users/wolf3c/Documents/gridea/output/post/zhi-wen-he-hong-mo-bu-shi-mi-ma/index.html</id>
-        <link href="/Users/wolf3c/Documents/gridea/output/post/zhi-wen-he-hong-mo-bu-shi-mi-ma/index.html">
+        <id>https://wolf3c.github.io//post/zhi-wen-he-hong-mo-bu-shi-mi-ma</id>
+        <link href="https://wolf3c.github.io//post/zhi-wen-he-hong-mo-bu-shi-mi-ma">
         </link>
         <updated>2017-06-29T15:16:54.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -273,8 +271,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[或许 Windows 更安全]]></title>
-        <id>/Users/wolf3c/Documents/gridea/output/post/huo-xu-windows-geng-an-quan/index.html</id>
-        <link href="/Users/wolf3c/Documents/gridea/output/post/huo-xu-windows-geng-an-quan/index.html">
+        <id>https://wolf3c.github.io//post/huo-xu-windows-geng-an-quan</id>
+        <link href="https://wolf3c.github.io//post/huo-xu-windows-geng-an-quan">
         </link>
         <updated>2017-06-19T15:09:12.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -316,8 +314,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Clutter Free：让 Chrome 学会节约资源]]></title>
-        <id>/Users/wolf3c/Documents/gridea/output/post/clutter-freerang-chrome-xue-hui-jie-yue-zi-yuan/index.html</id>
-        <link href="/Users/wolf3c/Documents/gridea/output/post/clutter-freerang-chrome-xue-hui-jie-yue-zi-yuan/index.html">
+        <id>https://wolf3c.github.io//post/clutter-freerang-chrome-xue-hui-jie-yue-zi-yuan</id>
+        <link href="https://wolf3c.github.io//post/clutter-freerang-chrome-xue-hui-jie-yue-zi-yuan">
         </link>
         <updated>2017-06-14T15:19:35.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -338,7 +336,7 @@
 <p>当用户打开一个已经打开某一网页时，Clutter Free 会直接让你直接跳转到已经打开的网页，而不是重复打开一个新页面。</p>
 <p>使用 Clutter Free 有一个附加好处，由于不再重复打开网页，所以无形中省下很多内存。</p>
 </blockquote>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561821589181.gif" alt="Clutter_Free_show"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561821589181.gif" alt="Clutter_Free_show"></p>
 <p>我执着地认为，我们使用电脑是为了让自己更高效更轻松，需要花精力去整理浏览器标签并不是一个正确的方式。我喜欢 Clutter Free 的一个重要原因是，它会默默地做好这件事情，不需要我再浪费精力做什么操作。（这点和 The Great Suspender 很像）</p>
 <p>浏览器已经成为大多白领工作的重要场所，找到一帮默默帮助自己的「小助理」可以节省很多精力，如果说 The Great Suspender 是一个清理空闲网页的助理，那 Clutter Free 就是清理重复网页的助理，何不请来试试？</p>
 <hr>
@@ -348,8 +346,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[吐槽=>无趣]]></title>
-        <id>/Users/wolf3c/Documents/gridea/output/post/tu-cao-greaterwu-qu/index.html</id>
-        <link href="/Users/wolf3c/Documents/gridea/output/post/tu-cao-greaterwu-qu/index.html">
+        <id>https://wolf3c.github.io//post/tu-cao-greaterwu-qu</id>
+        <link href="https://wolf3c.github.io//post/tu-cao-greaterwu-qu">
         </link>
         <updated>2017-06-05T15:27:04.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -370,6 +368,1212 @@
 <p>好在我还有自己喜欢的东西，从这里开始，去做自己喜欢的事情，先让自己活得乐趣。</p>
 <p>我认为愉悦的心情可以让自己看到积极地一面，所以，如果我活的开心了，我看事物的思维会发生变化，当然我会自己监督自己不断改变，让自己看到更多积极面，让自己发现更多乐趣。</p>
 <p>期待这种方式可以改善自己。</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《一席》推荐]]></title>
+        <id>https://wolf3c.github.io//post/lesslessyi-xi-greatergreater-tui-jian</id>
+        <link href="https://wolf3c.github.io//post/lesslessyi-xi-greatergreater-tui-jian">
+        </link>
+        <updated>2017-06-03T15:04:33.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-06-03</p>
+<p>author：wolf3c</p>
+<p>字数：300</p>
+</blockquote>
+<hr>
+<p>几个月前，发现《一席》中有很多有意思的演讲，看了一段时间，列一些给我留下深刻印象的。</p>
+<ol>
+<li>《羊蹬艺术合作社》焦兴涛：艺术、生活、乐趣。</li>
+<li>《沼泽乐队：古琴、后摇与声音里的秘密》沼泽乐队：如何对待音乐。</li>
+<li>《教育的器量》张轶超：教育的目的是什么？互联网创业从业者很多，大多只不过是把线下搬到线上，而不是深入思考，去找寻一条更好的教育之路，看看他的思考。</li>
+<li>《做一本好看的教科书》张柏韦。</li>
+<li>《阅读是怎么回事》杨照：什么是阅读。建议找金克木文集《书读完了》看看。</li>
+<li>《进击的智人》袁硕。</li>
+<li>《完整街道 Street for All》刘岱宗：城市交通系统设计。</li>
+<li>《本故事纯属非虚构》陈晓楠：那些被制度遗忘在角落的人。</li>
+<li>《No Problem, Peter》叶泰兴。每个人都应该懂一点急救知识，并给自己准备个急救包。</li>
+<li>《裂变式创业》宗毅。自私是最好的动力，创业、管理、公益。</li>
+<li>《造一座细胞工厂》李腾：生物工程的材料应用。</li>
+</ol>
+<p>在优酷搜索「一席」，可以找到官方频道，以上视频都在那里。</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[十分钟学一门编程语言]]></title>
+        <id>https://wolf3c.github.io//post/shi-fen-zhong-xue-yi-men-bian-cheng-yu-yan</id>
+        <link href="https://wolf3c.github.io//post/shi-fen-zhong-xue-yi-men-bian-cheng-yu-yan">
+        </link>
+        <updated>2017-06-02T15:02:53.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-06-02</p>
+<p>author：wolf3c</p>
+<p>字数：2.2K</p>
+</blockquote>
+<hr>
+<p>这当然不是在骗人，因为我没有说「十分钟精通 X 」，我只是说学。</p>
+<p>对于很多学习过编程语言的人，尤其学了 PHP、Java、C++ 等语言的，一定不相信这句鬼话，他们忍着吐血的痛苦学了无数个日夜，到头来还是 bug 满天飞，别说十分钟，就是十小时也不可能。</p>
+<p>所以，我需要先详细定义一下我所谓的十分钟能学到什么效果。</p>
+<p>我这里说的十分钟，是让你在十分钟能看明白这个语言的代码，即使有很多细节不懂，但你一看就明白这是个啥，是要干嘛，我应该从哪里入手弄明白它。</p>
+<h2 id="why">why</h2>
+<p>我为什么要总结出这套方法呢？</p>
+<blockquote>
+<ol>
+<li>炫技。我自认为接触过比较多的语言，汇编、VB、C、Java、Shell、Python、HTML、CSS、JavaScript、Scheme、Common Lisp，虽然现在忘了很多，但我以前确实都接触过。</li>
+<li>总结方法。这套东西在我脑子里有一个模糊的印象，但都是隐性知识，我需要把它显性化， 所以考虑把它写出来。</li>
+<li>做铁证。我自己想在写出来后，再去读一些《七天七门语言》（好像是这个名字）类的书，看看自己的想法和其他大牛有什么出入，如果不写出来可能会忽略很多细节，到头来自认为和大牛想的一样，搞得自己洋洋得意。</li>
+<li>测试自己的想法。我想用自己的方法再去学一门语言，可以是自己已经忘记的，也可以是自己感兴趣的，再测试一下自己总结出来的这套方法效果是否如预期。</li>
+<li>这套方法可以让人语言初学者事半功万，不能私藏。很多时候，很多人在学习编程语言的时候一头雾水，我一直希望找到一个可以让初学者在学习语言过程中，如果看到不懂的东西，虽然他们不能马上懂，但明白这个东西属于什么，该从什么地方入手去弄明白它，这点很重要，因为我在以前学习语言的时候就因为没有做到这一点而一通乱撞而不得其法，最后花费了时间还不能让自己能力提升。我认为自己找的的这个十分钟方法可以达到这个目标。</li>
+</ol>
+</blockquote>
+<p>下面，直接开始说我的「十分钟学习一门编程语言」大法。</p>
+<h2 id="大法">大法</h2>
+<p>首先，我们要知道，一个编程语言的主要组成部分包括：</p>
+<ol>
+<li>数据单元。</li>
+<li>操作单元。</li>
+<li>抽象方式。</li>
+</ol>
+<p>「十分钟学习一门编程语言」大法就是要求你再学习一门编程语言时，先用十分钟弄明白一个语言的以上三部分。</p>
+<h3 id="数据单元">数据单元</h3>
+<p>数据单元就是指一个编程语言中数据都有哪几种类型，如何表示，如何用。</p>
+<p>在编程语言中，数据的类型一般有整型、浮点型、布尔型、字符、字符串、数组、字典、枚举等，你需要知道你学习的语言有哪些数据类型。</p>
+<p>然后你需要明白这些数据如何表示，或者说，你如何定义一个整形变量，如何定义一个数组。</p>
+<p>最后，你要知道这些数据的变量如何用。这点在很多语言中差不多。</p>
+<h3 id="操作单元">操作单元</h3>
+<p>操作单元就是处理数据的方式，这里说的是最基本的方式，比如条件语句、循环语句、赋值、计算、比较等。</p>
+<p>你需要知道他们是如何表示的，在很多类 C 语法的语言中，这些东西都很相近，但是其他语言就不是了，所以你需要注意这点。</p>
+<h3 id="抽象方式">抽象方式</h3>
+<p>所有的编程语言一定要有一种抽象方式，只有这样，这个语言才能够组织成一个越来越大型的工程。</p>
+<p>抽象方式分为对数据的抽象和对操作的抽象。</p>
+<p>对数据的抽象，举例来说，如果我需要用一组数据表示一个人，可以是：</p>
+<pre><code class="language-json">{
+  name: String,
+  borthday: Date,
+  job: String,
+  marry: boolean,
+  children: Array
+}
+</code></pre>
+<p>这样，任何一个人都可以用这么一组数据抽象，就比如你说 Tom，你说 Tom，其他人就知道你说的这个人名字是什么，什么时候出生，工作是什么，有没有结婚，孩子都是谁。</p>
+<p>C 语言用结构体（struct），JavaScript 用对象，Lisp 用 List……</p>
+<p>对操作的抽象，就是把很多操作抽象出来，还是举一个例子：</p>
+<pre><code class="language-javascript">function clone(people) {
+  let newPeople = new People();
+  newPeople.name = people.name;
+  newPeople.borthday = people.borthday;
+  newPeople.job = people.job;
+  newPeople.marry = people.marry;
+  newPeople.children = people.children;
+  
+  return newPeople;
+}
+</code></pre>
+<p>然后，我们使用<code>let Tom2 = clone(Tom)</code> 就可以复制一个 Tom 出来，我们把克隆一个人的复杂事情抽象成 <code>clone()</code> ，然后，我们要复制谁，只需要<code>clone()</code> 一下就好了，而不是需要些一大堆东西来复制这个人的姓名、生日、工作等。</p>
+<p>C 语言用函数，Java 用对象……</p>
+<p>以上就是「十分钟学习一门编程语言」大法的全部内容。</p>
+<h2 id="开始吧">开始吧</h2>
+<p>千万不要急着买一本八百页的某编程语言官方权威指南，你永远不会读的。</p>
+<p>去找找那种简单的小册子或小文章，找到我说的这三类东西，快速弄明白它们。相信你十分钟就可以搞定。「十分钟学习一门编程语言」大法的目标就已经达到了。</p>
+<p>（如果你十分钟没能搞定，那就再花十分钟。）</p>
+<h2 id="下一步">下一步</h2>
+<p>如果你知道了以上三种东西，下一步，建议你去读读其他人的代码，看看他们如何运用这三样东西，看不懂的地方就去查资料，这个时候就应该拿出你的各种大部头，不过，这个时候你看那本书，你会发现，整整一本书，不过就是在讲述这三种东西罢了。</p>
+<p>当你看了一些人的代码后，你会越来越有信心，你会有一种想要写点什么的冲动，那么，不用再等待，找一个小项目练习一下吧。通常你会碰到很多问题，每个人都一样，多去 Google 就好。最主要的是，在你碰无法解决的问题时，先考虑一下，你现在需要对以上三类东西中哪一部分发力，免得自己走错方向。</p>
+<h2 id="拓展">拓展</h2>
+<p>很多写代码的人到后来成了半个哲学家，好像世界就是一个大的电脑一样，都可以用计算机知识套。</p>
+<p>「十分钟学习一门编程语言」大法的原理也有类似功效。</p>
+<p>拿一家建筑公司举例，数据单元就是砖、瓦、水泥、沙子等物料，操作单元就是一个个拥有各种技能的工人和他们的生产工具，他们把这些物料组合成地基、墙面、地面等，抽象方式就是金字塔状组织结构，有些小包工头拉一帮工人负责搭架子，有些小包工头拉一帮人负责粉墙装修；而一个更大的包工头可以负责一两栋楼，他们主要是管理一帮小包工头；再大的包工头则负责一两片区域，为了管理，这些大的包工头可能会成立一家大的建筑公司来运作。</p>
+<p>不只是公司，小到细胞，大到人类社会，都可以用这种方式解构。</p>
+<h2 id="免责">免责</h2>
+<p>方法就是这么方法，用不用由你。如果用了，没成功或走火入魔都不管我事。</p>
+<p>Let's try. Just for fun.</p>
+<p>Coding, not war.</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[看火影：迈特凯]]></title>
+        <id>https://wolf3c.github.io//post/kan-huo-ying-mai-te-kai</id>
+        <link href="https://wolf3c.github.io//post/kan-huo-ying-mai-te-kai">
+        </link>
+        <updated>2017-05-31T15:12:07.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-05-31</p>
+<p>author：wolf3c</p>
+<p>字数：1.6K</p>
+</blockquote>
+<hr>
+<p>《火影忍者》，一部由家族、背景、身份、靠山、血统、传承扭结的故事，一个天才、奇才、神童、死人、仙人打打杀杀的世界。</p>
+<p>这是很多八零九零后的青年回忆，有人惊叹 12 岁成为上忍的旗木卡卡西，有人迷恋忧郁少言的佐助，有人喜欢智力过人的鹿丸，当然更多人爱看傻里傻气的鸣人。</p>
+<p>作为九零后，我直到大二才开始看了这部动漫。记得那时五月初的运动会，仅仅是为了找点乐子，没想到一发不可收拾。</p>
+<p>和很多人一样，我最初是喜欢鼬，后来感觉水门很符合我的胃口，再后来，感觉千手柱间好棒，千手扉间好牛。与之相对的是凯和小李，他们俩每次出来都自带尴尬。</p>
+<p>后来，随着个人阅历增多，对于火影的思考增多，尤其是前段时间再看火影，我突然发现，整部《火影忍者》中，最缺的是普通人，看看那些出场频次较高的人物，大多都是知名家族、知名血统、知名父母灌注而来。</p>
+<blockquote>
+<p>鸣人，他爸水门是四代火影，他妈旋涡久幸奈是漩涡一族的人柱力，老师是自来也、卡卡西。</p>
+<p>佐助，宇智波一族后人，老师是卡卡西。</p>
+<p>小樱，父母没有具体说明，但是老师是卡卡西和五代火影纲手。</p>
+<p>卡卡西，旗木一族，老爸被人称作「木叶白牙」，实力彪悍，老师是四代火影水门。</p>
+<p>鹿丸，奈良一族，智商 200。</p>
+<p>井野，山中一族。</p>
+<p>丁次，秋道一族。</p>
+<p>阿斯玛，猿飞一族，老爹是三代火影。</p>
+<p>雏田，日向一族，老爹是日向一族族长。</p>
+<p>牙，犬冢一族。</p>
+<p>……</p>
+</blockquote>
+<p>得益于《火影忍者》内容丰富，每一个人物，我们都可以把他的生世、事迹弄出个七七八八。而在这些人物中，凯的生世背景平庸地眨眼。（相比之下，小李也可以算是有个靠山了，毕竟有一个可以脚踢六道斑的老师呵护。）</p>
+<p>看来看去，凯简直是个奇怪的存在，他的身世、经历都实在太过平常，而他的成就却又傲视群雄。</p>
+<p>凯出生在一个普通的家庭，母亲不明，父亲是迈特戴，和凯一样，不擅长忍术和幻术，靠着体术成为下忍后再也没有提升过，凯因为看到父亲每天抓猫、听到旁人的蔑视，曾对父亲产生鄙视。</p>
+<p>从小，凯就表现出毫无天赋，要不是父亲一直在后面鼓励他，凯连忍者学校都无法进入，由于在忍术和幻术方面毫无天赋，唯一能够使劲的只有体术，但实话实说，他在体术方面也没什么天赋，只能算是矬子里面拔矮子。</p>
+<p>父亲迈特戴留给凯最重要的三样东西是：</p>
+<ol>
+<li>热血与努力；</li>
+<li>自我约束；</li>
+<li>八门遁甲。</li>
+</ol>
+<p>凯从小践行努力和自我约束，经常找天才卡卡西挑战，每次对自己的要求都是变本加厉，并且每次都对自己定下苛刻的约束条件，最重要的是，即使每次都失败，凯的热血不减，从没停止过这种自取其辱似的挑战。</p>
+<p>迈特戴为了营救被忍刀七人众包围的凯，开启自己的「死」门，用生命救下了儿子，这件事情让戴的形象在儿子的心中光芒万丈。</p>
+<p>之后，凯一生践行父亲的教诲，拖着汗水成为了木叶中知名上忍。</p>
+<p>并且，凯还将自己的这套东西教给自己的得意门生小李，可算是功成名就、桃李天下。比起那些天赋、血统、家族加持的其他人，也是傲视之。</p>
+<p>还没完，在与六道斑的战斗中，凯如同父亲那样打开死门，誓死守护自己最亲近的人，放弃生命而使用「夜凯」进攻。形象再次高大一万倍。</p>
+<p>关注凯之后，我发现，凯是火影中少有的正常人，他做任何事情都需要付出艰辛的努力，大量的剧情都是他锻炼的场景，他没有好的外表，没有高智商，没有好血统，没有奇异的经历，而且还有很多致命缺陷。</p>
+<p>想想现实中，大多数人不都是这样普通吗？</p>
+<p>你难道相信什么「上帝关上了一扇门，一定会为你开一扇窗」，简直扯淡。先不说上帝有没有闲工夫关门开窗，即使他闲的蛋疼，难道你就要去每天跳窗子吗？</p>
+<p>不论你看过多少成功学，回到现实，对于大多数普通人，要达到一个目标，都需要付出一定的努力来实现。</p>
+<p>如果明白这一点，再来看看凯，可以看到一个普通人通过自我教育、自律、刻意练习来实现自我价值的故事。</p>
+<p>套用《刻意练习》中的理论：</p>
+<blockquote>
+<ol>
+<li>行业。凯选择了自己唯一可以做的体术，父亲戴已经展示出体术前途光明。</li>
+<li>导师。父亲戴，后来变成了凯自己。</li>
+<li>目标。体术最强，成为最优秀的体术忍者。</li>
+<li>学习区与动力。凯从来都不在舒适区，并且永远热血。</li>
+<li>反馈。凯使用挑战卡卡西和各种任务指标来给自己提供反馈。</li>
+<li>心理表征。父亲戴传授给凯八门遁甲。</li>
+</ol>
+</blockquote>
+<p>在我看来，凯值得我们每个人去学习，去做一个平凡、努力、坚持、乐观、自律的人，去为自己的梦想挥洒自己的青春和汗水。</p>
+<p>（五月的最后一天，五月的最后一篇）</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[微信小程序与 Android Instant Apps]]></title>
+        <id>https://wolf3c.github.io//post/wei-xin-xiao-cheng-xu-yu-android-instant-apps</id>
+        <link href="https://wolf3c.github.io//post/wei-xin-xiao-cheng-xu-yu-android-instant-apps">
+        </link>
+        <updated>2017-05-24T15:52:33.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-05-24</p>
+<p>author：wolf3c</p>
+<p>字数：2.8K</p>
+</blockquote>
+<hr>
+<h2 id="介绍">介绍</h2>
+<p><strong>小程序</strong></p>
+<p>微信小程序已经被吵了一年多时间，期间，百度的轻应用、Firefox 的 Firefox OS、Google 的 Chrome OS 等被几度讨论，毕竟这些都不算是成功的案例，好在自小程序发布后，一切尘埃落定。</p>
+<p>年初张小龙做了一个公开演讲，说了小程序的使用场景——比如你到饭馆吃饭，坐在位子上，掏出手机扫描桌子上的二维码，打开点菜小程序，点好菜后，使用微信付费，等待服务员端上菜。</p>
+<p>事实上，这样的事情在没有小程序的时候，一些人就已经使用 web 技术实现了这类产品，并且已经在一些饭馆中使用了。</p>
+<p>不得不说，张小龙提出的这个愿景确实很好，但是，小程序一直没有在这种好想法下找到一个强需求场景，就拿饭馆的例子说。</p>
+<p>饭馆会自己找人做一个小程序吗？作为一个小老板你愿意浪费这份钱吗？每个小老板都会想一想这里面的利益和成本，结果自然是放弃。</p>
+<p>那些做饭馆应用的人会做一个小程序吗？这个有可能，不过前提是小程序可以开发非常高效，同时实现效果远好于自己以前的方案，可是，目前来看，小程序开发过程掣肘太多，而他们原有方案并非那么难以接受，所以他们变得动力不足。</p>
+<p>那么用户会强烈要求使用小程序吗？事实上，对于一个用户，我就吃顿饭，直接到点菜台或者直接和服务员点菜，既符合自己原有习惯，也更容易询问。当然确实有很多人进入饭馆就是想自己点好等菜，但是他们对目前点菜方式也没有反感到不用小程序就不吃饭的程度。</p>
+<p>所以，小程序发布后风声大雨点小，出现的第一批小程序都是一些互联网 app 的小程序简化版，比如小睡眠、得到、GET 小资讯、虎嗅精选、Qdaily（好奇心日报）等，这些和张小龙提到的场景关系不大。</p>
+<p>我一直不认为这是小程序该做的，原因是：</p>
+<blockquote>
+<ol>
+<li>体验不好：他们其中一些确实不错，但是如果做成原生应用，会更好。并且，用小程序实现还有网络、微信壳子等限制；</li>
+<li>操作复杂：为了使用他们，我必须打开微信，进入小程序，通过搜索或浏览来找到他，微信只能置顶一个小程序，Android 用户，虽然可以把小程序放到桌面，但是这又有什么意义呢？这种程序除了互联网工作者通过二维码发现，普通人连小程序口都发现不了。</li>
+</ol>
+</blockquote>
+<p>在我看来这些小程序都是冲着微信大量的用户流量，说白了，他们把微信小程序作为获取用户时间的手段罢了。</p>
+<p>这并不是说小程序的想法错了，我认为张小龙提出的使用案例确实好，但需要时间来让人们改变。</p>
+<p>或者说，小程序需要几个真正符合自己产品愿景的应用来打开用户认知大门。</p>
+<p>估计，微信团队对此心知肚明，但是他们等不及，所以，小程序随后做出了很多重大调整，比如，新的小程序码、公众号可以关联小程序、手机可以长按扫小程序码、文章中关联小程序码等。</p>
+<p>或许是小程序内部对于小程序的使用场景扩大了，他们确实希望自己成为一个「OS」。或许他们希望通过让那些想进来分一杯羹的人把小程序炒火了，让大家生活中熟悉小程序，进而让大众慢慢把小程序用起来，算是一种曲线救国。</p>
+<p><strong>Android Instant Apps</strong></p>
+<p>就在微信小程序大干快上的同时，Google 在今年自家 I/O 大会中公布了 Android Instant Apps，概念类似于 Google 几年前就提出来的一直不温不火的 PWA，用户可以通过连接直接访问一个 Instant App，这个 app 会根据你自己的使用需要，把对应的功能通过网络安到你的手机中，也就是说，你不需要一个下载安装的过程，就可以使用这个 app 的功能，同时，而且他又比以前的 web app 体验更优。（具体可以看 Google I/O 对于这部分的介绍：https://www.youtube.com/watch?v=9Jg1D07NgeI）</p>
+<p>Android Instant Apps 看起来是新瓶装老酒，但是他的影响确实巨大的（至少我个人从这一点往后想，认为这个事情如果做成，影响是巨大的。）：</p>
+<p>对于 app 厂商来说，app 传播更加容易，要知道目前来看，app 的推广越来越难，很多人因为下载就可以放弃使用一个 app，就算下载后，打开率也很低。尤其是对于那些中内容的 app，如果 Android Instant Apps 普及，大家看到一个连接就可以直接使用自家的应用，那么自家的 app 和用户之间的阻碍就消失了。</p>
+<p>进一步，大家的信息被拍的更平，就好比以前是一个个城堡，现在，是一片草原。想要通过一个 app 建立起自己的用户围栏简直不可能，各个厂商只能靠自己的服务来吸引用户，更直白的说，未来，服务的好坏变得更重要。</p>
+<p>对于 Android 用户，大家没有了安装 app 的概念后，大家其实是在各种内容和服务中游荡，也就是说，手机就是一个手机，是一个整体，不是一个个割裂的应用，通过连接直接打开自己需要的东西，用完即走。或许有一天，大家唯一要记住的就是在 Google 搜索框中输入自己需要的内容。</p>
+<p>对于 Google，从 app 时代又回到的互联网时代，Google 的搜索功力又被发挥出来，Google 可以看到所有用户的点击情况，可以评估每个 app 的优劣，可以做各种数据服务，可以继续玩 PageRank，可以提供更精准的广告。</p>
+<p>再畅想一下，Google Chrome OS 虽然不温不火，但以前多次传出 Chrome OS 跑 Android 应用，如果让 Chrome 浏览器跑 Android 应用呢？</p>
+<p>或者说，让 Android 上 web app  的体验接近原生呢？这对开发者是利好的，一次开发，获得终端用户。对用户也是利好的，在不同终端体验一致的 app。</p>
+<h2 id="对比">对比</h2>
+<p>对比一下小程序和 Android Instant Apps，他们虽然在有一些相同点，比如他们都不需要安装的过程，但是，我总感觉他们俩背后的思想是完全不同的：</p>
+<p>小程序，他们希望让微信渗入到人们生活的各个角落，当微信和用户耦合越来越紧密后，微信就变成了一个无法被抛弃的应用，只要这种耦合不被解开，那么微信就立于不败之地。</p>
+<p>这种耦合不止是用户侧，不是简单的聊天、看朋友圈、看公众号，当你到超市，发现有微信支付快速通道，当你坐黑车，发现要么微信支付、要么现金，当你在路边买个煎饼果子，发现老板忙到不收现金只能微信扫码支付……这是一种和环境进行耦合的过程，这种耦合正在发生，小程序是重要的一环。</p>
+<p>等到一切完成，微信就是一个不折不扣的帝国，而这之后会发生什么，就只能看那时候腾讯是什么嘴脸了。</p>
+<p>前几天昙花一现的匿名聊天被小程序禁了，也就是说，回头看看原因，仿佛就是「莫须有」。</p>
+<p>开发小程序和发布小程序需要各种审核流程，这确实和政策有关，但是总让人感受到一股「顺我者昌逆我者亡」的味道。</p>
+<p>Android Instant Apps，由于使用链接，可以很明显的看出来，Google 选择了一种更通用的方案，链接容易和现有的虚拟世界（互联网）联系在一起。（当然，如果你硬要和实体世界联系，也是可以的，只需把链接转为二维码贴出来就好了。）</p>
+<p>从整个发布情况来看，Android Instant Apps 技术的气息更浓重，这种方向几年前就有人向往了，但是一直没有好的解决方案，Google 这个方案更多地是考虑用技术解决一个难题，而商业上的利益考虑只是一个大方向，并没有急于在这方面着重建立收费站。</p>
+<p>小程序大概的路线就是：看到需求 -&gt; 找解决办法 -&gt; 找好商业模式 -&gt; 实现 -&gt; 运营及时跟进，建立利益控制权。</p>
+<p>Android Instant Apps 走的路显得比较不完善：看到需求 -&gt; 找解决办法 -&gt; 知道大概的商业模式。</p>
+<h2 id="诛心">诛心</h2>
+<p>前几天爆出苹果向微信公众号打赏功能收 30% 的费用，很多人对苹果口诛笔伐，但是，微信会不会对其他小程序、公众号等做类似的事情呢？他会不会因为自己的「相关规定」、国家的「相关规定」来突然封杀某个小程序？或者突然收取过桥费？</p>
+<p>目前，微信已经成为了一个类似 Apple 的平台，在使用微信优质服务的同时，我们也看到，很多公众号因为文章言论而被封，你自己发的内容可能被禁掉……这总让人感觉自己被监视着。</p>
+<p>Google 会不会做的比微信好？</p>
+<p>如果 Android Instant Apps 变成了每个 Android 的必备，那 Google 会不会就像互联网中 Google 一样呢？</p>
+<p>Google 会不会在表面不做强制性的控制，但在后面借着用户的数据做什么事情呢？可能他会像一朵云彩的影子，让人身在其中时无法感知，他又可以无形中获得利益。</p>
+<h2 id="错的">错的</h2>
+<p>都是猜测，都是瞎说，可能都是错的。</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Workflowy 与幕布]]></title>
+        <id>https://wolf3c.github.io//post/workflowy-yu-mu-bu</id>
+        <link href="https://wolf3c.github.io//post/workflowy-yu-mu-bu">
+        </link>
+        <updated>2017-05-18T15:57:47.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-05-18</p>
+<p>author：wolf3c</p>
+<p>字数：1.6K</p>
+</blockquote>
+<hr>
+<p>这是两个互联网产品，Workflowy 是异类的开创者，在大家都想着怎么把脑图做的更加智能精美时，Workflowy 却用最简单的无限层级列表的形式逆流而上。幕布则是 Workflowy 的抄袭者，在看到 Workflowy 被很多人接受后，在看到中国用户访问 Workflowy 网络延迟后，他们（幕布的创始人）决定抄袭一个出来，最开始的版本真的是抄袭（不管现在他们是不是承认这一点，我清楚地记得他们刚做出产品时，在相关采访文章中很真诚地告诉大家，他们就是看到 Workflowy 受人欢迎，但是在国内访问不太方便，所以做了幕布。），但是后来的事情变得有趣了，幕布随后加入了脑图模式、文件体系、富文本、图片、多种形式地导出等，现在的幕布嫣然成了一个功能强大的脑图工具。</p>
+<p>可能和大家以前才想到的很多 C2C 不同，Workflowy 一直保持着自己的小众，而他的抄袭者在国内做得反倒是有点风生水起（这里的抄袭并没有贬义）。</p>
+<p>在一个行业中，第二超越第一并没什么稀奇，很多时候，第一作为探路者，经常需要承受试错的成本，而第二作为跟随者往往可以保存实力后期勃发，这点在商业世界中如此，在国家之间也很常见，就像我国可以在三十年间走完希望发达国家（尤其是英国等）几百年的路，其实并不是中国人就有多厉害，只不过作为追随和学习者，不但没有研发成本，而且没有犯错的机会。</p>
+<p>但是有意思地是，Workflowy 过了这么多年一直没有转变，既没有试错，也没有尝试向幕布学习一下（如果他们看到幕布的话）。事实上，即使他们不知道幕布，你说 Workflowy 的创始人（Michael Turitzin）没有想到脑图、富文本、图片等，或者说他们没有收到这方面的需求，我都不相信，我们可以大胆地猜测，现在幕布的路，一定在 Workflowy 创始人的脑子中翻转过几遍。</p>
+<p>为什么，为什么 Workflowy 不为所动？</p>
+<p>我想很多人都会说这叫克制，这叫做减法。显然我不满意这个答案，不然我又何必写呢。</p>
+<p>如果说做产品就是克制，就是做减法，那么何必做呢？先搞出一个东西，然后天天看着它，想想可以减掉哪里，一有想法，就满脑子「克制」二字。too naive。</p>
+<p>我假设 Workflowy 的创始人想到了脑图形式、文件体系、图片等，并且他们知道这种产品会有什么样的市场，但是他们依旧选择了那条小众的方式。在这里，我用自己的想法来猜测这里面的原因。</p>
+<p>Workflowy 以一种最简单的形式——层级与 note——无限重复地组织了所有的内容。并且所有的 note 都只能展现很少的一部分，所有这些都只是为了让用户可以不再思考形式，逼着用户放弃花里胡哨的外表，只把脑力放在自己要思考的东西，或者说用 Workflowy 给大脑进行快照，如果加入太多的各种形式，人们在思考的时候如果想到一个图片，就会不由自主想要找他，觉得什么重要，就会去调字体等，这样一个人的思考就会被打断，这点与专注于思考背道而驰，所以这些都东西都被放弃了。</p>
+<p>回到做产品，其实所谓的减法、克制，都不过是一种说辞罢了，为什么减法、克制比加法等更被人视为正面呢？有两个原因：</p>
+<blockquote>
+<ol>
+<li>在一个大组织中，减法确实更难，原因我在以前写的<a href="https://wolf3c.github.io/articles/%E5%87%8F%E6%B3%95%E9%9A%BE.html">《减法难》 </a> 中大概分析了一下。</li>
+<li>这是一种偏误，被人们看到和熟知的产品都是一些做大的有名气的产品，这些产品为了自己的商业目的，不得不加入很多功能，（可能也正是其中很多功能，让它吸引很多用户），现在，这些知名而又笨重的产品被一些人诟病时，他们开始提倡要做减法，而这个做减法的声音因为是这么有名气的产品发出的，那么很多普通人就说，连那么大的产品都在做减法，我们这种小公司，还不赶快学习。</li>
+</ol>
+</blockquote>
+<p>做产品，要考虑的不是用减法还是用加法，而是你的产品要做什么，要提供什么，如果不考虑这个，那么产品就是没有灵魂的，即使天天做用户调研、天天做产品测试、天天讲究交互体验，也不过是一只仅仅发出声音的烦人的无头苍蝇，或者根本连声音都小的没人听见。</p>
+<p>当然，这里说了 Workflowy，并不是反衬幕布做的不好，就像我说的，要考虑自己产品要提供什么，幕布显然和 Workflowy 的定位产生了细微的差异，所以他们俩在产品本身的比较意义已经不大。</p>
+<p>最后，我在搜材料时无意中发现了一个 Workflowy 联合创始人的采访记录，英文的，我还没来得及看，想过两天读读，正好验证自己的猜测是不是正确。</p>
+<p>有趣的是，该采访记录贴在幕布：https://mubu.com/doc/d6d554ada7f</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[不对称性与项目]]></title>
+        <id>https://wolf3c.github.io//post/bu-dui-cheng-xing-yu-xiang-mu</id>
+        <link href="https://wolf3c.github.io//post/bu-dui-cheng-xing-yu-xiang-mu">
+        </link>
+        <updated>2017-05-12T15:36:05.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-05-12</p>
+<p>author：wolf3c</p>
+<p>字数：1K</p>
+</blockquote>
+<hr>
+<p>一般情况下，在一个团队中，当你提出要做某件新事（或称「发起者」），社会规则要求你一定要证明这件事是正确的，就像你提出要去一个新地方吃饭，一定要说明为什么要求那个地方。</p>
+<p>这里有两个潜在的规则：</p>
+<blockquote>
+<ol>
+<li>发起者需要证明事情的正确性；</li>
+<li>其他人随时可以提出反驳；</li>
+</ol>
+</blockquote>
+<p>而在这过程中有一个很大的不对称性——证伪易于证实（一般情况下都是这样）。</p>
+<p>证实，需要用完备的逻辑说明这件事情是正确的，同时覆盖所有可能性。</p>
+<p>证伪则正好相反，证伪只需要举出一个反例。</p>
+<p>也就是说，如果你同一帮人提议去吃某家海底捞，你通过口味、服务证明为什么要去海底捞，这是不够的，只要有一个人提出一个反例，比如他说那家海底捞排队等待太浪费时间，如果有其他人表示同意，你以前的所有证明都可能因此而付之一炬。</p>
+<p>这种不对称性显而易见，证实比证伪难太多。证实要么许村想到所有的可能性，要么需要完备的逻辑去使自己无懈可击，而证伪却可以像乱枪打鸟似的漫天乱想，头脑一通风暴可能就发现几个反例。</p>
+<p>祸不单行，除了证实与证伪的不对称性，对于发起者还有一个悲剧——世间事情复杂纷繁，很少有可以通过完备逻辑证明的，学校中见到的完备逻辑大多只在数学世界常见。</p>
+<p>也就是说，发起者每次提案都是先天很难证实的，并且，发起者要承受其他人证伪的质疑，而这过程中最糟糕的是，证伪远远易于证实。</p>
+<p>是不是发起者很悲剧？</p>
+<p>事实就是这样，小提案遇到小阻力，大提案遇到大阻力。老罗提出要进入手机行业，十个人里十一个反对，理由都很充沛。Elon Musk 提出 Space 的发射火箭回收想法，全世界都用自己的理由嘲笑他。</p>
+<p>如何解决？</p>
+<p>在我看来，如果你遇到这种情况，可以把所有的反对意见（反例）按重要性和是否可解决两个维度分析。</p>
+<blockquote>
+<p>重要性：指他人提出的反例对于你的提案是不是影响巨大，是不是这个问题无法解决，你这个事情就是死路一条？比如你提出要造火箭回收，有人一定问你如何造出火箭，如果你无法解决，那么火箭回收计划就无法实现。</p>
+<p>是否可解决：指他人提出的反例是不是一个无法解决的问题。如果你提出要做一个空间传送门，那一定有人问这个门的技术原理，你无法解决你的门就无法实现。</p>
+</blockquote>
+<p>用四象限法：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>重要</th>
+<th>不重要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>可解决</td>
+<td>提出解决方案，继续提案</td>
+<td>可以提出解决方案，但不急于解决，继续提案</td>
+</tr>
+<tr>
+<td>不可解决</td>
+<td>放弃提案</td>
+<td>抛弃反例，继续提案</td>
+</tr>
+</tbody>
+</table>
+<p>所以，其实很多时候，你的提案是不完美的，但是你可以继续你的提案，因为很多反例其实是不重要的，每次遇到反对意见时，不要急于找解决办法，不要急着和他争吵，先想想他的反例重要吗？如果重要，在去细思考解决方案，如果不重要，那就看心情来确定是不是要找找解决方案了。</p>
+<p>凡是很难一蹴而就，但一定不要急着放弃，并不是一个反例就击垮整个提案，毕竟生活不是数学推理。</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[减法难]]></title>
+        <id>https://wolf3c.github.io//post/jian-fa-nan</id>
+        <link href="https://wolf3c.github.io//post/jian-fa-nan">
+        </link>
+        <updated>2017-05-05T15:44:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-05-05</p>
+<p>author：wolf3c</p>
+<p>字数：1.6K</p>
+</blockquote>
+<hr>
+<p>目录：</p>
+<p>[TOC]</p>
+<hr>
+<p>只要你对互联网稍有了解，大概就听说过「做减法」。然而，回头看看互联网的产品各个都在做加法。很多人都吐槽相关产品经理不会做减法，产品经理肯定了解做减法的概念，这点毋庸置疑，但他们为什么不做减法呢？或者说，产品为什么会一个劲地臃肿呢？</p>
+<h2 id="加法易减法难">加法易，减法难</h2>
+<p>如果有市场、运营、客服反馈一个需求，即需要加一个功能。</p>
+<p>作为产品经理，这时候有两个选择——加功能、不加功能。（以下的产品经理泛指产品决策者）</p>
+<p>同时，市场、运营、客服、产品无形中形成了三类人，我们分别揣测一下他们的心思：</p>
+<table>
+<thead>
+<tr>
+<th>人物</th>
+<th>加功能</th>
+<th>不加功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>需求提出者</td>
+<td>发出支持的声音，并催促进度。赶紧加上方便圈更多用户。</td>
+<td>一帮远离一线的脑残，坐在办公室吹着空调瞎拍脑袋。</td>
+</tr>
+<tr>
+<td>非需求提出者、非产品经理</td>
+<td>既然有人提了，说不定哪天我也会遇到这个问题，既然要加了，我可以给用户推荐一波</td>
+<td>没有遇到相关问题，不过说不定哪天我会遇到呢，不加有点风险。</td>
+</tr>
+<tr>
+<td>产品经理</td>
+<td>大家很开心，貌似做得对</td>
+<td>我是不是做错了？如果过几天还有大批反馈怎么办？我不想这么撑着了，要不就做了吧。</td>
+</tr>
+</tbody>
+</table>
+<p>简单分析可以知道，做加法，只要在近期利益来看是你好我好大家好的局面。人总是短视的，加法自然成了最符合利益的选择。</p>
+<p>如果产品经理中有人良心发现，分析出某个功能用户使用率低的可怜，也不是什么重要功能，所以可以砍掉这个功能也无伤大雅。</p>
+<p>作为产品经理，这时候有两个选择——减功能、不减功能。</p>
+<p>同样，市场、运营、客服、产品无形中形成了三类人，我们分别揣测一下他们的心思：</p>
+<table>
+<thead>
+<tr>
+<th>人物</th>
+<th>减功能</th>
+<th>不减功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>自己使用 or 见到用户使用过</td>
+<td>有用户的功能怎么能减掉？你们一心想要用户流失是吗？我们拉来点用户容易吗？</td>
+<td>[沉默]</td>
+</tr>
+<tr>
+<td>没见人用过，非产品经理</td>
+<td>天天加了减，减了加，都不知道脑子里想啥。</td>
+<td>[沉默]</td>
+</tr>
+<tr>
+<td>产品经理</td>
+<td>后悔提这事，就当我没说。</td>
+<td>相安无事</td>
+</tr>
+</tbody>
+</table>
+<p>很少有人愿意没事找事，所以，就算知道需要减，也不会去减。</p>
+<h2 id="人多阻力大">人多阻力大</h2>
+<p>就像上面说的，做减法，很容易出现其他人反对。</p>
+<p>因为大多数可以砍掉的功能被加上去，可能就是因为一部分人提出来需求，而产品经理砍掉这些功能的时候那部分利益相关者一定会站出来质问产品经理：「你敢为自己的行为负责吗？用户流失怎么办？」。</p>
+<p>这还有可能闹得领导出来调节，不过产品经理也会碰到同样的问题「你敢为自己的行为负责吗？用户流失怎么办？」，这时候你敢负责吗？</p>
+<p>实话实说，世事无常，没多少人在这种情况下为自己的决定打包票。</p>
+<p>这种情况，越大的团队出现的可能性越大，而产品经理收到的压力也越大，当然，能坚持做减法的可能性越小。</p>
+<p>反之，越大的团队，提出的需求越多，做加法的可能性越大。</p>
+<p>综上，人多的大团队，减法难，很容易出现大产品。</p>
+<h2 id="突破极限与不甘平庸">突破极限与不甘平庸</h2>
+<p>大公司做出大产品有一种可能：其实每个特定用户都是有数量极限的，即使你的产品在这个细分用户群中做到机智，也无法突破，那么，在一个细分市场做到极致后，很多产品为了谋求继续发展，便开始打周边市场的注意，向四周进军，扩大用户量的同时，扩大了需求范围，自然功能也在不断扩充。</p>
+<p>为了突破细分用户群的极限，大产品大多不断扩充自己的用户群。</p>
+<p>但是，很多功能很丰富的平庸产品并不是为了突破极限而增加功能的。事实上，很多平庸的产品大多没去做到极致，他们直接退而求其次，向往通过大量功能覆盖大量用户需求，以期获得大量用户的芳心。</p>
+<p>综上，到达极限的产品容易做加法，减法难。平庸而又不甘平庸的产品也喜欢做加法，减法难。</p>
+<h2 id="总有跳起来叫的">总有跳起来叫的</h2>
+<p>如果一个产品是服务费大众的，除非是砍掉一个其他人从来不知道的功能，不然你很难在砍掉一个功能后，不收到几个反弹和咒骂。这是任何一个体量稍大点的产品必须面对的问题，如果无法对「总有跳起来叫的」这件事情免疫，那么你砍掉一条看不清的细线都可能痛不欲生。</p>
+<h2 id="倔强者做减法">「倔强者」做减法</h2>
+<p>做减法，人人都在说，但很少有人可以做到。</p>
+<p>唯非常倔强者或可为之。</p>
+<p>倔强者，目标明确。</p>
+<p>倔强者，相信自己。</p>
+<p>倔强者，不听威逼利诱。</p>
+<p>倔强者，心智坚定，不怕唾沫星子。</p>
+<p>倔强者，不重视他人对自己的看法，不在乎面子。</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[骑墙]]></title>
+        <id>https://wolf3c.github.io//post/qi-qiang</id>
+        <link href="https://wolf3c.github.io//post/qi-qiang">
+        </link>
+        <updated>2017-04-28T15:46:16.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-04-28</p>
+<p>author：wolf3c</p>
+<p>字数：0.8K</p>
+</blockquote>
+<hr>
+<p>目录：</p>
+<p>[TOC]</p>
+<hr>
+<h2 id="什么是骑墙">什么是「骑墙」</h2>
+<p>这段时间看到很多类似的场景：既想要在 A，又想要在 B，A 和 B 不能共存，然后站在 A 与 B 之间，一会在 A，一会又在 B。</p>
+<p>就像《人民的名义》中祁同伟，既想通过捷径获得权势，又想要保持自己的光荣和荣耀，然后明面上是一个伟光正的公安厅长，背地里急功近利。</p>
+<p>我把这种做法称作「骑墙」。</p>
+<h2 id="骑墙的弊端">「骑墙」的弊端</h2>
+<p>我很早就发现自己是一个喜欢骑墙的人：</p>
+<ol>
+<li>学习方面，既不想忍耐读书学习苦练技能的痛苦，不想放弃玩耍的喜悦，又希望获得超出常人的技能，每天抱着书睡大觉，等到用到技能的时候，发现书到用时方恨少。</li>
+<li>生活中，很多人每天都在骑墙，晚上睡觉还是看视频？很多人既想早点睡，又想看完《人民的名义》，最后的结果就是躺在床上关了灯看视频，既伤眼睛，看到后面发现视频也没啥意思，还没有好睡眠。</li>
+<li>工作中，面对一些自己认为正确的事情，既不希望因此搞得大家都不舒服，又希望自己能够按照自己的意愿完成，最后搞得别人感觉我没有主见，而事情也没有按照自己的意愿做。</li>
+<li>……</li>
+</ol>
+<h2 id="不骑墙的好处">不「骑墙」的好处</h2>
+<p>人，往往希望得到一切好东西，所以，人总是喜欢骑墙的。</p>
+<p>但我越来越认为，「骑墙」最不可取，一定要对墙内或墙外做出选择。</p>
+<p>还是拿祁同伟说，要么选择关荣与荣耀，以他的能力，不会比侯亮平差吧，要么选择利益，做一个小人，放开手权钱交易，以他的能力，带着现金和美女逃亡国外不是梦想。</p>
+<p>技能还是玩耍，不要骑在中间脚踩两边，要玩，就一心一意地完，要学习，就拿起书，拿着笔，认真地学。</p>
+<p>看视频还是睡觉，不要骑在中间脚踩两边，要么就开着灯做好了认真看，要么就安心睡觉，不管怎么样，都不会差。</p>
+<p>坚持自己的想法还是维护大家关系，不要骑在中间脚踩两边，总可以达到一个目的。</p>
+<h2 id="如何不骑墙">如何不「骑墙」</h2>
+<p>想要不「骑墙」，只需问问自己的内心，那个是自己更想要的，强迫自己在第一时间做出选择。这样，就可以为自己的选择做更多的努力。</p>
+<p>选择很难。因为选择往往意味着放弃，放弃自己想象到的东西（荣耀 or 快速通道，喜悦 or 高超技能，视频的预约 or 好睡眠，完成自己的意愿 or 保持关系）。</p>
+<p>必须选择。就像我说的，那都是想象的，如果不选择，很有可能竹篮打水一场空。</p>
+<p>所以，想要不「骑墙」，早做选择。</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[无知的博学]]></title>
+        <id>https://wolf3c.github.io//post/wu-zhi-de-bo-xue</id>
+        <link href="https://wolf3c.github.io//post/wu-zhi-de-bo-xue">
+        </link>
+        <updated>2017-04-23T15:56:20.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-04-23</p>
+<p>author：wolf3c</p>
+<p>字数：1.9K</p>
+</blockquote>
+<hr>
+<p>在这个信息时代，各种知识触手可得，只要用心去学，你可以懂得写代码、弹吉他、炒菜甚至制炸药。我虽不是刻苦好学之人，但我有非常强的好奇心，这种好奇心让我在互联网中接触到很多「知识」，每每与人说到一些他们从没有听过的东西，我心中便有点沾沾自喜。我向别人吹嘘自己知道的名词，Hadoop、傅里叶变换、莫比乌斯带、克莱尔瓶、函数编程、权利的距离……</p>
+<p>然而，如果运气不好，碰上一个好学的愣头青非打破砂锅问到底，我却哑口无言，很难给人家讲一堂生动的知识普及课。</p>
+<p>渐渐地，我意识到自己学习到的大多流于表面，只是知道了一个个名词，既不明白这个名词后面的含义，也不明白这个名词的适用范围和边界条件，它们只是我拿来即用的名词罢了。</p>
+<p>我把自己这种状态称作「无知的博学」，说白了就是脑子里记着一堆自己都不明白的名词，看似博学，实则无知。</p>
+<h2 id="为什么会成为无知的博学者">为什么会成为「无知的博学者」</h2>
+<p>变成「无知的博学」有三个原因：</p>
+<blockquote>
+<ol>
+<li>知识传递者中很多人有意简约知识。</li>
+<li>人类大脑的判断决策机制。</li>
+<li>知识大爆炸。</li>
+</ol>
+</blockquote>
+<h3 id="被简约的知识">被简约的知识</h3>
+<p>可能你也发现了，在互联网中，很多文章都会引用一些理论或学说以充实自己，而这些理论和学说要么以一个名字代替，要么一句话说明，从来不会对这些与文章主题无关的东西详细解读。</p>
+<p>我不妄自猜想作者是否真的明白这些学说或理论，但为了让读者简单快速的阅读，他们都没有把那些名词后面繁冗的内容搬上台面。</p>
+<p>而为了方便传播，这些用于代表学说或理论的名词也被命名得非常脍炙人口。</p>
+<p>这就让很多热衷于碎片阅读的当代人接触到的东西都成了这些被简约成一个个名词的知识，久而久之，大家对于这些名词也就有了自己内心中的一种认知，认为它就是那样，至于是怎样，可能他自己也无法清晰定义，反正就是那个名词代表的那样。</p>
+<h3 id="大脑的欺骗">大脑的欺骗</h3>
+<p>无知的博学者不但知道那些名词，还运用那些名词。就像我那样，可以熟练地用那些名词展开一场盛气凌然地辩论，并把对方说的哑口无言，而大多数对手也会因自己不懂那么多名词而自卑地躲在角落。</p>
+<p>但这运用自己「博学」其实是大脑的一场骗局，其实我们很多人的很多判断和决策都是直觉大脑先完成的，然后理性大脑再为自己同伴擦屁股。</p>
+<p>具体说，当人问你一个按钮应该放到左边还是右边时，你的直觉大脑说右边，你就脱口而出说「右边」，你的理性大脑马上开始搜索各种知识、名词，给你找出一个完美的理由，这时你嘴里就吐出来费兹定律、接近法则、防错原则、界面的平衡、用户需求、场景……而这一切在你的大脑中电石火光，你根本没有发现这里面的先后，误以为是自己通过这些理论获得了这个结论，并且你用这些理论把提问者砸得心服口服，此时你对自己的博学更加洋洋得意。</p>
+<p>大脑的这种机制不断强化「无知博学者」的自信，然后他们就真的信了自己记的那些名词内涵就是自己记的那样。</p>
+<h3 id="知识大爆炸">知识大爆炸</h3>
+<p>不得不说，知识的疯狂增加让大多数人手足无措，一百多年前，人类的知识还可以用一部《大英百科全书》介绍个七七八八。回到现在，有一个好事者做了一个<a href="http://daily.zhihu.com/story/4411008">计算</a>，截至 2014 年 9 月英文维基的全部文本内容打印装订后相当于 2070.7 卷大英百科全书。</p>
+<p>这么大的体量没人会有读一遍的雄心，为了方便交流和说明问题，一个个的名词作为一个个知识点的代表变成了一个理所当然的解决办法（这个办法在以前的时代中也被使用），就像编程中的函数调用，调用的时候只需要知道函数名、函数的作用和参数要求就好。这是一个非常简单有效的解决办法，可以说人类的文明就是这么一个个函数调用堆起来的。</p>
+<p>然而，问题出在人们只记住了函数名，从来不去细究函数的作用和参数要求，肆意地拿来即用。</p>
+<h2 id="无知的博学者弊端">无知的博学者弊端</h2>
+<p>无知的博学者有什么坏处？</p>
+<blockquote>
+<ol>
+<li>无法真正提高。他们学到的只是名词，而不是真知灼见。</li>
+<li>轻视知识。因为在无知的博学者看来知识太容易了，自己随随便便就懂了一大堆，并且还是学以致用。</li>
+<li>自大。是啊，他们总是能以各种名词赢得各种辩论。</li>
+<li>责任越大、危害越大。当无知的博学者负责很大的事情时，他的直觉和运气可能不会对事情带来成功，而他的「博学」却可以让整个事情跟着他疯狂的奔跑。如果他是团队的领导者，那么整个团队可能就是跟着他闭目而奔。</li>
+</ol>
+</blockquote>
+<h2 id="不做无知的博学者">不做「无知的博学者」</h2>
+<p>我也是在慢慢地改变自己，让自己脱离「无知的博学者」这种帽子。自己总结了一些小办法：</p>
+<blockquote>
+<ol>
+<li>每次使用一个名词的时候，想想自己对这个名词的理解，如果发现自己对这个名词停留在名词本身，那证明自己并不懂这个名词，不要用它说服自己或别人。</li>
+<li>观察自己的决策过程，对于直觉上决定的事情，不要虚伪地用理性来补救，承认这是自己的直觉决定。</li>
+<li>不要和「无知的博学者」争辩。因为那样做会变成两个失去理智的傻子用名词互怼，胜负都说明了自己的无知。</li>
+<li>不要急于得出答案，先试着去获取各种线索，试着去思考推导，用自己的理性大脑推导出一个结果。</li>
+<li>重新认识自己并没有明白的名词。这点很难，但是也是必须要做的，因为只有这样，你才可以正确调用那些函数，才可以实现更强的功能。</li>
+</ol>
+</blockquote>
+<p>据说今天是 2017 年的世界读书日，希望自己有一天不无知。</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[互联网产品经理修炼手册之一]]></title>
+        <id>https://wolf3c.github.io//post/hu-lian-wang-chan-pin-jing-li-xiu-lian-shou-ce-zhi-yi</id>
+        <link href="https://wolf3c.github.io//post/hu-lian-wang-chan-pin-jing-li-xiu-lian-shou-ce-zhi-yi">
+        </link>
+        <updated>2017-04-23T15:50:52.000Z</updated>
+        <content type="html"><![CDATA[<p>副标题：微信的优秀你不懂（其实这是原标题，但是有点锋芒外露）</p>
+<blockquote>
+<p>time：2017-04-23</p>
+<p>author：wolf3c</p>
+<p>字数：1.3K</p>
+</blockquote>
+<hr>
+<p>之前写过<a href="https://wolf3c.github.io/articles/%E6%97%A0%E7%9F%A5%E7%9A%84%E5%8D%9A%E5%AD%A6.html">《无知的博学》</a> ，主要是说很多人虽然在说话中用到很多名词，但其实他们自己都不清楚自己说的名词，只不过是拿一些名词来证明自己正确和博学。事实上，人们不懂的东西远不止那些名词或知识。</p>
+<p>在软件、互联网行业，引用最多的产品估计是微信，而被说的最多的产品经理估计是张小龙（除了乔布斯），最被津津乐道的产品理念就是用完即走。然后所有的产品开始各种抄袭微信，小到一个图标一个交互，大到给产品加上社交，加上朋友圈，加入摇一摇，提供附近的人。</p>
+<p>其实，在很多情况下，那些赞美、膜拜微信的人，都没有碰到 G 点，只不过是盲目地胡说。</p>
+<p>对于微信能够成功的原因，众说纷纭。</p>
+<p>有说是人性最直接最完美的交互，发语言、摇一摇、漂流瓶。</p>
+<p>有说是用完即走的理念，只有这种理念才不会让微信成为微博那种尾大不掉、让人生厌的产品。</p>
+<p>有说是强关系的胜利，相对而言就是微博的弱关系。</p>
+<p>……</p>
+<p>反过来说，交互好的产品不少，即使在微信发迹的那个年代，微信的交互也不算出类拔萃，就连腾讯自家的 QQ 都不如。</p>
+<p>用完即走，至少在那些把这句话挂在嘴边的人的「用完即走」，是有点无稽之谈，以前的短信、飞信不是用完即走吗？历史上多少用完即走的产品被人遗忘了？</p>
+<p>至于强关系，先不说电话短信，腾讯自家的 QQ 本身已经积累的大量的强关系用户，为什么还要有个微信，为什么微信还能后来居上？</p>
+<p>很多人并没有仔细考虑这个问题，反倒是和那些自己也不懂的名词一样，只要是对自己有用，便拿来就用。尤其是对于互联网中做产品的人，想做一个东西，一定要在微信、QQ 中找一个例子用来说明自己的想法多么正确，当然，一些「有见识」的产品人如果国内找不到案例，就拿出国外的产品作为例子。反之，如果你提出来的东西并不能说出一个人尽皆知的产品例子，那么你这就是错的。</p>
+<p>这正应了「人人都是产品经理」，作为产品经理，你需要的就是为自己的每一个决定找到一个成功产品的对应功能，这个产品可以微信、QQ、Facebook、Google 这类大型产品，也可以是行业先锋。</p>
+<p>或者你也可以反过来做，在做产品的时候，做好「竞品分析」，融汇所有相关「好产品」的优点，这样，你做的每个功能都是「有理有据」，当然，如果你能为自己的每个功能编出几个场景和需求来，那么你就是一个无往不利的产品经理了，各种需求评审会如履平地。</p>
+<p>其实很多人并不真的懂其他的产品优秀在哪里，就像他们不懂微信优秀在哪里一样。很多人也不懂其他产品为什么成功，就像他们不懂微信为什么成功一样。</p>
+<p>然而，这又怎样，谁又懂呢？这又有什么关系呢？（反正懂了也未必能让自己的产品优秀。）</p>
+<p>要成为一个优秀的互联网产品经理，最重要的能力就两个：广博的见识和临危不乱的应变能力，这样你就可以在最短的时间里找到最合适的例子来支持自己的观点和决策，看吧，很简单吧。</p>
+<p>互联网上还有一句话，每个人都应该有产品经理思维，说白了就是广博的见识和临危不乱的应变能力，不论你是做运营、做技术、做销售、做管理，你只需要多记一些相关的例子，然后沉着冷静地找到一个好例子，用自己低沉沙哑的嗓音娓娓道来。如果你再多用用各类 app，多在产品方面发言，相信我你很快就可以成为公司中举足轻重的产品经理。</p>
+<p>不信你试试。</p>
+<p>（EOF）</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我的「节约」观]]></title>
+        <id>https://wolf3c.github.io//post/wo-de-jie-yue-guan</id>
+        <link href="https://wolf3c.github.io//post/wo-de-jie-yue-guan">
+        </link>
+        <updated>2017-04-09T15:55:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-04-09</p>
+<p>author：wolf3c</p>
+<p>字数：1.6K</p>
+</blockquote>
+<hr>
+<p>我出生在宁夏南部贫困小山村，作为农民的儿子，作为宁南贫困山区的孩子，小时候生活一直比较拮据，非逢年过节，一日三餐定是见不到肉。用的东西，也很少有富余，衣服只有过春节才会有一套新的。</p>
+<p>所以，我没有铺张浪费的资本，没有养成浪费习惯，确切地说，我一直认为自己在节约这方面做得不差（毕竟多少年没见过好东西了）。但是随着见的人和事多了，我发现，自己对节约的想法与他人有点不同。</p>
+<ol>
+<li></li>
+</ol>
+<p>在农村，常常见到一些家里安个二十瓦的白炽灯，美其名曰省电，几年后，他家的孩子一个个佩戴厚厚的眼镜，还自豪地说自己孩子是读书刻苦。我在大学时，给自己淘了一个台灯，看电脑的时候把它打开，免得电脑光太刺眼。</p>
+<ol start="2">
+<li></li>
+</ol>
+<p>后来，农村条件好了，家家买了洗衣机，有意思的事情来了，有些人家的洗衣机只有在冬天时才会拿出来甩水，而洗衣服还是人手洗，说是节约水电。我自己工作后洗衣服时，只要条件允许，我尽量让机器搞定，洗衣机绝对是工业时代伟大的发明。</p>
+<ol start="3">
+<li></li>
+</ol>
+<p>估计很多人都听过关于电视机和遥控器的笑话，事实上，我家的那个长虹彩电坏的时候，遥控器真的是新的，当时他们已经十几岁了。后来我自己有了电脑后，我买了键盘从来不套东西保护，七八十块钱的罗技键鼠套装用两年，坏了换个新的，我认为很值，至少我在两年的使用中从来没有因为一个塑料纸不爽过。</p>
+<ol start="4">
+<li></li>
+</ol>
+<p>大学吃饭的时候，同学打四两米饭两碗菜，每次菜吃不完却要把每一粒米饭夹到嘴里，我就好奇问他是不是特喜欢米饭，回答是「谁知盘中餐，粒粒皆辛苦」。好吧，「粒粒」米饭是辛苦，「块块」肉菜不辛苦。我的做法完全相反，从小我就知道肉比菜好，菜比米饭好，从价格也可以一眼看出来，所以我宁可倒了一碗八毛钱的米饭，也不浪费一小块东坡肉。</p>
+<ol start="5">
+<li></li>
+</ol>
+<p>有一次，下大雨，一个同学穿了一双很贵的鞋，为了不让鞋被雨水泡，他居然把鞋脱了提在手里，打着伞光脚走回宿舍。</p>
+<ol start="6">
+<li></li>
+</ol>
+<p>大学时，每年三月都有志愿者社团举行「熄灯一小时」活动，一帮志愿者挨家挨户让人关灯，然后一帮拿着相机的志愿者站在宿舍楼下一通乱拍。我很不能理解这种做法，人类发展了多少万年，才造出灯泡这种好东西，你非不让人用是几个意思？难道大家回到田园日出而作日落而息就好了？你要是说发电是污染环境的，发电是消耗不可再生资源的，你可以让这帮大学生好好努力，以后进入科技工作，找到更好的能源嘛，再不济也可以去核能公司工作嘛。反过来说，人家发电厂把电发好了，你们突然一个小时都不用，那些电怎么办，你让它去哪？你们是面子上节约电了，但是发电的过程并没有减慢，该消耗的煤已经烧了，该排的气也已经排了。我虽曾是志愿者协会的成员，但我从来没有参与过这种活动。相比于关灯一小时，我认为在光明下做自己喜欢的事情更有意义。</p>
+<ol start="7">
+<li></li>
+</ol>
+<p>智能手机普及后，电视遥控器的故事又上演了，很多人的手机都要换了，屏幕上还包着保护膜，撕掉划痕累累的保护膜，屏幕如出厂时一般，估计很多人用了两年还不知道自己的手机屏幕可显示出那么鲜艳的色彩吧。我再自己第一部智能手机上犯了这个错，之后再也没有给手机贴过膜，在我看来，相比于保护一个完好的手机远没有让自己获得更好享受来的划算。</p>
+<ol start="8">
+<li></li>
+</ol>
+<p>工作后，经常在外面吃饭，也常有剩饭的现象，即使在食堂吃饭，我也经常剩饭，有时会把某一个菜尝一口不好吃，就全扔了。这事情常常被同事说挑食、浪费。其实在我看来浪费粮食的是厨子，是他把菜炒那么难吃，如果他把菜做好吃了，我就不会倒掉了。</p>
+<p>我不是说自己就是对的，也不是讥笑别人的做法，把这些写出来，只是感觉人和人的节约观的差异很有意思。</p>
+<p>我试着总结一下自己的「节约」观：</p>
+<blockquote>
+<p>在满足人们需求的前提下，不浪费，不破坏，不造成重大伤害。</p>
+</blockquote>
+<p>当然这种总结是不完全正确的，因为我们面对的是一个个具体的问题，处理方式常常是按照经验、心态等来应对，不会根据公式或定理来做决定。</p>
+<p>有两点还是需要说明：</p>
+<ol>
+<li>不要为了节约，过度降低人的体验，满足人的需求是前提。</li>
+<li>不要为了自己的需求，铺张浪费，更不能破坏公共财产，也不能对其他人事造成伤害。你不用水，就不要让水龙头一直开着；即使你喜欢狩猎，也不能跑到可可西里拿藏羚羊练手；即使你喜欢飙车，也不能在公共交通中超速。</li>
+</ol>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[人多不一定「力量」大，加班不一定出成绩]]></title>
+        <id>https://wolf3c.github.io//post/ren-duo-bu-yi-ding-li-liang-da-jia-ban-bu-yi-ding-chu-cheng-ji</id>
+        <link href="https://wolf3c.github.io//post/ren-duo-bu-yi-ding-li-liang-da-jia-ban-bu-yi-ding-chu-cheng-ji">
+        </link>
+        <updated>2017-04-08T15:47:52.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-04-08</p>
+<p>author：wolf3c</p>
+<p>字数：1.5K</p>
+</blockquote>
+<hr>
+<p>这其实是个被说烂了的事情。</p>
+<p>「人多力量大」和增加工作时间是在体力工作中常见的项目管理策略。</p>
+<p>搬砖，如果一人一小时搬 1000 块，有 10 万块砖，想要快速搬完，只需要加人，空间条件允许的情况下，你可以让 100 人过来 1 小时搞定。</p>
+<p>「人多力量大」和增加工作时间最具说服力的例子就是富士康，iPhone 一年卖出几千万台，富士康通过增加生产线、工人三班倒等方式，硬是让 iPhone 成了街机。</p>
+<p>让我没有想到的是，在工作中，我发现很多人都有这种「体力工作」的思想。我以为我是做一个智力工作，没想到碰到了体力工作的管理方式。</p>
+<p>我们先要说一下「体力工作」的特点。</p>
+<ol>
+<li>简单。因为只有简单的工作，才可以找到大量劳动力，复杂工作的劳动力培养成本太高，人多不了。这也是为什么流水线极大提高生成效率的原因，流水线把复杂的工作分解成一个个简单的工作，让普通工人经过一两天的培训就能干（或用简单低廉的器械去处理）。</li>
+<li>有标准。差不多所有东西（除了个别领域），凡是有个详尽的可测量的统一标准，都可以大量重复制作。iPhone 很复杂，Apple 给富士康一个 iPhone 验收标准，有了这个标准，富士康可以让一个生产线 7*24 小时重复工作。就像前面说的搬砖，你只要能制定出砖从哪到哪，要保持什么样子，如何完成等，你就一定能通过一次又一次的方式完成。</li>
+</ol>
+<p>可以说，「简单」是<strong>横向</strong>在单位时间下提升产出，而「有标准」是<strong>纵向</strong>在时间维度上提高产出。</p>
+<p>拿生产手机举例，「简单」让富士康可以通过增加生产线的方式增加一次性的产出，而「有标准」让富士康可以通过生产线长时间重复运作的方式增加产出的手机。</p>
+<p>回头看看智力工作。</p>
+<p>首先，它不是简单的。可能有人说智力工作可以像流水线那样通过分解来让工作简单化，软件开发就是最明显的例子。这种认为软件开发就是码农砌砖的想法，我也懒得反驳。</p>
+<p>其次，它很难有标准，甚至很多时候它是要制定标准，每个问题都可能是独一无二的，而且很多解决方案是需要创新。面对新用户、新需求，是不是还可以用设计书籍中的方案搞定？面对新的团队，是不是可以照着教科书的方式管理？面对 bug，是否可以直接抄 Stack Overflow 的回答（如果可以，人家早就直接搬 GitHub 的代码了，也就不会出错了）？</p>
+<p>说的直白点，在智力工作中，要的不是侧重点不是数量，而是质量。更明确的说，是做到更好的质量。</p>
+<p>因为在「体力工作」中，质量就是标准，也就是复制的依据，要求就是产出更多。而在「智力工作」中，要的不是数量更多，而是质量更好，更好的解决方案、更人性的交互设计、更人性的交通设计。</p>
+<p>在工作中，当听到有人说加班、每天工作十几个小时的时候，我都笑而不语。加班？十几个小时？你是说你在时间维度上纵向提升产出吗？当我听到有人说自己的部门需要加人时，我就很好奇他真的知道自己部门人手的产出情况如何吗？他是想通过加人的方式横向提升产出？</p>
+<p>说出来可能会被骂，其实很多时候，所谓的加班只不过是花更多时间和人扯淡、聊 QQ、刷知乎。所谓的加人，只不过是多找几个可以一起扯淡的人。</p>
+<p>他们真的不知道这些简单道理吗？不可能，毕竟，连我都知道。</p>
+<p>为什么智力工作中大家这么喜欢「加班」？有几个可能：</p>
+<ol>
+<li>表达自己工作产出多的方式。也就是工作时间越长工作产出越多的思维定式给害的。不过反过来说，这么做的人大多内心对自己的工作产出发虚。</li>
+<li>加班是一种表现自己工作积极的方式。</li>
+<li>加班成为一种氛围。很多公司有这种文化氛围，大家一起加班扯淡刷手机。</li>
+</ol>
+<p>为什么智力工作中大家这么喜欢「人多力量大」？有几个可能：</p>
+<ol>
+<li>体力劳动中的思维影响。毕竟我们以前的生活常识带给我们很多不可磨灭的思维定式，事情做不完，就想增加人手。</li>
+<li>人多了才有安全感。面对事情，一群人可以壮胆，出了事情，一群人可以扛雷。</li>
+<li>担更少的责任。毕竟人多了，分给每个人的事情就少了，轻松一点，出了问题，分到自己身上的责任少一点。</li>
+</ol>
+<p><strong>记住，这是一个可以独力改变世界的时代。</strong></p>
+<p>(EOF)</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[你的好奇心被谁吃了？]]></title>
+        <id>https://wolf3c.github.io//post/ni-de-hao-qi-xin-bei-shui-chi-liao</id>
+        <link href="https://wolf3c.github.io//post/ni-de-hao-qi-xin-bei-shui-chi-liao">
+        </link>
+        <updated>2017-04-04T15:22:04.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-04-04</p>
+<p>author：wolf3c</p>
+<p>字数：1.2K</p>
+</blockquote>
+<hr>
+<p>前些日子，我在路上走，前面一个小孩跟着在妈妈身后，喋喋不休地问：为啥大家都刷卡，小区还要门卫？为啥汽车走的那个门可以看到车自动打开？为啥我们要拿着卡去刷，而开车就不用了？……妈妈被问烦了，回了句：你一天尽关心没用的，作业做完了吗？上次测试成绩那么差还不想想学习的事。孩子不再吭声了。</p>
+<p>我本来听孩子的问题，满脑子想蓝牙、NFC 之类的，听到那位母亲的训斥和孩子的变化，突然一个激灵，我自己小时候也有过类似情形，常常被骂打破砂锅问到底。</p>
+<p>之后，我特别留意身边人的好奇心。这是一个很有意思的观察。</p>
+<p>在路上，我常常听见那些带孩子去兴趣班的家长不遗余力地打击孩子的好奇心。孩子在去上钢琴辅导班的路上，问了妈妈一个电子问题：为啥手表可以用那么长时间不充电，而手机不行？不出所料，这个孩子被批了。在他们旁边，有一个面无表情的男的用怜悯的眼神静静地看着这对母子。</p>
+<p>在工作中，我发现很多年轻人居然没有好奇心。甚至是做技术的年轻人，居然不去主动了解新技术，他们只知道自己工作中要用到的那一点知识，从来不去朝外面看上一眼，更不会去了解那些新出现的东西。写 iOS 的不知道 Eclipse，写 web 的，没听说过 Twitter，做 Hadoop 的不知道Virtual Studio，做数据分析的不了解 Chrome 浏览器和 Android 的关系……</p>
+<p>我很庆幸自己一直保持着好奇心。</p>
+<p>我的工作虽然不是 IT 开发，但我看到 Linux、Windows、Docker、Nginx、Apache、Meteor、Node.js、Angular.js、React.js、Vue.js、Blaze、MongoDB、SQL、Hadoop、Lisp、Scheme、Java、Vim、Virtual Studio Code、Atom、Sublime Text、区块链……我就有种莫名地激动，我会把自己不了解的东西记下来去查去了解。当我看到一段数据被拆分成一个个数据包，通过不同的路径辗转五六十个路由到达目的地，然后排好队列恢复原样，我感觉这个世界太奇妙了。当我看到 Scheme 和 SICP 中抽象的概念，我惊叹作者对编码本质的理解。当我第一次使用 Meteor，那时它还没有发布 1.0 版本，但那种以一人之力几小时完成一个小网站的体验让我一下子爱上了这个框架。</p>
+<p>不只是开发技术，看看《三体》等科幻小说，那叫一个酣畅淋漓。看看《失控》中的生命体，能让人思考问题角度发生转变。看看李宗吾的文章，看看《书读完了》，突然对中国古代文学有了重新认识。看看《哲学家们都干了些什么？》，一下子发现哲学不是那么神秘，反倒是有点好玩。甚至去了解一点风水的知识，你也会发现这些东西居然架空了一套「自洽」的体系。就算在吃饭的时候，有时可以听见几个小老板在那里讨论如何把自己小店业绩提高，替他们想象方案，也是很有趣的。</p>
+<p>这个世界，到处都是有趣的人和事，只要你愿意，常常可以发现乐趣和知识。</p>
+<p>北京买车摇号被无数人吐槽，但那些吐槽的人很少知道，现在外地汽车办理进京证只需要用一个 app 花十几分钟时间就可以搞定，一周只需办理一次。我很好奇，那些等了一两年还没摇到号的人中，很多在四环五环工作的，为什么不先在河北买辆车，然后每周在上厕所时办理一下进京证。而这事情是我从一个冀牌车的滴滴司机那里知道的，完全是可行的。</p>
+<p>但，很多人的好奇心都没了。</p>
+<p>或许怪父母、怪老师、怪环境。但事实上，对于一个成年的人，对于一个可以（自由）使用互联网的人，可能只能怪自己。</p>
+<p>不管你的好奇心被谁吃了，如果你愿意，都可找回来。</p>
+<p>还有，不要随意吃别人的好奇心，除非他非要试试高压电的威力或拿高压锅煮青蛙。</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[身后的魔鬼]]></title>
+        <id>https://wolf3c.github.io//post/shen-hou-de-mo-gui</id>
+        <link href="https://wolf3c.github.io//post/shen-hou-de-mo-gui">
+        </link>
+        <updated>2017-04-03T15:26:20.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-04-03</p>
+<p>author：wolf3c</p>
+<p>字数：1.7K</p>
+</blockquote>
+<hr>
+<p>过完年，听到一个令人错愕的消息，我小时候的一个朋友（就叫他 W 吧），因病医治无效，一年前去世了。</p>
+<p>W 是我小学和初中时的小伙伴，大我两岁，他比我见多识广。我第一次去游戏厅就是他带我去的，那时我三年级，到现在我还记得，那个游戏厅中大家都在玩街机，我那双纯洁的双眼从没有见过如此暴力、血腥、色情的画面。</p>
+<p>W 是我的半个电子游戏启蒙老师 + 半个电子游戏伙伴，那时流行插卡式游戏机，我在二年级就靠优异的成绩从爸爸那里挣了一台，但只能玩坦克大战、小蜜蜂、超级玛丽以及不知所以的五笔输入法，直到 W 拿来忍者神龟、双截棍、鸟人战队……的游戏卡后，我便由此沉迷于电子游戏中直到初二（因为我喜欢上了网吧和网游）。我和 W 等人合作打通关了各种版本的魂斗罗、忍者神龟……也打坏了一大批按键失灵的手柄。</p>
+<p>W 大我两岁，运动天赋不赖，所以户外活动比我更擅长。那个年代，那个地方，我们处于半野生状态，既不会有什么辅导班，又不会学业压力，更没有父母的耳提面授，每天在家，除了游戏和动画片，就是打沙包、踢足球、放风筝、乱跑、「探险」、偷东西、滚车轮胎……W 很多时候都做得比我好，那时候，我总是希望自己有一天可以像他那样矫健。</p>
+<p>闯祸或许是最不容易被遗忘的，我和 W 等人一道干了很多傻事。</p>
+<p>我们曾一起撺掇一个朋友把家里收藏在墙上的两米多宽的鹰风筝偷偷取下来玩，然后风筝线断了，风筝飞到了水坝里，那个朋友被家人揍了一顿，当时我们俩躲在远处看。</p>
+<p>有一次，我们把唯一的足球踢到了水坝里，然后几个人追着足球绕着水坝跑了半圈，足足等了两三个小时才等到被风吹过来的足球。</p>
+<p>还有一段时间，我们流行起了滚车轮胎，一次，我们准备玩票大的，我们从水利局厂子里偷出了一个卡车的橡胶轮胎，几个人合力把轮胎推到山上，然后让轮胎顺着山坡直着往下奔跑跳跃，而我们几个就坐在山上，心满意足地盯着它越跑越快，越跳越高。现在想想，幸好没出什么事。</p>
+<p>探险是必不可少的项目。W 家住在一个从没盈利过的小水泥厂中，我们在一次探险时发现，水泥厂的一个房子背后用一个拱形的洞连着身后的山，我们就猜想可以从房间中进入这个洞，然后可以进入到山中，山中一定有一个秘密基地，有不为人知的秘密，无聊的我们一下子找到了目标，找钥匙、撬门无果后，几个人开始使用蛮力，每周都会砸那个拱形，可惜水泥石头做的拱形洞一直没有向几个小屁孩低头。随着我们探险山洞的欲望在其他地方得到了满足，我们也就慢慢忘记了这个。</p>
+<p>那年县城修下水管道，离我们不远处正好已经修好了一节，下水管道很粗，我们进去后可以直立行动，下水管道很长，我们走到没有光的地方也没有走到头，这完全符合我们探险山洞的要求。下水管道很安静，所以，有一段时间我们把那里作为基地，到了周末，就从别人家的地里偷挖几个土豆，拾点柴火，一边打扑克，一边烤着吃土豆，大家有种忍者神龟的感觉。不过每次都玩不了多久，因为管道中的烟出不去。</p>
+<p>……</p>
+<p>直到 W 去其他地方上高中，我们才慢慢失去了联系，我上高中的时候，有一次过年回家，和 W 匆匆见过一面，那时他已经在外地上大学了。再次听到他的消息，就是今年春节后，是我妈去走亲戚听到后告诉我的，说是 W 因为一种奇怪的病，治了两年，最后还是病逝了。</p>
+<p>我很震惊。尽管那段时间我也生病了，病情很严重，并且还没有确诊病因，但我从来没有想到死亡，在我心中，我顶多得了一个顽疾，我可能稍微比别人孱弱一点，这已经是我能猜想到的极限了，死亡，多么遥远。</p>
+<p>算起来，W 离开人世的时候，年龄和我现在差不多，那时他已经被折磨两年了。</p>
+<p>从知道 W 的事情后，我开始积极去医院看病，确诊病情后我积极配合医生用药，生活中，因为吃腻了外面的东西，我开始自己尝试做饭（在以前，打死我也不会这么干），我开始早睡早起，开始给自己留有更多时间，开始不再热衷于社交。这些变化，不只是因为 W 的事情，更因为自己这次生病经历。</p>
+<p>我不知道病好后，我会不会回到以前的状态，我希望不要回去。</p>
+<p>安逸太久，人们常常会忘记身后还有很多正在靠近的魔鬼，可能是疾病，可能是意外，可能是死神。</p>
+<p>时间很紧张，多点给自己，给自己的爱好，给自己爱的人，给自己的梦想。</p>
+<p>当你无聊发呆时、犹豫不前时、做着自己不喜欢的事情时、忐忑不安不敢行动时，转身看看身后的魔鬼。</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[变革时代不要盲目相信年龄和经验]]></title>
+        <id>https://wolf3c.github.io//post/bian-ge-shi-dai-bu-yao-mang-mu-xiang-xin-nian-ling-he-jing-yan</id>
+        <link href="https://wolf3c.github.io//post/bian-ge-shi-dai-bu-yao-mang-mu-xiang-xin-nian-ling-he-jing-yan">
+        </link>
+        <updated>2017-04-02T15:35:27.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-04-02</p>
+<p>author：wolf3c</p>
+<p>字数：1.8K</p>
+</blockquote>
+<hr>
+<p>人总是想知道自己该走向何方、在走向何方，不然就会无所适从。</p>
+<p>年轻人面对世界，面对选文理科、选大学专业、考研 or 就业、公务员 or 国企 or 私企、去北京 or 家乡……有人读书索途，有人求师问道。自然也有人好为人师答疑解惑，父母长辈首当其冲、各种企业机构纷涌而至，他们用自己的「人生智慧」和「理论」给年轻人勾画一条康庄大道。</p>
+<p>这是很普遍的事情。</p>
+<p>在中国人的观念中（至少是我接触到的中国人中），学习前人的经验和听取老人的智慧是走好人生道路非常重要的方式。</p>
+<p>很久以前，老一辈告诉你什么时候播种施肥，照做就不被饿死；父母告诉你什么时候学手艺、什么时候结婚、什么时候生子，这让家族一代代繁衍；一个人去做学徒，跟着师傅照猫画虎，终有一天可以自己开设门店。</p>
+<p>二三十年前，在我国，子承父业还是一个职业选择规则——顶替。</p>
+<p>但是，改革开放后，很多事情开始巨变。</p>
+<p>工人突然下岗了，投机倒把突然成大款了，铁饭碗被打翻了，上完大学没有工作了，认真工作却要被机器代替了。</p>
+<p>我们很幸运，也很不幸，我们处在一个变革的时代。</p>
+<p>所有巨变的事情，经验不再靠谱。</p>
+<p>以前父母是工人，让孩子顶替，然而孩子工作没两年就被一刀切下岗了，下岗后卖着水果供自己孩子考大学，专门报个马克思专业期待日后进入机关拿铁饭碗，毕业后发现考公务员都不要这专业的人。</p>
+<p>经历的国家工业大发展的父母，认为石油、煤矿、化学就是最吃香的专业，他们的孩子进入学校后才知道，现在，这些专业的人比资源多。</p>
+<p>那些以前读过大学的父母在生活中发现，有个高文凭晋升就是快，所以让自己学计算机的孩子读研读博，然后，孩子就和老师一起讨论研究十几年前的计算机技术细节。</p>
+<p>变革的时代，不要盲目相信年龄和经验。</p>
+<p>如果你是新人，不要看到前辈的书、看到公司老人就视若神明。</p>
+<p>在巨变的行业中，很多有名气的人不过是多年前成功过一把，然后拿着自己的「经验」到处指导。他们采取广撒网方式，指导几百家公司，总会那么几个不开眼的成功了，就成了这些名人的成功案例。</p>
+<p>时代变化太快，那些年龄和经验或许已经老掉牙了。</p>
+<p>拿互联网行业来说，从门户时代到论坛、博客、IM、社交网站、网购、团购、闲鱼、共享经济、O2O、物联网……每一次都有一时成名的人，但拿着老经验不断成功的少之又少。</p>
+<p>如果你是有经验的老人，也不要把自己的理论强加于人。尤其是对自己的孩子。</p>
+<p>拿现在七零八零后的家长来说，很多七零八零后小时候有吃苦的经历，他们生活目标就是更成功、生活条件更好、经济收入更高、社会地位更高，所以他们很努力、很认真地工作生活（我猜这就是为什么那些贪官有花不完的钱时还不收敛）。</p>
+<p>大多七零八零后总结的人生经验大概就是「好好学习，考高分，上大学，比别人优秀，获得领导重视，提升自己的学位、职位和收入」，所以他们的孩子一般会被放到一个好学校，周末要去上辅导班，学习要是班里尖子，中考要去最好的学校，想方设法出国留学，再不济也要上个好大学。</p>
+<p>当这些父母看到孩子天天打游戏、玩手机、谈恋爱、追明星，他们无法理解，更无法容忍。他们一定要很负责地让孩子回到「正轨」，然后就出现了电击网瘾少年等一大堆悲剧故事。</p>
+<p>事实上，这些父母根本无法体会在锦衣玉食、万千宠爱的环境长大的感受，这些孩子从来没有考虑过吃不饱，更没有「粒粒皆辛苦」的概念，他们是一群可以做梦并且可以相信梦想成真的孩子。</p>
+<p>或许，这些孩子和他们的父母是完全不同的一类人，一类在这片土地的历史上很少见的人，他们不需要去争夺资源，也就不需要用一个统一标准让大家比较，很多东西甚至都没必要去和别人比。除了极个别情况，大多数学霸和学渣吃的都是地沟油，呼吸的都是雾霾，反倒是，学霸跳楼可能性比较大，学渣可能被砍但自杀概率更低。</p>
+<p>直白点说，这类人的物质生活得到满足，他们很难通过物质让自己愉悦。为什么很多公司高管吐槽管理九零后难，因为就算给了钱，九零后也不会让你们颐指气使，失业的后果在他们心中一点都不严重，大不了回家啃一段时间老。</p>
+<p>七零八零后的家长，孩子目前十几岁，这些孩子十年后才会用自己学到的东西面对真是的世界，而那个世界与他们父母心中的世界的差距，就是这些孩子与世界的差距。</p>
+<p>如果十几年后，那些孩子听父母的话，学了一大堆东西，挤破头拿到一堆证书，每天苦哈哈地挤地铁工作，还要担心工作被机器人抢了，而住隔壁那个早早辍学的小子，每天抱个吉他写写小曲，做做直播，十天半个月旅游一次，生活怡然自得轻松惬意，那么他们还会坚持走父母设定的路吗？</p>
+<p>我没有贬低经验或年龄，只是希望传授经验和接受经验的时候多点思考。</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[译]我为什么弃 Mac 投 Windows：放弃 Apple]]></title>
+        <id>https://wolf3c.github.io//post/yi-wo-wei-shi-me-qi-mac-tou-windowsfang-qi-apple</id>
+        <link href="https://wolf3c.github.io//post/yi-wo-wei-shi-me-qi-mac-tou-windowsfang-qi-apple">
+        </link>
+        <updated>2017-03-24T14:44:47.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-03-24</p>
+<p>翻译：wolf3c</p>
+<p>翻译字数：2.6K</p>
+</blockquote>
+<hr>
+<p>译自：<a href="http://char.gd/microsoft/why-i-left-mac-for-windows/">Why I left Mac for Windows: Apple has given up</a>（<strong>点击查看原文</strong>）</p>
+<blockquote>
+<p>我自己对 Windows 10 的满意度超过 Mac OS，一直想写点东西说明一下自己的观点（或者告诉那些无脑粉 Mac 的人一点不一样的东西），但是一直没有着手做。在看到这个标题后，我虎躯一震，决定翻译一下。</p>
+</blockquote>
+<p>如果询问任何一个了解我的人，我大概是他们中最大的 Mac 死忠，如果有人问我购机建议，我一定会说 MacBook Pro，或者等下一代的 MacBook。</p>
+<p>但是，最近我发现自己有点厌倦 Apple 对电脑桌面的态度，自从 2 年前发布了 Yosemite， Apple 对于 Mac OS 的更新聊甚于无，作为一个开发人员，在我看来， Apple 并不重视它的软件，更不要说投入 Mac 怀抱的成百上千开发人员。</p>
+<p>看看 <a href="http://www.apple.com/macos/sierra/">Sierra</a>，更新日志中唯一值得注意的东西就是 Siri，并且是一个半成品，而且是从 iOS 中生搬硬套过来的那个半成品。对于开发人员？一无所有，除非你用 XCode——老生常谈。</p>
+<p>Mac 作为 web 开发人员够用的平台的唯一原因就是，开源社区在 Mac 工具流上做的不懈努力。（想想 Node、npm、Yarn和其他新出现的工具多么易用）</p>
+<p><a href="https://www.bloomberg.com/news/articles/2016-12-20/how-apple-alienated-mac-loyalists">彭博社曾 2016 年报道称 Apple 拆分了 Mac 团队</a>，部分人转入了 iOS 团队，现在来看确实如此，2016 年底发布的新 MacBook Pro，虽然有点意思，但在用户方面的东西有点半吊子，它只能算是一个不错的东西，但并非非常棒，它的硬件性能不足，相比于 Mac 以前的特色——性能和功能，这次更关注轻薄和噱头十足的 Touch bar。</p>
+<blockquote>
+<p>「<strong><a href="https://www.bloomberg.com/news/articles/2016-12-20/how-apple-alienated-mac-loyalists">另一方面， Apple 把他们的 Mac OS 团队重组为软件工程团队，以示对 iPhone 的重视。</a></strong> 」</p>
+</blockquote>
+<p>实话实话，在让人失望的 Windows Vista 前，我是一个痴迷于 Microsoft 的 Windows 死忠，很明显，即使 Windows 7 掩盖了一些问题，但它依旧是一个没有战略和愿景的公司。Apple 却拥有我想要的愿景——一切工具流畅协作。</p>
+<p>你可以在电脑或手机上发送 iMessage，随时随地回复来电，方便地把文件放到其他设备中。总而言之，我被 Apple 在 2013 年初发布的 15&quot; Retina MacBook Pro 深深吸引。</p>
+<p>我在这台电脑初探 Apple 世界，并为之着迷。一切设计恰到好处，一切都协作流畅。Apple 基于 Unix，所以我拿起来就可以做 web 开发，我知道如何深入使用终端，或者马上进入那些开源项目。</p>
+<p>但是，当我兴冲冲地加入 Apple 世界，这家公司的重心发生了变化。Mac 不再重要，同时 iPhone、iPad、以及后来的 iPad Pro 成为了 Apple 的重心，信号很明显：为什么你非要用电脑来做一个手机或平板就可以搞定的事情呢？</p>
+<p>结果就是 Apple 不在关注 Mac，硬件四年都没有得到一点儿更新。还有 OS X，以前还能是不是更新一些有趣的新功能，现在只能拿到一些 iOS 的边角料，如果你不信，看一下你 Mac 中的 iMessage，iOS 的旗舰功能——贴纸在 Mac 中毫无踪迹。</p>
+<p>这点事无处不在，比如 Airdrop——Apple 非常受欢迎的功能，轻松在电脑和手机间传递文件的体验让我感受到了什么叫「浸入式工作」，要知道，每次传递文件耗费了我 30% 的时间，而其他时间我都在连接设备。有了 Airdrop 后，你就可以在一个设备上工作，无缝地移动到另一个设备上。很想知道用这个功能是怎样的感觉。</p>
+<p><img src="https://wolf3c.github.io//post-images/1561819867770.png" alt="Windows2Mac_twitter_message"></p>
+<p>在此期间，Microsoft 舔好了 Windows 8 的伤口，找到了一个激情昂扬的 CEO——Satya Nadella，然后在 Windows 10 中做了很多非常棒的东西——它开始倾听并实现用户需要的功能了。</p>
+<p>我一直无视 Windows 世界，直到去年底，Microsoft 在 Windows 中推出了 Linux 子系统（简单说，就是一种可以在 Windows 中使用 Linux 终端的方式），这让我意识到在 Windows 开发将变得更加友好，这足以让我回心转意。它是一个游戏的改革者：</p>
+<blockquote>
+<p><a href="https://thenextweb.com/opinion/2016/03/31/bash-windows-incredibly-exciting-frightening/">在它（译注：Windows 10）的内核中，在 Windows 上支持 Bash 既激动人心，又是一个难以置信的工程壮举，作为一个前端开发人员，我现在考虑买一台 Windows 电脑代替我的 Macbook，这在以前不可想想。</a></p>
+</blockquote>
+<p>经过对 MacBook 更新的漫长等待，等来的是对于 Apple 所交答卷的无限失望，花大价钱买了个低配货，我开始想要回到 Windows了。在 Mac 世界，美好生活逐渐消失的迹象从 2015 年就已显现，整整一年，Apple 也没有对硬件方面带来一点有意义的冲击。尤其是当时我已对虚拟现实兴趣日浓，但 Oculus 因为 Apple 的表现而放弃对 Mac 的支持。</p>
+<p>到了 2016 年，Microsoft 推出新版 Windows「创新永无止境」( 原文：Creators Update out of nowhere )，包括专用游戏功能、完整系统级 VR 支持、颜色自定义、语音助手以及其他一大堆更新。</p>
+<p>我被惊得合不拢嘴（这么多年来，Microsoft 第一次让我不愿错过它的任何动态），我很好奇 Microsoft 是如何在短时间内做出如此令人惊叹的功能。</p>
+<p>就是这样，在看到 Microsoft 正在做的 Linux 子系统，以及看到对面苹果那些毫无意义的进步，这让我决定做一次大反水。我并不是讨厌什么，我只是不希望自己使用是一款不值得被我使用的设备。</p>
+<blockquote>
+<p><a href="https://twitter.com/lapcatsoftware/status/792401114897547264">那些站出来抱怨 Apple 现有 Mac 的人不但不是 Mac 黑，反而是 Mac 粉，他们已经在 Mac 上花费了十几年时间和数十万元</a></p>
+</blockquote>
+<p>我用好几个月才说服自己（译注：从 Mac 到 Windows），但在我花几周时间逛了论坛中关于电脑参数和新硬件的帖子后，我就意识到 PC 超前多远：NVIDIA GTX 1080 显卡就像一个性能怪兽，不论是什么游戏或是 VR 之类的，它都可以轻松搞定。</p>
+<p>我意识到自己对 <a href="https://medium.com/charged-tech/apple-just-told-the-world-it-has-no-idea-who-the-mac-is-for-722a2438389b#.qpzcffe9t">Apple在笔记本和台式机方面的平庸</a> 已经厌烦透顶，然后开始考虑再次尝试使用 Windows。</p>
+<p>所以，2017 年 2 月，我开始从零组装一台电脑，我卖掉了自己的 15&quot; MacBook Pro（我现在用一个 12&quot; MacBook 移动办公），并持续投入精力建立一个适合自己需求的桌面新主角。</p>
+<p>我将省去很多细节，如果你对我的作品感兴趣，可以<a href="https://pcpartpicker.com/list/YCbM6X">查看我订购的配件</a>，设备有点变态，但是考虑到我想学习虚拟现实开发，从长远来看这似乎是性能和价格之间最好的平衡。</p>
+<p><img src="https://wolf3c.github.io//post-images/1561819951016.jpg" alt=""></p>
+<p>（Jekyll 和 Gulp 和谐相处）</p>
+<p>如今，我再 Windows 中工作了差不多 6 周了，虽然我希望自己可以讨厌它，但我发现我记忆犹新，虽然它不完美，但它清晰地展示出 Microsoft 绝无仅有的细节，我是按照我再 Mac 中的习惯建立开发环境的，从 Jekyll 到 Gulp 一切都如我所愿，太感谢 Linux 子系统了。</p>
+<p>我一开始比较担心 Microsoft 对高分辨率的支持，毕竟在 Windows 8 和 Windows 10 原有版本中都没有实现，但在新版（Creators' Update）中貌似已经可以毫无压力支持 4K 显示器了。</p>
+<p>还有更重要的？那就是我可以任意玩各种游戏，我可以体验 VR，HTC Vive 是一台不可思议的设备，我已经开始学习 Unity 去创建自己的应用。</p>
+<p>并非所有的经历都是如此浪漫，我忘记了硬件是一回事，而 Windows 的软件非常匮乏（虽然比我记忆中好了很多），这一点很快会被  <a href="https://electron.atom.io/">Electron</a> apps 解决，比如 Slack、<a href="https://nylas.com/">Nylas</a>、 <a href="https://hyper.is/">Hyper</a> 以及 <a href="https://code.visualstudio.com/">Visual Studio Code</a> 都是非常优秀的，他们将在 Windows 世界脱颖而出。</p>
+<p><img src="https://wolf3c.github.io//post-images/1561819964440.jpg" alt=""></p>
+<p>（看似一小步，其实一大步）</p>
+<p>虽然我不愿明说，但 Windows 真的回来了，Microsoft 干的漂亮。Microsoft 正在让 Windows 比 Apple 的 OS X 在各个方面更快、更好。</p>
+<p>还有一些我忘说的事情：Sketch，我经常用它做设计；iMessage，我可以不用不停地拿出手机；……不过离开他们并不难。</p>
+<p>我对 Apple 从内而外看的一清二楚，整个 Apple 都只关心 iOS 和 iPhone（咳咳，忘了 Airport），或许有一天他们会不知道从哪里拿出一个令人惊讶的产品超常发挥，但是这个公司正忙于说服用户他们的重磅产品 iPad Pro 是有利于工作的。</p>
+<p>我计划在未来几周写一些关于 Windows 的文章，包括我如何配置自己的开发环境、我使用的软件，当然也包括不好的方面。老实说，我并没法在工作中放弃 Mac，因为我不确定有一款很好的 Windows 笔记本电脑…但这可能随时改变。</p>
+<p>如果你是一个坐下来等 Apple 可能发布一款让你工作的主力电脑的人，放弃无谓的挣扎吧，看看 Windows 多么棒，并且，现在你就可以用超实惠的价格拿到一个超高性能的电脑去使用。</p>
+<p><img src="https://wolf3c.github.io//post-images/1561819982911.jpg" alt=""></p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[松散组织与自我赋权]]></title>
+        <id>https://wolf3c.github.io//post/song-san-zu-zhi-yu-zi-wo-fu-quan</id>
+        <link href="https://wolf3c.github.io//post/song-san-zu-zhi-yu-zi-wo-fu-quan">
+        </link>
+        <updated>2017-03-20T15:50:06.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-03-20</p>
+<p>author：wolf3c</p>
+<p>字数：2.6K</p>
+</blockquote>
+<hr>
+<blockquote>
+<p>在开始扯淡前，我先说明一下，我所说的松散组织和自我赋权与其他资料中的定义可能会有不同。之所以说「可能「，是因为我也没有去研究其他资料中是否对这些名词有过明确定义，不论怎样，在这里，这两个名词都只是我自己起名、自己定义、自己使用的，既不会受已有资料的影响，也不会影响去其他已有资料。（如果你是一个软件开发人员，大概可以很容易接受我的这种做法，就像 ECMAScript 6 中，在一个函数中用 let 声明一个局部变量从而形成块级作用域，在这里，我也对这个两个名词做了声明。）</p>
+</blockquote>
+<p>我首先需要说明一下什么是松散组织。</p>
+<p>不论是在工作中，还是在生活中，我常常碰到这样一群人，他们是为了完成同一件事情而聚在一起，但是他们之间并不会有十分严密的组织合作机制，完全不同于军队那种令行禁止，反倒像是一群羊，虽然挤在一块，但都是低头各吃各的草，他们没有极强的向心力，也不会有过人的凝聚力，最主要的是，他们中间也没有主心骨，或者说，他们中没有一个能够主事的人。</p>
+<p>总体来说，这就是一个典型的管理类书籍、文章中被改变前的案例。</p>
+<p>很幸运，我常常就是他们中的一员，确切的说，我真的很少碰见管理书籍中描述的团队（或许是因为我没有够到那个级别吧）。</p>
+<p>每当进入这种组织，你就会发现不论是做什么事情，都犹如陷入泥潭的汽车。当你让别人做一个事情时，他们会从每一个文字向你发难，这里的文案不好，你先定一下；这里的流程太复杂了，你用其他方式给我表示一下；这里比较麻烦你再总结提炼一下……而当你认为这个事情应该这么干时，就有人站出来告诉你这个方法多么不靠谱，你确定用户不会那么干吗？你确定用户和你想的一样吗？我感觉用户会……</p>
+<p>如果你以为他们只是阻力，那就大错特错了，当你在一件事情有了小瑕疵的时候，他们就会像气温骤降到零下三十度时的泥潭，死死地顶着你，让你如履针毡。</p>
+<p>但同时，如果碰到一个事情到了他们必须要做的时候，他们又仿佛化身极简主义者。</p>
+<p>在我看到了，很多公司存在这样的松散组织，至于生活中，那更是数不胜数。想想自己每年能参加几次十几人以上的自发活动，想想你们的小学同学会、初中同学会、高中同学会、大学同学会、舍友会，这些有多少年没有过了，或者说有过吗？是不是因为差几小时车程就不了了之了？是不是因为26号还是 27 号就放弃了？是不是因为吃火锅还是粤菜就放弃了？</p>
+<p>所以松散组织到处都是。</p>
+<p>在这种松散组织中呆久了，我总结出了一套自己的不完善的行事方法，我称之为「自我赋权」。</p>
+<p>不过，你也不要以为我这套方法是让人成为「这一群羊」中的头羊，它也不会让人如领袖故事中那样带领「这一群羊」抵御狼群。</p>
+<p>「自我赋权」能让我做到的，就是让事情完成得更好，让自己锻炼得更多、成长得更快。这既是「自我赋权」的好处，也是我在摸索「自我赋权」方法过程中一直保持的心态。</p>
+<p>就像我给这个方法起的名字，在松散组织中，首先，我会认为<strong>自己要为自己所有沾手的事情负责，我有权力让它们以更好的形态进入到下一环</strong>。如果一个东西从别人的手里转到我这里，我会尽力要求得到更高质量的东西，当然，常常不能如愿（但我不会放弃这么做，因为我认为这会影响到那个人，一点一滴地影响着），这个时候我会尽力去获取更多的信息，方便自己做出更好的东西。而如果一个东西从我手里转到下一个环节，往往下一个环节的人会要很多东西（就像我向自己上游要东西时那样），这个时候，我会在职责范围内尽力提供，同时，我会记下来我要向下一个环节提供哪些东西，下次碰到类似工作，我就可以第一时间准备地更全面。</p>
+<p>其次，我总是会<strong>想想组织的最终目标</strong>，就像我就是这个目标的总负责人一样。别人在说这个交互效果怎么做更炫，目前方案多么大街，而我想的是这个小东西对整体目标的影响有多大，而有必要在它身上花费的成本有多少（成本很重要，以后一定要说说这个事情）；当别人在讨论这个事情应该谁来负责的时候，我在想这个事情在整个目标中的意义有多大，谁有能力把这个事情做好，我是不是有能力做出一个更好的东西。</p>
+<p>第三，<strong>敢于为结果担责任</strong>。作为产品经理，我常常会碰到其他人过来找我做决定，有些是功能实现方案，有些是文案，有些是砍掉没人用的东西，甚至会是颜色选什么。有意思的事情是，当我决定 A 方案，就会有人异议，认为 B 更好，那我说「要不听你的，用 B 方案」，他又会说「我不是说要听我的，我只是说一下自己的想法，至于用什么，还是由你来决定」，言外之意是「我不同意你的决定，但我不会自己去决定，因为我不想承担结果，我怕用户反馈不满」。对于这种事情，只要你来一句「出了问题我负责」，他们就没有话说了，如果谁再逼逼，你可以反问一句「你敢为自己的决定负责吗？」（如果你想惹毛他的话，一定要这么干）。现实就是这样，当你敢为一个事情的结果负责的时候，你就对这个事情拥有了决定权。而那些不敢负责的人，只会在别人面前旁敲侧击，无法对事情做出重大影响，更不会左右事态发展，他们害怕结果，更害怕面对自己犯错。</p>
+<p>最后，<strong>永远对自己负责</strong>。我希望把每个事情做得更好，我希望自己可以在各个方面提升自己，我在面对每一件事情的时候都会考虑怎么做才可以产出更好的东西，在做事情的过程中，我总是想着如何更好地实现，在每件事情结束后，我总是考虑是不是可以总结出点什么，是不是对于发现的问题找到更好地可能性。面对任何事情，我都尽力把自己的想法付诸实践去验证试错，尝试找到更好的方案。或许我在一个事情中做错了很多，也失败了很多，但是，我比以前的我更好。</p>
+<p>当然，如果你给自己赋权的久了，不但你会变得有点相信自己，而且和你共事的人也可能会自觉的达成这种默契（也可能你会被集体驱逐，所以，千万不要在所有事情上让所有人讨厌，你会被干死的）。不过，这并不是「自我赋权」的目标，顶多算是副作用。</p>
+<p>「自我赋权」不是真正的权力，我也不想让我拥有权力，因为那东西在我眼里一文不值，反而有点可憎。如果我讨厌的人在我身上行使他那所谓的权力（有意思的是，有权力的人往往都是令人讨厌。），要么我离他而去，要么我迫不得已，要么我让他离我而去。在现代社会，自由人在合法组织中，第一种方案很容易实现。</p>
+<p>所以，在松散组织中，在「自我赋权」的同时，更应该谦虚努力，而不是成名于权力的白日梦中，因为，即使你努力了，你们组织的目标也不一定达成（「自我赋权」不能保证这个），而当事情失败时，你可能收获的更少，而且这个组织也可能会因此消失。</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[厕所——最好的阅读空间]]></title>
+        <id>https://wolf3c.github.io//post/ce-suo-zui-hao-de-yue-du-kong-jian</id>
+        <link href="https://wolf3c.github.io//post/ce-suo-zui-hao-de-yue-du-kong-jian">
+        </link>
+        <updated>2017-03-16T15:21:22.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-03-16</p>
+<p>author：wolf3c</p>
+<p>字数：2K</p>
+</blockquote>
+<hr>
+<h2 id="读书越来越难">读书越来越难</h2>
+<p>手机普及以后，大家都开始碎片化阅读，走路、坐车、排队随时随地读新闻、看公众号，但我更认可沉下心做深入阅读，不过这已经变得越来越难。</p>
+<p>我从没有放弃读书，并一直徘徊在发现深入阅读阻力和找到解决办法之间。关于深入阅读的阻力，我总结了几点：</p>
+<ol>
+<li>打扰太多。我们在读书的时候，打扰主要会来自两个地方：
+<ul>
+<li>电子产品的消息。QQ、微信、今日头条的消息满天飞，手机隔三差五呼唤你。</li>
+<li>周围环境。旁边有人可能问你问题，或是聊某个热播剧。</li>
+</ul>
+</li>
+<li>诱惑太多。这个时代，每个人脑子里的东西太多，电视剧更新、国内国外新闻、明星轶事、网红绯闻、同事家事、父母逼婚、朋友结婚、节日出游、假期充电……你的脑子一刻也不停地在各种事情间来回切换，当拿起书的时候，一会想着看看新电视剧，一会又想问问朋友五·一 一起旅游，一会又想怎么处理父母的要求，眼前的书却早已成了摆设。</li>
+<li>选择太多。在我读书的时，常常看几分钟，突然想起应该先读另一本书，或者感觉另一本书的名字和主题很不错，就想改变书。比如我前几天读《反脆弱》，刚开始读，我就想先去看完《黑天鹅》和《随机致富的傻瓜》。</li>
+<li>动力不足。读书本来就不是一件轻松的事情（我说的书排除广为流传的武侠、玄幻、言情、种田文），心理上会有一定排斥，拿起书一开始就想中止。</li>
+</ol>
+<p>以前在学校中，除了学习专业课，我的自己的深入阅读量其实少得可怜。直到我无意间养成了每天读书的习惯。</p>
+<h2 id="意料之外的读书宝地">意料之外的读书宝地</h2>
+<p>意外，都怪意外，感谢意外。</p>
+<p>和大多数人一样，以前，我蹲坑都是带着手机或平板，一副电不用完不出来的架势。</p>
+<p>有一次早上，我躺在床上把手机、平板的电都用完了，所以，我只能选择带本书去蹲坑，幸运的是，我拿的书是《失控》，而且，我用的是坐便器而非蹲便器（这点很重要）。</p>
+<p>我在坐便器上读起了这本半年前买的大部头，从没想过这书如此有意思……不错……好想法……角度刁钻……真的啊……</p>
+<p>好吧，等我意识到自己腿麻时，已经过了半小时。</p>
+<p>这种沉浸式的阅读体验之前好久没有体验到了。从此，我每天早上都会带着《失控》去厕所，后来变成了《联盟》、《暗时间》、《精进》……</p>
+<p>今年，我惊讶地发现，自己每天最好的阅读时间多半是在厕所的二三十分钟，并且，因为这二三十分钟，我去年共读了三十多本书（虽然这个数字包括非厕所时间的阅读，但厕所贡献突出）。</p>
+<p>为了让自己不在厕所阅读时也有那么好的阅读效果，找到提高自己读书效果办法，我细细分析了一下厕所为什么有这样的作用：</p>
+<ol>
+<li>没有打扰。当我带的是书而不是手机，我就不会受到消息打扰，更不会有其他人站在我旁边唠叨或问我问题。</li>
+<li>不容易胡思乱想。因为当我坐在坐便器上，手里抱一本书时，我的姿势很难变化，也就是说，我眼前就只能是这本书，不关我想到哪儿，我眼前的书一直会提醒我自己要干什么。</li>
+<li>约束力够强。不论我是想和朋友讨论旅游问题，还是想要换本书，我都没办法第一时间处理，我只能等自己出了厕所再去做，而现在，我能做的只有读这本书。</li>
+<li>吸引力足够。这主要是因为在坐便器上，如果只有一本书，那我能做的事情就是发呆或看书，相比于以那种姿势发呆，看书更有意思，那还能怎么办？</li>
+</ol>
+<h2 id="打造你的阅读空间">打造你的阅读空间</h2>
+<p>找到「厕所的优势」后，我总结了一套打造自己「阅读空间」的方法：</p>
+<ol>
+<li>关闭打扰。
+<ul>
+<li>关闭所有的消息提醒，可以选择静音、断网、、关机、手机放到其他屋子。</li>
+<li>把自己和他人分开，如果你不喜欢厕所，可以考虑把自己关进小黑屋，或者找一个陌生的环境（比如咖啡馆、图书馆、食堂、飞机上、火车上）。</li>
+</ul>
+</li>
+<li>远离诱惑、选择单一。
+<ul>
+<li>让自己眼前能看到的东西越少越好，免得由一个小东西越想越远。</li>
+<li>选择一本好书。</li>
+<li>只要不是读不下去的书，坚持读下去，不要打一榔头西一棒槌，最好让你的 kindle、平板、手机、电脑、其他图书杂志远离自己。</li>
+</ul>
+</li>
+<li>管理自己的思绪。
+<ul>
+<li>在自己旁边放一张纸和一支笔，不论想到什么要做的事情，都记下来，然后回到阅读中。</li>
+<li>读书的时候看到重要的句子，可以画出来，有了自己的想法、疑问，可以在空白处写出来。</li>
+</ul>
+</li>
+<li>启动读书。
+<ul>
+<li>拿出书来，不要给自己远大目标，就告诉自己，先读 10 分钟就好。</li>
+<li>书不是一天读完的，如果过了 10 分钟，不想看的时候，那就开心地停下来就好，想看的时候继续。</li>
+</ul>
+</li>
+</ol>
+<p>如果你也选择厕所作为自己的阅读空间，以上条件基本已经符合，那么，我可以再告诉你一些细节：</p>
+<ol>
+<li>选择正确的时间段。一定不要选择那些其他人要用厕所的时间，那样你会不好意思待在里面不出来。建议早上比其他人早起一点（或晚起一点）。</li>
+<li>养成每天固定时间上厕所的好习惯（即使不如厕，也进去看看书）。这样，其他人会知道你的这个习惯，然后，这个时间段会慢慢变成你厕所专用时间。</li>
+<li>一定要是坐便器。蹲 20 分钟不是一个好的选择，蹲着读书就更难了。</li>
+<li>买一个好的坐便器座垫，你可以安心地一屁股坐上去，这会让你更喜欢厕所。</li>
+<li>好光源。有些人家的洗手间灯泡真不适合用来阅读。</li>
+<li>洗手间不能太冷，不能太热，夏天和冬天就不会受罪。</li>
+<li>让厕所保持空气清新。</li>
+<li>提前选好要读的书，保证在进去的时候可以第一时间带上。千万不要在「急」的时候才考虑看什么书。</li>
+<li>除了带一本好书，再带一支中性笔。</li>
+<li>带上纸。</li>
+</ol>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[静态思考和动态思考(1)]]></title>
+        <id>https://wolf3c.github.io//post/jing-tai-si-kao-he-dong-tai-si-kao-1</id>
+        <link href="https://wolf3c.github.io//post/jing-tai-si-kao-he-dong-tai-si-kao-1">
+        </link>
+        <updated>2017-03-12T15:45:43.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-03-12</p>
+<p>author：wolf3c</p>
+<p>字数：3.5K</p>
+</blockquote>
+<hr>
+<h2 id="静态系统与动态系统">静态系统与动态系统</h2>
+<p>我在生活中发现一个有意思的现象，大多数人在大多数时候思考问题的方式都是「基于自己本身的知识和想法，站在自己的角度，以一种机械的方式思考问题。」这么说可能不直观，举个例子。</p>
+<p>我住在一个新开发的小区，以前，周围的道路管理很宽松，加上各种公共交通不到位，出现了 1）每天这里都有很多黑车拉活；2）道路两边全是小吃摊，卫生环境差；3）道路也被停在两边的车占去了大半，行人、自行车在这条道中很难通行。</p>
+<p>后来有人举报此事，政府高官过来视察后下达命令整治，几周时间后，城管赶走了所有的小吃摊，本来的四车道中间留出一个两车道，然后两侧加装铁护栏。我猜政府人员是想，这样做，黑车没办法在路边停车等人，私家车也没办法在两车道中停车了，而两侧留出的单车道开进去怕挪车太难也不敢进去，并且，两边的单车道可以给非机动车留出路来。</p>
+<p>事与愿违，自从加了铁护栏：</p>
+<ol>
+<li>黑车要么在小区门口等人，要么直接占中间双车道的一边等人；</li>
+<li>私家车开始在各种犄角旮旯停车，在人行道停车，甚至是把阻挡汽车驶入的石块等移开后停车；</li>
+<li>一些私家车主直接把铁护栏往道路中间挪挪，给边上单行道留出更大空间，让两辆轿车可以挤过去，这样他们就又可以在这种地方停车了。</li>
+<li>部分大巴车主，由于是有组织的，大家一起把车开进单车道，也不怕取车的时候不好去，大家到时候一起开出来就好了，护栏做了一个天然的停车场。</li>
+<li>一些黑车为了速度，在单行道中逆行。</li>
+<li>更主要的问题是，自从变成双车道后，这条路就没顺畅过，即使是三五辆车相向而行，可能得停在那里让车。</li>
+<li>上班高峰期，那条道可以堵两公里，而且，一旦进入，连掉头后悔的机会都没有。</li>
+</ol>
+<p>政府工作人员从自己的角度出发，认为加了防护栏，那些人已有的做法全部被有效地封堵住了，那他们自然没法再「嚣张」，但政府人员忘记了对方都是一个个活生生的人，他们有自己的想法和创造力，他们可不会心甘情愿地沿着政府人员的思路做事情，他们会基于自己的目的去重新考虑解决办法。</p>
+<p>在这件事情中，可以看到，政府、私家车、黑车、居民等不同角色的人组成了一个系统，而政府工作人员就是需要找到一个手段对这个系统做出调整，且让这个系统以自己希望的形式运行的角色。显然，他们做的并不怎么样。</p>
+<p>在我看来，这世界上的系统可以大致分为两种：</p>
+<ol>
+<li>各个部分的应激性都是可知的、单一的，我们暂且称之为「静态系统」，比如机械系统，我们压下跷跷板的一头，另一头一定升高；扔出去东西后，方向和位置都可以直观预测。</li>
+<li>相反，如果系统中的组成部分都有自己的意识，他们不再是单一的、可知的，他们会根据自己的每时每刻实际情况做出不同的反应，这个我称之为「动态系统」。</li>
+</ol>
+<p>在刚才的例子中，政府人员面对的是一个动态系统，却用静态地去推导系统的发展结果，他们以为每个人都是死板地、如果跷跷板那样的机械体，只要你堵住了，就不会发生了。</p>
+<h2 id="静态思考与动态思考">静态思考与动态思考</h2>
+<p>如上所说，系统被分为静态和动态，静态系统充斥在我们周围，我们自己生活中面对的绝大多数琐事都是静态系统，我们物理、数学、化学、医学的知识也是解决静态系统的办法。而动态系统则在更大尺度的事情中出现，比如经济学、社会学、组织学等，这些并不被大多数人熟知，也就导致大多数人的思考方式习惯了静态系统。</p>
+<p>面对静态系统，静态思考足够解决所有问题，但是面对动态系统，静态思考的结果往往谬误百出。这主要是因为动态系统中每个个体的发展方向不再像静态系统中好预测，他们（动态系统的个体）在决策方向时有自己独立的依据和逻辑，并且他们的决策相互影响，环环相扣。拿上面例子来说：</p>
+<ol>
+<li>黑车司机见到铁防护栏，他可能先想到如何每天可以赚几百块钱，然后想到几个方案，择优使用，先停在路中间看看情况，如果不行就再想办法。</li>
+<li>私家车主可能在车没地时，看到一个空挡，就决定停在那里，看到别人那么干了，也就照着做了，他的决策很随机。</li>
+<li>居民每天早上去上班，没有车，看到黑车在大马路中间停着，二话不说就钻进车里。</li>
+<li>黑车司机发现停在这个路段中间，生意很好，以后就这么干。</li>
+<li>开车人发现路中间堵死了，但是两边空空如野，二话不说，先开进去往前跑一段再说。</li>
+<li>黑车司机发现每天从道路两边的单行道中逆行不但畅行无阻，而且没人管，比以前开车还爽，那就变成了一条日常线路。</li>
+<li>居民发现开车太堵，还有限号，坐黑车速度奇快、价格合理，所以蜂拥而去。</li>
+<li>黑车司机发现生意态度，呼朋引伴一起赚钱。</li>
+<li>公共交通发现生意太少、道路太堵（他们不敢逆行），所以不愿对这片地方增加公交力量。</li>
+<li>居民每次坐公交都需要等很长时间，并且经常在路上堵死，所以有了经验，改坐黑车。</li>
+<li>公交发现这里没了生意，每天出车就是堵两小时，不划算，所以就改了线路。</li>
+<li>黑车势力壮大，每天停在路中间等人，阻碍了其他车辆通行，那段道路变得拥挤不堪。</li>
+<li>黑车逆行越来越多，其他司机开始跟风学习，马路上没了交规，大家相互抢道，拥堵更加严重。</li>
+<li>……</li>
+</ol>
+<p>对于动态系统，我认为需要有「动态思考」来应对，什么是动态思考？根据对于动态系统的分析，我总结了一下「动态思考」：</p>
+<ol>
+<li>多线程。动态系统中每个个体都有自己发展线路，他们是同时向前推进的。</li>
+<li>利益相关，必有反应。动态系统中如果某事情的发生触动某个体的利益，他一定会做出自己的反应，而这个反应则会让自己的发展线路发生变动（即自己的线程做出改动）。这种变动如果触及了其他个体，那这些个体也会因此做出变动。如此往复。</li>
+</ol>
+<p>基于以上两条，我们可以试着使用动态思考分析一些问题。</p>
+<h2 id="动态思考">动态思考</h2>
+<p>还是拿交通方面的东西举例，北京地铁昌平线 2010 年 12 月 30 日开通，据说是为了带动沿线经济发展，2011 年运客量为2704 万人次，到了2014年已经达到 5733 万人次，现在始发站西二旗站每天排队上车的人常常需要等两趟车，这充分说明这个动态系统发展超出了规划者静态思考的结果。我们可以模拟用动态思考的方式重新思考一下。</p>
+<pre><code class="language-mermaid">  sequenceDiagram
+  	participant 地铁
+  	participant 城内白领
+  	participant 地产开发商
+  	participant 购房人
+  	participant 农民工
+  	participant 城内企业
+  	participant 商家
+  	
+  	
+  	note over 地铁: 地铁开通
+  	地铁-&gt;&gt;地产开发商: 
+  	note over 地产开发商: 地铁沿线建楼
+  	地产开发商-&gt;&gt;农民工: 
+  	note over 农民工: 从外地来到昌平
+  	地产开发商-&gt;&gt;购房人: 
+  	note over 购房人: 乘着房价没起来投资
+  	地产开发商-&gt;&gt;城内白领: 
+    地铁-&gt;&gt;城内白领: 
+    note over 城内白领: 地铁沿线租房
+    地产开发商-&gt;&gt;商家: 
+    农民工-&gt;&gt;商家: 
+    城内白领-&gt;&gt;商家: 
+    note over 商家: 昌平人多竞争少成本低，开商店
+    农民工-&gt;&gt;农民工: 
+    城内白领-&gt;&gt;农民工: 
+    note over 农民工: 人多，摆地摊、买小吃
+    城内白领-&gt;&gt;城内企业: 
+    note over 城内企业: 既然从昌平线来的人这么多，自然在西二旗等地容易找到人才，也不会太远离城郊
+    城内企业-&gt;&gt;城内白领: 
+    note over 城内白领: 那边企业多，搬到昌平租房
+    购房人-&gt;&gt;地产开发商: 
+    note over 地产开发商: 买房的人多了，升高房价
+    城内白领-&gt;&gt;购房人: 
+    地产开发商-&gt;&gt;购房人: 
+    note over 购房人: 房价高了，住户多了，涨房租
+    城内白领-&gt;&gt;地铁: 
+    note over 地铁: 旅客太多了，增加客运能力
+    城内白领-&gt;&gt;地产开发商: 
+    地铁-&gt;&gt;地产开发商: 
+    农民工-&gt;&gt;地产开发商: 
+    商家-&gt;&gt;地产开发商: 
+    note over 地产开发商: 人多、交通改善、商家多，所以要开发更多楼盘
+    note over 地铁,商家: 这只是开始，已经相当乱了……
+</code></pre>
+<p>关于动态思考，在美剧《硅谷》中有一个生动的例子，投资人 Peter Gregory 由汉堡上芝麻发现了一笔期货投资机会，具体可以看第一季 第 3 集 23:50~25:00 的内容：</p>
+<p><embed src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=e00172he4zx&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></p>
+<h2 id="结果的不确定性">结果的不确定性</h2>
+<p>动态思考可不是一把万能钥匙，甚至不算是一把好钥匙。</p>
+<p>如前面所言，动态系统中个体有不确定性，这导致动态思考的结果也是不确定的，你所做出来的预测可能只是因为中间一小步走样，就因为各个个体之间相互影响导致结果谬之千里（蝴蝶效应）。</p>
+<p>面对这种问题，目前常见的应对办法是：不去依赖预测，而是<strong>摸着石头过河</strong>。这个在互联网行业很常见，大家经常 AB 测试、试错、做 MVP。但是这个方法有一定限制。</p>
+<p>摸着石头过河的做法必须要求你<strong>要改变的部分是容易改变的</strong>，而对于城市交通使用这种方法就有点头疼了，很多城市的交通老是拆了建，就是因为政府做了建好的道路引发动态系统一系列难以预测的变化，导致政府不得不基于新的情况做改动。</p>
+<p>摸着石头过河的方法是基于现状的思考，但不是未来，所以它适合可以快速响应的事情，并且<strong>要求事情能持续快速响应</strong>（也就是所谓的快速迭代）。你可以在今天发现需求，一个月后提供的方案很可能就能拉到一批目标用户，但是如果你今天发现这条路人有点多，建造道路用了三年，你建好那天，很可能就会发现路还是不够宽。</p>
+<p>至于那些无法快速响应、无法轻松改变的事情，如何应对动态思考结果的不确定性，目前没想到好的方案。</p>
+<h2 id="这只是开始">这只是开始</h2>
+<p>就像前面演示的，动态思考是多线程的、相互影响的，对于人来说，思考这类问题很费脑筋，也很容易出错。</p>
+<p>即使是计算机，在这方面也有点拙荆见肘，动态思考确实有点并行程序的意思，但各个并行之间相互影响，常见的编程语言实现这一功能的并不多，唯有一些大型的系统可能会有动态思考能力（或叫动态模拟），大概气象预测机构使用的系统算是这方面的翘楚吧（我没有详细了解过）。</p>
+<p>目前来看，个人想要靠计算机实现动态思考能力，并不是一个明智的选择，所以，如果需要，还是得靠自己。</p>
+<p>至于动态思考的好处和必要性，不必多言，如果你只是每天吃饭睡觉打豆豆，这没必要费这脑子。</p>
+<blockquote>
+<p>以上对于动态思考的想法，我自己现在还是模模糊糊，写出来作为自己思考的记录，持续思考。</p>
+<p>对于动态系统、静态系统、动态思考、静态思考的名字都是我自己起的，所以，不要去联想你从其他地方获取到的相关知识，免得跑偏。</p>
+</blockquote>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从别人那里得到更有价值的东西]]></title>
+        <id>https://wolf3c.github.io//post/cong-bie-ren-na-li-de-dao-geng-you-jie-zhi-de-dong-xi</id>
+        <link href="https://wolf3c.github.io//post/cong-bie-ren-na-li-de-dao-geng-you-jie-zhi-de-dong-xi">
+        </link>
+        <updated>2017-01-24T15:39:52.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>time：2017-01-24</p>
+<p>author：wolf3c</p>
+<p>字数：1.3K</p>
+</blockquote>
+<hr>
+<ol>
+<li></li>
+</ol>
+<p>在上中学的时候，有人问我题，刚开始，我会很热心地讲一大堆解题思路、知识点应用方式等，但就是不说答案是什么。反倒是问我的人自己受不了了，直接打断我的长篇大论，向我要答案。</p>
+<p>这样几次后，有人再问我题的时候，如果对方特别要求，我一般都会直接给他们答案，然后他们就心满意足地继续刻苦做题了。</p>
+<p>在我看来，我可以把自己认为最核心的东西说给你，但是如果你不喜欢，我也没必要热脸贴个冷屁股，你开心就好。</p>
+<ol start="2">
+<li></li>
+</ol>
+<p>工作两年后，我经历的第一次离职，所以要做离职交接，我自己在工作中积累了大量的材料和知识，并且， 我自认为有很多没有显化的产品、项目相关经验，所以我提前一个月提交了离职申请，就是希望早日定下来交接人，我好和他共同工作一段时间，逐步把一些东西交过去，可以在不影响工作进展的情况下做好交接，最好可以把自己的东西也教出去，尤其是我认为很珍贵的工作心得。甚至我希望有一次培训的机会把自己的知识输出给大家，虽然没有什么惊世骇俗的贵重东西，但我自信可以给大家一些新思路。</p>
+<p>但结果是交接人直到我离开前几天才定下来，而公司又规定只需要交接工作涉及到的文档（也就是所谓的文档、原型），最后我只好把产品历史、产品文档、产品计划、项目干系人（以及每个人的描述说明）、项目背景、项目现状、项目规划等整理成一个个邮件发出来。而很多资料都随着电脑清盘烟消云散。</p>
+<ol start="3">
+<li></li>
+</ol>
+<p>接着上面说的离职，领导找我谈话，问我对公司有什么看法，作为一个不揣冒昧的人，我就真的说了几条，本来我有很多要说的，但是被领导打断了剩下的时间都是听领导告诉我「你的想法有多无知，听我教教你」，而我心里想的是：「你说的我都懂，但我不认同，你如果认为你把我说服了可以让公司本身很牛逼，让我看到那些问题都被大家接受，那我无话可说。」</p>
+<ol start="4">
+<li></li>
+</ol>
+<p>不论是生活还是工作中，我都遇到这样一种人，他再和我讨论一个问题时（暂不说他问题描述是不是周密），在你刚说了两句自己的想法或者反问几句后，他就开始和你争吵，开始维护自己的想法。而面对这样的人，我一般是干自己的事情，让他说去吧。既然你不愿意听我的，那我即使看到你错了、即使知道更好的想法，我也是装在心里。因为我知道，他根本就不会听的，何必浪费口水。</p>
+<p>今天，举着几个例子，主要是我发现其实很多人都不会和人沟通，不会听取别人最有价值的东西。</p>
+<p>在我看来，相比答案，解题思路和对知识点的理解更有价值；相比一些资料，员工的经验和知识更有价值；相比谁更无知，找到公司问题、解决公司问题更有价值；相比是否有理，找到更有价值的思路和想法更有价值。如果你也这么认为，或许可以考虑一下我的做法：</p>
+<p>首先要学着去获取别人的想法，不要急着打断别人的说话，更应该给对方积极反馈（eg：不时「嗯」几声，两眼放光地点点头），让他表述更多更全面的想法（eg：可以通过提问的方式获取更多），沟通不是辩论，他说的多了你也不会输。</p>
+<p>然后试着站在对方的角度去理解他的想法，去分析对方的想法。</p>
+<p>最后，和对方讨论各种想法的优劣（如果你遇到一个自大狂，没法讨论，那就自己去比较各种想法），甚至去实践一番看看效果，你可以获得更多有价值的东西。</p>
+<p>生活中能够冷静沟通的人并不多，能给我们大师级建议的也不会很多，但这并不影响我们从他们身上获得有价值的东西，可能是一个角度特别的想法、一个生活小窍门、一个从没有发现的网站、一段有趣的故事……重要的一点是，我们要会获得那些更有价值的东西。</p>
+<p>(EOF)</p>
 <hr>
 <p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
 <p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>

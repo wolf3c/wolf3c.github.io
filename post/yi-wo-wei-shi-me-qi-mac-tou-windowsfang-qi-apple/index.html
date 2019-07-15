@@ -1,98 +1,115 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>[译]我为什么弃 Mac 投 Windows：放弃 Apple | Gridea</title>
-<link rel="shortcut icon" href="/Users/wolf3c/Documents/gridea/output/favicon.ico?v=1561822616174">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="/Users/wolf3c/Documents/gridea/output/styles/main.css">
+    
+<meta charset="utf-8" >
 
+<title>[译]我为什么弃 Mac 投 Windows：放弃 Apple | wolf3c&#39;s blog</title>
+<meta name="description" content="wolf3c|产品经理|Twitter@wolf3c_thinking">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://wolf3c.github.io//favicon.ico?v=1563173260013">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://wolf3c.github.io//styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="/Users/wolf3c/Documents/gridea/output">
-  <img class="avatar" src="/Users/wolf3c/Documents/gridea/output/images/avatar.png?v=1561822616174" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output//index.html" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/archives/index.html" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/tags/index.html" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/post/about/index.html" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://wolf3c.github.io/">
+        <img class="avatar" src="https://wolf3c.github.io//images/avatar.png?v=1563173260013" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://wolf3c.github.io/">
+        <h1 class="site-title">wolf3c&#39;s blog</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
 
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
 
+
+      <div class="content-container">
         <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              [译]我为什么弃 Mac 投 Windows：放弃 Apple
-            </h2>
-            <div class="post-info">
-              <time class="post-time">
-                · 2017-03-24 ·
-              </time>
-              
-                <a href="/Users/wolf3c/Documents/gridea/output/tag/translation/index.html" class="post-tag">
-                  # 翻译
-                </a>
-              
-                <a href="/Users/wolf3c/Documents/gridea/output/tag/opinion/index.html" class="post-tag">
-                  # 观点
-                </a>
-              
-            </div>
+          
+          <h2 class="post-title">[译]我为什么弃 Mac 投 Windows：放弃 Apple</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2017-03-24</span>
             
-            <div class="post-content">
-              <blockquote>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://wolf3c.github.io//tag/translation">
+                    翻译
+                    
+                      ，
+                    
+                  </a>
+                
+                  <a href="https://wolf3c.github.io//tag/opinion">
+                    观点
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <blockquote>
 <p>time：2017-03-24</p>
 <p>翻译：wolf3c</p>
 <p>翻译字数：2.6K</p>
@@ -116,7 +133,7 @@
 <p>但是，当我兴冲冲地加入 Apple 世界，这家公司的重心发生了变化。Mac 不再重要，同时 iPhone、iPad、以及后来的 iPad Pro 成为了 Apple 的重心，信号很明显：为什么你非要用电脑来做一个手机或平板就可以搞定的事情呢？</p>
 <p>结果就是 Apple 不在关注 Mac，硬件四年都没有得到一点儿更新。还有 OS X，以前还能是不是更新一些有趣的新功能，现在只能拿到一些 iOS 的边角料，如果你不信，看一下你 Mac 中的 iMessage，iOS 的旗舰功能——贴纸在 Mac 中毫无踪迹。</p>
 <p>这点事无处不在，比如 Airdrop——Apple 非常受欢迎的功能，轻松在电脑和手机间传递文件的体验让我感受到了什么叫「浸入式工作」，要知道，每次传递文件耗费了我 30% 的时间，而其他时间我都在连接设备。有了 Airdrop 后，你就可以在一个设备上工作，无缝地移动到另一个设备上。很想知道用这个功能是怎样的感觉。</p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561819867770.png" alt="Windows2Mac_twitter_message"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561819867770.png" alt="Windows2Mac_twitter_message"></p>
 <p>在此期间，Microsoft 舔好了 Windows 8 的伤口，找到了一个激情昂扬的 CEO——Satya Nadella，然后在 Windows 10 中做了很多非常棒的东西——它开始倾听并实现用户需要的功能了。</p>
 <p>我一直无视 Windows 世界，直到去年底，Microsoft 在 Windows 中推出了 Linux 子系统（简单说，就是一种可以在 Windows 中使用 Linux 终端的方式），这让我意识到在 Windows 开发将变得更加友好，这足以让我回心转意。它是一个游戏的改革者：</p>
 <blockquote>
@@ -133,51 +150,104 @@
 <p>我意识到自己对 <a href="https://medium.com/charged-tech/apple-just-told-the-world-it-has-no-idea-who-the-mac-is-for-722a2438389b#.qpzcffe9t">Apple在笔记本和台式机方面的平庸</a> 已经厌烦透顶，然后开始考虑再次尝试使用 Windows。</p>
 <p>所以，2017 年 2 月，我开始从零组装一台电脑，我卖掉了自己的 15&quot; MacBook Pro（我现在用一个 12&quot; MacBook 移动办公），并持续投入精力建立一个适合自己需求的桌面新主角。</p>
 <p>我将省去很多细节，如果你对我的作品感兴趣，可以<a href="https://pcpartpicker.com/list/YCbM6X">查看我订购的配件</a>，设备有点变态，但是考虑到我想学习虚拟现实开发，从长远来看这似乎是性能和价格之间最好的平衡。</p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561819951016.jpg" alt=""></p>
+<p><img src="https://wolf3c.github.io//post-images/1561819951016.jpg" alt=""></p>
 <p>（Jekyll 和 Gulp 和谐相处）</p>
 <p>如今，我再 Windows 中工作了差不多 6 周了，虽然我希望自己可以讨厌它，但我发现我记忆犹新，虽然它不完美，但它清晰地展示出 Microsoft 绝无仅有的细节，我是按照我再 Mac 中的习惯建立开发环境的，从 Jekyll 到 Gulp 一切都如我所愿，太感谢 Linux 子系统了。</p>
 <p>我一开始比较担心 Microsoft 对高分辨率的支持，毕竟在 Windows 8 和 Windows 10 原有版本中都没有实现，但在新版（Creators' Update）中貌似已经可以毫无压力支持 4K 显示器了。</p>
 <p>还有更重要的？那就是我可以任意玩各种游戏，我可以体验 VR，HTC Vive 是一台不可思议的设备，我已经开始学习 Unity 去创建自己的应用。</p>
 <p>并非所有的经历都是如此浪漫，我忘记了硬件是一回事，而 Windows 的软件非常匮乏（虽然比我记忆中好了很多），这一点很快会被  <a href="https://electron.atom.io/">Electron</a> apps 解决，比如 Slack、<a href="https://nylas.com/">Nylas</a>、 <a href="https://hyper.is/">Hyper</a> 以及 <a href="https://code.visualstudio.com/">Visual Studio Code</a> 都是非常优秀的，他们将在 Windows 世界脱颖而出。</p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561819964440.jpg" alt=""></p>
+<p><img src="https://wolf3c.github.io//post-images/1561819964440.jpg" alt=""></p>
 <p>（看似一小步，其实一大步）</p>
 <p>虽然我不愿明说，但 Windows 真的回来了，Microsoft 干的漂亮。Microsoft 正在让 Windows 比 Apple 的 OS X 在各个方面更快、更好。</p>
 <p>还有一些我忘说的事情：Sketch，我经常用它做设计；iMessage，我可以不用不停地拿出手机；……不过离开他们并不难。</p>
 <p>我对 Apple 从内而外看的一清二楚，整个 Apple 都只关心 iOS 和 iPhone（咳咳，忘了 Airport），或许有一天他们会不知道从哪里拿出一个令人惊讶的产品超常发挥，但是这个公司正忙于说服用户他们的重磅产品 iPad Pro 是有利于工作的。</p>
 <p>我计划在未来几周写一些关于 Windows 的文章，包括我如何配置自己的开发环境、我使用的软件，当然也包括不好的方面。老实说，我并没法在工作中放弃 Mac，因为我不确定有一款很好的 Windows 笔记本电脑…但这可能随时改变。</p>
 <p>如果你是一个坐下来等 Apple 可能发布一款让你工作的主力电脑的人，放弃无谓的挣扎吧，看看 Windows 多么棒，并且，现在你就可以用超实惠的价格拿到一个超高性能的电脑去使用。</p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561819982911.jpg" alt=""></p>
+<p><img src="https://wolf3c.github.io//post-images/1561819982911.jpg" alt=""></p>
 <hr>
 <p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
 <p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
 
-            </div>
-          </article>
+          </div>
         </div>
 
         
           <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="/Users/wolf3c/Documents/gridea/output/post/ce-suo-zui-hao-de-yue-du-kong-jian/index.html">
+            <a class="purple-link" href="https://wolf3c.github.io//post/song-san-zu-zhi-yu-zi-wo-fu-quan">
               <h3 class="post-title">
-                厕所——最好的阅读空间
+                下一篇：松散组织与自我赋权
               </h3>
             </a>
           </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
         
 
         
+      
 
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
-  <a class="rss" href="/Users/wolf3c/Documents/gridea/output/atom.xml" target="_blank">RSS</a>
+      <div class="site-footer">
+  <div class="slogan">wolf3c|产品经理|Twitter@wolf3c_thinking</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://wolf3c.github.io//atom.xml" target="_blank">RSS</a>
 </div>
 
-<script>
-  hljs.initHighlightingOnLoad()
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
-      </div>
-    </div>
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '70978cecda92809a8738',
+        clientSecret: 'fcb8159e67874dea83c8c3ae3a1431515d169c6d',
+        repo: 'wolf3c.github.io',
+        owner: 'wolf3c',
+        admin: ['wolf3c'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>

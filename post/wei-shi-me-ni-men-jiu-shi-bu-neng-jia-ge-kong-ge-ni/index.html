@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>为什么你们就是不能加个空格呢？ | wolf3c&#39;s blog</title>
+<meta name="description" content="wolf3c|产品经理|Twitter@wolf3c_thinking">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://wolf3c.github.io//favicon.ico?v=1563173260013">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://wolf3c.github.io//styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://wolf3c.github.io/">
+        <img class="avatar" src="https://wolf3c.github.io//images/avatar.png?v=1563173260013" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://wolf3c.github.io/">
+        <h1 class="site-title">wolf3c&#39;s blog</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">为什么你们就是不能加个空格呢？</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2016-12-21</span>
+            
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://wolf3c.github.io//tag/app">
+                    app
+                    
+                      ，
+                    
+                  </a>
+                
+                  <a href="https://wolf3c.github.io//tag/opinion">
+                    观点
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <blockquote>
+<p>time：2016-12-21</p>
+<p>author：wolf3c</p>
+<p>字数：700</p>
+</blockquote>
+<hr>
+<p>今天要说一件小事—— 一个「空白」的事。</p>
+<p>起因是我前些日子发现了一个 Chrome 插件，它的名字非常独特，叫「为什么你们就是不能加个空格呢？」，没错，这是它的名字，而它做的事情与它那满腹怨气的名字配合默契——自动在网页中所有的中文字和半形的英文、数字、符号之间插入<strong>空白</strong>。</p>
+<p>它就这么点儿用处，但这个小插件在 Chrome 网上应用店中收到了 200 多人的五星好评。</p>
+<p>当你打开「为什么你们就是不能加个空格呢？」后，它会默默让你的页面变成有「空白」的排版效果，你可以选择让所有网页自动加「空白」或在特定网页加「空白」。</p>
+<h3 id="什么是空白">什么是「空白」</h3>
+<p>事实上，很多中文排版规范都明确要求这个小小的「空白」，例如：<a href="https://www.w3.org/TR/clreq/">W3C 中文排版需求</a> 、<a href="https://github.com/sparanoid/chinese-copywriting-guidelines">中文文案排版指北</a> 、<a href="https://open.coding.net/copywriting.html#-2">云端软件服务平台 CODING 的文案排版规范</a>。</p>
+<p>作为网页排版的官方规范， <a href="https://www.w3.org/TR/clreq/">W3C 中文排版需求</a> 提到：</p>
+<blockquote>
+<p>橫排時，西文使用比例字體；阿拉伯數字則常用比例字體或等寬字體。原則上，漢字與西文字母、數字間使用四分之一個漢字寬的字距或空白。但西文出現在行頭或行尾時，則毋須加入空白。</p>
+</blockquote>
+<p>我特意找了一段内容来展示「空白」的效果：</p>
+<pre><code>![Blank_EandC_Compair](https://wolf3c.github.io//post-images/1561823649608.jpg)
+</code></pre>
+<p>仔细对比可以看到，「Google」、「2009」等英文、数字与中文之间会有多出一个空白，这就是 Chrome 插件「为什么你们就是不能加个空格呢？」实现的效果。</p>
+<p>不只是网页，享誉四海的 Word 早已把这个「空白」作为了排版默认设置。当我们在 Word 中输入中英文时，可以看到明显的空白：</p>
+<p><img src="https://wolf3c.github.io//post-images/1561823631961.gif" alt="word_EandC_input"></p>
+<p>如果你一直因没有「空白」而烦躁，那恭喜你，试试「为什么你们就是不能加个空格呢？」吧。</p>
+<p>如果你从没纠结过这个问题，那你大概不是这方面的处女座、强迫症或完美主义者，不过，也建议你试试这个插件给带来那缕「空白」。试试又不会怀孕。</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://wolf3c.github.io//post/kan-huo-ying-a-si-ma-he-ta-de-yu">
+              <h3 class="post-title">
+                下一篇：看火影：阿斯玛和他的「玉」
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
+  <div class="slogan">wolf3c|产品经理|Twitter@wolf3c_thinking</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://wolf3c.github.io//atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '70978cecda92809a8738',
+        clientSecret: 'fcb8159e67874dea83c8c3ae3a1431515d169c6d',
+        repo: 'wolf3c.github.io',
+        owner: 'wolf3c',
+        admin: ['wolf3c'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>

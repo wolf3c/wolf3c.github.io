@@ -1,60 +1,267 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-  <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>技术 | Gridea</title>
-<link rel="shortcut icon" href="/Users/wolf3c/Documents/gridea/output/favicon.ico?v=1561822616174">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="/Users/wolf3c/Documents/gridea/output/styles/main.css">
+    
+<meta charset="utf-8" >
 
+<title>技术 | wolf3c&#39;s blog</title>
+<meta name="description" content="wolf3c|产品经理|Twitter@wolf3c_thinking">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://wolf3c.github.io//favicon.ico?v=1563173260013">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://wolf3c.github.io//styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="/Users/wolf3c/Documents/gridea/output">
-  <img class="avatar" src="/Users/wolf3c/Documents/gridea/output/images/avatar.png?v=1561822616174" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output//index.html" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/archives/index.html" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/tags/index.html" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/post/about/index.html" class="menu">
-          关于
-        </a>
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://wolf3c.github.io/">
+        <img class="avatar" src="https://wolf3c.github.io//images/avatar.png?v=1563173260013" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://wolf3c.github.io/">
+        <h1 class="site-title">wolf3c&#39;s blog</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+
+        <div class="current-tag-container">
+          <h2 class="title">
+            <i class="icon icon-pricetags-outline"></i> 技术
+          </h2> 
+        </div>
+
+        
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/zhi-wen-he-hong-mo-bu-shi-mi-ma">
+        <h2 class="post-title">指纹和虹膜，不是密码</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2017-06-29</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/chan-pin-jing-li">
+                产品经理
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/technology">
+                技术
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/opinion">
+                观点
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/huo-xu-windows-geng-an-quan">
+        <h2 class="post-title">或许 Windows 更安全</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2017-06-19</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/technology">
+                技术
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/opinion">
+                观点
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/shi-fen-zhong-xue-yi-men-bian-cheng-yu-yan">
+        <h2 class="post-title">十分钟学一门编程语言</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2017-06-02</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/technology">
+                技术
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/opinion">
+                观点
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/qiao-yong-github-10min-jian-bo-ke-zhan">
+        <h2 class="post-title">巧用 github - 10min 建博客站</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2016-08-06</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/technology">
+                技术
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/4-fen-zhong-web-she-ji-jiao-cheng">
+        <h2 class="post-title">4 分钟 web 设计教程</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2016-08-06</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/technology">
+                技术
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/translation">
+                翻译
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+
+<div class="pagination-container">
+  
+  
+</div>
+
+
+      </div>
+
+      <div class="site-footer">
+  <div class="slogan">wolf3c|产品经理|Twitter@wolf3c_thinking</div>
   <div class="social-container">
     
       
@@ -68,152 +275,26 @@
       
     
   </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://wolf3c.github.io//atom.xml" target="_blank">RSS</a>
 </div>
 
-        <div class="current-tag-container">
-            <h2 class="title">
-                标签：#技术
-            </h2> 
-        </div>
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="/Users/wolf3c/Documents/gridea/output/post/zhi-wen-he-hong-mo-bu-shi-mi-ma/index.html">
-        <h2 class="post-title">指纹和虹膜，不是密码</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2017-06-29 ·
-        </time>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/chan-pin-jing-li/index.html" class="post-tag">
-            # 产品经理
-          </a>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/technology/index.html" class="post-tag">
-            # 技术
-          </a>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/opinion/index.html" class="post-tag">
-            # 观点
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
-    <article class="post">
-      <a href="/Users/wolf3c/Documents/gridea/output/post/huo-xu-windows-geng-an-quan/index.html">
-        <h2 class="post-title">或许 Windows 更安全</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2017-06-19 ·
-        </time>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/technology/index.html" class="post-tag">
-            # 技术
-          </a>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/opinion/index.html" class="post-tag">
-            # 观点
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
-    <article class="post">
-      <a href="/Users/wolf3c/Documents/gridea/output/post/shi-fen-zhong-xue-yi-men-bian-cheng-yu-yan/index.html">
-        <h2 class="post-title">十分钟学一门编程语言</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2017-06-02 ·
-        </time>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/technology/index.html" class="post-tag">
-            # 技术
-          </a>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/opinion/index.html" class="post-tag">
-            # 观点
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
-    <article class="post">
-      <a href="/Users/wolf3c/Documents/gridea/output/post/qiao-yong-github-10min-jian-bo-ke-zhan/index.html">
-        <h2 class="post-title">巧用 github - 10min 建博客站</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2016-08-06 ·
-        </time>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/technology/index.html" class="post-tag">
-            # 技术
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
-    <article class="post">
-      <a href="/Users/wolf3c/Documents/gridea/output/post/4-fen-zhong-web-she-ji-jiao-cheng/index.html">
-        <h2 class="post-title">4 分钟 web 设计教程</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2016-08-06 ·
-        </time>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/technology/index.html" class="post-tag">
-            # 技术
-          </a>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/translation/index.html" class="post-tag">
-            # 翻译
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
-</div>
 
-        <div class="pagination-container">
-  
-  
-</div>
+    </div>
+    <script type="application/javascript">
 
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
-  <a class="rss" href="/Users/wolf3c/Documents/gridea/output/atom.xml" target="_blank">RSS</a>
-</div>
+hljs.initHighlightingOnLoad()
 
-<script>
-  hljs.initHighlightingOnLoad()
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
-      </div>
-    </div>
+
+
+
   </body>
 </html>

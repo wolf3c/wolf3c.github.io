@@ -1,98 +1,115 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>「利用碎片时间」——别再骗自己了 | Gridea</title>
-<link rel="shortcut icon" href="/Users/wolf3c/Documents/gridea/output/favicon.ico?v=1561822616174">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="/Users/wolf3c/Documents/gridea/output/styles/main.css">
+    
+<meta charset="utf-8" >
 
+<title>「利用碎片时间」——别再骗自己了 | wolf3c&#39;s blog</title>
+<meta name="description" content="wolf3c|产品经理|Twitter@wolf3c_thinking">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://wolf3c.github.io//favicon.ico?v=1563173260013">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://wolf3c.github.io//styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="/Users/wolf3c/Documents/gridea/output">
-  <img class="avatar" src="/Users/wolf3c/Documents/gridea/output/images/avatar.png?v=1561822616174" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output//index.html" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/archives/index.html" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/tags/index.html" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/post/about/index.html" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://wolf3c.github.io/">
+        <img class="avatar" src="https://wolf3c.github.io//images/avatar.png?v=1563173260013" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://wolf3c.github.io/">
+        <h1 class="site-title">wolf3c&#39;s blog</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
 
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
 
+
+      <div class="content-container">
         <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              「利用碎片时间」——别再骗自己了
-            </h2>
-            <div class="post-info">
-              <time class="post-time">
-                · 2016-08-17 ·
-              </time>
-              
-                <a href="/Users/wolf3c/Documents/gridea/output/tag/self-management/index.html" class="post-tag">
-                  # 自我管理
-                </a>
-              
-                <a href="/Users/wolf3c/Documents/gridea/output/tag/opinion/index.html" class="post-tag">
-                  # 观点
-                </a>
-              
-            </div>
+          
+          <h2 class="post-title">「利用碎片时间」——别再骗自己了</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2016-08-17</span>
             
-            <div class="post-content">
-              <blockquote>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://wolf3c.github.io//tag/self-management">
+                    自我管理
+                    
+                      ，
+                    
+                  </a>
+                
+                  <a href="https://wolf3c.github.io//tag/opinion">
+                    观点
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <blockquote>
 <p>time：2016-08-17</p>
 <p>author：wolf3c</p>
 <p>字数：4.8K</p>
@@ -116,13 +133,13 @@
 <p>坚持下去，成功指日可待，不是吗？</p>
 <h2 id="碎片时间不是让你把时间碎片化">「碎片时间」不是让你「把时间碎片化」</h2>
 <p>有一句话说得好，「下班时间决定了一个人的未来」，年轻人谁又不想有房有车有存款，所以我们喜欢利用在公交车上的「碎片时间」看公众号文章，回到家读书。但回到家想起来一篇文章还没看完，那就先读完在看书吧，用十分钟看完文章，发现几个不懂的东西，所以就百度了一下这些概念，不过百度的内容讲的不明白，所以又在知乎上查了一下，发现相关内容大神们回答的非常棒，所以当然要认真研读一下了，这要一来二去，发现已经 2 个小时过去了，放下手机，感觉脑子里全是一堆大神的嬉笑怒骂、引经据典，拿起书却无法进入状态，怎么办呢？大概自己需要放松一下脑子了，打开网易云音乐听首歌吧，正好利用这会「碎片时间」看看朋友圈吧，然后就是：</p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561822256433.png" alt="「利用碎片时间」——别再骗自己了_1"></p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561822272317.png" alt="「利用碎片时间」——别再骗自己了_2"></p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561822296113.png" alt="「利用碎片时间」——别再骗自己了_3"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561822256433.png" alt="「利用碎片时间」——别再骗自己了_1"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561822272317.png" alt="「利用碎片时间」——别再骗自己了_2"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561822296113.png" alt="「利用碎片时间」——别再骗自己了_3"></p>
 <p>…………</p>
 <p>对了，应该看书的，一看表发现又 1 个小时过去了，已经 11 点了，所以只能从现在看到 12 点再睡觉。</p>
 <p>突然，手机响了：</p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561822241851.jpg" alt="「利用碎片时间」——别再骗自己了_4"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561822241851.jpg" alt="「利用碎片时间」——别再骗自己了_4"></p>
 <p>听到手机声音后，无法静心读书，利用一小会时间马上回复一些吧。然后，就一发不可收拾，开始聊天，不一会儿，12 点半了，必须睡觉了，明天还要早起上班呢，今天没有读的书明天上班路上再看吧。</p>
 <p>10 分钟洗漱完毕，躺在床上，反正一时半会睡不着，利用这会「碎片时间」看看有没有收到重要邮件，以免耽误工作。「小李这 213，发的这是什么东西，一句有用的都没有」，「这事应该老王解决，转发给他」，「领导又让后天出差，我的拉杆箱太大了，应该买个小的，对，上淘宝看看……」</p>
 <p>打开淘宝……</p>
@@ -264,33 +281,86 @@
 <p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
 <p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
 
-            </div>
-          </article>
+          </div>
         </div>
 
         
           <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="/Users/wolf3c/Documents/gridea/output/post/qiao-yong-github-10min-jian-bo-ke-zhan/index.html">
+            <a class="purple-link" href="https://wolf3c.github.io//post/cha-zhao-shou-ji-di-pin-que-chong-yao-de-gong-neng">
               <h3 class="post-title">
-                巧用 github - 10min 建博客站
+                下一篇：查找手机：低频却重要的功能
               </h3>
             </a>
           </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
         
 
         
+      
 
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
-  <a class="rss" href="/Users/wolf3c/Documents/gridea/output/atom.xml" target="_blank">RSS</a>
+      <div class="site-footer">
+  <div class="slogan">wolf3c|产品经理|Twitter@wolf3c_thinking</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://wolf3c.github.io//atom.xml" target="_blank">RSS</a>
 </div>
 
-<script>
-  hljs.initHighlightingOnLoad()
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
-      </div>
-    </div>
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '70978cecda92809a8738',
+        clientSecret: 'fcb8159e67874dea83c8c3ae3a1431515d169c6d',
+        repo: 'wolf3c.github.io',
+        owner: 'wolf3c',
+        admin: ['wolf3c'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>

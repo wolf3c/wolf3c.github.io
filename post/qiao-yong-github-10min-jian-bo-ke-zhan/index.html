@@ -1,94 +1,108 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>巧用 github - 10min 建博客站 | Gridea</title>
-<link rel="shortcut icon" href="/Users/wolf3c/Documents/gridea/output/favicon.ico?v=1561822616174">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="/Users/wolf3c/Documents/gridea/output/styles/main.css">
+    
+<meta charset="utf-8" >
 
+<title>巧用 github - 10min 建博客站 | wolf3c&#39;s blog</title>
+<meta name="description" content="wolf3c|产品经理|Twitter@wolf3c_thinking">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://wolf3c.github.io//favicon.ico?v=1563173260013">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://wolf3c.github.io//styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="/Users/wolf3c/Documents/gridea/output">
-  <img class="avatar" src="/Users/wolf3c/Documents/gridea/output/images/avatar.png?v=1561822616174" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output//index.html" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/archives/index.html" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/tags/index.html" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/post/about/index.html" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://wolf3c.github.io/">
+        <img class="avatar" src="https://wolf3c.github.io//images/avatar.png?v=1563173260013" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://wolf3c.github.io/">
+        <h1 class="site-title">wolf3c&#39;s blog</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
 
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
 
+
+      <div class="content-container">
         <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              巧用 github - 10min 建博客站
-            </h2>
-            <div class="post-info">
-              <time class="post-time">
-                · 2016-08-06 ·
-              </time>
-              
-                <a href="/Users/wolf3c/Documents/gridea/output/tag/technology/index.html" class="post-tag">
-                  # 技术
-                </a>
-              
-            </div>
+          
+          <h2 class="post-title">巧用 github - 10min 建博客站</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2016-08-06</span>
             
-            <div class="post-content">
-              <blockquote>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://wolf3c.github.io//tag/technology">
+                    技术
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <blockquote>
 <p>time：2016-08-06</p>
 <p>author：wolf3c</p>
 </blockquote>
@@ -104,16 +118,16 @@
 <h2 id="1-创建-github-pages-项目">1、创建 GitHub Pages 项目</h2>
 <h4 id="11-打开github-pages-网站-创建博客项目">1.1 打开<a href="https://pages.github.com/">GitHub Pages 网站</a> ，创建博客项目：</h4>
 <p>具体步骤 GitHub Pages 页面已经给出了。</p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561820209923.png" alt=""></p>
+<p><img src="https://wolf3c.github.io//post-images/1561820209923.png" alt=""></p>
 <h4 id="12-填写一个名称">1.2 填写一个名称</h4>
 <p>这个名称必须没有被别人使用，最好取一个有意义的，比如xiaolizi，那么你的博客域名以后就是：xiaolizi.github.io。</p>
 <p><strong>这个名字于你GitHub账号名字保持一致</strong>，据说不一致会出现问题。</p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561820239796.png" alt=""></p>
+<p><img src="https://wolf3c.github.io//post-images/1561820239796.png" alt=""></p>
 <h2 id="2-设置博客主页">2、设置博客主页</h2>
 <h4 id="21-进入设置页">2.1 进入设置页：</h4>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561820250190.png" alt=""></p>
+<p><img src="https://wolf3c.github.io//post-images/1561820250190.png" alt=""></p>
 <h4 id="22-打开页面生成器">2.2 打开页面生成器</h4>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561820258313.png" alt=""></p>
+<p><img src="https://wolf3c.github.io//post-images/1561820258313.png" alt=""></p>
 <h4 id="23-写主页面内容">2.3 写主页面内容：</h4>
 <p>内容如下：</p>
 <pre><code class="language-markdown"># 2016 年
@@ -124,26 +138,26 @@
 </code></pre>
 <p>其中，“巧用 github - 10min 建博客站” 改为你自己的文章名字。</p>
 <p>然后复制写的内容。</p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561820287857.png" alt="巧用GitHub10min 建博客站_7"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561820287857.png" alt="巧用GitHub10min 建博客站_7"></p>
 <h4 id="24-配置博客页面">2.4 配置博客页面：</h4>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561820303735.png" alt="巧用GitHub10min 建博客站_8"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561820303735.png" alt="巧用GitHub10min 建博客站_8"></p>
 <h4 id="25-选择一个样式完成设置">2.5 选择一个样式，完成设置：</h4>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561820321790.png" alt="巧用GitHub10min 建博客站_9"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561820321790.png" alt="巧用GitHub10min 建博客站_9"></p>
 <p>现在，到你的博客中看看效果吧，域名是 yourname.github.io （其中，yourname 就是你在步骤 1.2 中设置的名字）</p>
 <h2 id="3-上传文章">3、上传文章</h2>
 <h4 id="31-写-markdown-文章">3.1 写 markdown 文章</h4>
 <p>markdown 是一个非常有用的工具，以后写博客会常常使用，如果你不会，可以学习<a href="http://lutaf.com/markdown-simple-usage.htm"> 《1 分钟学会 Markdown 语法》</a>  。大家可以使用 Typora 来写自己的文章，它是一款优秀的 markdown 工具。</p>
 <h4 id="32-将文章转换为-html-格式">3.2 将文章转换为 HTML 格式</h4>
 <p><em>以 Typora</em></p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561820343975.png" alt="巧用GitHub10min 建博客站_13"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561820343975.png" alt="巧用GitHub10min 建博客站_13"></p>
 <h4 id="32-上传文章">3.2 上传文章</h4>
 <h5 id="321-创建articles文件">3.2.1 创建articles文件</h5>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561820363323.png" alt="巧用GitHub10min 建博客站_9.5"></p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561820391469.png" alt="巧用GitHub10min 建博客站_10"> 这里只是为了有一个articles文件夹，所以随便写一个<code>1111</code>， 一会删掉就好了。</p>
+<p><img src="https://wolf3c.github.io//post-images/1561820363323.png" alt="巧用GitHub10min 建博客站_9.5"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561820391469.png" alt="巧用GitHub10min 建博客站_10"> 这里只是为了有一个articles文件夹，所以随便写一个<code>1111</code>， 一会删掉就好了。</p>
 <h5 id="322-上传文章文件">3.2.2 上传文章文件</h5>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561820415793.png" alt="巧用GitHub10min 建博客站_11"></p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561820430916.png" alt="巧用GitHub10min 建博客站_12"></p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561820443975.png" alt="巧用GitHub10min 建博客站_14"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561820415793.png" alt="巧用GitHub10min 建博客站_11"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561820430916.png" alt="巧用GitHub10min 建博客站_12"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561820443975.png" alt="巧用GitHub10min 建博客站_14"></p>
 <p>等待一分钟，然后点击你博客页面中的链接看看是否已经有了这片文章。</p>
 <h2 id="4-问题与更新博客">4、 问题与更新博客</h2>
 <h4 id="41-没有看到自己的文章">4.1 没有看到自己的文章</h4>
@@ -167,33 +181,86 @@
 <hr>
 <p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a></p>
 
-            </div>
-          </article>
+          </div>
         </div>
 
         
           <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="/Users/wolf3c/Documents/gridea/output/post/4-fen-zhong-web-she-ji-jiao-cheng/index.html">
+            <a class="purple-link" href="https://wolf3c.github.io//post/4-fen-zhong-web-she-ji-jiao-cheng">
               <h3 class="post-title">
-                4 分钟 web 设计教程
+                下一篇：4 分钟 web 设计教程
               </h3>
             </a>
           </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
         
 
         
+      
 
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
-  <a class="rss" href="/Users/wolf3c/Documents/gridea/output/atom.xml" target="_blank">RSS</a>
+      <div class="site-footer">
+  <div class="slogan">wolf3c|产品经理|Twitter@wolf3c_thinking</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://wolf3c.github.io//atom.xml" target="_blank">RSS</a>
 </div>
 
-<script>
-  hljs.initHighlightingOnLoad()
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
-      </div>
-    </div>
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '70978cecda92809a8738',
+        clientSecret: 'fcb8159e67874dea83c8c3ae3a1431515d169c6d',
+        repo: 'wolf3c.github.io',
+        owner: 'wolf3c',
+        admin: ['wolf3c'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>

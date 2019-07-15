@@ -1,60 +1,338 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-  <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>app | Gridea</title>
-<link rel="shortcut icon" href="/Users/wolf3c/Documents/gridea/output/favicon.ico?v=1561822616174">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="/Users/wolf3c/Documents/gridea/output/styles/main.css">
+    
+<meta charset="utf-8" >
 
+<title>app | wolf3c&#39;s blog</title>
+<meta name="description" content="wolf3c|产品经理|Twitter@wolf3c_thinking">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://wolf3c.github.io//favicon.ico?v=1563173260013">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://wolf3c.github.io//styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="/Users/wolf3c/Documents/gridea/output">
-  <img class="avatar" src="/Users/wolf3c/Documents/gridea/output/images/avatar.png?v=1561822616174" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output//index.html" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/archives/index.html" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/tags/index.html" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/post/about/index.html" class="menu">
-          关于
-        </a>
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://wolf3c.github.io/">
+        <img class="avatar" src="https://wolf3c.github.io//images/avatar.png?v=1563173260013" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://wolf3c.github.io/">
+        <h1 class="site-title">wolf3c&#39;s blog</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+
+        <div class="current-tag-container">
+          <h2 class="title">
+            <i class="icon icon-pricetags-outline"></i> app
+          </h2> 
+        </div>
+
+        
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/chrome-shu-qian-guan-li-xin-fang-an-neater-bookmarks">
+        <h2 class="post-title">Chrome 书签管理新方案 —— Neater Bookmarks</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2017-08-15</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/app">
+                app
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/clutter-freerang-chrome-xue-hui-jie-yue-zi-yuan">
+        <h2 class="post-title">Clutter Free：让 Chrome 学会节约资源</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2017-06-14</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/app">
+                app
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/tobyjie-jiu-chrome-chong-du-yong-hu">
+        <h2 class="post-title">Toby：解救 Chrome 重度用户</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2017-01-03</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/app">
+                app
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/wei-shi-me-ni-men-jiu-shi-bu-neng-jia-ge-kong-ge-ni">
+        <h2 class="post-title">为什么你们就是不能加个空格呢？</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2016-12-21</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/app">
+                app
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/opinion">
+                观点
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/ren-shi-zi-ji-shi-jian-ji-lu-gong-ju-toggl">
+        <h2 class="post-title">认识自己——时间记录工具 Toggl</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2016-10-19</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/self-management">
+                自我管理
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/app">
+                app
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/cha-zhao-shou-ji-di-pin-que-chong-yao-de-gong-neng">
+        <h2 class="post-title">查找手机：低频却重要的功能</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2016-08-12</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/self-management">
+                自我管理
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/app">
+                app
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/others">
+                杂记
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/wo-wei-shi-me-xi-huan-arrow-launcher">
+        <h2 class="post-title">我为什么喜欢arrow launcher</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2015-10-16</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/app">
+                app
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/qian-li-zhi-xing-di-yi-bu-xiao-k-mini-pro-zhi-neng-cha-zuo-shi-yong">
+        <h2 class="post-title">千里之行第一步 —— 小K Mini-Pro 智能插座试用</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2015-09-19</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/app">
+                app
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+
+<div class="pagination-container">
+  
+  
+</div>
+
+
+      </div>
+
+      <div class="site-footer">
+  <div class="slogan">wolf3c|产品经理|Twitter@wolf3c_thinking</div>
   <div class="social-container">
     
       
@@ -68,116 +346,26 @@
       
     
   </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://wolf3c.github.io//atom.xml" target="_blank">RSS</a>
 </div>
 
-        <div class="current-tag-container">
-            <h2 class="title">
-                标签：#app
-            </h2> 
-        </div>
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="/Users/wolf3c/Documents/gridea/output/post/chrome-shu-qian-guan-li-xin-fang-an-neater-bookmarks/index.html">
-        <h2 class="post-title">Chrome 书签管理新方案 —— Neater Bookmarks</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2017-08-15 ·
-        </time>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/app/index.html" class="post-tag">
-            # app
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
-    <article class="post">
-      <a href="/Users/wolf3c/Documents/gridea/output/post/clutter-freerang-chrome-xue-hui-jie-yue-zi-yuan/index.html">
-        <h2 class="post-title">Clutter Free：让 Chrome 学会节约资源</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2017-06-14 ·
-        </time>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/app/index.html" class="post-tag">
-            # app
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
-    <article class="post">
-      <a href="/Users/wolf3c/Documents/gridea/output/post/tobyjie-jiu-chrome-chong-du-yong-hu/index.html">
-        <h2 class="post-title">Toby：解救 Chrome 重度用户</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2017-01-03 ·
-        </time>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/app/index.html" class="post-tag">
-            # app
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
-    <article class="post">
-      <a href="/Users/wolf3c/Documents/gridea/output/post/ren-shi-zi-ji-shi-jian-ji-lu-gong-ju-toggl/index.html">
-        <h2 class="post-title">认识自己——时间记录工具 Toggl</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2016-10-19 ·
-        </time>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/self-management/index.html" class="post-tag">
-            # 自我管理
-          </a>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/app/index.html" class="post-tag">
-            # app
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
-</div>
 
-        <div class="pagination-container">
-  
-  
-</div>
+    </div>
+    <script type="application/javascript">
 
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
-  <a class="rss" href="/Users/wolf3c/Documents/gridea/output/atom.xml" target="_blank">RSS</a>
-</div>
+hljs.initHighlightingOnLoad()
 
-<script>
-  hljs.initHighlightingOnLoad()
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
-      </div>
-    </div>
+
+
+
   </body>
 </html>

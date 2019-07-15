@@ -1,94 +1,108 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Toby：解救 Chrome 重度用户 | Gridea</title>
-<link rel="shortcut icon" href="/Users/wolf3c/Documents/gridea/output/favicon.ico?v=1561822616174">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="/Users/wolf3c/Documents/gridea/output/styles/main.css">
+    
+<meta charset="utf-8" >
 
+<title>Toby：解救 Chrome 重度用户 | wolf3c&#39;s blog</title>
+<meta name="description" content="wolf3c|产品经理|Twitter@wolf3c_thinking">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://wolf3c.github.io//favicon.ico?v=1563173260013">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://wolf3c.github.io//styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="/Users/wolf3c/Documents/gridea/output">
-  <img class="avatar" src="/Users/wolf3c/Documents/gridea/output/images/avatar.png?v=1561822616174" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output//index.html" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/archives/index.html" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/tags/index.html" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/post/about/index.html" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://wolf3c.github.io/">
+        <img class="avatar" src="https://wolf3c.github.io//images/avatar.png?v=1563173260013" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://wolf3c.github.io/">
+        <h1 class="site-title">wolf3c&#39;s blog</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
 
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
 
+
+      <div class="content-container">
         <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              Toby：解救 Chrome 重度用户
-            </h2>
-            <div class="post-info">
-              <time class="post-time">
-                · 2017-01-03 ·
-              </time>
-              
-                <a href="/Users/wolf3c/Documents/gridea/output/tag/app/index.html" class="post-tag">
-                  # app
-                </a>
-              
-            </div>
+          
+          <h2 class="post-title">Toby：解救 Chrome 重度用户</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2017-01-03</span>
             
-            <div class="post-content">
-              <blockquote>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://wolf3c.github.io//tag/app">
+                    app
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <blockquote>
 <p>time：2017-01-03</p>
 <p>author：wolf3c</p>
 <p>字数：1000</p>
@@ -100,7 +114,7 @@
 <li>标签页不断增加。</li>
 </ol>
 <p>说这是煎熬一点都不为过，系统老是提醒「内存不足」，电脑经常卡顿，标签页的按钮越来越小，切换标签越来越困难，一不小心还可能关掉正在使用的页面。</p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561822443221.png" alt="Toby_TooManyTabs"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561822443221.png" alt="Toby_TooManyTabs"></p>
 <p>可能大家脑海中已经浮现出了几个救星的名字——「OneTab」、「The Great Suspender」、「TooManyTabs」，我自己也是尝试用这些工具「自我救赎」，然而效果差强人意：</p>
 <ul>
 <li>OneTab 变成了一个垃圾箱，很多页面放在 OneTab 后，OneTab 也被挤在万千标签之中，后来我自己也忘记了 OneTab。</li>
@@ -114,64 +128,117 @@
 <h3 id="更有用的新标签页">更有用的「新标签页」</h3>
 <p>Toby 会更改「新标签页」，让所有的标签页管理工作在「新标签页」中完成。</p>
 <p>每次打开「新标签页」，都可以看到 Toby 和所有的标签页。</p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561822426224.png" alt="Toby_view"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561822426224.png" alt="Toby_view"></p>
 <h3 id="自由-清晰的分类">自由、清晰的分类</h3>
 <p>Toby 中，我们可以按照自己的喜好去建立 list，然后把标签页放在不同 list 中，达到分门别类管理标签页的目的。我自己建了「前端工具」、「PM」、「Lisp」、「写作资料」等 list，每个 list 都放了很多同类标签页。</p>
 <p>每个 list 又可以贴不同的 label，如 Toby 的示例，我们可以将每个 list 贴上 「Work」或「Personal」的 label，从而让工作、生活泾渭分明。大家也可以按照自己需要，添加 「游戏」、「购物」等 label。</p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561822409311.png" alt="Toby_label"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561822409311.png" alt="Toby_label"></p>
 <h3 id="操作简单-直观">操作简单、直观</h3>
 <p>Toby 中管理标签页的方式有两种：</p>
 <ol>
 <li>
 <p>拖拽。你可以从右边列表中把已经打开的标签页拖入到左边的某个 list 中，对应标签页也会自动关闭。同样，标签页组织管理也可以用拖拽搞定。</p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561822397185.gif" alt="Toby_Drag"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561822397185.gif" alt="Toby_Drag"></p>
 </li>
 <li>
 <p>一键保存。点击「Save Session」就可以将已经打开的所有标签页保存到一个 list 中。</p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561822382726.gif" alt="Toby_SaveSession"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561822382726.gif" alt="Toby_SaveSession"></p>
 </li>
 </ol>
 <h3 id="搜索">搜索</h3>
 <p>随着标签页越来越多，搜索是比按照分类查看更快捷的查找方式。
 Toby 不但可以搜索加入到 Toby 中的标签页，也可以搜索目前打开的所有标签页。</p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561822354601.gif" alt="Toby_Search"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561822354601.gif" alt="Toby_Search"></p>
 <h3 id="云同步">云同步</h3>
 <p>曾经，我常常在下班前面对一大堆想继续浏览的网页纠结要不要背电脑回家。</p>
 <p>估计 Toby 开发者也有同样的遭遇，所以前些日子给 Toby 加入了同步功能。</p>
-<p><img src="/Users/wolf3c/Documents/gridea/output/post-images/1561822335829.png" alt="toby_sync"></p>
+<p><img src="https://wolf3c.github.io//post-images/1561822335829.png" alt="toby_sync"></p>
 <h3 id="再次推荐">再次推荐</h3>
 <p>如果你也是 Chrome 用户，如果你也被「两座大山」压着，如果你也希望有更好的标签页管理工具，那 Toby 绝对值得一试。</p>
 <hr>
 <p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
 <p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
 
-            </div>
-          </article>
+          </div>
         </div>
 
         
           <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="/Users/wolf3c/Documents/gridea/output/post/kan-huo-ying-a-si-ma-he-ta-de-yu/index.html">
+            <a class="purple-link" href="https://wolf3c.github.io//post/wei-shi-me-ni-men-jiu-shi-bu-neng-jia-ge-kong-ge-ni">
               <h3 class="post-title">
-                看火影：阿斯玛和他的「玉」
+                下一篇：为什么你们就是不能加个空格呢？
               </h3>
             </a>
           </div>
+          
+      </div>
+
+      
+        
+          <div id="gitalk-container"></div>
         
 
         
+      
 
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
-  <a class="rss" href="/Users/wolf3c/Documents/gridea/output/atom.xml" target="_blank">RSS</a>
+      <div class="site-footer">
+  <div class="slogan">wolf3c|产品经理|Twitter@wolf3c_thinking</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://wolf3c.github.io//atom.xml" target="_blank">RSS</a>
 </div>
 
-<script>
-  hljs.initHighlightingOnLoad()
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
-      </div>
-    </div>
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '70978cecda92809a8738',
+        clientSecret: 'fcb8159e67874dea83c8c3ae3a1431515d169c6d',
+        repo: 'wolf3c.github.io',
+        owner: 'wolf3c',
+        admin: ['wolf3c'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>

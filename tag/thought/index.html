@@ -1,60 +1,601 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-  <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>感悟 | Gridea</title>
-<link rel="shortcut icon" href="/Users/wolf3c/Documents/gridea/output/favicon.ico?v=1561822616174">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="/Users/wolf3c/Documents/gridea/output/styles/main.css">
+    
+<meta charset="utf-8" >
 
+<title>感悟 | wolf3c&#39;s blog</title>
+<meta name="description" content="wolf3c|产品经理|Twitter@wolf3c_thinking">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://wolf3c.github.io//favicon.ico?v=1563173260013">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://wolf3c.github.io//styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="/Users/wolf3c/Documents/gridea/output">
-  <img class="avatar" src="/Users/wolf3c/Documents/gridea/output/images/avatar.png?v=1561822616174" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output//index.html" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/archives/index.html" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/tags/index.html" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/Users/wolf3c/Documents/gridea/output/post/about/index.html" class="menu">
-          关于
-        </a>
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://wolf3c.github.io/">
+        <img class="avatar" src="https://wolf3c.github.io//images/avatar.png?v=1563173260013" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://wolf3c.github.io/">
+        <h1 class="site-title">wolf3c&#39;s blog</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+
+        <div class="current-tag-container">
+          <h2 class="title">
+            <i class="icon icon-pricetags-outline"></i> 感悟
+          </h2> 
+        </div>
+
+        
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/fu-ze-ren">
+        <h2 class="post-title">负责任</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2019-05-11</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/life">
+                生活
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/thought">
+                感悟
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/xian-shi">
+        <h2 class="post-title">现实</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2019-04-28</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/others">
+                杂记
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/life">
+                生活
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/thought">
+                感悟
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/kan-huo-ying-mai-te-kai">
+        <h2 class="post-title">看火影：迈特凯</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2017-05-31</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/life">
+                生活
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/thought">
+                感悟
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/opinion">
+                观点
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/jian-fa-nan">
+        <h2 class="post-title">减法难</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2017-05-05</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/chan-pin-jing-li">
+                产品经理
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/thought">
+                感悟
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/qi-qiang">
+        <h2 class="post-title">骑墙</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2017-04-28</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/self-management">
+                自我管理
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/chan-pin-jing-li">
+                产品经理
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/thought">
+                感悟
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/opinion">
+                观点
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/wu-zhi-de-bo-xue">
+        <h2 class="post-title">无知的博学</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2017-04-23</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/self-management">
+                自我管理
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/chan-pin-jing-li">
+                产品经理
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/thought">
+                感悟
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/opinion">
+                观点
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/ren-duo-bu-yi-ding-li-liang-da-jia-ban-bu-yi-ding-chu-cheng-ji">
+        <h2 class="post-title">人多不一定「力量」大，加班不一定出成绩</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2017-04-08</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/self-management">
+                自我管理
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/others">
+                杂记
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/thought">
+                感悟
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/shen-hou-de-mo-gui">
+        <h2 class="post-title">身后的魔鬼</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2017-04-03</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/others">
+                杂记
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/thought">
+                感悟
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/jing-tai-si-kao-he-dong-tai-si-kao-1">
+        <h2 class="post-title">静态思考和动态思考(1)</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2017-03-12</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/chan-pin-jing-li">
+                产品经理
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/thought">
+                感悟
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/cong-bie-ren-na-li-de-dao-geng-you-jie-zhi-de-dong-xi">
+        <h2 class="post-title">从别人那里得到更有价值的东西</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2017-01-24</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/self-management">
+                自我管理
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/chan-pin-jing-li">
+                产品经理
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/thought">
+                感悟
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/cong-lesslesssan-ti-greatergreater-zhong-kan-dao-yi-chong-wei-lai">
+        <h2 class="post-title">从《三体》中看到一种未来</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2017-01-22</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/chan-pin-jing-li">
+                产品经理
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/others">
+                杂记
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/thought">
+                感悟
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/kan-huo-ying-a-si-ma-he-ta-de-yu">
+        <h2 class="post-title">看火影：阿斯玛和他的「玉」</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2016-12-01</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/life">
+                生活
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/thought">
+                感悟
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/opinion">
+                观点
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://wolf3c.github.io//post/zai-guan-xin-ni-de-ren-zhong-jiu-zhi-neng-shi-kan-xi-de">
+        <h2 class="post-title">再关心你的人终究只能是看戏的</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2016-08-17</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://wolf3c.github.io//tag/life">
+                生活
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://wolf3c.github.io//tag/thought">
+                感悟
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+
+<div class="pagination-container">
+  
+  
+</div>
+
+
+      </div>
+
+      <div class="site-footer">
+  <div class="slogan">wolf3c|产品经理|Twitter@wolf3c_thinking</div>
   <div class="social-container">
     
       
@@ -68,188 +609,26 @@
       
     
   </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://wolf3c.github.io//atom.xml" target="_blank">RSS</a>
 </div>
 
-        <div class="current-tag-container">
-            <h2 class="title">
-                标签：#感悟
-            </h2> 
-        </div>
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="/Users/wolf3c/Documents/gridea/output/post/fu-ze-ren/index.html">
-        <h2 class="post-title">负责任</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2019-05-11 ·
-        </time>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/life/index.html" class="post-tag">
-            # 生活
-          </a>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/thought/index.html" class="post-tag">
-            # 感悟
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
-    <article class="post">
-      <a href="/Users/wolf3c/Documents/gridea/output/post/xian-shi/index.html">
-        <h2 class="post-title">现实</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2019-04-28 ·
-        </time>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/others/index.html" class="post-tag">
-            # 杂记
-          </a>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/life/index.html" class="post-tag">
-            # 生活
-          </a>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/thought/index.html" class="post-tag">
-            # 感悟
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
-    <article class="post">
-      <a href="/Users/wolf3c/Documents/gridea/output/post/kan-huo-ying-mai-te-kai/index.html">
-        <h2 class="post-title">看火影：迈特凯</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2017-05-31 ·
-        </time>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/life/index.html" class="post-tag">
-            # 生活
-          </a>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/thought/index.html" class="post-tag">
-            # 感悟
-          </a>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/opinion/index.html" class="post-tag">
-            # 观点
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
-    <article class="post">
-      <a href="/Users/wolf3c/Documents/gridea/output/post/shen-hou-de-mo-gui/index.html">
-        <h2 class="post-title">身后的魔鬼</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2017-04-03 ·
-        </time>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/others/index.html" class="post-tag">
-            # 杂记
-          </a>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/thought/index.html" class="post-tag">
-            # 感悟
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
-    <article class="post">
-      <a href="/Users/wolf3c/Documents/gridea/output/post/kan-huo-ying-a-si-ma-he-ta-de-yu/index.html">
-        <h2 class="post-title">看火影：阿斯玛和他的「玉」</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2016-12-01 ·
-        </time>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/life/index.html" class="post-tag">
-            # 生活
-          </a>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/thought/index.html" class="post-tag">
-            # 感悟
-          </a>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/opinion/index.html" class="post-tag">
-            # 观点
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
-    <article class="post">
-      <a href="/Users/wolf3c/Documents/gridea/output/post/zai-guan-xin-ni-de-ren-zhong-jiu-zhi-neng-shi-kan-xi-de/index.html">
-        <h2 class="post-title">再关心你的人终究只能是看戏的</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2016-08-17 ·
-        </time>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/life/index.html" class="post-tag">
-            # 生活
-          </a>
-        
-          <a href="/Users/wolf3c/Documents/gridea/output/tag/thought/index.html" class="post-tag">
-            # 感悟
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        
-      </di>
-    </article>
-  
-</div>
 
-        <div class="pagination-container">
-  
-  
-</div>
+    </div>
+    <script type="application/javascript">
 
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
-  <a class="rss" href="/Users/wolf3c/Documents/gridea/output/atom.xml" target="_blank">RSS</a>
-</div>
+hljs.initHighlightingOnLoad()
 
-<script>
-  hljs.initHighlightingOnLoad()
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
 </script>
 
-      </div>
-    </div>
+
+
+
   </body>
 </html>
