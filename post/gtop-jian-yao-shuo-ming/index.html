@@ -5,7 +5,7 @@
     
 <meta charset="utf-8" >
 
-<title>《一席》推荐 | wolf3c&#39;s blog</title>
+<title>gtop 简要说明 | wolf3c&#39;s blog</title>
 <meta name="description" content="wolf3c  |  产品经理">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -95,15 +95,22 @@
       <div class="content-container">
         <div class="post-detail">
           
-          <h2 class="post-title">《一席》推荐</h2>
+          <h2 class="post-title">gtop 简要说明</h2>
           <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2017-06-03</span>
+            <span><i class="icon-calendar-outline"></i> 2019-09-09</span>
             
               <span>
                 <i class="icon-pricetags-outline"></i>
                 
-                  <a href="https://wolf3c.github.io//tag/opinion">
-                    观点
+                  <a href="https://wolf3c.github.io//tag/app">
+                    app
+                    
+                      ，
+                    
+                  </a>
+                
+                  <a href="https://wolf3c.github.io//tag/technology">
+                    技术
                     
                   </a>
                 
@@ -111,39 +118,32 @@
             
           </div>
           <div class="post-content">
-            <blockquote>
-<p>time：2017-06-03</p>
-<p>author：wolf3c</p>
-<p>字数：300</p>
+            <p>在 *nix 系统中，top 命令的用途不言而喻，如果有人不了解，可以将他类比 Windows 的任务管理器的部分功能，主要用于查看系统资源使用情况，是进程管理中非常重要的工具。</p>
+<p>不过，所有被大量用户使用的工具，总是不能很好地满足小部分用户的小众需求，top 也是一样，一些人希望 top 的能力更强大，所以有了 <a href="https://zh.wikipedia.org/wiki/Htop">htop</a>，也有一部分人，希望 top 的功能尽量简单易上手，所以就有了 <a href="https://github.com/aksakalli/gtop">gtop</a>。</p>
+<p>可能大家都希望拥有更强大的工具，所以网上有很多介绍 htop 的文章，但很少有人介绍 gtop，可能是他简单到无需介绍吧。不过作为一个简单看看电脑资源的人，我还是挺喜欢 gtop 的。</p>
+<p>首先 gtop 很直观地列出了重要资源信息：</p>
+<p><img src="https://wolf3c.github.io//post-images/1568036421843.png" alt=""></p>
+<p>平时重点关注的内存、硬盘、网络情况，都一目了然。</p>
+<p>另外，平时想要针对性地看看进程占用资源的情况（上图右下角区域的内容），gtop 提供了三个快捷键，覆盖了日常需求：</p>
+<blockquote>
+<p>c： 将进程按照 CPU 使用率排序<br>
+m：将进程按照内存占用情况排序<br>
+p： 将进程按进程 ID 排序</p>
 </blockquote>
-<hr>
-<p>几个月前，发现《一席》中有很多有意思的演讲，看了一段时间，列一些给我留下深刻印象的。</p>
-<ol>
-<li>《羊蹬艺术合作社》焦兴涛：艺术、生活、乐趣。</li>
-<li>《沼泽乐队：古琴、后摇与声音里的秘密》沼泽乐队：如何对待音乐。</li>
-<li>《教育的器量》张轶超：教育的目的是什么？互联网创业从业者很多，大多只不过是把线下搬到线上，而不是深入思考，去找寻一条更好的教育之路，看看他的思考。</li>
-<li>《做一本好看的教科书》张柏韦。</li>
-<li>《阅读是怎么回事》杨照：什么是阅读。建议找金克木文集《书读完了》看看。</li>
-<li>《进击的智人》袁硕。</li>
-<li>《完整街道 Street for All》刘岱宗：城市交通系统设计。</li>
-<li>《本故事纯属非虚构》陈晓楠：那些被制度遗忘在角落的人。</li>
-<li>《No Problem, Peter》叶泰兴。每个人都应该懂一点急救知识，并给自己准备个急救包。</li>
-<li>《裂变式创业》宗毅。自私是最好的动力，创业、管理、公益。</li>
-<li>《造一座细胞工厂》李腾：生物工程的材料应用。</li>
-</ol>
-<p>在优酷搜索「一席」，可以找到官方频道，以上视频都在那里。</p>
-<hr>
-<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
-<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+<p>所有的排序，第一次点快捷键是倒序，再点一次就是正序。电脑发烫，那看看哪个应用在疯狂用 CPU，进入 gtop 点一下<code>c</code>；电脑老是提示内存不足，那看看哪个应用吃内存，进入 gtop 点一下<code>m</code>。</p>
+<p>没事时，也可以直接打开 gtop 放在那里，等着装逼，装完，按一下<code>q</code>或<code>Esc</code>就可以退出。</p>
+<p>如果感兴趣，也可以自己去试试他，由于他是基于 node.js 的应用，Windows、Mac、Linux 都支持：</p>
+<pre><code class="language-shell">npm install gtop -g
+</code></pre>
 
           </div>
         </div>
 
         
           <div class="next-post">
-            <a class="purple-link" href="https://wolf3c.github.io//post/shi-fen-zhong-xue-yi-men-bian-cheng-yu-yan">
+            <a class="purple-link" href="https://wolf3c.github.io//post/wo-fa-xian-zi-ji-bu-hui-xie-wen-zhang">
               <h3 class="post-title">
-                下一篇：十分钟学一门编程语言
+                下一篇：我发现自己不会写文章
               </h3>
             </a>
           </div>
