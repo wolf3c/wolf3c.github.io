@@ -1,124 +1,99 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
-
-<title>gtop 简要说明 | wolf3c&#39;s blog</title>
-<meta name="description" content="wolf3c  |  产品经理">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://wolf3c.github.io//favicon.ico?v=1572251852918">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://wolf3c.github.io//styles/main.css">
-
-
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="referrer" content="never">
+  <meta name="description" content="">
+  <meta name="author" content="kveln">
+  <meta name="keywords" content="">
+  <title>gtop 简要说明 | wolf3c&#39;s blog</title>
+  <link href="https://wolf3c.github.io//media/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="https://wolf3c.github.io//media/css/all.min.css" rel="stylesheet" type="text/css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link rel="alternate" type="application/rss+xml" title="gtop 简要说明 | wolf3c&#39;s blog » Feed" href="https://wolf3c.github.io//atom.xml">
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/highlight.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
+  <script src="https://wolf3c.github.io//media/scripts/jquery.min.js"></script>
+  <link href="https://wolf3c.github.io//styles/main.css" rel="stylesheet">
+  <script>hljs.initHighlightingOnLoad();</script>
   
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
-
-  
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77797341-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-77797341-2');
-</script>
-
 
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://wolf3c.github.io/">
-        <img class="avatar" src="https://wolf3c.github.io//images/avatar.png?v=1572251852918" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://wolf3c.github.io/">
-        <h1 class="site-title">wolf3c&#39;s blog</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-        <div class="post-detail">
+  	<!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="https://wolf3c.github.io/">wolf3c&#39;s blog</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
           
-          <h2 class="post-title">gtop 简要说明</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2019-09-09</span>
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/">首页</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/archives">归档</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/tags">标签</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/post/about">关于</a>
+              
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('https://wolf3c.github.io//media/images/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+          	<span class="tags">
+          	 
+            <a href="https://wolf3c.github.io//tag/app" class="tag">app</a>
             
-              <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="https://wolf3c.github.io//tag/app">
-                    app
-                    
-                      ，
-                    
-                  </a>
-                
-                  <a href="https://wolf3c.github.io//tag/technology">
-                    技术
-                    
-                  </a>
-                
-              </span>
+            <a href="https://wolf3c.github.io//tag/technology" class="tag">技术</a>
             
+        </span>
+            <h1>gtop 简要说明</h1>
+            <span class="meta">
+            	Posted on
+              2019-09-09，2 min read
+            </span>
           </div>
-          <div class="post-content">
-            <p>在 *nix 系统中，top 命令的用途不言而喻，如果有人不了解，可以将他类比 Windows 的任务管理器的部分功能，主要用于查看系统资源使用情况，是进程管理中非常重要的工具。</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>在 *nix 系统中，top 命令的用途不言而喻，如果有人不了解，可以将他类比 Windows 的任务管理器的部分功能，主要用于查看系统资源使用情况，是进程管理中非常重要的工具。</p>
 <p>不过，所有被大量用户使用的工具，总是不能很好地满足小部分用户的小众需求，top 也是一样，一些人希望 top 的能力更强大，所以有了 <a href="https://zh.wikipedia.org/wiki/Htop">htop</a>，也有一部分人，希望 top 的功能尽量简单易上手，所以就有了 <a href="https://github.com/aksakalli/gtop">gtop</a>。</p>
 <p>可能大家都希望拥有更强大的工具，所以网上有很多介绍 htop 的文章，但很少有人介绍 gtop，可能是他简单到无需介绍吧。不过作为一个简单看看电脑资源的人，我还是挺喜欢 gtop 的。</p>
 <p>首先 gtop 很直观地列出了重要资源信息：</p>
@@ -136,86 +111,99 @@ p： 将进程按进程 ID 排序</p>
 <pre><code class="language-shell">npm install gtop -g
 </code></pre>
 
-          </div>
-        </div>
-
-        
-          <div class="next-post">
-            <a class="purple-link" href="https://wolf3c.github.io//post/wo-fa-xian-zi-ji-bu-hui-xie-wen-zhang">
-              <h3 class="post-title">
-                下一篇：我发现自己不会写文章
-              </h3>
-            </a>
-          </div>
           
-      </div>
-
-      
+          <p class="next-post">下一篇：
+            <a href="https://wolf3c.github.io//post/wo-fa-xian-zi-ji-bu-hui-xie-wen-zhang">
+              <span class="post-title">
+                我发现自己不会写文章
+              </span>
+            </a>
+          </p>
         
-          <div id="gitalk-container"></div>
-        
-
-        
-      
-
-      <div class="site-footer">
-  <div class="slogan">wolf3c  |  产品经理</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://wolf3c.github.io//atom.xml" target="_blank">RSS</a>
-</div>
-
-
-    </div>
-    <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+        <div class="comment">
+          
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script>
+  var gitalk = new Gitalk({
+    clientID: '70978cecda92809a8738',
+    clientSecret: 'fcb8159e67874dea83c8c3ae3a1431515d169c6d',
+    repo: 'wolf3c.github.io',
+    owner: 'wolf3c',
+    admin: ['wolf3c'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+  gitalk.render('gitalk-container')
 </script>
 
-
-
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
-
-      var gitalk = new Gitalk({
-        clientID: '70978cecda92809a8738',
-        clientSecret: 'fcb8159e67874dea83c8c3ae3a1431515d169c6d',
-        repo: 'wolf3c.github.io',
-        owner: 'wolf3c',
-        admin: ['wolf3c'],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
-
-      gitalk.render('gitalk-container')
-
-    </script>
-  
-
-  
-
-
-
-
+          
+          
+        
+        </div>
+      </div>
+    </div>
+  </article>
+ <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Kveln'Blog 2019<br><a href="https://github.com/getgridea/gridea" class="Themeinfo">Powered by Gridea</a></p>
+        </div>
+      </div>
+    </div>
+   </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://wolf3c.github.io//media/scripts/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://wolf3c.github.io//media/scripts/clean-blog.min.js"></script>
+  <style type="text/css">a.back_to_top{text-decoration:none;position:fixed;bottom:40px;right:30px;background:#f0f0f0;height:40px;width:40px;border-radius:50%;line-height:36px;font-size:18px;text-align:center;transition-duration:.5s;transition-propety:background-color;display:none}a.back_to_top span{color:#888}a.back_to_top:hover{cursor:pointer;background:#dfdfdf}a.back_to_top:hover span{color:#555}@media print,screen and(max-width:580px){.back_to_top{display:none!important}}</style>
+<a id="back_to_top" href="#" class="back_to_top">
+  <span>▲</span></a>
+<script>$(document).ready((function(_this) {
+    return function() {
+      var bt;
+      bt = $('#back_to_top');
+      if ($(document).width() > 480) {
+        $(window).scroll(function() {
+          var st;
+          st = $(window).scrollTop();
+          if (st > 30) {
+            return bt.css('display', 'block')
+          } else {
+            return bt.css('display', 'none')
+          }
+        });
+        return bt.click(function() {
+          $('body,html').animate({
+            scrollTop: 0
+          },
+          800);
+          return false
+        })
+      }
+    }
+  })(this));</script>
   </body>
 </html>
+

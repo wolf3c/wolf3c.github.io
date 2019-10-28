@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wolf3c.github.io/</id>
     <title>wolf3c&apos;s blog</title>
-    <updated>2019-10-28T08:37:36.332Z</updated>
+    <updated>2019-10-28T15:33:40.107Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wolf3c.github.io/"/>
     <link rel="self" href="https://wolf3c.github.io//atom.xml"/>
@@ -28,7 +28,7 @@
 <p>回到技术，Blaze 的 Spacebars 已经提供了  <code>{{#each...in}}</code> 、<code>{{#if...else}}</code> 等来制作自己的 template，同时也提供了  <code>{{&gt; myTemplate}}</code> 来直接调用自己的 template。但是，如果我要做好几个长得有点像，但还有点区别的 template，就很麻烦，因为，我要每次都需要重复写一遍那些相同的部分。为了避免这种重复，Blaze 提供了 Custom Block Helpers。</p>
 <p>如何使用 Custom Block Helpers</p>
 <p>下面来举个例子：</p>
-<pre><code class="language-handlebars">{{! template，我们自己制作的明信片 }}
+<pre><code>{{! template，我们自己制作的明信片 }}
 
 &lt;template name=&quot;note&quot;&gt;
   &lt;div class=&quot;note&quot;&gt;
@@ -37,7 +37,7 @@
 &lt;/template&gt;
 </code></pre>
 <p>这个 <code>note</code> 就是我们自己做的明信片（template），现在，我们需要使用它：</p>
-<pre><code class="language-handlebars">{{! 引用，使用我们自己的明信片，往里面填上自己的东西 }}
+<pre><code class="language-html">{{! 引用，使用我们自己的明信片，往里面填上自己的东西 }}
 
 {{#note}}
   &lt;p&gt; Any content here &lt;/p&gt;		{{!-- {{#note }}后面的内容将自动填写进 {{&gt; Template.contentBlock}} --}}
@@ -50,7 +50,7 @@
 </code></pre>
 <p>如果明白了以上内容，我们继续学习。</p>
 <p>Blaze 除了提供 <code>{{&gt; Template.contentBlock}}</code>  ，还提供了 <code>{{&gt; Template.elseBlock}}</code>  来填如其他内容。这么说可能不太好理解，我从 blog <a href="http://www.petecorey.com/blog/2015/01/13/custom-block-helpers-and-meteor-composability/">Custom Block Helpers and Meteor Composability</a> 看到了一个很好的例子：</p>
-<pre><code class="language-handlebars">&lt;template name=&quot;myTemplate&quot;&gt;
+<pre><code class="language-html">&lt;template name=&quot;myTemplate&quot;&gt;
     {{#if this}}
     &lt;h1&gt;{{title}}&lt;/h1&gt;
     &lt;div&gt;
@@ -77,7 +77,7 @@
 &lt;/body&gt;
 </code></pre>
 <p>这时候，我们回头来看看 Blaze 提供的例子，使用<code>{{#if}}</code>来实现<code>{{#unless}}</code>：</p>
-<pre><code class="language-handlebars">&lt;template name=&quot;unless&quot;&gt;
+<pre><code class="language-html">&lt;template name=&quot;unless&quot;&gt;
   {{#if this}}
     {{&gt; Template.elseBlock}}
   {{else}}

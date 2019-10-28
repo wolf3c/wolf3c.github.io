@@ -1,571 +1,526 @@
+<!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
-
-<title>wolf3c&#39;s blog</title>
-<meta name="description" content="wolf3c  |  产品经理">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://wolf3c.github.io//favicon.ico?v=1572251852918">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://wolf3c.github.io//styles/main.css">
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77797341-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-77797341-2');
-</script>
-
+       <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="referrer" content="never">
+  <meta name="description" content="">
+  <meta name="author" content="kveln">
+  <meta name="keywords" content="">
+  <title>wolf3c&#39;s blog</title>
+  <link href="https://wolf3c.github.io//media/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="https://wolf3c.github.io//media/css/all.min.css" rel="stylesheet" type="text/css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link rel="alternate" type="application/rss+xml" title="wolf3c&#39;s blog » Feed" href="https://wolf3c.github.io//atom.xml">
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/highlight.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
+  <script src="https://wolf3c.github.io//media/scripts/jquery.min.js"></script>
+  <link href="https://wolf3c.github.io//styles/main.css" rel="stylesheet">
+  <script>hljs.initHighlightingOnLoad();</script>
+  
 
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://wolf3c.github.io/">
-        <img class="avatar" src="https://wolf3c.github.io//images/avatar.png?v=1572251852918" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://wolf3c.github.io/">
-        <h1 class="site-title">wolf3c&#39;s blog</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-        <div class="content-container">
+  	<!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="https://wolf3c.github.io/">wolf3c&#39;s blog</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
           
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/">首页</a>
+              
+          </li>
           
-
-<div class="archives-container">
-  
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/archives">归档</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/tags">标签</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/post/about">关于</a>
+              
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('https://wolf3c.github.io//media/images/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1 class="tag-tl">Archives</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        
+      
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-archives">
     <h2 class="year">2019</h2>
     
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/he-wei-custom-block-helpers">
-            <h2 class="post-title">
-              何为 Custom Block Helpers
-              <small>2019-10-27</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/guan-li-yi-ding-yao-rang-tuan-dui-de-mei-ge-ren-zhuan-zhu-di-gong-xian-zhi-li">
-            <h2 class="post-title">
-              管理：一定要让团队的每个人专注地贡献智力
-              <small>2019-10-12</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/gtop-jian-yao-shuo-ming">
-            <h2 class="post-title">
-              gtop 简要说明
-              <small>2019-09-09</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/wo-fa-xian-zi-ji-bu-hui-xie-wen-zhang">
-            <h2 class="post-title">
-              我发现自己不会写文章
-              <small>2019-08-27</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/fu-ze-ren">
-            <h2 class="post-title">
-              负责任
-              <small>2019-05-11</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/xian-shi">
-            <h2 class="post-title">
-              现实
-              <small>2019-04-28</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+                
+        <a href="https://wolf3c.github.io//post/he-wei-custom-block-helpers" class="post">
+          <h2 class="post-title Archives">
+            何为 Custom Block Helpers
+          </h2>
+          <div class="time post-meta">2019-10-27</div>
+        </a>
   
+                    
+                
+        <a href="https://wolf3c.github.io//post/guan-li-yi-ding-yao-rang-tuan-dui-de-mei-ge-ren-zhuan-zhu-di-gong-xian-zhi-li" class="post">
+          <h2 class="post-title Archives">
+            管理：一定要让团队的每个人专注地贡献智力
+          </h2>
+          <div class="time post-meta">2019-10-12</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/gtop-jian-yao-shuo-ming" class="post">
+          <h2 class="post-title Archives">
+            gtop 简要说明
+          </h2>
+          <div class="time post-meta">2019-09-09</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/wo-fa-xian-zi-ji-bu-hui-xie-wen-zhang" class="post">
+          <h2 class="post-title Archives">
+            我发现自己不会写文章
+          </h2>
+          <div class="time post-meta">2019-08-27</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/fu-ze-ren" class="post">
+          <h2 class="post-title Archives">
+            负责任
+          </h2>
+          <div class="time post-meta">2019-05-11</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/xian-shi" class="post">
+          <h2 class="post-title Archives">
+            现实
+          </h2>
+          <div class="time post-meta">2019-04-28</div>
+        </a>
+  
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+        </div>
+        </div>
+        
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-archives">
     <h2 class="year">2017</h2>
     
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/wo-de-telegram-channelzhi-de-guan-zhu">
-            <h2 class="post-title">
-              我的 Telegram Channel：「值得关注」
-              <small>2017-10-26</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/chrome-shu-qian-guan-li-xin-fang-an-neater-bookmarks">
-            <h2 class="post-title">
-              Chrome 书签管理新方案 —— Neater Bookmarks
-              <small>2017-08-15</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/zuo-you-mei-li-de-chan-pin-zhi-chu-ci-jian-mian">
-            <h2 class="post-title">
-              做有魅力的产品 之 初次见面
-              <small>2017-07-27</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/lun-ren-min-wang-ping-wang-zhe-rong-yao">
-            <h2 class="post-title">
-              论人民网评王者荣耀
-              <small>2017-07-09</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/zhi-wen-he-hong-mo-bu-shi-mi-ma">
-            <h2 class="post-title">
-              指纹和虹膜，不是密码
-              <small>2017-06-29</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/huo-xu-windows-geng-an-quan">
-            <h2 class="post-title">
-              或许 Windows 更安全
-              <small>2017-06-19</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/clutter-freerang-chrome-xue-hui-jie-yue-zi-yuan">
-            <h2 class="post-title">
-              Clutter Free：让 Chrome 学会节约资源
-              <small>2017-06-14</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/tu-cao-greaterwu-qu">
-            <h2 class="post-title">
-              吐槽=&gt;无趣
-              <small>2017-06-05</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/lesslessyi-xi-greatergreater-tui-jian">
-            <h2 class="post-title">
-              《一席》推荐
-              <small>2017-06-03</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/shi-fen-zhong-xue-yi-men-bian-cheng-yu-yan">
-            <h2 class="post-title">
-              十分钟学一门编程语言
-              <small>2017-06-02</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/kan-huo-ying-mai-te-kai">
-            <h2 class="post-title">
-              看火影：迈特凯
-              <small>2017-05-31</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/wei-xin-xiao-cheng-xu-yu-android-instant-apps">
-            <h2 class="post-title">
-              微信小程序与 Android Instant Apps
-              <small>2017-05-24</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/workflowy-yu-mu-bu">
-            <h2 class="post-title">
-              Workflowy 与幕布
-              <small>2017-05-18</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/bu-dui-cheng-xing-yu-xiang-mu">
-            <h2 class="post-title">
-              不对称性与项目
-              <small>2017-05-12</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/jian-fa-nan">
-            <h2 class="post-title">
-              减法难
-              <small>2017-05-05</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/qi-qiang">
-            <h2 class="post-title">
-              骑墙
-              <small>2017-04-28</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/wu-zhi-de-bo-xue">
-            <h2 class="post-title">
-              无知的博学
-              <small>2017-04-23</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/hu-lian-wang-chan-pin-jing-li-xiu-lian-shou-ce-zhi-yi">
-            <h2 class="post-title">
-              互联网产品经理修炼手册之一
-              <small>2017-04-23</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/wo-de-jie-yue-guan">
-            <h2 class="post-title">
-              我的「节约」观
-              <small>2017-04-09</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/ren-duo-bu-yi-ding-li-liang-da-jia-ban-bu-yi-ding-chu-cheng-ji">
-            <h2 class="post-title">
-              人多不一定「力量」大，加班不一定出成绩
-              <small>2017-04-08</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/ni-de-hao-qi-xin-bei-shui-chi-liao">
-            <h2 class="post-title">
-              你的好奇心被谁吃了？
-              <small>2017-04-04</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/shen-hou-de-mo-gui">
-            <h2 class="post-title">
-              身后的魔鬼
-              <small>2017-04-03</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/bian-ge-shi-dai-bu-yao-mang-mu-xiang-xin-nian-ling-he-jing-yan">
-            <h2 class="post-title">
-              变革时代不要盲目相信年龄和经验
-              <small>2017-04-02</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/yi-wo-wei-shi-me-qi-mac-tou-windowsfang-qi-apple">
-            <h2 class="post-title">
-              [译]我为什么弃 Mac 投 Windows：放弃 Apple
-              <small>2017-03-24</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/song-san-zu-zhi-yu-zi-wo-fu-quan">
-            <h2 class="post-title">
-              松散组织与自我赋权
-              <small>2017-03-20</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/ce-suo-zui-hao-de-yue-du-kong-jian">
-            <h2 class="post-title">
-              厕所——最好的阅读空间
-              <small>2017-03-16</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://wolf3c.github.io//post/jing-tai-si-kao-he-dong-tai-si-kao-1">
-            <h2 class="post-title">
-              静态思考和动态思考(1)
-              <small>2017-03-12</small>
-            </h2>
-          </a>
-        </article>
-      
-    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+        <a href="https://wolf3c.github.io//post/wo-de-telegram-channelzhi-de-guan-zhu" class="post">
+          <h2 class="post-title Archives">
+            我的 Telegram Channel：「值得关注」
+          </h2>
+          <div class="time post-meta">2017-10-26</div>
+        </a>
   
-</div>
-
-
+                    
+                
+        <a href="https://wolf3c.github.io//post/chrome-shu-qian-guan-li-xin-fang-an-neater-bookmarks" class="post">
+          <h2 class="post-title Archives">
+            Chrome 书签管理新方案 —— Neater Bookmarks
+          </h2>
+          <div class="time post-meta">2017-08-15</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/zuo-you-mei-li-de-chan-pin-zhi-chu-ci-jian-mian" class="post">
+          <h2 class="post-title Archives">
+            做有魅力的产品 之 初次见面
+          </h2>
+          <div class="time post-meta">2017-07-27</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/lun-ren-min-wang-ping-wang-zhe-rong-yao" class="post">
+          <h2 class="post-title Archives">
+            论人民网评王者荣耀
+          </h2>
+          <div class="time post-meta">2017-07-09</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/zhi-wen-he-hong-mo-bu-shi-mi-ma" class="post">
+          <h2 class="post-title Archives">
+            指纹和虹膜，不是密码
+          </h2>
+          <div class="time post-meta">2017-06-29</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/huo-xu-windows-geng-an-quan" class="post">
+          <h2 class="post-title Archives">
+            或许 Windows 更安全
+          </h2>
+          <div class="time post-meta">2017-06-19</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/clutter-freerang-chrome-xue-hui-jie-yue-zi-yuan" class="post">
+          <h2 class="post-title Archives">
+            Clutter Free：让 Chrome 学会节约资源
+          </h2>
+          <div class="time post-meta">2017-06-14</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/tu-cao-greaterwu-qu" class="post">
+          <h2 class="post-title Archives">
+            吐槽=&gt;无趣
+          </h2>
+          <div class="time post-meta">2017-06-05</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/lesslessyi-xi-greatergreater-tui-jian" class="post">
+          <h2 class="post-title Archives">
+            《一席》推荐
+          </h2>
+          <div class="time post-meta">2017-06-03</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/shi-fen-zhong-xue-yi-men-bian-cheng-yu-yan" class="post">
+          <h2 class="post-title Archives">
+            十分钟学一门编程语言
+          </h2>
+          <div class="time post-meta">2017-06-02</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/kan-huo-ying-mai-te-kai" class="post">
+          <h2 class="post-title Archives">
+            看火影：迈特凯
+          </h2>
+          <div class="time post-meta">2017-05-31</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/wei-xin-xiao-cheng-xu-yu-android-instant-apps" class="post">
+          <h2 class="post-title Archives">
+            微信小程序与 Android Instant Apps
+          </h2>
+          <div class="time post-meta">2017-05-24</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/workflowy-yu-mu-bu" class="post">
+          <h2 class="post-title Archives">
+            Workflowy 与幕布
+          </h2>
+          <div class="time post-meta">2017-05-18</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/bu-dui-cheng-xing-yu-xiang-mu" class="post">
+          <h2 class="post-title Archives">
+            不对称性与项目
+          </h2>
+          <div class="time post-meta">2017-05-12</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/jian-fa-nan" class="post">
+          <h2 class="post-title Archives">
+            减法难
+          </h2>
+          <div class="time post-meta">2017-05-05</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/qi-qiang" class="post">
+          <h2 class="post-title Archives">
+            骑墙
+          </h2>
+          <div class="time post-meta">2017-04-28</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/wu-zhi-de-bo-xue" class="post">
+          <h2 class="post-title Archives">
+            无知的博学
+          </h2>
+          <div class="time post-meta">2017-04-23</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/hu-lian-wang-chan-pin-jing-li-xiu-lian-shou-ce-zhi-yi" class="post">
+          <h2 class="post-title Archives">
+            互联网产品经理修炼手册之一
+          </h2>
+          <div class="time post-meta">2017-04-23</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/wo-de-jie-yue-guan" class="post">
+          <h2 class="post-title Archives">
+            我的「节约」观
+          </h2>
+          <div class="time post-meta">2017-04-09</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/ren-duo-bu-yi-ding-li-liang-da-jia-ban-bu-yi-ding-chu-cheng-ji" class="post">
+          <h2 class="post-title Archives">
+            人多不一定「力量」大，加班不一定出成绩
+          </h2>
+          <div class="time post-meta">2017-04-08</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/ni-de-hao-qi-xin-bei-shui-chi-liao" class="post">
+          <h2 class="post-title Archives">
+            你的好奇心被谁吃了？
+          </h2>
+          <div class="time post-meta">2017-04-04</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/shen-hou-de-mo-gui" class="post">
+          <h2 class="post-title Archives">
+            身后的魔鬼
+          </h2>
+          <div class="time post-meta">2017-04-03</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/bian-ge-shi-dai-bu-yao-mang-mu-xiang-xin-nian-ling-he-jing-yan" class="post">
+          <h2 class="post-title Archives">
+            变革时代不要盲目相信年龄和经验
+          </h2>
+          <div class="time post-meta">2017-04-02</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/yi-wo-wei-shi-me-qi-mac-tou-windowsfang-qi-apple" class="post">
+          <h2 class="post-title Archives">
+            [译]我为什么弃 Mac 投 Windows：放弃 Apple
+          </h2>
+          <div class="time post-meta">2017-03-24</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/song-san-zu-zhi-yu-zi-wo-fu-quan" class="post">
+          <h2 class="post-title Archives">
+            松散组织与自我赋权
+          </h2>
+          <div class="time post-meta">2017-03-20</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/ce-suo-zui-hao-de-yue-du-kong-jian" class="post">
+          <h2 class="post-title Archives">
+            厕所——最好的阅读空间
+          </h2>
+          <div class="time post-meta">2017-03-16</div>
+        </a>
+  
+                    
+                
+        <a href="https://wolf3c.github.io//post/jing-tai-si-kao-he-dong-tai-si-kao-1" class="post">
+          <h2 class="post-title Archives">
+            静态思考和动态思考(1)
+          </h2>
+          <div class="time post-meta">2017-03-12</div>
+        </a>
+  
+                    
         </div>
-
-        <div class="site-footer">
-  <div class="slogan">wolf3c  |  产品经理</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://wolf3c.github.io//atom.xml" target="_blank">RSS</a>
-</div>
-
-
+        </div>
+        
       </div>
-      <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-
-
     </div>
+  </article>
+
+
+ <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Kveln'Blog 2019<br><a href="https://github.com/getgridea/gridea" class="Themeinfo">Powered by Gridea</a></p>
+        </div>
+      </div>
+    </div>
+   </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://wolf3c.github.io//media/scripts/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://wolf3c.github.io//media/scripts/clean-blog.min.js"></script>
+  <style type="text/css">a.back_to_top{text-decoration:none;position:fixed;bottom:40px;right:30px;background:#f0f0f0;height:40px;width:40px;border-radius:50%;line-height:36px;font-size:18px;text-align:center;transition-duration:.5s;transition-propety:background-color;display:none}a.back_to_top span{color:#888}a.back_to_top:hover{cursor:pointer;background:#dfdfdf}a.back_to_top:hover span{color:#555}@media print,screen and(max-width:580px){.back_to_top{display:none!important}}</style>
+<a id="back_to_top" href="#" class="back_to_top">
+  <span>▲</span></a>
+<script>$(document).ready((function(_this) {
+    return function() {
+      var bt;
+      bt = $('#back_to_top');
+      if ($(document).width() > 480) {
+        $(window).scroll(function() {
+          var st;
+          st = $(window).scrollTop();
+          if (st > 30) {
+            return bt.css('display', 'block')
+          } else {
+            return bt.css('display', 'none')
+          }
+        });
+        return bt.click(function() {
+          $('body,html').animate({
+            scrollTop: 0
+          },
+          800);
+          return false
+        })
+      }
+    }
+  })(this));</script>
   </body>
 </html>
