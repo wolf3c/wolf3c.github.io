@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wolf3c.github.io/</id>
     <title>wolf3c&apos;s blog</title>
-    <updated>2019-10-27T11:58:06.840Z</updated>
+    <updated>2019-10-28T02:50:07.774Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wolf3c.github.io/"/>
     <link rel="self" href="https://wolf3c.github.io//atom.xml"/>
@@ -114,7 +114,7 @@
 <p>不过，所有被大量用户使用的工具，总是不能很好地满足小部分用户的小众需求，top 也是一样，一些人希望 top 的能力更强大，所以有了 <a href="https://zh.wikipedia.org/wiki/Htop">htop</a>，也有一部分人，希望 top 的功能尽量简单易上手，所以就有了 <a href="https://github.com/aksakalli/gtop">gtop</a>。</p>
 <p>可能大家都希望拥有更强大的工具，所以网上有很多介绍 htop 的文章，但很少有人介绍 gtop，可能是他简单到无需介绍吧。不过作为一个简单看看电脑资源的人，我还是挺喜欢 gtop 的。</p>
 <p>首先 gtop 很直观地列出了重要资源信息：</p>
-<p><img src="https://wolf3c.github.io//post-images/1568036421843.png" alt=""></p>
+<figure data-type="image" tabindex="1"><img src="https://wolf3c.github.io//post-images/1568036421843.png" alt=""></figure>
 <p>平时重点关注的内存、硬盘、网络情况，都一目了然。</p>
 <p>另外，平时想要针对性地看看进程占用资源的情况（上图右下角区域的内容），gtop 提供了三个快捷键，覆盖了日常需求：</p>
 <blockquote>
@@ -246,17 +246,17 @@ p： 将进程按进程 ID 排序</p>
 <p>在 chrome web store 一通乱翻后，果然找到了「药」—— Neater Bookmarks。</p>
 <h3 id="树状结构">树状结构</h3>
 <p>Neater Bookmarks 作为插件，需要在插件栏中点击图标打开，书签在弹出窗中树状呈现，很适合管理大量书签。</p>
-<p><img src="https://wolf3c.github.io//post-images/1561821517169.png" alt="Neater Bookmarks_tree"></p>
+<figure data-type="image" tabindex="1"><img src="https://wolf3c.github.io//post-images/1561821517169.png" alt="Neater Bookmarks_tree"></figure>
 <p>同时，Neater Bookmarks 提供了非常实用的自定义设置，我最喜欢「左键单击书签在新标签打开」和「记住上次状态」。</p>
 <h3 id="左键单击书签在新标签打开">左键单击书签在新标签打开</h3>
 <p>这个功能解决了一直被我吐槽的 Chrome 自带书签打开方式，只需要点击左键即可在新标签页中打开书签。</p>
 <p>如果配合「鼠标中键或按住 Ctrl 键左击时在后台打开书签」设置项，一次性打开多个书签变得非常高效。</p>
 <p>再也不用跟傻子似的一遍又一遍地沿着相同的路径点开文件夹打开书签了。</p>
-<p><img src="https://wolf3c.github.io//post-images/1561821537043.gif" alt="NeaterBookmarks_newTab"></p>
+<figure data-type="image" tabindex="2"><img src="https://wolf3c.github.io//post-images/1561821537043.gif" alt="NeaterBookmarks_newTab"></figure>
 <h3 id="记住上次状态">记住上次状态</h3>
 <p>开启「记住上次状态」功能后，每次打开 Neater Bookmarks 时，显示位置就是使用时打开的位置。</p>
 <p>我根据自己使用场景建了几个文件夹，并将同类书签放在相同的文件夹下。比如，我有一个叫「开发常用」的文件夹，里面放着Underscore.js、MongoDB、Materialize……的 document 网站和开发资源网站，在写代码的时候，常需要查文档，每次打开 Neater Bookmarks，位置就在已经打开的「开发常用」文件夹，使用起来方便很多。</p>
-<p><img src="https://wolf3c.github.io//post-images/1561821550942.gif" alt="NeaterBookmarks_rememberStatus"></p>
+<figure data-type="image" tabindex="3"><img src="https://wolf3c.github.io//post-images/1561821550942.gif" alt="NeaterBookmarks_rememberStatus"></figure>
 <h3 id="不足">不足</h3>
 <p>在使用过程中也发现 Neater Bookmarks 一些小问题。</p>
 <p>中文支持不足。「地址栏搜索」功能是在地址栏输入星号「*」，再按 tab 或空格，就可以搜索 Neater Bookmarks 中的标签，但使用中文搜索经常出现搜索不到的情况，该功能在几年前还是很有用的（Neater Bookmarks 是 2010 年发布，最后一次更新是 2014 年），但现在 Chrome 自己已经把书签搜索加入到地址栏中，所以该功能好坏变得无足轻重。</p>
@@ -468,7 +468,7 @@ p： 将进程按进程 ID 排序</p>
 <p>当用户打开一个已经打开某一网页时，Clutter Free 会直接让你直接跳转到已经打开的网页，而不是重复打开一个新页面。</p>
 <p>使用 Clutter Free 有一个附加好处，由于不再重复打开网页，所以无形中省下很多内存。</p>
 </blockquote>
-<p><img src="https://wolf3c.github.io//post-images/1561821589181.gif" alt="Clutter_Free_show"></p>
+<figure data-type="image" tabindex="1"><img src="https://wolf3c.github.io//post-images/1561821589181.gif" alt="Clutter_Free_show"></figure>
 <p>我执着地认为，我们使用电脑是为了让自己更高效更轻松，需要花精力去整理浏览器标签并不是一个正确的方式。我喜欢 Clutter Free 的一个重要原因是，它会默默地做好这件事情，不需要我再浪费精力做什么操作。（这点和 The Great Suspender 很像）</p>
 <p>浏览器已经成为大多白领工作的重要场所，找到一帮默默帮助自己的「小助理」可以节省很多精力，如果说 The Great Suspender 是一个清理空闲网页的助理，那 Clutter Free 就是清理重复网页的助理，何不请来试试？</p>
 <hr>
@@ -1375,7 +1375,7 @@ p： 将进程按进程 ID 排序</p>
 <p>但是，当我兴冲冲地加入 Apple 世界，这家公司的重心发生了变化。Mac 不再重要，同时 iPhone、iPad、以及后来的 iPad Pro 成为了 Apple 的重心，信号很明显：为什么你非要用电脑来做一个手机或平板就可以搞定的事情呢？</p>
 <p>结果就是 Apple 不在关注 Mac，硬件四年都没有得到一点儿更新。还有 OS X，以前还能是不是更新一些有趣的新功能，现在只能拿到一些 iOS 的边角料，如果你不信，看一下你 Mac 中的 iMessage，iOS 的旗舰功能——贴纸在 Mac 中毫无踪迹。</p>
 <p>这点事无处不在，比如 Airdrop——Apple 非常受欢迎的功能，轻松在电脑和手机间传递文件的体验让我感受到了什么叫「浸入式工作」，要知道，每次传递文件耗费了我 30% 的时间，而其他时间我都在连接设备。有了 Airdrop 后，你就可以在一个设备上工作，无缝地移动到另一个设备上。很想知道用这个功能是怎样的感觉。</p>
-<p><img src="https://wolf3c.github.io//post-images/1561819867770.png" alt="Windows2Mac_twitter_message"></p>
+<figure data-type="image" tabindex="1"><img src="https://wolf3c.github.io//post-images/1561819867770.png" alt="Windows2Mac_twitter_message"></figure>
 <p>在此期间，Microsoft 舔好了 Windows 8 的伤口，找到了一个激情昂扬的 CEO——Satya Nadella，然后在 Windows 10 中做了很多非常棒的东西——它开始倾听并实现用户需要的功能了。</p>
 <p>我一直无视 Windows 世界，直到去年底，Microsoft 在 Windows 中推出了 Linux 子系统（简单说，就是一种可以在 Windows 中使用 Linux 终端的方式），这让我意识到在 Windows 开发将变得更加友好，这足以让我回心转意。它是一个游戏的改革者：</p>
 <blockquote>
@@ -1392,20 +1392,20 @@ p： 将进程按进程 ID 排序</p>
 <p>我意识到自己对 <a href="https://medium.com/charged-tech/apple-just-told-the-world-it-has-no-idea-who-the-mac-is-for-722a2438389b#.qpzcffe9t">Apple在笔记本和台式机方面的平庸</a> 已经厌烦透顶，然后开始考虑再次尝试使用 Windows。</p>
 <p>所以，2017 年 2 月，我开始从零组装一台电脑，我卖掉了自己的 15&quot; MacBook Pro（我现在用一个 12&quot; MacBook 移动办公），并持续投入精力建立一个适合自己需求的桌面新主角。</p>
 <p>我将省去很多细节，如果你对我的作品感兴趣，可以<a href="https://pcpartpicker.com/list/YCbM6X">查看我订购的配件</a>，设备有点变态，但是考虑到我想学习虚拟现实开发，从长远来看这似乎是性能和价格之间最好的平衡。</p>
-<p><img src="https://wolf3c.github.io//post-images/1561819951016.jpg" alt=""></p>
+<figure data-type="image" tabindex="2"><img src="https://wolf3c.github.io//post-images/1561819951016.jpg" alt=""></figure>
 <p>（Jekyll 和 Gulp 和谐相处）</p>
 <p>如今，我再 Windows 中工作了差不多 6 周了，虽然我希望自己可以讨厌它，但我发现我记忆犹新，虽然它不完美，但它清晰地展示出 Microsoft 绝无仅有的细节，我是按照我再 Mac 中的习惯建立开发环境的，从 Jekyll 到 Gulp 一切都如我所愿，太感谢 Linux 子系统了。</p>
 <p>我一开始比较担心 Microsoft 对高分辨率的支持，毕竟在 Windows 8 和 Windows 10 原有版本中都没有实现，但在新版（Creators' Update）中貌似已经可以毫无压力支持 4K 显示器了。</p>
 <p>还有更重要的？那就是我可以任意玩各种游戏，我可以体验 VR，HTC Vive 是一台不可思议的设备，我已经开始学习 Unity 去创建自己的应用。</p>
 <p>并非所有的经历都是如此浪漫，我忘记了硬件是一回事，而 Windows 的软件非常匮乏（虽然比我记忆中好了很多），这一点很快会被  <a href="https://electron.atom.io/">Electron</a> apps 解决，比如 Slack、<a href="https://nylas.com/">Nylas</a>、 <a href="https://hyper.is/">Hyper</a> 以及 <a href="https://code.visualstudio.com/">Visual Studio Code</a> 都是非常优秀的，他们将在 Windows 世界脱颖而出。</p>
-<p><img src="https://wolf3c.github.io//post-images/1561819964440.jpg" alt=""></p>
+<figure data-type="image" tabindex="3"><img src="https://wolf3c.github.io//post-images/1561819964440.jpg" alt=""></figure>
 <p>（看似一小步，其实一大步）</p>
 <p>虽然我不愿明说，但 Windows 真的回来了，Microsoft 干的漂亮。Microsoft 正在让 Windows 比 Apple 的 OS X 在各个方面更快、更好。</p>
 <p>还有一些我忘说的事情：Sketch，我经常用它做设计；iMessage，我可以不用不停地拿出手机；……不过离开他们并不难。</p>
 <p>我对 Apple 从内而外看的一清二楚，整个 Apple 都只关心 iOS 和 iPhone（咳咳，忘了 Airport），或许有一天他们会不知道从哪里拿出一个令人惊讶的产品超常发挥，但是这个公司正忙于说服用户他们的重磅产品 iPad Pro 是有利于工作的。</p>
 <p>我计划在未来几周写一些关于 Windows 的文章，包括我如何配置自己的开发环境、我使用的软件，当然也包括不好的方面。老实说，我并没法在工作中放弃 Mac，因为我不确定有一款很好的 Windows 笔记本电脑…但这可能随时改变。</p>
 <p>如果你是一个坐下来等 Apple 可能发布一款让你工作的主力电脑的人，放弃无谓的挣扎吧，看看 Windows 多么棒，并且，现在你就可以用超实惠的价格拿到一个超高性能的电脑去使用。</p>
-<p><img src="https://wolf3c.github.io//post-images/1561819982911.jpg" alt=""></p>
+<figure data-type="image" tabindex="4"><img src="https://wolf3c.github.io//post-images/1561819982911.jpg" alt=""></figure>
 <hr>
 <p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
 <p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
