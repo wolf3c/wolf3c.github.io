@@ -1,11 +1,12 @@
 body {
-  font-size: 18px;
+  font-size: 16px;
   color: #555555;
   font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', 'Source Han Sans SC', 'Noto Sans CJK SC', 'WenQuanYi Micro Hei', sans-serif;
 }
 p {
   line-height: 1.75;
   margin: 0px 0 30px;
+  text-align: justify;
 }
 p a {
   text-decoration: underline;
@@ -165,14 +166,14 @@ header.masthead .overlay {
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
-  padding: 200px 0 150px;
+  padding: 150px 0 100px;
   color: #fff;
 }
 @media only screen and (min-width: 768px) {
   header.masthead .page-heading,
   header.masthead .post-heading,
   header.masthead .site-heading {
-    padding: 166px 0;
+    padding: 160px 0;
   }
 }
 header.masthead .page-heading,
@@ -250,7 +251,7 @@ header.masthead .post-heading .meta a {
 .post-preview > .post-meta {
   font-size: 16px;
   font-style: italic;
-  margin-top: 0;
+  margin-top: 4px;
   color: #868e96;
   font-family: Lora, 'Times New Roman', serif;
 }
@@ -394,7 +395,7 @@ tt {
   border: 1px solid #E3EDF3;
   background: #f7f7f9;
   color: #222;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 code {
   word-wrap: break-word;
@@ -532,7 +533,7 @@ ul.markdownIt-TOC {
   line-height: 1.75;
 }
 .post-subtitle p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -669,4 +670,7 @@ h3.post-subtitle {
 .post-preview.tag-list {
   display: inline-block;
   margin-top: 20px;
+}
+.post-preview img {
+  margin: 10px auto;
 }
