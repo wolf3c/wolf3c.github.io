@@ -2,18 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wolf3c.github.io/</id>
     <title>wolf3c&apos;s blog</title>
-    <updated>2019-12-31T08:07:36.762Z</updated>
+    <updated>2020-01-02T02:20:17.556Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wolf3c.github.io/"/>
-    <link rel="self" href="https://wolf3c.github.io//atom.xml"/>
+    <link rel="self" href="https://wolf3c.github.io/atom.xml"/>
     <subtitle>wolf3c  |  产品经理</subtitle>
-    <logo>https://wolf3c.github.io//images/avatar.png</logo>
-    <icon>https://wolf3c.github.io//favicon.ico</icon>
-    <rights>All rights reserved 2019, wolf3c&apos;s blog</rights>
+    <logo>https://wolf3c.github.io/images/avatar.png</logo>
+    <icon>https://wolf3c.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, wolf3c&apos;s blog</rights>
     <entry>
         <title type="html"><![CDATA[2020 目标]]></title>
-        <id>https://wolf3c.github.io//post/2020-mu-biao</id>
-        <link href="https://wolf3c.github.io//post/2020-mu-biao">
+        <id>https://wolf3c.github.io/post/2020-mu-biao</id>
+        <link href="https://wolf3c.github.io/post/2020-mu-biao">
         </link>
         <updated>2019-12-31T08:05:34.000Z</updated>
         <content type="html"><![CDATA[<p>我将自己的成长分为「内修」和「外建」两部分，2020 的计划，也将按照这两部分的成长展开。</p>
@@ -113,8 +113,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[2019 目标回顾]]></title>
-        <id>https://wolf3c.github.io//post/2019-mu-biao-hui-gu</id>
-        <link href="https://wolf3c.github.io//post/2019-mu-biao-hui-gu">
+        <id>https://wolf3c.github.io/post/2019-mu-biao-hui-gu</id>
+        <link href="https://wolf3c.github.io/post/2019-mu-biao-hui-gu">
         </link>
         <updated>2019-12-12T02:19:42.000Z</updated>
         <content type="html"><![CDATA[<p>2019 年初，我给自己定下了几个目标，现在来看一个都没有完成，2020 要重新考虑自己的方式方法，找到提升完成率的方法。</p>
@@ -155,8 +155,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[何为 Custom Block Helpers]]></title>
-        <id>https://wolf3c.github.io//post/he-wei-custom-block-helpers</id>
-        <link href="https://wolf3c.github.io//post/he-wei-custom-block-helpers">
+        <id>https://wolf3c.github.io/post/he-wei-custom-block-helpers</id>
+        <link href="https://wolf3c.github.io/post/he-wei-custom-block-helpers">
         </link>
         <updated>2019-10-27T11:53:33.000Z</updated>
         <content type="html"><![CDATA[<p>我平时网站开发使用 Meteor，而前端则使用了以前被其推荐的 Blaze，不过开发是我的副业，搞得也是马马虎虎，加上 Blaze 的资料基本都是英文，所以，用起来也是一知半解。</p>
@@ -233,8 +233,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[管理：一定要让团队的每个人专注地贡献智力]]></title>
-        <id>https://wolf3c.github.io//post/guan-li-yi-ding-yao-rang-tuan-dui-de-mei-ge-ren-zhuan-zhu-di-gong-xian-zhi-li</id>
-        <link href="https://wolf3c.github.io//post/guan-li-yi-ding-yao-rang-tuan-dui-de-mei-ge-ren-zhuan-zhu-di-gong-xian-zhi-li">
+        <id>https://wolf3c.github.io/post/guan-li-yi-ding-yao-rang-tuan-dui-de-mei-ge-ren-zhuan-zhu-di-gong-xian-zhi-li</id>
+        <link href="https://wolf3c.github.io/post/guan-li-yi-ding-yao-rang-tuan-dui-de-mei-ge-ren-zhuan-zhu-di-gong-xian-zhi-li">
         </link>
         <updated>2019-10-12T12:10:11.000Z</updated>
         <content type="html"><![CDATA[<p>我们线上有一个问题，因为开发测试人员都有其他排期，所以抽空来解决这个问题，两天时间没有复现问题，然后开发根据自己的猜测做了一些修改，让测试测测，测试由于一直没有复现问题，所以就说，要不咱们上线试试。</p>
@@ -249,15 +249,15 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[gtop 简要说明]]></title>
-        <id>https://wolf3c.github.io//post/gtop-jian-yao-shuo-ming</id>
-        <link href="https://wolf3c.github.io//post/gtop-jian-yao-shuo-ming">
+        <id>https://wolf3c.github.io/post/gtop-jian-yao-shuo-ming</id>
+        <link href="https://wolf3c.github.io/post/gtop-jian-yao-shuo-ming">
         </link>
         <updated>2019-09-09T13:05:46.000Z</updated>
         <content type="html"><![CDATA[<p>在 *nix 系统中，top 命令的用途不言而喻，如果有人不了解，可以将他类比 Windows 的任务管理器的部分功能，主要用于查看系统资源使用情况，是进程管理中非常重要的工具。</p>
 <p>不过，所有被大量用户使用的工具，总是不能很好地满足小部分用户的小众需求，top 也是一样，一些人希望 top 的能力更强大，所以有了 <a href="https://zh.wikipedia.org/wiki/Htop">htop</a>，也有一部分人，希望 top 的功能尽量简单易上手，所以就有了 <a href="https://github.com/aksakalli/gtop">gtop</a>。</p>
 <p>可能大家都希望拥有更强大的工具，所以网上有很多介绍 htop 的文章，但很少有人介绍 gtop，可能是他简单到无需介绍吧。不过作为一个简单看看电脑资源的人，我还是挺喜欢 gtop 的。</p>
 <p>首先 gtop 很直观地列出了重要资源信息：</p>
-<figure data-type="image" tabindex="1"><img src="https://wolf3c.github.io//post-images/1568036421843.png" alt=""></figure>
+<figure data-type="image" tabindex="1"><img src="https://wolf3c.github.io//post-images/1568036421843.png" alt="" loading="lazy"></figure>
 <p>平时重点关注的内存、硬盘、网络情况，都一目了然。</p>
 <p>另外，平时想要针对性地看看进程占用资源的情况（上图右下角区域的内容），gtop 提供了三个快捷键，覆盖了日常需求：</p>
 <blockquote>
@@ -274,8 +274,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[我发现自己不会写文章]]></title>
-        <id>https://wolf3c.github.io//post/wo-fa-xian-zi-ji-bu-hui-xie-wen-zhang</id>
-        <link href="https://wolf3c.github.io//post/wo-fa-xian-zi-ji-bu-hui-xie-wen-zhang">
+        <id>https://wolf3c.github.io/post/wo-fa-xian-zi-ji-bu-hui-xie-wen-zhang</id>
+        <link href="https://wolf3c.github.io/post/wo-fa-xian-zi-ji-bu-hui-xie-wen-zhang">
         </link>
         <updated>2019-08-27T12:04:59.000Z</updated>
         <content type="html"><![CDATA[<p>前几天，我利用睡前时间，读了冯骥才《俗世奇人》中的《刷子李》、《泥人张》、《快手刘》等几篇文章，突然在想，他是怎么练的写文章能力，文章如流水，不紧不慢，缓缓流过我的心里。</p>
@@ -287,8 +287,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[负责任]]></title>
-        <id>https://wolf3c.github.io//post/fu-ze-ren</id>
-        <link href="https://wolf3c.github.io//post/fu-ze-ren">
+        <id>https://wolf3c.github.io/post/fu-ze-ren</id>
+        <link href="https://wolf3c.github.io/post/fu-ze-ren">
         </link>
         <updated>2019-05-11T15:05:38.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -315,8 +315,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[现实]]></title>
-        <id>https://wolf3c.github.io//post/xian-shi</id>
-        <link href="https://wolf3c.github.io//post/xian-shi">
+        <id>https://wolf3c.github.io/post/xian-shi</id>
+        <link href="https://wolf3c.github.io/post/xian-shi">
         </link>
         <updated>2019-04-28T15:15:35.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -340,8 +340,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[我的 Telegram Channel：「值得关注」]]></title>
-        <id>https://wolf3c.github.io//post/wo-de-telegram-channelzhi-de-guan-zhu</id>
-        <link href="https://wolf3c.github.io//post/wo-de-telegram-channelzhi-de-guan-zhu">
+        <id>https://wolf3c.github.io/post/wo-de-telegram-channelzhi-de-guan-zhu</id>
+        <link href="https://wolf3c.github.io/post/wo-de-telegram-channelzhi-de-guan-zhu">
         </link>
         <updated>2017-10-26T15:14:43.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -369,8 +369,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[Chrome 书签管理新方案 —— Neater Bookmarks]]></title>
-        <id>https://wolf3c.github.io//post/chrome-shu-qian-guan-li-xin-fang-an-neater-bookmarks</id>
-        <link href="https://wolf3c.github.io//post/chrome-shu-qian-guan-li-xin-fang-an-neater-bookmarks">
+        <id>https://wolf3c.github.io/post/chrome-shu-qian-guan-li-xin-fang-an-neater-bookmarks</id>
+        <link href="https://wolf3c.github.io/post/chrome-shu-qian-guan-li-xin-fang-an-neater-bookmarks">
         </link>
         <updated>2017-08-15T15:17:54.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -389,17 +389,17 @@ p： 将进程按进程 ID 排序</p>
 <p>在 chrome web store 一通乱翻后，果然找到了「药」—— Neater Bookmarks。</p>
 <h3 id="树状结构">树状结构</h3>
 <p>Neater Bookmarks 作为插件，需要在插件栏中点击图标打开，书签在弹出窗中树状呈现，很适合管理大量书签。</p>
-<figure data-type="image" tabindex="1"><img src="https://wolf3c.github.io//post-images/1561821517169.png" alt="Neater Bookmarks_tree"></figure>
+<figure data-type="image" tabindex="1"><img src="https://wolf3c.github.io//post-images/1561821517169.png" alt="Neater Bookmarks_tree" loading="lazy"></figure>
 <p>同时，Neater Bookmarks 提供了非常实用的自定义设置，我最喜欢「左键单击书签在新标签打开」和「记住上次状态」。</p>
 <h3 id="左键单击书签在新标签打开">左键单击书签在新标签打开</h3>
 <p>这个功能解决了一直被我吐槽的 Chrome 自带书签打开方式，只需要点击左键即可在新标签页中打开书签。</p>
 <p>如果配合「鼠标中键或按住 Ctrl 键左击时在后台打开书签」设置项，一次性打开多个书签变得非常高效。</p>
 <p>再也不用跟傻子似的一遍又一遍地沿着相同的路径点开文件夹打开书签了。</p>
-<figure data-type="image" tabindex="2"><img src="https://wolf3c.github.io//post-images/1561821537043.gif" alt="NeaterBookmarks_newTab"></figure>
+<figure data-type="image" tabindex="2"><img src="https://wolf3c.github.io//post-images/1561821537043.gif" alt="NeaterBookmarks_newTab" loading="lazy"></figure>
 <h3 id="记住上次状态">记住上次状态</h3>
 <p>开启「记住上次状态」功能后，每次打开 Neater Bookmarks 时，显示位置就是使用时打开的位置。</p>
 <p>我根据自己使用场景建了几个文件夹，并将同类书签放在相同的文件夹下。比如，我有一个叫「开发常用」的文件夹，里面放着Underscore.js、MongoDB、Materialize……的 document 网站和开发资源网站，在写代码的时候，常需要查文档，每次打开 Neater Bookmarks，位置就在已经打开的「开发常用」文件夹，使用起来方便很多。</p>
-<figure data-type="image" tabindex="3"><img src="https://wolf3c.github.io//post-images/1561821550942.gif" alt="NeaterBookmarks_rememberStatus"></figure>
+<figure data-type="image" tabindex="3"><img src="https://wolf3c.github.io//post-images/1561821550942.gif" alt="NeaterBookmarks_rememberStatus" loading="lazy"></figure>
 <h3 id="不足">不足</h3>
 <p>在使用过程中也发现 Neater Bookmarks 一些小问题。</p>
 <p>中文支持不足。「地址栏搜索」功能是在地址栏输入星号「*」，再按 tab 或空格，就可以搜索 Neater Bookmarks 中的标签，但使用中文搜索经常出现搜索不到的情况，该功能在几年前还是很有用的（Neater Bookmarks 是 2010 年发布，最后一次更新是 2014 年），但现在 Chrome 自己已经把书签搜索加入到地址栏中，所以该功能好坏变得无足轻重。</p>
@@ -412,8 +412,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[做有魅力的产品 之 初次见面]]></title>
-        <id>https://wolf3c.github.io//post/zuo-you-mei-li-de-chan-pin-zhi-chu-ci-jian-mian</id>
-        <link href="https://wolf3c.github.io//post/zuo-you-mei-li-de-chan-pin-zhi-chu-ci-jian-mian">
+        <id>https://wolf3c.github.io/post/zuo-you-mei-li-de-chan-pin-zhi-chu-ci-jian-mian</id>
+        <link href="https://wolf3c.github.io/post/zuo-you-mei-li-de-chan-pin-zhi-chu-ci-jian-mian">
         </link>
         <updated>2017-07-27T15:56:59.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -442,8 +442,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[论人民网评王者荣耀]]></title>
-        <id>https://wolf3c.github.io//post/lun-ren-min-wang-ping-wang-zhe-rong-yao</id>
-        <link href="https://wolf3c.github.io//post/lun-ren-min-wang-ping-wang-zhe-rong-yao">
+        <id>https://wolf3c.github.io/post/lun-ren-min-wang-ping-wang-zhe-rong-yao</id>
+        <link href="https://wolf3c.github.io/post/lun-ren-min-wang-ping-wang-zhe-rong-yao">
         </link>
         <updated>2017-07-09T15:13:37.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -508,8 +508,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[指纹和虹膜，不是密码]]></title>
-        <id>https://wolf3c.github.io//post/zhi-wen-he-hong-mo-bu-shi-mi-ma</id>
-        <link href="https://wolf3c.github.io//post/zhi-wen-he-hong-mo-bu-shi-mi-ma">
+        <id>https://wolf3c.github.io/post/zhi-wen-he-hong-mo-bu-shi-mi-ma</id>
+        <link href="https://wolf3c.github.io/post/zhi-wen-he-hong-mo-bu-shi-mi-ma">
         </link>
         <updated>2017-06-29T15:16:54.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -546,8 +546,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[或许 Windows 更安全]]></title>
-        <id>https://wolf3c.github.io//post/huo-xu-windows-geng-an-quan</id>
-        <link href="https://wolf3c.github.io//post/huo-xu-windows-geng-an-quan">
+        <id>https://wolf3c.github.io/post/huo-xu-windows-geng-an-quan</id>
+        <link href="https://wolf3c.github.io/post/huo-xu-windows-geng-an-quan">
         </link>
         <updated>2017-06-19T15:09:12.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -589,8 +589,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[Clutter Free：让 Chrome 学会节约资源]]></title>
-        <id>https://wolf3c.github.io//post/clutter-freerang-chrome-xue-hui-jie-yue-zi-yuan</id>
-        <link href="https://wolf3c.github.io//post/clutter-freerang-chrome-xue-hui-jie-yue-zi-yuan">
+        <id>https://wolf3c.github.io/post/clutter-freerang-chrome-xue-hui-jie-yue-zi-yuan</id>
+        <link href="https://wolf3c.github.io/post/clutter-freerang-chrome-xue-hui-jie-yue-zi-yuan">
         </link>
         <updated>2017-06-14T15:19:35.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -611,7 +611,7 @@ p： 将进程按进程 ID 排序</p>
 <p>当用户打开一个已经打开某一网页时，Clutter Free 会直接让你直接跳转到已经打开的网页，而不是重复打开一个新页面。</p>
 <p>使用 Clutter Free 有一个附加好处，由于不再重复打开网页，所以无形中省下很多内存。</p>
 </blockquote>
-<figure data-type="image" tabindex="1"><img src="https://wolf3c.github.io//post-images/1561821589181.gif" alt="Clutter_Free_show"></figure>
+<figure data-type="image" tabindex="1"><img src="https://wolf3c.github.io//post-images/1561821589181.gif" alt="Clutter_Free_show" loading="lazy"></figure>
 <p>我执着地认为，我们使用电脑是为了让自己更高效更轻松，需要花精力去整理浏览器标签并不是一个正确的方式。我喜欢 Clutter Free 的一个重要原因是，它会默默地做好这件事情，不需要我再浪费精力做什么操作。（这点和 The Great Suspender 很像）</p>
 <p>浏览器已经成为大多白领工作的重要场所，找到一帮默默帮助自己的「小助理」可以节省很多精力，如果说 The Great Suspender 是一个清理空闲网页的助理，那 Clutter Free 就是清理重复网页的助理，何不请来试试？</p>
 <hr>
@@ -621,8 +621,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[吐槽=>无趣]]></title>
-        <id>https://wolf3c.github.io//post/tu-cao-greaterwu-qu</id>
-        <link href="https://wolf3c.github.io//post/tu-cao-greaterwu-qu">
+        <id>https://wolf3c.github.io/post/tu-cao-greaterwu-qu</id>
+        <link href="https://wolf3c.github.io/post/tu-cao-greaterwu-qu">
         </link>
         <updated>2017-06-05T15:27:04.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -650,8 +650,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[《一席》推荐]]></title>
-        <id>https://wolf3c.github.io//post/lesslessyi-xi-greatergreater-tui-jian</id>
-        <link href="https://wolf3c.github.io//post/lesslessyi-xi-greatergreater-tui-jian">
+        <id>https://wolf3c.github.io/post/lesslessyi-xi-greatergreater-tui-jian</id>
+        <link href="https://wolf3c.github.io/post/lesslessyi-xi-greatergreater-tui-jian">
         </link>
         <updated>2017-06-03T15:04:33.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -682,8 +682,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[十分钟学一门编程语言]]></title>
-        <id>https://wolf3c.github.io//post/shi-fen-zhong-xue-yi-men-bian-cheng-yu-yan</id>
-        <link href="https://wolf3c.github.io//post/shi-fen-zhong-xue-yi-men-bian-cheng-yu-yan">
+        <id>https://wolf3c.github.io/post/shi-fen-zhong-xue-yi-men-bian-cheng-yu-yan</id>
+        <link href="https://wolf3c.github.io/post/shi-fen-zhong-xue-yi-men-bian-cheng-yu-yan">
         </link>
         <updated>2017-06-02T15:02:53.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -776,8 +776,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[看火影：迈特凯]]></title>
-        <id>https://wolf3c.github.io//post/kan-huo-ying-mai-te-kai</id>
-        <link href="https://wolf3c.github.io//post/kan-huo-ying-mai-te-kai">
+        <id>https://wolf3c.github.io/post/kan-huo-ying-mai-te-kai</id>
+        <link href="https://wolf3c.github.io/post/kan-huo-ying-mai-te-kai">
         </link>
         <updated>2017-05-31T15:12:07.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -844,8 +844,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[微信小程序与 Android Instant Apps]]></title>
-        <id>https://wolf3c.github.io//post/wei-xin-xiao-cheng-xu-yu-android-instant-apps</id>
-        <link href="https://wolf3c.github.io//post/wei-xin-xiao-cheng-xu-yu-android-instant-apps">
+        <id>https://wolf3c.github.io/post/wei-xin-xiao-cheng-xu-yu-android-instant-apps</id>
+        <link href="https://wolf3c.github.io/post/wei-xin-xiao-cheng-xu-yu-android-instant-apps">
         </link>
         <updated>2017-05-24T15:52:33.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -911,8 +911,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[Workflowy 与幕布]]></title>
-        <id>https://wolf3c.github.io//post/workflowy-yu-mu-bu</id>
-        <link href="https://wolf3c.github.io//post/workflowy-yu-mu-bu">
+        <id>https://wolf3c.github.io/post/workflowy-yu-mu-bu</id>
+        <link href="https://wolf3c.github.io/post/workflowy-yu-mu-bu">
         </link>
         <updated>2017-05-18T15:57:47.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -948,8 +948,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[不对称性与项目]]></title>
-        <id>https://wolf3c.github.io//post/bu-dui-cheng-xing-yu-xiang-mu</id>
-        <link href="https://wolf3c.github.io//post/bu-dui-cheng-xing-yu-xiang-mu">
+        <id>https://wolf3c.github.io/post/bu-dui-cheng-xing-yu-xiang-mu</id>
+        <link href="https://wolf3c.github.io/post/bu-dui-cheng-xing-yu-xiang-mu">
         </link>
         <updated>2017-05-12T15:36:05.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -1012,8 +1012,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[减法难]]></title>
-        <id>https://wolf3c.github.io//post/jian-fa-nan</id>
-        <link href="https://wolf3c.github.io//post/jian-fa-nan">
+        <id>https://wolf3c.github.io/post/jian-fa-nan</id>
+        <link href="https://wolf3c.github.io/post/jian-fa-nan">
         </link>
         <updated>2017-05-05T15:44:00.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -1117,8 +1117,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[骑墙]]></title>
-        <id>https://wolf3c.github.io//post/qi-qiang</id>
-        <link href="https://wolf3c.github.io//post/qi-qiang">
+        <id>https://wolf3c.github.io/post/qi-qiang</id>
+        <link href="https://wolf3c.github.io/post/qi-qiang">
         </link>
         <updated>2017-04-28T15:46:16.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -1161,8 +1161,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[无知的博学]]></title>
-        <id>https://wolf3c.github.io//post/wu-zhi-de-bo-xue</id>
-        <link href="https://wolf3c.github.io//post/wu-zhi-de-bo-xue">
+        <id>https://wolf3c.github.io/post/wu-zhi-de-bo-xue</id>
+        <link href="https://wolf3c.github.io/post/wu-zhi-de-bo-xue">
         </link>
         <updated>2017-04-23T15:56:20.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -1227,8 +1227,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[互联网产品经理修炼手册之一]]></title>
-        <id>https://wolf3c.github.io//post/hu-lian-wang-chan-pin-jing-li-xiu-lian-shou-ce-zhi-yi</id>
-        <link href="https://wolf3c.github.io//post/hu-lian-wang-chan-pin-jing-li-xiu-lian-shou-ce-zhi-yi">
+        <id>https://wolf3c.github.io/post/hu-lian-wang-chan-pin-jing-li-xiu-lian-shou-ce-zhi-yi</id>
+        <link href="https://wolf3c.github.io/post/hu-lian-wang-chan-pin-jing-li-xiu-lian-shou-ce-zhi-yi">
         </link>
         <updated>2017-04-23T15:50:52.000Z</updated>
         <content type="html"><![CDATA[<p>副标题：微信的优秀你不懂（其实这是原标题，但是有点锋芒外露）</p>
@@ -1265,8 +1265,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[我的「节约」观]]></title>
-        <id>https://wolf3c.github.io//post/wo-de-jie-yue-guan</id>
-        <link href="https://wolf3c.github.io//post/wo-de-jie-yue-guan">
+        <id>https://wolf3c.github.io/post/wo-de-jie-yue-guan</id>
+        <link href="https://wolf3c.github.io/post/wo-de-jie-yue-guan">
         </link>
         <updated>2017-04-09T15:55:00.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -1327,8 +1327,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[人多不一定「力量」大，加班不一定出成绩]]></title>
-        <id>https://wolf3c.github.io//post/ren-duo-bu-yi-ding-li-liang-da-jia-ban-bu-yi-ding-chu-cheng-ji</id>
-        <link href="https://wolf3c.github.io//post/ren-duo-bu-yi-ding-li-liang-da-jia-ban-bu-yi-ding-chu-cheng-ji">
+        <id>https://wolf3c.github.io/post/ren-duo-bu-yi-ding-li-liang-da-jia-ban-bu-yi-ding-chu-cheng-ji</id>
+        <link href="https://wolf3c.github.io/post/ren-duo-bu-yi-ding-li-liang-da-jia-ban-bu-yi-ding-chu-cheng-ji">
         </link>
         <updated>2017-04-08T15:47:52.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -1378,8 +1378,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[你的好奇心被谁吃了？]]></title>
-        <id>https://wolf3c.github.io//post/ni-de-hao-qi-xin-bei-shui-chi-liao</id>
-        <link href="https://wolf3c.github.io//post/ni-de-hao-qi-xin-bei-shui-chi-liao">
+        <id>https://wolf3c.github.io/post/ni-de-hao-qi-xin-bei-shui-chi-liao</id>
+        <link href="https://wolf3c.github.io/post/ni-de-hao-qi-xin-bei-shui-chi-liao">
         </link>
         <updated>2017-04-04T15:22:04.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -1409,8 +1409,8 @@ p： 将进程按进程 ID 排序</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[身后的魔鬼]]></title>
-        <id>https://wolf3c.github.io//post/shen-hou-de-mo-gui</id>
-        <link href="https://wolf3c.github.io//post/shen-hou-de-mo-gui">
+        <id>https://wolf3c.github.io/post/shen-hou-de-mo-gui</id>
+        <link href="https://wolf3c.github.io/post/shen-hou-de-mo-gui">
         </link>
         <updated>2017-04-03T15:26:20.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
