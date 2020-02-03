@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wolf3c.github.io/</id>
     <title>wolf3c&apos;s blog</title>
-    <updated>2020-01-10T02:47:14.035Z</updated>
+    <updated>2020-02-03T14:00:57.966Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wolf3c.github.io/"/>
     <link rel="self" href="https://wolf3c.github.io/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://wolf3c.github.io/images/avatar.png</logo>
     <icon>https://wolf3c.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, wolf3c&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[大道理都懂，但是做事依旧糊涂]]></title>
+        <id>https://wolf3c.github.io/post/da-dao-li-du-dong-dan-shi-zuo-shi-yi-jiu-hu-tu</id>
+        <link href="https://wolf3c.github.io/post/da-dao-li-du-dong-dan-shi-zuo-shi-yi-jiu-hu-tu">
+        </link>
+        <updated>2020-02-03T13:59:20.000Z</updated>
+        <content type="html"><![CDATA[<p>就像标题，这是我很长一段时间对自己的感受，直到现在。</p>
+<p>和每个成年人一样，我们都读了很多讲大道理的书籍和文章，成功学、方法论、文化瑰宝……这些东西我们张口就来，尤其是在教育别人的时候，我甚至觉得自己就是个大思想家。</p>
+<p>然而，等到实践的时候，发现结果远不像想象的那么美好，手握「复盘大法」，我回头一看，发现自己其实是犯了很多自己张口闭口教人的大道理。</p>
+<p>年前武汉新型冠状病毒肺炎出现，北京 N95 口罩瞬间销售一空，当我去药店时，只剩下一些普通防护口罩和外科医用口罩，堂堂雾霾之都，怎么可能没有 N95 口罩，滑天下之大稽，我坚毅果敢地放弃了这些薄如纸的一次性口罩，马不停蹄跑去附近几个超市，发现真没有 N95。回头再看，外科医用口罩也被卖没了。</p>
+<p>坐到办公室，我就想，我常常挂在嘴边「先有后优」，碰到这种事情，居然为了少花 20 块钱（当时北京一包医用口罩 20 块钱），就放弃了自己悟出的大道理。</p>
+<p>这几天看《王阳明哲学》，对于这一点体悟更深，不去说王阳明致良知中心、意相互关系之类的，最简单的道理就是，我们明白的道理很多，但是我们做到的并不多。</p>
+<p>大道理其实就那么些，而做到自己认可的那些大道理，就是人生的修行。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[《大清相国》读后感]]></title>
         <id>https://wolf3c.github.io/post/lesslessda-qing-xiang-guo-greatergreater-du-hou-gan</id>
@@ -1407,37 +1422,6 @@ p： 将进程按进程 ID 排序</p>
 </ol>
 <p><strong>记住，这是一个可以独力改变世界的时代。</strong></p>
 <p>(EOF)</p>
-<hr>
-<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
-<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[你的好奇心被谁吃了？]]></title>
-        <id>https://wolf3c.github.io/post/ni-de-hao-qi-xin-bei-shui-chi-liao</id>
-        <link href="https://wolf3c.github.io/post/ni-de-hao-qi-xin-bei-shui-chi-liao">
-        </link>
-        <updated>2017-04-04T15:22:04.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>time：2017-04-04</p>
-<p>author：wolf3c</p>
-<p>字数：1.2K</p>
-</blockquote>
-<hr>
-<p>前些日子，我在路上走，前面一个小孩跟着在妈妈身后，喋喋不休地问：为啥大家都刷卡，小区还要门卫？为啥汽车走的那个门可以看到车自动打开？为啥我们要拿着卡去刷，而开车就不用了？……妈妈被问烦了，回了句：你一天尽关心没用的，作业做完了吗？上次测试成绩那么差还不想想学习的事。孩子不再吭声了。</p>
-<p>我本来听孩子的问题，满脑子想蓝牙、NFC 之类的，听到那位母亲的训斥和孩子的变化，突然一个激灵，我自己小时候也有过类似情形，常常被骂打破砂锅问到底。</p>
-<p>之后，我特别留意身边人的好奇心。这是一个很有意思的观察。</p>
-<p>在路上，我常常听见那些带孩子去兴趣班的家长不遗余力地打击孩子的好奇心。孩子在去上钢琴辅导班的路上，问了妈妈一个电子问题：为啥手表可以用那么长时间不充电，而手机不行？不出所料，这个孩子被批了。在他们旁边，有一个面无表情的男的用怜悯的眼神静静地看着这对母子。</p>
-<p>在工作中，我发现很多年轻人居然没有好奇心。甚至是做技术的年轻人，居然不去主动了解新技术，他们只知道自己工作中要用到的那一点知识，从来不去朝外面看上一眼，更不会去了解那些新出现的东西。写 iOS 的不知道 Eclipse，写 web 的，没听说过 Twitter，做 Hadoop 的不知道Virtual Studio，做数据分析的不了解 Chrome 浏览器和 Android 的关系……</p>
-<p>我很庆幸自己一直保持着好奇心。</p>
-<p>我的工作虽然不是 IT 开发，但我看到 Linux、Windows、Docker、Nginx、Apache、Meteor、Node.js、Angular.js、React.js、Vue.js、Blaze、MongoDB、SQL、Hadoop、Lisp、Scheme、Java、Vim、Virtual Studio Code、Atom、Sublime Text、区块链……我就有种莫名地激动，我会把自己不了解的东西记下来去查去了解。当我看到一段数据被拆分成一个个数据包，通过不同的路径辗转五六十个路由到达目的地，然后排好队列恢复原样，我感觉这个世界太奇妙了。当我看到 Scheme 和 SICP 中抽象的概念，我惊叹作者对编码本质的理解。当我第一次使用 Meteor，那时它还没有发布 1.0 版本，但那种以一人之力几小时完成一个小网站的体验让我一下子爱上了这个框架。</p>
-<p>不只是开发技术，看看《三体》等科幻小说，那叫一个酣畅淋漓。看看《失控》中的生命体，能让人思考问题角度发生转变。看看李宗吾的文章，看看《书读完了》，突然对中国古代文学有了重新认识。看看《哲学家们都干了些什么？》，一下子发现哲学不是那么神秘，反倒是有点好玩。甚至去了解一点风水的知识，你也会发现这些东西居然架空了一套「自洽」的体系。就算在吃饭的时候，有时可以听见几个小老板在那里讨论如何把自己小店业绩提高，替他们想象方案，也是很有趣的。</p>
-<p>这个世界，到处都是有趣的人和事，只要你愿意，常常可以发现乐趣和知识。</p>
-<p>北京买车摇号被无数人吐槽，但那些吐槽的人很少知道，现在外地汽车办理进京证只需要用一个 app 花十几分钟时间就可以搞定，一周只需办理一次。我很好奇，那些等了一两年还没摇到号的人中，很多在四环五环工作的，为什么不先在河北买辆车，然后每周在上厕所时办理一下进京证。而这事情是我从一个冀牌车的滴滴司机那里知道的，完全是可行的。</p>
-<p>但，很多人的好奇心都没了。</p>
-<p>或许怪父母、怪老师、怪环境。但事实上，对于一个成年的人，对于一个可以（自由）使用互联网的人，可能只能怪自己。</p>
-<p>不管你的好奇心被谁吃了，如果你愿意，都可找回来。</p>
-<p>还有，不要随意吃别人的好奇心，除非他非要试试高压电的威力或拿高压锅煮青蛙。</p>
 <hr>
 <p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
 <p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
