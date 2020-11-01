@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wolf3c.github.io/</id>
     <title>wolf3c&apos;s blog</title>
-    <updated>2020-10-30T06:20:45.225Z</updated>
+    <updated>2020-11-01T05:09:10.747Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wolf3c.github.io/"/>
     <link rel="self" href="https://wolf3c.github.io/atom.xml"/>
@@ -10,6 +10,26 @@
     <logo>https://wolf3c.github.io/images/avatar.png</logo>
     <icon>https://wolf3c.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, wolf3c&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[时间可控]]></title>
+        <id>https://wolf3c.github.io/post/shi-jian-ke-kong</id>
+        <link href="https://wolf3c.github.io/post/shi-jian-ke-kong">
+        </link>
+        <updated>2020-11-01T03:43:54.000Z</updated>
+        <content type="html"><![CDATA[<p>受从小「唯物主义」教育的影响，多年来我的思维一直停留在「时间是公平」、「无论贫富，每个人的时间都是一样的」、「逝者如斯夫不舍昼夜」……但随着这几年对生活的思考，我越来越不赞同这种说法，在我看来每个人的时间都是不同的，反过来，每个人都是主动的给自己的生命以时间。</p>
+<p>这么说可能有点突兀，我举个小情景尝试说明一下，比如上班，小王每天到公司，三心二意边看新闻边聊天，消磨时间，无精打采地干完少量的工作，结束 8 小时坐班。小李每天到公司，虽然也看新闻也聊天，但是他中午会花一个小时认真学习英语，期望以后出国留学。如果等 3 年 5 年后回忆，小王无数个这种 8 小时，其实都对自己的生命没有任何影响，而小李，每天至少有 1 小时添加到了自己的生命中。</p>
+<p>用一个比较形象的比喻，我们每个人的一生就像一个游戏中小人，当你投入游戏打怪、经营、提升时，你的小人才会有时间进展和成长，如果你总是不投入，那么小人便没有变化。</p>
+<p>相同年龄的人，虽然在物理上都活了那么多年，但他们游戏中的小人可能长得大小差距巨大，这种差距年龄越大可能越突出。</p>
+<p>反过来说，我们用一个极端的例子，一个 20 岁的人，从小到大只是吃奶、满地爬、睡觉，我们根本无法用 20 岁来定义他，他的小人只是个婴儿。这种事情其实很常见，很多人从三十岁后，给小人的投入会越来越少，几近不动。</p>
+<p>所以，在我看来每个人的时间都是不一样的，有些人可能一天中有 5 小时给自己的小人，有些人可能有 5 分钟，所以，有些人 40 岁时，可能小人已经拥有 10 年成长，有些人的小人可能只拥有 5 年。</p>
+<p>我目前对于每个人真正拥有的时间有个简单的定义，即每个人的时间是自己完全自控地投入当下的时间。</p>
+<p>你必须自控，必须有清晰的自我意识，而不是进入到一种上瘾中无法自拔随波逐流，另外，你必须要投入当下，而不是想入非非或回忆过去，就是要心在当下。</p>
+<p>当我自控地投入当下，我会清晰感受到时间流淌过自己。</p>
+<p>这种感觉可不是钟表的滴答声，时间其实是改变的记录，当我感受到时间的流淌，其实是清晰感受到自己改变，或者形象地用刚才的比喻，看到游戏中的小人在成长。</p>
+<p>一辈子多长？可以很长，也可以很短，70 岁去世的人，可能活的很长，一辈子回味无穷，也可能活的很短，觉得好像什么都没干。</p>
+<p>最主要的是，我们要知道，我们生命的时间是自己可以控制的。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[打工和组建公司差距很大]]></title>
         <id>https://wolf3c.github.io/post/da-gong-he-zu-jian-gong-si-chai-ju-hen-da</id>
@@ -999,38 +1019,6 @@ p： 将进程按进程 ID 排序</p>
 <p>好在我还有自己喜欢的东西，从这里开始，去做自己喜欢的事情，先让自己活得乐趣。</p>
 <p>我认为愉悦的心情可以让自己看到积极地一面，所以，如果我活的开心了，我看事物的思维会发生变化，当然我会自己监督自己不断改变，让自己看到更多积极面，让自己发现更多乐趣。</p>
 <p>期待这种方式可以改善自己。</p>
-<hr>
-<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
-<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[《一席》推荐]]></title>
-        <id>https://wolf3c.github.io/post/lesslessyi-xi-greatergreater-tui-jian</id>
-        <link href="https://wolf3c.github.io/post/lesslessyi-xi-greatergreater-tui-jian">
-        </link>
-        <updated>2017-06-03T15:04:33.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>time：2017-06-03</p>
-<p>author：wolf3c</p>
-<p>字数：300</p>
-</blockquote>
-<hr>
-<p>几个月前，发现《一席》中有很多有意思的演讲，看了一段时间，列一些给我留下深刻印象的。</p>
-<ol>
-<li>《羊蹬艺术合作社》焦兴涛：艺术、生活、乐趣。</li>
-<li>《沼泽乐队：古琴、后摇与声音里的秘密》沼泽乐队：如何对待音乐。</li>
-<li>《教育的器量》张轶超：教育的目的是什么？互联网创业从业者很多，大多只不过是把线下搬到线上，而不是深入思考，去找寻一条更好的教育之路，看看他的思考。</li>
-<li>《做一本好看的教科书》张柏韦。</li>
-<li>《阅读是怎么回事》杨照：什么是阅读。建议找金克木文集《书读完了》看看。</li>
-<li>《进击的智人》袁硕。</li>
-<li>《完整街道 Street for All》刘岱宗：城市交通系统设计。</li>
-<li>《本故事纯属非虚构》陈晓楠：那些被制度遗忘在角落的人。</li>
-<li>《No Problem, Peter》叶泰兴。每个人都应该懂一点急救知识，并给自己准备个急救包。</li>
-<li>《裂变式创业》宗毅。自私是最好的动力，创业、管理、公益。</li>
-<li>《造一座细胞工厂》李腾：生物工程的材料应用。</li>
-</ol>
-<p>在优酷搜索「一席」，可以找到官方频道，以上视频都在那里。</p>
 <hr>
 <p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
 <p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
