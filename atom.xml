@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wolf3c.github.io/</id>
     <title>wolf3c&apos;s blog</title>
-    <updated>2020-11-01T05:09:37.031Z</updated>
+    <updated>2020-12-04T09:02:12.093Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wolf3c.github.io/"/>
     <link rel="self" href="https://wolf3c.github.io/atom.xml"/>
@@ -11,9 +11,27 @@
     <icon>https://wolf3c.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, wolf3c&apos;s blog</rights>
     <entry>
+        <title type="html"><![CDATA[产品需要独裁者]]></title>
+        <id>https://wolf3c.github.io/post/chan-pin-xu-yao-du-cai-zhe/</id>
+        <link href="https://wolf3c.github.io/post/chan-pin-xu-yao-du-cai-zhe/">
+        </link>
+        <updated>2020-12-04T07:08:17.000Z</updated>
+        <content type="html"><![CDATA[<p>其实我有这个想法已经很长时间了，只是怕这个想法是因为自己在工作中想法受阻产生的偏执，但是这两年在看其他的产品演变时，我这个想法越来越强烈。甚至，我自己总结出了几条「产品需要独裁者」的原因。</p>
+<p>首先，每个人的知识体系不同，认知不同，他们有所长也有所短，很多人因为自己某一方面能力强就自信地开始在各方面发声，很多人也会因为他某一方面牛逼而信他所说的所有东西。这点，我们在很多专家身上都可以看到，比如空气动力学家钱学森搞出个「亩产万斤」的说法，给袁隆平提出了一个世纪性目标，老头子九十多还呕心沥血提升产量。</p>
+<p>其次，群体决策容易求同存异，而求同存异的结果往往是大家认可东西的最大公约数，在一个能力不一的团体中，得到的就是最平庸、最妥协的结果，但这个往往不是产品的最优解。并且，群体决策往往背后会有很多利益、心理的纠葛，并非所谓的就事论事。</p>
+<p>第三，所有的争执和说服，会有大量的时间精力的浪费，任何一个好的想法或不同于他人的想法，都可能碰到反对者，如果产品经理每天将大量的时间花在说服每个执著的人做 A 或不做 B，即使他精力充沛，能够让产品继续前进，那么随着产品壮大，他的压力会越来越大。</p>
+<p>最后，相比于很多被迫妥协的产品经理，「独裁者」对自己产品更愿意投入。很多时候，当自己的产品开始被迫被别人左右的时候，产品经理就慢慢地不再认为这是自己的产品，出了问题，也觉得都是他们的问题，不愿意全力负责。大多人提想法甚至左右产品决策的人，都是提起裤子不认人的主，他们没想过自己要在未来长久对于这个产品、这个决策负责，也不会想要对于以后一直负责这个产品。就像养孩子，你可能去朋友家，给朋友的孩子带点玩具，带点好吃的，逗逗孩子，然后你拍拍屁股走了，而朋友需要面对孩子可能出现的拉肚子，未来可能无止境想要玩具、好吃的。</p>
+<p>当然，在我看来，产品需要的「独裁者」并不是一意孤行，而是察纳雅言的独裁。</p>
+<p>每个人对于产品都会有自己的想法和建议，他们需要讲清楚自己的理由和想法，但是最后是否采纳，全看产品经理的决定。</p>
+<p>反过来，产品经理如果不采纳某个想法，本着让团队大家相关理解成长的前提，需要尽可能告知自己的理由，避免打击人家的积极性。</p>
+<p>可能有人已经看出了这种做法的弊端——产品的上限取决于产品经理的能力。关于这点，我是完全认同的，并且我认为能够达到这一点，已经优于很多产品了，我发现很多产品最后结果反而低于产品经理的能力限制，这一点有个很明显的例子，在国内很多产品的无限制获取用户信息、恶心用户、欺负用户，但是我们发现很多这种产品中出来的产品经理或成员，他们的价值观和个人素质并没有这么低，很多决策都可能是其他管理者强制做的东西，然后自己不管后面洪水滔天。</p>
+<p>所以，在我看来，我作为产品经理，未来工作中，一定要培养自己对于产品的「独裁力」。</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[时间可控]]></title>
-        <id>https://wolf3c.github.io/post/shi-jian-ke-kong</id>
-        <link href="https://wolf3c.github.io/post/shi-jian-ke-kong">
+        <id>https://wolf3c.github.io/post/shi-jian-ke-kong/</id>
+        <link href="https://wolf3c.github.io/post/shi-jian-ke-kong/">
         </link>
         <updated>2020-11-01T03:43:54.000Z</updated>
         <content type="html"><![CDATA[<p>受从小「唯物主义」教育的影响，多年来我的思维一直停留在「时间是公平」、「无论贫富，每个人的时间都是一样的」、「逝者如斯夫不舍昼夜」……但随着这几年对生活的思考，我越来越不赞同这种说法，在我看来每个人的时间都是不同的，反过来，每个人都是主动的给自己的生命以时间。</p>
@@ -32,8 +50,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[打工和组建公司差距很大]]></title>
-        <id>https://wolf3c.github.io/post/da-gong-he-zu-jian-gong-si-chai-ju-hen-da</id>
-        <link href="https://wolf3c.github.io/post/da-gong-he-zu-jian-gong-si-chai-ju-hen-da">
+        <id>https://wolf3c.github.io/post/da-gong-he-zu-jian-gong-si-chai-ju-hen-da/</id>
+        <link href="https://wolf3c.github.io/post/da-gong-he-zu-jian-gong-si-chai-ju-hen-da/">
         </link>
         <updated>2020-10-30T02:40:24.000Z</updated>
         <summary type="html"><![CDATA[<p>很多人都是从打工开始，在公司担任某一方面的职务，其中一部分人期望从公司学到东西，未来组件自己的公司。我以前也这么想过，后来慢慢发现，其实这条路并不可取。</p>
@@ -52,8 +70,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[对于理想汽车一点技术方面的看法]]></title>
-        <id>https://wolf3c.github.io/post/dui-yu-li-xiang-qi-che-yi-dian-ji-zhu-fang-mian-de-kan-fa</id>
-        <link href="https://wolf3c.github.io/post/dui-yu-li-xiang-qi-che-yi-dian-ji-zhu-fang-mian-de-kan-fa">
+        <id>https://wolf3c.github.io/post/dui-yu-li-xiang-qi-che-yi-dian-ji-zhu-fang-mian-de-kan-fa/</id>
+        <link href="https://wolf3c.github.io/post/dui-yu-li-xiang-qi-che-yi-dian-ji-zhu-fang-mian-de-kan-fa/">
         </link>
         <updated>2020-08-03T06:51:44.000Z</updated>
         <content type="html"><![CDATA[<p>理想汽车昨天上市，很多人通过打新大赚一笔，我并不在列，主要原因是，我一直对于理想汽车的技术项目有点看不明白。</p>
@@ -100,8 +118,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[wolf3c 的美股日记 6：炒股成瘾]]></title>
-        <id>https://wolf3c.github.io/post/wolf3c-de-mei-gu-ri-ji-6chao-gu-cheng-yin</id>
-        <link href="https://wolf3c.github.io/post/wolf3c-de-mei-gu-ri-ji-6chao-gu-cheng-yin">
+        <id>https://wolf3c.github.io/post/wolf3c-de-mei-gu-ri-ji-6chao-gu-cheng-yin/</id>
+        <link href="https://wolf3c.github.io/post/wolf3c-de-mei-gu-ri-ji-6chao-gu-cheng-yin/">
         </link>
         <updated>2020-06-28T11:51:17.000Z</updated>
         <content type="html"><![CDATA[<p>我发现自己这个段时间已经对于炒股有了瘾。</p>
@@ -125,8 +143,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[wolf3c 的美股日记 5：尝试卖空]]></title>
-        <id>https://wolf3c.github.io/post/wolf3c-de-mei-gu-ri-ji-5chang-shi-mai-kong</id>
-        <link href="https://wolf3c.github.io/post/wolf3c-de-mei-gu-ri-ji-5chang-shi-mai-kong">
+        <id>https://wolf3c.github.io/post/wolf3c-de-mei-gu-ri-ji-5chang-shi-mai-kong/</id>
+        <link href="https://wolf3c.github.io/post/wolf3c-de-mei-gu-ri-ji-5chang-shi-mai-kong/">
         </link>
         <updated>2020-06-26T04:18:51.000Z</updated>
         <content type="html"><![CDATA[<p>在我看来卖空是一项美股操作的基本技能，根据我自己了解规则的结果，我认为美股卖空其实回报率低于做多，主要原因在于：</p>
@@ -153,8 +171,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[wolf3c 的美股日记 4：买入 Evofem]]></title>
-        <id>https://wolf3c.github.io/post/wolf3c-de-mei-gu-ri-ji-4mai-ru-evofem</id>
-        <link href="https://wolf3c.github.io/post/wolf3c-de-mei-gu-ri-ji-4mai-ru-evofem">
+        <id>https://wolf3c.github.io/post/wolf3c-de-mei-gu-ri-ji-4mai-ru-evofem/</id>
+        <link href="https://wolf3c.github.io/post/wolf3c-de-mei-gu-ri-ji-4mai-ru-evofem/">
         </link>
         <updated>2020-06-24T04:50:28.000Z</updated>
         <content type="html"><![CDATA[<p>今天买入了 Evofem。</p>
@@ -200,8 +218,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[炒股炒的是什么]]></title>
-        <id>https://wolf3c.github.io/post/chao-gu-chao-de-shi-shi-me</id>
-        <link href="https://wolf3c.github.io/post/chao-gu-chao-de-shi-shi-me">
+        <id>https://wolf3c.github.io/post/chao-gu-chao-de-shi-shi-me/</id>
+        <link href="https://wolf3c.github.io/post/chao-gu-chao-de-shi-shi-me/">
         </link>
         <updated>2020-06-22T12:14:58.000Z</updated>
         <content type="html"><![CDATA[<p>炒股也有两个月了，也看了很多股票的涨跌，我一直思考，我到底在炒什么东西？</p>
@@ -224,8 +242,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[投资股票要记日记]]></title>
-        <id>https://wolf3c.github.io/post/tou-zi-gu-piao-yao-ji-ri-ji</id>
-        <link href="https://wolf3c.github.io/post/tou-zi-gu-piao-yao-ji-ri-ji">
+        <id>https://wolf3c.github.io/post/tou-zi-gu-piao-yao-ji-ri-ji/</id>
+        <link href="https://wolf3c.github.io/post/tou-zi-gu-piao-yao-ji-ri-ji/">
         </link>
         <updated>2020-06-20T15:39:54.000Z</updated>
         <content type="html"><![CDATA[<p>我投资股票也有一段时间了，虽然能力一般，但没有放弃成长，买卖几次股票后，我发现自己对于一个股票从买入到买入后、价格涨、价格跌、卖出钱、卖出后，自己对于这支股票的理解都有非常大转变，而这个过程的转变，有时候回头想想富有戏剧性。</p>
@@ -239,789 +257,6 @@
 <p>这可能是我目前能想到的最好成长方式了——<strong>记日记</strong>，记录自己为什么看好这支股票，为什么觉得应该这个价位买入，为什么现在应该卖出了，为什么不能能长时间持有，失败是因为什么……</p>
 <p>只有记下来，才能直面自己，不然，大脑总是认为自己没有错，人总是愿意为自己的错误和不足找理由。</p>
 <p>唯有事实才能带来自知，只有从上帝视角去看自己的整个思考过程，才有可能取得成长。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[股市不仁]]></title>
-        <id>https://wolf3c.github.io/post/gu-shi-bu-ren</id>
-        <link href="https://wolf3c.github.io/post/gu-shi-bu-ren">
-        </link>
-        <updated>2020-05-18T08:48:16.000Z</updated>
-        <content type="html"><![CDATA[<p>我在今年四月份开了美股，然后从 4 月 13 日买入苹果，到 4 月 30 日卖出 Netflix，前后不足 20 天，盈亏比例 21.64%，虽然投入本金不多，但这个收益率着实让我有点开心，所以定下了每月 30% 收益率的目标。</p>
-<p>成长之路从失败开始，而这个失败，从 4 月 30 日开始。</p>
-<p>那晚我买入了可口可乐和携程，自信地等待着五一后可口可乐涨起来。然而事与愿违，未来两周，可口可乐的股价，先降后涨，最高点持平我的买入价，然后又跌下去。</p>
-<p>我的心态也是随着一路变化，先是想卖掉但不甘心，等涨起来时，开始自信，觉得自己要赚钱了，没想到转天开始下跌，我又开始反思。</p>
-<p>最后，我想通了一个简单的道理：股市不仁，以小股民为刍狗。</p>
-<p>股市是所有人预期的结果，其汇聚了所有人用脚投票的结果，既不会因为我投入而上扬，也不会因为我想要投入而下跌。作为一个小股民，唯有顺势而为，切不可高看自己，别想什么股神，在股市洪流中，我只不过是拿着竹竿站在竹筏上，观察前方的水势，然后根据判断适当地用竹竿控制一下竹筏方向罢了。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[人人都想要 Plan B]]></title>
-        <id>https://wolf3c.github.io/post/ren-ren-du-xiang-yao-plan-b</id>
-        <link href="https://wolf3c.github.io/post/ren-ren-du-xiang-yao-plan-b">
-        </link>
-        <updated>2020-05-14T07:39:23.000Z</updated>
-        <content type="html"><![CDATA[<p>Plan B 是一个被人津津乐道的话题，公司为了发展需要 Plan B 提升业绩，项目怕又闪失需要 Plan B 保障交付，个人防止没了工作需要 Plan B 保饭碗，买个 iPhone 也需要 Plan B（备用手机）。</p>
-<p>从大道理讲，Plan B 是好事，没啥问题，但就像我在<a href="https://wolf3c.github.io/post/wu-zhi-de-bo-xue/">《无知的博学》</a>中说的，这个词被简化到，大家仿佛都一清二楚，然后不假思索地去追求 Plan B，但这其中有很多问题。</p>
-<p><strong>首先，我看到一些人进入误区，自己对 Plan A 都没有做好，却天天想着搞 Plan B。</strong></p>
-<p>这种人其实很常见，程序员，每天工作时写几个小时代码，自称码农，听见产品经理说话，第一句是「提需求吧」；听到测试发现问题，回怼一句「复现一下，抓个 log」；产品提个稍微有点难度的需求，先说一句「实现不了」。到了业余时间，马上开始研究炒股、投资、朋友圈带货、自媒体。</p>
-<p>在我看来，只要你的 Plan A 不是一个进入暮年的工作，那你先要将自己的 Plan A 做好，然后再去构建 Plan B。公司如此，个人亦如此。</p>
-<p>说的极端点，你如果 Plan A 做不好，那么凭什么 Plan B 就能做好？</p>
-<p>很多公司的项目中，经常出现这个问题，项目本来就人手紧时间短，领导还要问一句「你这个项目看起来有点不保险啊，有 Plan B 吗？」。下面的人揣测上意，从本来就紧张的项目中，抽出时间，又搞出个 Plan B，结果，项目真的没有完成，而 Plan B，只不过是一个没有顶替方案，远不如原有方案完善，如果掉头再来做，只会让项目更难交付。</p>
-<p><strong>其次，很多人做 Plan B 时，总是认为这就是个备选方案，所以很容易给自己找到理由，做的不温不火也乐在其中，自我感觉自己有后路、很努力，如果有一天真的没有了 Plan A，他的 Plan B 其实也不足以补位。</strong></p>
-<p>说直白点，他们的 Plan B 能坚持下去，只因是没有压力的情况下自己玩玩罢了，如果给他 KPI 和生存压力，那估计他马上想要逃去 Plan C。</p>
-<p><strong>最后，Plan B 最好不是 Plan A 的衍生或升级。因为 Plan B 是我们的备用方案，如果两者的属性非常类似，很可能被双杀。</strong></p>
-<p>举个例子，如果一个餐馆老板的 Plan B 是咖啡馆，那疫情来后，两个都会受到严重影响，根本起不到备用方案的作用，反过来，如果他的备用方案是药店，或者是线上搞笑直播，是不是会好一点？餐馆和药店，所处行业不同，而餐馆和直播的差距更大，一个是线下重资产运营，一个线上轻资产运营，被双杀的可能性大大减小。</p>
-<p>公司中的产品也是一样，阿里做了淘宝，后来又做了天猫，这根本不是什么 Plan B，拼多多从 2 块钱的卷纸到 100 亿补贴的范思哲、iPhone，从下沉市场开始一路往上打。而阿里云、阿里娱乐、飞猪才算。</p>
-<p>总结一下，Plan B 确实很重要，但请先做好 Plan A，然后选一个不会被双杀的 Plan B 深耕细作。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[不要因自己想的和别人一样而害羞]]></title>
-        <id>https://wolf3c.github.io/post/bu-yao-yin-zi-ji-xiang-de-he-bie-ren-yi-yang-er-hai-xiu</id>
-        <link href="https://wolf3c.github.io/post/bu-yao-yin-zi-ji-xiang-de-he-bie-ren-yi-yang-er-hai-xiu">
-        </link>
-        <updated>2020-03-16T05:39:03.000Z</updated>
-        <content type="html"><![CDATA[<p>在很长一段时间里，我内心深处，总是希望自己和别人不一样，或者更直接的说，我希望自己能够优于他人，当别人想着从1加到100，需要一个一个往上加的时候，我自己能够想到等差数列的计算方式，当别人想到等差数列的计算方式时，我希望自己能够想到一个更好的计算方式。</p>
-<p>尤其是自己了解越来越多的时候，本来自己想到了 A，然后兴冲冲地去研究，发现原来有人很早以前就提出过A，这让我觉得自己并没有相处足够奇特的东西，然后大失所望地放弃了继续研究。很多时候，我都想要写一篇文章来说说了，回头一查，发现其实别人早已有人想到了，想想自己写了，其他人大概也会说自己抄袭，最后只好作罢。</p>
-<p>并且，我发现社会中人们对于他人的想法也有类似的态度，如果某人突然想到了自认为新奇的东西，身边有可能就有一个朋友来一句「也不是谁谁谁早就想到的那个理论吗？人家早几十年就说了」，然后大家就不了了之。</p>
-<p>这种事情经常发生，就让我不得不反思一下原因了。</p>
-<p>首先，我必须承认，自己的能力还没有达到某个领域的顶尖，这种情况下，我作为一个还在学习成长中的人，想出来的东西与前人相同，概率自然很大。毕竟，这个时代，每个领域都已经有很多人在奋力向前推进，很多人都在研究，不光活着的人在研究，很多死去的人已经将这个领域推到了很高深的地步，毕竟大家都不笨，我能想到，别人能想到的概率自然也不小。</p>
-<p>那么，既然这个道理很简单，为什么我还会有这种想法呢？在我看来，我自己内心深处渴望快速成功、渴望证明自己的自卑心态，促使自己想要抓住每一次自认为的好想法。当然，每次有这种想法的时候，我脑海中马上会浮现出很多电影、电视剧中主人中靠一个优于常人的创见一举成功的场面，这种场面激动人心，是每个人希望的，各种作品中着重体现这种场面，自然是要迎合了观众口味的，但是，我在现实生活中，老想着类似场景，想要一步登天，那就有点「假戏真做，欺骗自己」，只要发现没有这种可能性，我就马上跟霜打了的茄子似的，放弃了自己所有的想法。</p>
-<p>既然明白了这些，我觉得，以后自己如果有了新想法，应该积极去研究探索，以自我成长为第一要务。如果发现有人已经有了相同的想法，那更要积极面对，看看他对于这个想法的后续是什么样的，有什么论证过程，有什么发展，是走进了死胡同，还是发展出了新的理论或产品？如果走进了死胡同，是为什么？如果有了新产品或理论，我们在这个基础上有什么新的想法或应用？如此做后，我才在自己的新想法中，成长更多，而不是被自己堵死。</p>
-<p>回过头来，既然有如此开放的心态，即使我以后有什么想法和别人的一样，我也大可以说出来，这是我思考出来的结果，我甚至可以将后续了解到别人的想法复述出来，反正我不会依次来抢他人的专利，大可轻松对待。这个思考过程，或过程中的收获，对我来说才是最重要的，切不可每次都浅尝即止，那终究不能有深入的理解和长足的成长。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[读《王阳明哲学》总结]]></title>
-        <id>https://wolf3c.github.io/post/du-lesslesswang-yang-ming-zhe-xue-greatergreater-zong-jie</id>
-        <link href="https://wolf3c.github.io/post/du-lesslesswang-yang-ming-zhe-xue-greatergreater-zong-jie">
-        </link>
-        <updated>2020-02-09T09:08:19.000Z</updated>
-        <content type="html"><![CDATA[<p>每个九年义务教育出来的人，都应听过「存天理，灭人欲」，自然也知道王阳明及心学，但估计很多人和我一样，在很长时间里，都只知名词而不知其意。</p>
-<p>随着年龄增长，我对自己浑浑噩噩的生活越来越不满意，对生活的未来越来越恐惧，我开始思考自己为什么而活着，自己怎么活着才是好。我既不想让自己为柴米油盐、车贷房贷奔波一辈子，也不想及时行乐开开心心地直到一堆骨灰，我总是在找「意义」。</p>
-<p>为此，我开始有意去了解一些哲学、人生指导方面的书，在这过程中，看到了樊登讲《王阳明哲学》的视频。</p>
-<p>如我所说，在此之前，我对于王阳明的心学基本停留在字面上，基于好奇心看了视频，看完似有所得，但又觉得也没有什么收获，此后几个月，我不时想起视频中的只言片语，快到 2020 年了，我决定《王阳明哲学》放到自己 2020 年读书计划中。</p>
-<p>这本书还真是不好买，淘宝、京东、当当、亚马逊都没有，在拼多多中碰运气，倒真找到了，也不管评论中所说印刷质量问题，能读就行，15 块钱赶紧买回来，过年回家时，便将它带着了。</p>
-<p>这书读起来确实有点儿费劲，文字带点古文的文风，还各种引用《大学》、《中庸》、《论语》等书中只言片语，对于一个仅在应试教育中背了一点文言文的文盲来说，有些地方不免一知半解，只好囫囵吞枣。</p>
-<p>磕磕绊绊读完全书，再回头看看樊登的视频，对于王阳明的哲学有了几分认识。</p>
-<p>王阳明的哲学核心就是「致良知」。</p>
-<p>所谓「良知」，王阳明说是每个人心中都有的「天理」，用我的话说，就是知善恶是非恻隐之心。而「致」，就是行动、做到。所以「致良知」的意思就是，一个人能够清楚真正的善恶是非，并且能够依照善恶是非去做，好善恶恶，为善除恶。</p>
-<p>那怎么才能做到「致良知」呢？王阳明提供了一个基本的步骤：</p>
-<ol>
-<li>对于初学者，心猿意马，思虑多是人欲，需要通过「静坐澄心」，让自己心思定下来；</li>
-<li>当一个人能够静下来后，不能一味求静，一定去行动、做事，用良知指导行为，在行动中检查良知，「省察克治」，不断发现自己好色、好货、好名等私欲，并不断从心中扫除干净，循环往复，做到知行合一。</li>
-<li>等到私欲去尽，心地莹澈，不希求，不怨幕，物来顺应，未来不迎，当时不杂，既过不恋，不累于欲，随时随事皆自得，从心所欲不逾矩，行事便是直道而行，到达「圆熟化境」的地步。</li>
-</ol>
-<p>王阳明特意传下四句诗来教导他人「致良知」：</p>
-<blockquote>
-<p>无善无恶心之体，有善有恶意之动。</p>
-<p>知善知恶是良知，为善去恶是格物。</p>
-</blockquote>
-<p>致良知说来简单，但实践过程中，有些人会误入歧途，常见的问题包括：</p>
-<ol>
-<li>以习气私欲为天理。有人看到「良知来自人心，每个人心中都有良知」等话，就要自己想干什么就干什么，这其实完全没有去了解心学，在致良知中，习气私欲会遮蔽良知，致良知去掉的就是自身的习气私欲。</li>
-<li>以知识为良知。我们平时书本上学到的学科知识，都是闻见之知，而不是德性之知，闻见之知更像是一种工具，我们用知识解决问题，而德性之知才是决定做什么的舵手。</li>
-<li>以事物之理为天理。接受了科学教育的人，很多都是这个想法，即唯物主义，但王阳明心学中，天理是人的心体，是知善知恶的良知。</li>
-<li>一味静坐，步入佛老，走出世的路。这条路虽可以让人在乱世中独善其身，但和王阳明的目标完全不同，王阳明是希望能够亲亲爱民，是修身齐家治国平天下，而不是步入槁枯寂静。</li>
-</ol>
-<p>以上，只是我对于《王阳明哲学》的大致汇总，篇幅有限，难免有很多遗漏，并且，我研究不深，也难免流于表面。</p>
-<p>不过，我从书中反思自己，总结出自身需要改进的几点：</p>
-<ol>
-<li>静心。这两年专注力越来越差，手底下写着文档，脑子里一会想开会，一会想发消息，一会担忧自己发给领导的邮件是不是有问题……一天下来，东一榔头西一棒子，很忙碌，又一事无成。</li>
-<li>知行合一。我常常明知看视频没有营养，却还是不愿意放下 iPad 去看书、健身、打扫卫生、和父母聊聊天、给朋友打个电话……</li>
-<li>省察克治。随着年龄增长，我对自己的要求越来越宽松，并且给自己找各种理由搪塞，私欲日起。</li>
-</ol>
-<p>以上，应当「时时轻拂拭，勿使惹尘埃」。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[大道理都懂，但是做事依旧糊涂]]></title>
-        <id>https://wolf3c.github.io/post/da-dao-li-du-dong-dan-shi-zuo-shi-yi-jiu-hu-tu</id>
-        <link href="https://wolf3c.github.io/post/da-dao-li-du-dong-dan-shi-zuo-shi-yi-jiu-hu-tu">
-        </link>
-        <updated>2020-02-03T13:59:20.000Z</updated>
-        <content type="html"><![CDATA[<p>就像标题，这是我很长一段时间对自己的感受，直到现在。</p>
-<p>和每个成年人一样，我们都读了很多讲大道理的书籍和文章，成功学、方法论、文化瑰宝……这些东西我们张口就来，尤其是在教育别人的时候，我甚至觉得自己就是个大思想家。</p>
-<p>然而，等到实践的时候，发现结果远不像想象的那么美好，手握「复盘大法」，我回头一看，发现自己其实是犯了很多自己张口闭口教人的大道理。</p>
-<p>年前武汉新型冠状病毒肺炎出现，北京 N95 口罩瞬间销售一空，当我去药店时，只剩下一些普通防护口罩和外科医用口罩，堂堂雾霾之都，怎么可能没有 N95 口罩，滑天下之大稽，我坚毅果敢地放弃了这些薄如纸的一次性口罩，马不停蹄跑去附近几个超市，发现真没有 N95。回头再看，外科医用口罩也被卖没了。</p>
-<p>坐到办公室，我就想，我常常挂在嘴边「先有后优」，碰到这种事情，居然为了少花 20 块钱（当时北京一包医用口罩 20 块钱），就放弃了自己悟出的大道理。</p>
-<p>这几天看《王阳明哲学》，对于这一点体悟更深，不去说王阳明致良知中心、意相互关系之类的，最简单的道理就是，我们明白的道理很多，但是我们做到的并不多。</p>
-<p>大道理其实就那么些，而做到自己认可的那些大道理，就是人生的修行。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[《大清相国》读后感]]></title>
-        <id>https://wolf3c.github.io/post/lesslessda-qing-xiang-guo-greatergreater-du-hou-gan</id>
-        <link href="https://wolf3c.github.io/post/lesslessda-qing-xiang-guo-greatergreater-du-hou-gan">
-        </link>
-        <updated>2020-01-06T12:56:08.000Z</updated>
-        <content type="html"><![CDATA[<p>这周读了利用闲暇时间读了《大清相国》，讲清朝顺治、康熙年间的官员陈廷敬的一生，有一定事实考据，但同时也有很多杜撰成分，这些我也不想一一考究，只是看完全书，我们发现陈廷敬从官五十载，虽有波澜，却无大难，运气部分我们不必深究，也很难深究，但从顺治到康熙，从官五十载而不出大事还能到达宰辅之位，实为不易，其中一定有值得我来学习的地方。</p>
-<p>在《大清相国》一书中，对于陈廷敬一生的智慧总结为五个字：等、忍、稳、狠、隐。</p>
-<h2 id="等">等</h2>
-<p>「等」，是陈廷敬中进士后，主考官卫中书教给他的，希望他不要急躁，耐住性子，避免初入官场后意气风发眼高手低，遭人嫉妒，引来杀身之祸。</p>
-<p>在这个浮躁的时代，我也缺少这个「等」字。</p>
-<p>进入公司就想一番作为，凡事都是高谈阔论，没干几个月，就觉得自己已经很厉害了，就希望公司能加钱，干了一年却没有年终奖，就开始想跳槽。</p>
-<p>回头想想，自己进去对很多历史问题了解确实不清，大家都是聪明人，我想到的别人大多也想到了，甚至试过了，只是那些人可能已经离职了。</p>
-<p>几个月其实只是让自己对公司业务和环境比较了解了，自以为值钱了，其实是忘了公司前个月是养着你来进入状态开始产出的，现在到了产出时候，才能看到你值不值那个价。</p>
-<p>因为干了一年没有年终奖，就要跳槽，跳到新公司，又要从头熟悉，这样来来回回，每年都有好几个月时间浪费自己熟悉环境上，能力成长与否可真不好说，大多数时候，是被工资成长蒙蔽了，等到工资不涨的时候，再回头看看，才能恍然大悟。</p>
-<p>我们现在都希望能够及时得到结果，总是希望过程更短一些，大学时很多书名还是 21 天学会 C 语言，后来 21 天就能精通 C++，在往后，7 天学习 7 种语言，现在利用手机玩玩游戏就能学会 Python，大家都不想用自己的努力去浇灌自己成长，都不愿意「等」。</p>
-<p>「等」字方面，《大清相国》中，卫中书很厉害。</p>
-<h2 id="忍">忍</h2>
-<p>「忍」，是陈廷敬岳父教他的，在官场，有的时候硬着头皮也要忍，年轻人，为尊严、为理想、为面子、为信仰、为正义、为三观，都可能站出来一展自己的英雄气概。但是，古今多少人为此丢了性命，换来一撮黄土。</p>
-<p>有时候，如果做了事情却什么都换不回来，那就忍忍吧。如果碰到礼崩乐坏的文革时期，你被绑起来批斗，人家给你安了帽子，能忍就忍了吧，要是偷得安宁，认了罪名或是逃去敌国也不是不可以，只要自己守住底线不做坏事，忍一忍活下去，总比死了强，要知道，硬挺挺坚持自己的崇高信念，被一个傻逼学生用腰带、棍棒打死，你是大损失，人家可能几年后迎着改革开放的新风，扶摇直上。</p>
-<p>总是能看到特别奇葩的事情出现，比如两人结婚，女的要的彩礼比较多，男的觉得不值，然后两人就分了。男的出轨了，女的一气之下将把男的杀了。产品经理提了个根据手机壳改变 app 颜色的需求，工程师就把产品经理打了。现代人脾气大，「忍」不了。</p>
-<p>《大清相国》中高士奇的「忍」功可谓了得。</p>
-<h2 id="稳">稳</h2>
-<p>「稳」是陈廷敬自己悟出来的，希望自己做事一定要稳，不要急躁，和曾国藩的「结硬寨打呆仗」类似，一步一个脚印，虽有阻拦和失败，但总归是容易继续向前，免得一败涂地。</p>
-<p>《大清相国》中张英的「稳」功可谓了得。</p>
-<h2 id="狠">狠</h2>
-<p>「狠」，是陈廷敬对付贪官污吏、奸逆小人时悟出来的，对付他们，一定要狠，要么不出手，一出手就要干净杀绝，避免遗留后患。就像动物界，狮子豹子逮猎物，在草丛中谋划很久，悄悄准备好，扑出去的那一刻，一定是使出全力的致命一击。切不可有一丝犹豫、妇人之仁。</p>
-<p>《大清相国》中索额图、明珠之辈，都非常「狠」。</p>
-<h2 id="隐">隐</h2>
-<p>「隐」是陈廷敬夫人月媛说的，希望陈廷敬位高权重之时，不要贪恋权位，退下官场保得全身。陈廷敬也因此在宰辅一职后，没有重蹈鳌拜、明珠、索额图的覆辙。</p>
-<p>官场上，利欲熏心，自己能「隐」者确实很少，隐一定要自己修行到了，看淡了看开了，才能做到。陈廷敬岳父在这方面很厉害。</p>
-<h2 id="总结">总结</h2>
-<p>其实，这些大道理，其实大家都看过，但是知道者多而做到者少。一个引人入神的故事，可以让我们在碰到类似的情况时，可以联想到当时故事中他们的做法，从故事中的经验优化自己的行为。</p>
-<p>我当自勉。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2020 目标]]></title>
-        <id>https://wolf3c.github.io/post/2020-mu-biao</id>
-        <link href="https://wolf3c.github.io/post/2020-mu-biao">
-        </link>
-        <updated>2019-12-31T08:05:34.000Z</updated>
-        <content type="html"><![CDATA[<p>我将自己的成长分为「内修」和「外建」两部分，2020 的计划，也将按照这两部分的成长展开。</p>
-<p>「外建」部分的目标是：</p>
-<ol>
-<li>让自己的产品能力更好，工作收入增长 5~10k；</li>
-<li>尝试自己的 sideproject，收获 100 名忠实用户，并给自己能带来 1000 元/月的收入；</li>
-<li>拥有 planB：与现在行业属性相对、经济属性相对、政治环境不同，应对世界突变；</li>
-<li>购置保险，给自己为数不多的资产提供保障；</li>
-<li>准备买房，为组建家庭做准备；</li>
-</ol>
-<p>「内修」部分的目标：</p>
-<ol>
-<li>提升专注力，让自己可以在工作场所，轻松持续专注 45 分钟；</li>
-<li>养成良好的作息习惯，让自己更加精力旺盛、身体健康：
-<ol>
-<li>每天晚上 11 点入睡；</li>
-<li>每天早上 7 点可以自然醒；</li>
-<li>每周运动 5 次，每次 &gt;30min；</li>
-<li>每日冥想 ≥10 分钟；</li>
-</ol>
-</li>
-<li>每日读书 &gt;半小时；</li>
-<li>每日阅读一篇英文文章，提升自己的英文阅读能力；</li>
-<li>了解并修习佛学、心学，用自己的话讲述自己了解的佛学、心学，各写一篇 blog；</li>
-<li>学习经济学，至少读完《人的行为》，并写自己的读后感；</li>
-</ol>
-<p>为了避免 <a href="https://wolf3c.github.io/post/2019-mu-biao-hui-gu/">2019 年计划中的「大跃进」问题</a>，我们先看一下这些目标有没有不切实际的。</p>
-<ol>
-<li>工作收入增长，靠努力也靠机遇，强求不得，但也不能因此坐等机遇，我应该着眼于自身成长，并不断寻找机会；</li>
-<li>planB 有很大的变数，自己现在没有完整计划，根据不同的项目，占用时间长短也大不相同，可能会出现没有时间做的情况；</li>
-<li>买房，对个人财力压力很大，以我目前的实力，很难在明年去买房，截止目前，也没有想到可以准备的点；</li>
-<li>11 点入睡，对于我来说并不容易，我希望在 3 月时，能养成这个习惯，至少达到每周有 5、6 天是 11 点入睡的；</li>
-<li>《人的行为》是一本宏伟巨著，想要读完可真的不容易，不过，好在这是靠自己能个够克服的；</li>
-<li>这么多事情，我的时间是否足够？</li>
-</ol>
-<p>所以，</p>
-<ol>
-<li>
-<p>工作收入增长，我要将它变成一个成长计划；</p>
-</li>
-<li>
-<p>planB 我要做一个投入时间的计划，让自己有时间去做这个事情，至于做什么，根据当时的思考来做；</p>
-</li>
-<li>
-<p>买房，我要做一个储蓄理财的规划，让自己财力上可以达到，另外，还要多去了解房市知识；</p>
-</li>
-<li>
-<p>关于时间问题，可以计算一下：</p>
-<ol>
-<li>
-<p>所有必修内容的时间 = （30min 锻炼时间 + 30min 锻炼前后准备时间） + （10min 冥想 + 10min 前后准备和冗余）+ （ 30min 读书 + 20min 冗余） + （30min 阅读英文文章）= 2h 10min</p>
-</li>
-<li>
-<p>关于工作占用时间：我自己 7 点起洗漱 1 小时，8 点上班，21 点半到 22 点到家，睡前 需要 30 分钟洗漱整理，所以，工作日没有事情做以上事情；</p>
-</li>
-<li>
-<p>从这里来看，以上必修内容在非工作时间很难做，何况，planB、sideproject、了解生活其他知识、写 blog 等事情还没有计算时间，所以，现在能想到的办法就是1）砍掉这些事情；2）看看怎么在工作时间将这些事情完成；3）换个不加班的工作；4）换住处，减少通勤时间，但这顶多能挤出 1~2 小时；</p>
-</li>
-<li>
-<p>关于周末，周六需要陪女朋友，周日需要加班（强度不及工作日）；</p>
-</li>
-<li>
-<p>综上，我决定在工作时间拿出 3 小时给自己。因为自己的工作并不是那种高强度的搬砖工作，其实工作时间很长的一个原因是公司环境造成的，自己可能浪费了一些时间，所以，可以尝试挤一挤。具体做法：</p>
-<ol>
-<li><strong>早上读一篇英文文章</strong>（其他人看到也不会一下次知道内容）；</li>
-<li><strong>中午午休时间，冥想 10 分钟</strong>（环境安静，不会被打扰）；</li>
-<li><strong>下午18 点左右，去健身</strong>（吃饭时间，健身吃饭，不会被其他会议等留住）；</li>
-<li><strong>上下班路上，读书</strong>（我坐的一趟地铁很长，我也经常有座，反正我手机也没多少流量）；</li>
-</ol>
-<p>如果以上能达到，时间问题貌似能解决。</p>
-</li>
-</ol>
-</li>
-</ol>
-<p>另外，需要避免<a href="https://wolf3c.github.io/post/2019-mu-biao-hui-gu/">笼统问题和缺少定期检查的问题</a>，我需要做好两点：</p>
-<ol>
-<li>将所有的事情做出时间计划和里程碑；</li>
-<li>我要定期检查、复盘。（这里包括各种计划和每天或每周的周期性事项）</li>
-</ol>
-<p>我需要做的计划包括：</p>
-<ol>
-<li>读书计划：读哪些书、定量；</li>
-<li>规律生活的调整计划：什么时候达到什么状态；</li>
-<li>sideproject 计划：什么时间完成什么事情，达成什么目标；</li>
-<li>提升专注力的计划：如何提升，什么时候达到什么状态；</li>
-<li>planB 的计划：如何给出时间，如何尝试；</li>
-<li>购置保险、准备买房等事项的计划；</li>
-</ol>
-<p>关于定期复盘：</p>
-<ol>
-<li>每周看周期性事项的完成情况（读书、英文阅读、健身、冥想），及时调整；</li>
-<li>每月，看自己计划完成情况，分析完成或没有完成的原因，并做对应处理；</li>
-</ol>
-<p>以上，作为一个 2020 计划的大体内容吧。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2019 目标回顾]]></title>
-        <id>https://wolf3c.github.io/post/2019-mu-biao-hui-gu</id>
-        <link href="https://wolf3c.github.io/post/2019-mu-biao-hui-gu">
-        </link>
-        <updated>2019-12-12T02:19:42.000Z</updated>
-        <content type="html"><![CDATA[<p>2019 年初，我给自己定下了几个目标，现在来看一个都没有完成，2020 要重新考虑自己的方式方法，找到提升完成率的方法。</p>
-<p>2019，我希望自己的 sideproject 能够获得首批 100 名用户，如果可能，让自己的 sideproject 带来收入。然而，我在过去一年都没有对 sideproject 贡献多少精力，想要让用户来简直痴人说梦。</p>
-<p>2019，我希望自己能够懂更多知识，但我只读完了 12 本书：</p>
-<blockquote>
-<ul>
-<li>《OKR工作法》：2019-1-6完成。 epub版。</li>
-<li>《财富自由之路》：2019-1-27完成。</li>
-<li>小狗钱钱</li>
-<li>人为什么活着 王小波 （读了感兴趣的部分，超过一半）：2月20日后至3月5日左右</li>
-<li>当我谈跑步时，我谈些什么：3月7日 ～ 3月8日</li>
-<li>《简单逻辑学》</li>
-<li>《释放 : 过上无压力生活的7个原则》：简单读了一下，大部分东西在很多地方都出现过。</li>
-<li>《科舟求健——方舟子谈健康》：前半部分通读（停止处加入了书签），后面的看了几篇感兴趣的，以后可以继续看。</li>
-<li>《皮囊》</li>
-<li>产品游戏化</li>
-<li>赡养老人</li>
-<li>小岛经济学</li>
-</ul>
-</blockquote>
-<p>2019，我希望自己修为精进，成长为一个有智慧的男人，然而，我现在不但没有进步，反而更加拖延、懒惰、迷茫、焦虑、不专注。</p>
-<p>2019，我希望自己奋进，我希望自己工作日每天能拿出 2 小时来做专注自己的 sideproject，希望自己每周末有一天工作 8 小时，另外一天工作 2 小时，其他时间用来娱乐。结果就是，我沉迷于视频、娱乐，惶惶度日，一事无成。</p>
-<p>多说无益，我还是要面向未来，忠于成长。</p>
-<p>总结一下 2019 的经验和不足，为 2020 再做打算。安慰自己，人生是场长跑。</p>
-<p>2019 规划中的不足包括：</p>
-<ol>
-<li>目标太笼统：
-<ol>
-<li>没有清晰的刻度；</li>
-<li>没有分阶段的里程碑；</li>
-</ol>
-</li>
-<li>缺少定期检查、回顾、调整；</li>
-<li>计划有点脱离现实，有点「多快好省」的大跃进式思想；</li>
-</ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[何为 Custom Block Helpers]]></title>
-        <id>https://wolf3c.github.io/post/he-wei-custom-block-helpers</id>
-        <link href="https://wolf3c.github.io/post/he-wei-custom-block-helpers">
-        </link>
-        <updated>2019-10-27T11:53:33.000Z</updated>
-        <content type="html"><![CDATA[<p>我平时网站开发使用 Meteor，而前端则使用了以前被其推荐的 Blaze，不过开发是我的副业，搞得也是马马虎虎，加上 Blaze 的资料基本都是英文，所以，用起来也是一知半解。</p>
-<p>今天又想学习一下 Blaze，所以就去读它的文档，发现 <a href="http://blazejs.org/api/spacebars.html#Custom-Block-Helpers">Custom Block Helpers 相关内容</a>，看了半天，不明白为什么需要一个 Custom Block Helpers，搁以前我可能会跳过去，不过这次想「与其看一堆自己已经知道的东西，不如弄懂一个自己不懂的东西」，所以就开始研究。</p>
-<p>在网上搜了半天，终于找到<a href="http://www.petecorey.com/blog/2015/01/13/custom-block-helpers-and-meteor-composability/">一篇文章</a>，让我茅塞顿开。为了让自己加深记忆，在自己博客上写一遍。</p>
-<h2 id="为什么要用-custom-block-helpers">为什么要用 Custom Block Helpers</h2>
-<p>要理解 Custom Block Helpers，你需要先理解 template。</p>
-<p>template 就像一个明信片，你可以买长的完全一样的明信片，然后写上不同朋友的姓名和祝福，就会给不同朋友以各自的祝福。</p>
-<p>和 Custom Block Helpers 的区别在于，template 是商店已经提供好的，大家都能买到，都能随便拿来用，很普遍，但是缺少一些特别的东西。</p>
-<p>而 Custom Block Helpers 就是先自己按照自己的需要去定制一种明信片，比如我为自己的室友寄明信片，所以我在明信片中画上了大家的毕业合照，这是我自己设计和制作的，其他人都没有。我一次做很多张相同的明信片，然后，给每个室友发明信片的时候，就拿出来一张来往里面填上特定的祝福。</p>
-<p>这种方式让我既免去了每次写明信片都要往上面画毕业合照的麻烦，又不失独特性，让我可以每次都可以写上不同的内容。</p>
-<p>回到技术，Blaze 的 Spacebars 已经提供了  <code>{{#each...in}}</code> 、<code>{{#if...else}}</code> 等来制作自己的 template，同时也提供了  <code>{{&gt; myTemplate}}</code> 来直接调用自己的 template。但是，如果我要做好几个长得有点像，但还有点区别的 template，就很麻烦，因为，我要每次都需要重复写一遍那些相同的部分。为了避免这种重复，Blaze 提供了 Custom Block Helpers。</p>
-<p>如何使用 Custom Block Helpers</p>
-<p>下面来举个例子：</p>
-<pre><code>{{! template，我们自己制作的明信片 }}
-
-&lt;template name=&quot;note&quot;&gt;
-  &lt;div class=&quot;note&quot;&gt;
-    {{&gt; Template.contentBlock}} 		{{! 可以在这里填写自定义内容 }}
-  &lt;/div&gt;
-&lt;/template&gt;
-</code></pre>
-<p>这个 <code>note</code> 就是我们自己做的明信片（template），现在，我们需要使用它：</p>
-<pre><code class="language-html">{{! 引用，使用我们自己的明信片，往里面填上自己的东西 }}
-
-{{#note}}
-  &lt;p&gt; Any content here &lt;/p&gt;		{{!-- {{#note }}后面的内容将自动填写进 {{&gt; Template.contentBlock}} --}}
-{{/note}}
-</code></pre>
-<p>这样我们就直接引用了 <code>note</code> ，其中 <code>{{#note}}</code> 和 <code>{{/note}}</code> 中间的部分，直接对应到 template 中的 <code>{{&gt; Template.contentBlock}}</code>  ，引用后的结果就是：</p>
-<pre><code class="language-html">&lt;div class=&quot;note&quot;&gt;
-	&lt;p&gt; Any content here &lt;/p&gt;
-&lt;/div&gt;
-</code></pre>
-<p>如果明白了以上内容，我们继续学习。</p>
-<p>Blaze 除了提供 <code>{{&gt; Template.contentBlock}}</code>  ，还提供了 <code>{{&gt; Template.elseBlock}}</code>  来填如其他内容。这么说可能不太好理解，我从 blog <a href="http://www.petecorey.com/blog/2015/01/13/custom-block-helpers-and-meteor-composability/">Custom Block Helpers and Meteor Composability</a> 看到了一个很好的例子：</p>
-<pre><code class="language-html">&lt;template name=&quot;myTemplate&quot;&gt;
-    {{#if this}}
-    &lt;h1&gt;{{title}}&lt;/h1&gt;
-    &lt;div&gt;
-        {{&gt; Template.contentBlock}}
-    &lt;/div&gt;
-    {{else}}
-        &lt;h1&gt;No content provided&lt;/h1&gt;
-        &lt;div&gt;
-            {{#if Template.elseBlock}}
-                {{&gt; Template.elseBlock}}
-            {{else}}
-                &lt;p&gt;No elseBlock provided&lt;/p&gt;
-            {{/if}}
-        &lt;/div&gt;
-    {{/if}}
-&lt;/template&gt;
-
-&lt;body&gt;
-    {{#myTemplate title=&quot;My Title&quot;}}
-        &lt;p&gt;My custom content&lt;/p&gt;
-    {{else}}
-        &lt;p&gt;This is my else block&lt;/p&gt;	{{!-- 这里将填充进 {{&gt; Template.elseBlock}} --}}
-    {{/myTemplate}}
-&lt;/body&gt;
-</code></pre>
-<p>这时候，我们回头来看看 Blaze 提供的例子，使用<code>{{#if}}</code>来实现<code>{{#unless}}</code>：</p>
-<pre><code class="language-html">&lt;template name=&quot;unless&quot;&gt;
-  {{#if this}}
-    {{&gt; Template.elseBlock}}
-  {{else}}
-    {{&gt; Template.contentBlock}}
-  {{/if}}
-&lt;/template&gt;
-</code></pre>
-<p>以上，就是 Custom Block Helpers 的作用和使用方式。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[管理：一定要让团队的每个人专注地贡献智力]]></title>
-        <id>https://wolf3c.github.io/post/guan-li-yi-ding-yao-rang-tuan-dui-de-mei-ge-ren-zhuan-zhu-di-gong-xian-zhi-li</id>
-        <link href="https://wolf3c.github.io/post/guan-li-yi-ding-yao-rang-tuan-dui-de-mei-ge-ren-zhuan-zhu-di-gong-xian-zhi-li">
-        </link>
-        <updated>2019-10-12T12:10:11.000Z</updated>
-        <content type="html"><![CDATA[<p>我们线上有一个问题，因为开发测试人员都有其他排期，所以抽空来解决这个问题，两天时间没有复现问题，然后开发根据自己的猜测做了一些修改，让测试测测，测试由于一直没有复现问题，所以就说，要不咱们上线试试。</p>
-<p>碰到这种问题，作为产品经理，心里很清楚，这么上线基本就是撞大运的事情，要是好了，也不一定真的就是找对了病根，可能是其他原因（app 重启、系统重启……）解决的。</p>
-<p>当我听到测试说「上线试试」时，我就觉得不靠谱，问他们对于问题的看法，也是糊里糊涂的，连所有的问题没有做到一清二楚，本着不信邪的想法，我坐下来根据问题状况，去用自己的办法重造可能的环境，不到三分钟，复现了问题。</p>
-<p>话说回来，我还不是这个产品的产品经理，只需要按照问题现象和产品基本逻辑去思考，然后按照自己的猜想试验，几分钟就发现了一些线索。</p>
-<p>大家都是普通人，他们比我更专业，对这个产品更了解，按理来说更容易发现问题、解决问题，反倒两天时间没有复现这个问题。</p>
-<p>对此我自然是很生气，但是回过头来，想想，为什么呢？一个外行几分钟就可以发现线索的事情，几个内行两天没有解决，而他们在这个事情上花费的时间远超三分钟。</p>
-<p>我现在臆想到的结论是：他们不够专注，基本考虑条件反射来处理这个事情，没有去真正动脑子思考这个事情的前后逻辑。</p>
-<p>从这个结论，我进一步得出一条推论：作为团队领导，一定要让做事情的人足够专注，不要抽空给你做事，也不要抽空给别人做事情。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[gtop 简要说明]]></title>
-        <id>https://wolf3c.github.io/post/gtop-jian-yao-shuo-ming</id>
-        <link href="https://wolf3c.github.io/post/gtop-jian-yao-shuo-ming">
-        </link>
-        <updated>2019-09-09T13:05:46.000Z</updated>
-        <content type="html"><![CDATA[<p>在 *nix 系统中，top 命令的用途不言而喻，如果有人不了解，可以将他类比 Windows 的任务管理器的部分功能，主要用于查看系统资源使用情况，是进程管理中非常重要的工具。</p>
-<p>不过，所有被大量用户使用的工具，总是不能很好地满足小部分用户的小众需求，top 也是一样，一些人希望 top 的能力更强大，所以有了 <a href="https://zh.wikipedia.org/wiki/Htop">htop</a>，也有一部分人，希望 top 的功能尽量简单易上手，所以就有了 <a href="https://github.com/aksakalli/gtop">gtop</a>。</p>
-<p>可能大家都希望拥有更强大的工具，所以网上有很多介绍 htop 的文章，但很少有人介绍 gtop，可能是他简单到无需介绍吧。不过作为一个简单看看电脑资源的人，我还是挺喜欢 gtop 的。</p>
-<p>首先 gtop 很直观地列出了重要资源信息：</p>
-<figure data-type="image" tabindex="1"><img src="https://wolf3c.github.io//post-images/1568036421843.png" alt="" loading="lazy"></figure>
-<p>平时重点关注的内存、硬盘、网络情况，都一目了然。</p>
-<p>另外，平时想要针对性地看看进程占用资源的情况（上图右下角区域的内容），gtop 提供了三个快捷键，覆盖了日常需求：</p>
-<blockquote>
-<p>c： 将进程按照 CPU 使用率排序<br>
-m：将进程按照内存占用情况排序<br>
-p： 将进程按进程 ID 排序</p>
-</blockquote>
-<p>所有的排序，第一次点快捷键是倒序，再点一次就是正序。电脑发烫，那看看哪个应用在疯狂用 CPU，进入 gtop 点一下<code>c</code>；电脑老是提示内存不足，那看看哪个应用吃内存，进入 gtop 点一下<code>m</code>。</p>
-<p>没事时，也可以直接打开 gtop 放在那里，等着装逼，装完，按一下<code>q</code>或<code>Esc</code>就可以退出。</p>
-<p>如果感兴趣，也可以自己去试试他，由于他是基于 node.js 的应用，Windows、Mac、Linux 都支持：</p>
-<pre><code class="language-shell">npm install gtop -g
-</code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我发现自己不会写文章]]></title>
-        <id>https://wolf3c.github.io/post/wo-fa-xian-zi-ji-bu-hui-xie-wen-zhang</id>
-        <link href="https://wolf3c.github.io/post/wo-fa-xian-zi-ji-bu-hui-xie-wen-zhang">
-        </link>
-        <updated>2019-08-27T12:04:59.000Z</updated>
-        <content type="html"><![CDATA[<p>前几天，我利用睡前时间，读了冯骥才《俗世奇人》中的《刷子李》、《泥人张》、《快手刘》等几篇文章，突然在想，他是怎么练的写文章能力，文章如流水，不紧不慢，缓缓流过我的心里。</p>
-<p>刚读《刷子李》的时候，可能因为是以前的课文，脑子里有点印象，我总是预测下一步要说什么了，然后发现每次后面是很多自己没有想到的细节。多读几篇，我发现他的文章就像一个四平八稳的老人在讲故事，不急不慢，让场景像平缓的河流一样缓慢流过，然后一笔一笔将整个故事描绘出来，没有一丝急躁。</p>
-<p>可能是看网络文章有点多了，突然读这文章，才发现自己以前读过的文章都太急躁，太粗糙。作者没耐心带给读者一副细致的油画，读者也是蜻蜓点水式地读个大概。作者知道自己的读者如此，也就开始一会加图一会加歌，开心时插科打诨或来两个成语，不开心时愤世嫉俗或插点儿广告。然后作为读者，读多了这类文章，自然熟悉套路，形成条件反射，看到长相类似的文章，一路向下飞快滑动，分分钟读完一篇。</p>
-<p>输入内容的质量很影响输出内容的质量，我现在不但读的很多东西粗糙，自己写的东西也粗糙。尤其是读了这几篇文章后，我发现自己一直是不太会文章的，或者说，我也不知道该怎么开始去写一篇类似于人家这种水准的文章，根本不知道门路何在。</p>
-<p>浅薄的自己，需要沉下心来好好学习成长。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[负责任]]></title>
-        <id>https://wolf3c.github.io/post/fu-ze-ren</id>
-        <link href="https://wolf3c.github.io/post/fu-ze-ren">
-        </link>
-        <updated>2019-05-11T15:05:38.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>time：2019-05-11</p>
-<p>author：wolf3c</p>
-<p>字数：900</p>
-</blockquote>
-<hr>
-<p>记得我大学毕业刚入职场，CEO 有次和我们部门几个人一起聊天，说到：你们年轻人不懂得负责任的重要性，也很少负责任。当时我年少气盛，既不认为负责任如他说的那般重要，也不认为自己没有责任心。但是，好歹人家是一个年过半百的 CEO，本着谦虚谨慎的态度，我记住了他的意思，希望自己以后有更深的体悟（不论是否同意）。</p>
-<p>事实上，在以后的工作和生活中，我确实对于负责任有了更深的体会。</p>
-<p>随着这两年自己职责越来越重要，作为产品经理，自己的一个决定，可能会导致产品线上很多人投入几周乃至几个月的精力，如果这是一个随意的决定，那同事的精力、公司的资源、产品的时间很可能因此全部浪费掉，最后的得到的可能只有「这条路走不通」。</p>
-<p>所以，我越来越觉得当时 CEO 的话在理，让我对此更清晰认识的确实自己生活的经历。</p>
-<p>随着年龄的增长，我们需要面对父母变老、组建家庭。快到 30 岁的时候，需要面对组建家庭的压力，要孩子压力，尤其作为一个北漂，相对应的房子、车子都是大问题，另外还有双方的父母抚养问题，而大多数人的事业，在 30 岁左右的时候，还处于爬坡时期，很难在这个时候，平缓地处理这些问题。这可能就是一个年轻人到中年人转变的第一个危机吧。</p>
-<p>在这个时期，个人压力突然变大，我有时候也在想，我为什么要负担这些压力呢？</p>
-<p>年少无知的时候，我可能会说，不要被世俗束缚，没必要按照父母的要求在二十几岁结婚；租房并不比买房差，现在房子都已经远超出了普通人的购买能力，买房只会让自己当一辈子房奴；父母应该有自己的生活，自己的孩子自己养；物质欲望是个无底洞，而且只会提供短暂的幸福，要多考虑内在的幸福，不要让自己的生命束缚在物质获取的过程中……</p>
-<p>但是，以前一人吃饱全家不饿的我，面对女朋友说买房的事情，我发现自己确实希望能拥有一个房子，而不是去和她说自己那套逻辑；当面对未来父母养老问题的时候，虽然嘴上说着他们都过得挺好，但同时，我也在想，我什么时候可以让他们过过更好的日子。</p>
-<p>一切都是自愿的，没有谁来说教。我甘愿去承担买房买车的压力，开始不断思考如何组成一个更好的家庭，开始思考如何让自己的父母能过上更好的晚年。</p>
-<p>我突然觉得，当你心甘情愿不计回报地想为一个人负责任的时候，你大概是爱他的。</p>
-<p>对父母、女朋友、自己是这样，对自己的产品也是这样。</p>
-<hr>
-<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
-<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[现实]]></title>
-        <id>https://wolf3c.github.io/post/xian-shi</id>
-        <link href="https://wolf3c.github.io/post/xian-shi">
-        </link>
-        <updated>2019-04-28T15:15:35.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>time：2019-4-28</p>
-<p>author：wolf3c</p>
-<p>字数：0.8K</p>
-</blockquote>
-<p>这段时间，找不到工作，面对各种支出和对未来的恐惧，度过两个月，由于怕惹得女朋友不开心，让两人生出各种问题，所以一直没有将离职的事情告知她，现在，既有失业压力，还有经济、房子、车子、谎言的压力。</p>
-<p>过去两个多月，我的心态变化极大，现在的自己看几个月前的自己，就如同女朋友说的，从来不去考虑以后生活可能出现的问题，没有各种规划，完全就是一个乐观的孩子，对未来总是抱有不切实际的幻想。</p>
-<p>几个月前，我认为她有一点太过现实，未来两人的话题可能变得只有柴米油盐，但现在的我，越来越认同她的很多观点，我们都是活在现实生活中的人，不管是否有理想，也不管理想多么崇高或伟大，我面对的都是现实给我的每一个具体点问题。</p>
-<p>以前我可能幻想着有一天可能赚大钱，可以一鸣惊人，可以实现理想，但现实就是，我自己每天和任何一个普通人并没有什么区别，甚至不如很多人那样去认真面对生活的每一个问题。</p>
-<p>女朋友的一个个问题，让我哑口无言：等我们三十多的时候，我们住在哪里？等我们有孩子的时候，谁来看护？看护的人住在哪里？孩子在哪里上学？父母老了怎么抚养？家人生病有钱治吗？</p>
-<p>快三十了，我需要考虑生活中的每个大问题，而不只是单纯地去工作、去追求所谓心灵上的高端。</p>
-<p>从昨天到今天，读完了蔡崇达的《皮囊》，里面写到阿太勇敢直面生活艰辛，写到母亲为了父亲默默承受生活重单的爱情，写到医院让人窒息的无力感，写到追求世俗认同却被世俗抛弃的张美丽，写到一心想逃离底层普通生活的阿小，写到用理想挥洒人生的厚朴，写到一心想证明自己的文展……每个人碰到现实，或迎面而上，或咬牙爬行，或想一跃跳出，或想不去承认，或想用汗水兑换美好结果。</p>
-<p>现实不会因为你勇敢面对就不为难你，也不会因为你已经被逼得想死了就放过你；现实不会因为你祈祷哀求就怜悯你，也不会因为你的成功而奉承你；现实不会因为你自视不凡就优待你，也不会因为你追求理想就帮助你，现实不会因为你付出汗水就给你结果，也不会因为你积德行善就关照你。</p>
-<p>面对现实，我突然想起老子的那句「天地不仁以万物为刍狗」，是啊，不管你贫穷还是富有，也不管你可怜还是崇高，现实总是将一个个现实的问题抛给你，让你去面对。</p>
-<hr>
-<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
-<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我的 Telegram Channel：「值得关注」]]></title>
-        <id>https://wolf3c.github.io/post/wo-de-telegram-channelzhi-de-guan-zhu</id>
-        <link href="https://wolf3c.github.io/post/wo-de-telegram-channelzhi-de-guan-zhu">
-        </link>
-        <updated>2017-10-26T15:14:43.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>time：2017-10-26</p>
-<p>author：wolf3c</p>
-<p>字数：0.7K</p>
-</blockquote>
-<p>两个月前，犹豫再三后，还是在 Telegram 开了一个 Channel，名叫「值得关注」，ID 为 @valuableinfo，你也可以<a href="https://t.me/valuableinfo">点击链接</a>加入。</p>
-<p>开这个 Channel 是因为我自己对于现有资讯类产品的不满，在我看来，虽然每天新闻满天飞，个个长篇大论，但是真正有意义的却寥寥无几，大多都是给人提供一个茶余饭后的谈资罢了，而这种谈资隔天便已经失去了绝大多数意义。很多人痴迷于这种资讯，每天利用自己所谓的碎片时间紧盯屏幕，但他在人面前那口若悬河的神情背后是复读机式的无意识。</p>
-<p>我希望有一个渠道可以通过言简意赅的文字阐述那些有意义的、将产生影响的事物信息，当然，从商业角度来说，除非是收费服务或无私奉献，不然这类服务很难长期存活，因为他的用户群体小，信息量小，这种情况下互联网中最常见的商业模式——广告——变成了自刎匕首，除了收费或自费，很难想到有商业模式能撑起这么一个东西。</p>
-<p>从我自己的角度，自认为目前无法做出一个自己满意的收费产品出来（主要受到自己的规划、能力、精力、对现实环境的判断以及对不可抗力的谨慎等因素影响），当然，目前我也无法在国内找到一个这类产品，所以我只能耗费时间从茫茫资讯中找到那些自认为有用的信息。既然我已经做了那么多了，何不把自认为「值得关注」的信息总结一下发出来呢，这样既锻炼了自己对信息总结和思考的能力，也造福了与我有相同想法的人。</p>
-<p>至于为什么选择 Telegram Channel，主要因为我希望找到的地方符合以下几个因素：</p>
-<ol>
-<li>不受「众所周知的不可抗力」限制；</li>
-<li>有很多中文受众；</li>
-<li>可以发送文章（可以有标题、格式、插图、插视频等，而不是 140 字短文）；</li>
-<li>易于抵达受众，方便查看；</li>
-</ol>
-<p>综上，微信、Twitter、Facebook、blog、WhatsApp、Instagram 等都不合适，看来看去，也就 Telegram Channel 和 Tumblr 两个可选，但我感觉中文世界的 Tumblr 气味实在与我要输出的东西气味不和。</p>
-<p>总而言之，我做了一个比较特别的资讯服务，仅发布那些在我看来有意义的、将产生影响的事物信息，如果你感兴趣，请点击 <a href="https://t.me/valuableinfo">https://t.me/valuableinfo</a> 或在 Telegram 中搜索 @valuableinfo 关注。</p>
-<hr>
-<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
-<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome 书签管理新方案 —— Neater Bookmarks]]></title>
-        <id>https://wolf3c.github.io/post/chrome-shu-qian-guan-li-xin-fang-an-neater-bookmarks</id>
-        <link href="https://wolf3c.github.io/post/chrome-shu-qian-guan-li-xin-fang-an-neater-bookmarks">
-        </link>
-        <updated>2017-08-15T15:17:54.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>time：2017-08-15</p>
-<p>author：wolf3c</p>
-<p>字数：0.9K</p>
-</blockquote>
-<hr>
-<p>作为一个 Chrome 重度用户，我保存了大量书签，但 Chrome 的书签功能实难用：</p>
-<ol>
-<li>左键单击书签，会在当前标签页打开页面，而不是新开标签页打开页面，为此我必须每次按住 command（Mac） 或 Ctrl（Windows）键来打开一个书签。在一个打字可以不用手的时代，打开一个书签居然需要两个手；</li>
-<li>存放在多级文件夹中的书签，每次打开时都需要从头逐级找，简直抓狂。我一直怀疑 Chrome 的书签功能就不是为我这种人做的；</li>
-<li>书签栏中可以放得内容有限，Chrome 把超出的内容全部收在右边的小箭头中，使用起来非常憋屈，这逼得我不得不把文件夹和标签的名字改的更短，以放置更多的内容。</li>
-</ol>
-<p>有病就得治，作为一个 Chrome 用户，遇到问题最先想到的解决办法就是「<strong>找个插件</strong>」。</p>
-<p>在 chrome web store 一通乱翻后，果然找到了「药」—— Neater Bookmarks。</p>
-<h3 id="树状结构">树状结构</h3>
-<p>Neater Bookmarks 作为插件，需要在插件栏中点击图标打开，书签在弹出窗中树状呈现，很适合管理大量书签。</p>
-<figure data-type="image" tabindex="1"><img src="https://wolf3c.github.io//post-images/1561821517169.png" alt="Neater Bookmarks_tree" loading="lazy"></figure>
-<p>同时，Neater Bookmarks 提供了非常实用的自定义设置，我最喜欢「左键单击书签在新标签打开」和「记住上次状态」。</p>
-<h3 id="左键单击书签在新标签打开">左键单击书签在新标签打开</h3>
-<p>这个功能解决了一直被我吐槽的 Chrome 自带书签打开方式，只需要点击左键即可在新标签页中打开书签。</p>
-<p>如果配合「鼠标中键或按住 Ctrl 键左击时在后台打开书签」设置项，一次性打开多个书签变得非常高效。</p>
-<p>再也不用跟傻子似的一遍又一遍地沿着相同的路径点开文件夹打开书签了。</p>
-<figure data-type="image" tabindex="2"><img src="https://wolf3c.github.io//post-images/1561821537043.gif" alt="NeaterBookmarks_newTab" loading="lazy"></figure>
-<h3 id="记住上次状态">记住上次状态</h3>
-<p>开启「记住上次状态」功能后，每次打开 Neater Bookmarks 时，显示位置就是使用时打开的位置。</p>
-<p>我根据自己使用场景建了几个文件夹，并将同类书签放在相同的文件夹下。比如，我有一个叫「开发常用」的文件夹，里面放着Underscore.js、MongoDB、Materialize……的 document 网站和开发资源网站，在写代码的时候，常需要查文档，每次打开 Neater Bookmarks，位置就在已经打开的「开发常用」文件夹，使用起来方便很多。</p>
-<figure data-type="image" tabindex="3"><img src="https://wolf3c.github.io//post-images/1561821550942.gif" alt="NeaterBookmarks_rememberStatus" loading="lazy"></figure>
-<h3 id="不足">不足</h3>
-<p>在使用过程中也发现 Neater Bookmarks 一些小问题。</p>
-<p>中文支持不足。「地址栏搜索」功能是在地址栏输入星号「*」，再按 tab 或空格，就可以搜索 Neater Bookmarks 中的标签，但使用中文搜索经常出现搜索不到的情况，该功能在几年前还是很有用的（Neater Bookmarks 是 2010 年发布，最后一次更新是 2014 年），但现在 Chrome 自己已经把书签搜索加入到地址栏中，所以该功能好坏变得无足轻重。</p>
-<p>打开速度有点慢，点击后会延迟 0.5 ~ 1 秒，这是所有扩展的通病，不过，想想 Chrome 的书签功能，我感觉这个延迟完全可以接受。</p>
-<p>如果你也喜欢使用 Chrome 书签，强烈建议你试试 Neater Bookmarks。</p>
-<hr>
-<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
-<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[做有魅力的产品 之 初次见面]]></title>
-        <id>https://wolf3c.github.io/post/zuo-you-mei-li-de-chan-pin-zhi-chu-ci-jian-mian</id>
-        <link href="https://wolf3c.github.io/post/zuo-you-mei-li-de-chan-pin-zhi-chu-ci-jian-mian">
-        </link>
-        <updated>2017-07-27T15:56:59.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>time：2017-07-27</p>
-<p>author：wolf3c</p>
-<p>字数：1.3K</p>
-</blockquote>
-<hr>
-<p>今天，一位产品同事问我，对于老师一键注册的用户，是不是在首次登陆时自动跳转到修改密码页面，让他先将密码修改自己容易记住的。这件事的起因是一个沉积好长时间的测试 bug，iOS 和 Android 客户端都没有实现此功能，测试和开发意见不合，反馈到产品同事这里，同事有点拿不定，所以来问我。</p>
-<p>事实上，同事倾向于可以自动跳转到修改密码页面，理由是方便用户修改一个自己容易记住的密码，用户以后使用也方便，不然，等到用户下次登录时发现自己忘了密码，再去找回密码就会很麻烦，所以，不论怎么看，跳到修改密码页面都是一个「为用户考虑」的做法。</p>
-<p>但我观点不同，我更倾向于让新用户第一时间了解产品的用途和优点，期望在用户进来后尽力去抓住用户的心，让用户知道产品对他有价值，甚至让用户喜欢这个产品。这就涉及到了我自己一个比较污的产品思维（由于那位同事是女生，我当时没有向她灌输自己的这套理论）。</p>
-<p>在我看来，我们可以把自己打造的产品比作一个女生（暂且就叫「静静」吧），而这个产品的目标用户就是静静喜欢的男生。</p>
-<p>上面问题场景可以类比为：有人给静静介绍相亲，看到了个一见倾心的男生，静静的目标必然是让男生对她死心塌地，但是如何做到？</p>
-<p>难道是给那个男生手里塞个避孕套和家门钥匙？让他知道「请君入瓮，贴心周到，随时再次光临」？这或许能让一个男生上钩一次，但很难死心塌地。</p>
-<p>不要急着让男生成为自己的瓮中鳖，让他离不开你的最好方式是让他一直想着你，满脑子都是你。</p>
-<p>正确的做法是，从介绍人那里了解到这个男子的喜好，然后投其所好，如果他喜欢萝莉，那就不要下班后穿着正装直接去见面，一定要说话带点嗲，动作有点傻，没事多问「那是啥」。如果他喜欢青春活力型，运动鞋、短裤、运动短袖是不能少了，再扎个马尾，脱了眼镜，语气干净利落，动作韵律轻盈，面带阳光笑容，吃饭细嚼慢咽。如果他是御姐控……</p>
-<p>静静只需投其所好，让那个男生一见倾心，一顿饭下来，男生已是「我想念你的笑，想念你的外套，想念你白色袜子，和你身上的味道」，然而，回到家后，男生发现两人除了加个微信，自己对于静静的所有记忆都是神秘中带着无法自拔，这时候，他就夜不能寐地想要知道更多。</p>
-<p>一个产品，在用户与第一次接触时，如果能达到如此地步，算做得很不错了。用户在此之后便有了喜爱之情和探索的动力。</p>
-<p>在第一次接触时建立喜爱之情很重要。心理学研究表明，第一印象对于一个人对于其他人（或事物）的后续态度影响巨大。有些人听多了人说 Snapchat 的优点，第一次使用时，面对其奇特的交互方式称之为特立独行、大胆奇妙，大为称赞，而有些人拿起 Snapchat 没有明白，后来，即使听很多人说 Snapchat 多么好，再次使用也是无法接受这个怪异的交互方式。</p>
-<p>探索的动力也很重要。很多时候，产品功能是无法在产品介绍或新手引导中尽数说明的，如果用户没有探索的欲望，产品提供的很多功能便无用武之地。在 To B 产品中常常碰到这样的问题，采购软件的人和使用软件的人不是一波人，导致使用产品的人不喜欢采购的产品，所以他们就没有多大动力去探索产品的各个功能，每次发现有个需求无法实现时，就反馈产品很烂、功能不全，其实是由于功能使用场景少不频繁，所以被放到了比较深入或隐蔽的地方，稍有点耐心找找就能发现。</p>
-<p>回到最初的问题，让用户上来改个密码对「静静」的目的并无多大意义，反倒让用户心生烦躁，聪明的「静静」都不会在初次见面时要求换个见面地点还迟到半个小时。</p>
-<hr>
-<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
-<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[论人民网评王者荣耀]]></title>
-        <id>https://wolf3c.github.io/post/lun-ren-min-wang-ping-wang-zhe-rong-yao</id>
-        <link href="https://wolf3c.github.io/post/lun-ren-min-wang-ping-wang-zhe-rong-yao">
-        </link>
-        <updated>2017-07-09T15:13:37.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>time：2017-07-09</p>
-<p>author：wolf3c</p>
-<p>字数：3.0K</p>
-</blockquote>
-<hr>
-<p>王者荣耀很火，人民网发了一篇<a href="http://zgbx.people.com.cn/n1/2017/0704/c347569-29382575.html">人民网评：《王者荣耀》，是娱乐大众还是“陷害”人生</a> （据说导致腾讯股价下跌近 5 个百分点），大致思路是：</p>
-<blockquote>
-<ol>
-<li>举例说明王者荣耀毒害人生的悲剧：13岁学生因玩游戏被父亲教训后跳楼，11岁女孩为买装备盗刷10余万元，17岁少年狂打40小时后诱发脑梗险些丧命……</li>
-<li>历数王者荣耀的问题：架空和虚构历史，扭曲价值观和历史观；过度沉溺让孩子在精神与身体上被过度消耗。</li>
-<li>控诉企业黑心趋利。</li>
-<li>解决方案一：请愿政府加大监管。</li>
-<li>解决方案二：孩子需要被管理。</li>
-</ol>
-</blockquote>
-<p>如果你感兴趣，可以去细读原文：http://zgbx.people.com.cn/n1/2017/0704/c347569-29382575.html。</p>
-<p>王者荣耀我去年就玩过，这段时间也玩过几把，算算总共也有六七十把，比起大多数玩家，我仅是个新手，主要因为我个人并非很喜欢这个游戏，但这既不会让我苟同于人民网的文章观点，也不会让我去为王者荣耀洗地。</p>
-<h2 id="游戏只是一个娱乐工具">游戏只是一个娱乐工具</h2>
-<p>人民网文章中有「沉迷游戏，毒害人生」的意思，不由让我想起十年前一个特别火的词——「网瘾少年」，后来有了杨永信老师的电击网瘾少年，在那个年代，网吧就是堕落的地狱，电脑就是沉沦的源泉，作为一个学生，如果进网吧、玩电脑多半会被千夫指。</p>
-<p>这两年「网瘾少年」已不多见了，反倒是上网成了一种流行，不论是 CBD 白领，还是农村种地的大叔，上网时间比吃饭时间还长。</p>
-<p>没想到一个王者荣耀又引出了「游戏毒害人生」的佳句。看看大家的反应，很以前面对「网瘾」何其像。</p>
-<p>人们总是对于自己不熟悉的事物认识不清，先是小看它，然后妖魔它，最后才可能正视。</p>
-<p>电子游戏出来几十年了，以前人们是不屑，认为游戏就是垃圾，一无是处，后来出现了电子竞技比赛，出现了因为游戏、直播而年入百万、千万、几亿的人后，很多人才恍然，原来自己以前看不起的东西有如此大的市场，就连教育部也是恍然大悟，一改「远离游戏、学校周围一公里不能设网吧」的作风，批准大学开设游戏相关专业，而这个时候，那些多年前被视为垃圾的无良青年摇身一变成了老师。</p>
-<p>正当游戏开始蓬勃发展时，一些人看到一个两亿用户的游戏惊呆了，害怕了，然后开始妖魔化，各种案例层出不穷，再加上大家「不务正业」的思想，王者荣耀一下子被推到了风口浪尖。</p>
-<p>回头看看那些案例。</p>
-<p>13 岁学生因玩游戏被父亲教训后跳楼。假定这是事实，我实在想不明白他父亲是如何教训他的，以至于会跳楼，这种事情在一个正常人看来是完全不合乎常理的，如果大家都是被教训就跳楼，那会不会因为考试差被教训跳楼？会不会因为上学迟到被老师教训后跳楼？那我们是不是应该重提教育减压、教育改革、素质教育呢？</p>
-<p>11 岁女孩为买装备盗刷 10 余万元。麻蛋，我自己都没有十余万，11 岁女孩就盗刷 10 余万元，我不想仇富，但是有钱人也应该对自己未成年的孩子有一点管束和教育吧，尤其是孩子未建立起自己的三观时，不加引导地放任自流，我认为十余万玩游戏都是好的，哪天用十余万买毒品，用十余万雇人打架，用百余万买车互怼都有可能。</p>
-<p>17 岁少年狂打40小时后诱发脑梗险些丧命。都不知道爹妈是干嘛的，打四十个小时游戏自己不知道吗？你自己孩子什么货色不清楚吗？实话实说，我从来没有试过连续做 40 小时事情，别说打游戏，睡觉都不行。</p>
-<p>我不去讨论文中超过 20% 00后的说法是否正确，也不去揣测作者选择的案例都是青少年是数据本身还是有意为之，我只想说说，「为什么有些人会沉迷于游戏有些人却不会」。</p>
-<p>这就要看看现代电子游戏发展的特点：</p>
-<ol>
-<li>易于上手，操作简单。游戏的学习成本越来越低，玩王者荣耀，你需要学习十几分钟就可以上手，而对于消消乐、逃跑神庙等，你只需要一分钟就会玩。并且很多时候，你都不知道自己在干嘛，反正一场团战下来总能捡到几个人头，大家的技术并不会有天壤之别。这是 war3、星际等用户量无法与 LOL 抗衡的重要原因。</li>
-<li>易获得快感。如果你玩 Dota，可能需要补刀二十分钟，如果你玩 LOL，可能需要猥琐发育 10 多分钟，如果你玩王者荣耀，三五分钟后就可以开始团战推塔。</li>
-<li>节奏好。顺风局，你可以在感到麻木前获得胜利，这样你就想再来一局。颓势局，你只需要忍耐几分钟，便可重出江湖（或者可以直接投降）。玩家可以在游戏中体会到一波又一波的快感，少于大的失落，自然喜欢玩。</li>
-<li>安抚孤独的心。看看周围，很多人其实很难找到几个有相同趣味并且能同时去发展相同趣味的人，所以很多时候大家其实是孤独的，但在游戏中，玩家可以匹配到其他玩家，大家玩着相同的游戏，有着共同的目标，这种感觉让孤独的心获得了安抚。</li>
-</ol>
-<p>直白点说，游戏变得越来越容易让人爽，并且爽的停不下来。</p>
-<p>这不能怪游戏，因为游戏最直接的目的就是让人玩的开心，从它出现的那一刻就自带这个属性，至于教育意义、现实价值能都是后来一些游戏提供的副产品。</p>
-<p>反过来看看现实生活，很多人的生活变得越来越枯燥，学生时代被填鸭、应试，大学生很多无自己兴趣而颓废无聊，工作人朝九晚五昏昏沉沉，回家还要处理各种琐事，老年人无所事事只能操心儿女。</p>
-<p>这时候，一款好的游戏自然式非常有市场，那么多人沉迷其中有其道理。即使没有游戏，网络小说、社交网站、综艺节目、电视剧、明星八卦……也可能占领这块市场。</p>
-<p>说白了，游戏只是让人快乐的娱乐工具。</p>
-<p>不是游戏让人沉迷，无聊的人沉迷于游戏。</p>
-<h2 id="沉迷不沉迷">沉迷？不沉迷？</h2>
-<p>很多人都认为游戏不好，希望有一种不能沉迷的游戏。这简直是异想天开，如果把「游戏」换成「快乐」，你会在快乐的中途突然被制止而坦然面对吗？你能马上心无旁骛的投入到毫无头绪的奥数题中吗？</p>
-<p>也有人直接批判「沉迷」，说什么修炼自己，切断对于物质世界的依恋。我对此有点不屑，人生一世，不依恋物质世界的最直接方式就是被堕胎，一瞬间飘散于风中，这有点抬杠，其实关于人身在世，如果获得幸福人生可以看看《象与骑象人》中幸福公式，外界环境是影响我们幸福非常重要的一个因素。</p>
-<p>我自己对于沉迷并不排斥，甚至，我认为每个人都应该有自己沉迷的事物（最好不是损害自己的，万万不能使损害他人的，喜欢没事割腕、尝试自杀、自虐的最好去看医生，没事想要打人、防火、开战的，最好早点自我毁灭）。这是一个人的嗜好，他在做这个事情的时候会很快乐，他愿意在这个事情上花费自己的心血去钻研探索，这没有什么不好，相比于那些不知道自己喜欢什么，不知道自己每天要做什么的人，有嗜好的人生活充满趣味，他们对生活积极乐观。</p>
-<p>沉迷游戏并不是唯一的选择，对于很多人来说，也不是一个好选择，如果你真的喜欢，只要培养自己锻炼的好习惯。</p>
-<p>反而是那些什么都不沉迷的人，他们心灵无所寄托，很容易被引入歧途，比如看到网络小说一发不可收拾，看到一个明星花钱满世界追，见到玩游戏就想放弃现实生活。</p>
-<h2 id="有度">有度</h2>
-<p>沉迷是好事，但是有度很重要。不论沉迷什么（不是损害自己或他人的），只要有度，很少走向毁灭。</p>
-<p>有度是自律的体现，这点不是别人可以给你的，也不是什么机制可以解决的，自律是每一个成熟人应该建立起来的心理机制。</p>
-<p>看看人民网文章中案例，每个人都毫无自律能力，而文章希望通过「他律」来达到自律的目的，这才是最可笑的，人生一辈子，除非出现《1984》中老大哥的时代，不然没有那个人可以依靠「他律」过完一生（中道崩殂者例外）。</p>
-<p>「他律」是一种约束，也是一种剥夺自由，在一个人心智没有成长起来是，其监控人可以对其加以约束用于引导，帮助他建立自律能力，但是如果抱着「好心」的想法想要永远对一个人实行「他律」，这就是一种完全的剥夺自由，区别就在于是否帮助他建立自律。</p>
-<p>这也是我对人民网文章不满的地方，全篇最后提出的解决方案通篇都是建立「他律」去约束未成年人，让我感到了一种无知的恶意（他作恶，但是他自己还无知地满心正义感）。试想，如果这种想法的人太多，他们的方案是不是真的会被实施呢？想象一下，再过二十年、五十年、一百年，这片土地上会是什么样子？</p>
-<hr>
-<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
-<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[指纹和虹膜，不是密码]]></title>
-        <id>https://wolf3c.github.io/post/zhi-wen-he-hong-mo-bu-shi-mi-ma</id>
-        <link href="https://wolf3c.github.io/post/zhi-wen-he-hong-mo-bu-shi-mi-ma">
-        </link>
-        <updated>2017-06-29T15:16:54.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>time：2017-06-29</p>
-<p>author：wolf3c</p>
-<p>字数：1.1K</p>
-</blockquote>
-<hr>
-<p>在指纹解锁流行的今天，很多人下意识地希望指纹可以成为更加普及的密码方式，大家已经受够了记各种数字、字母。但是，在我看来，不论是指纹，还是比指纹更加具有唯一性地虹膜，都无法作为密码来使用。</p>
-<p>首先，总结一下密码的几个特点：</p>
-<ol>
-<li>保密。密码自然不能随便让人知道，把密码写在银行卡背面绝对不是好选择，用生日、123456、QQ 号作为密码都不是好选择，用一个小本记密码更可怕。1Password、LastPass 等产品的主要功能就是保密密码，给那些记不住密码的人一个安全的密码本。</li>
-<li>低概率。密码一定是某个大量集合中的一个，比如银行卡密码是六位数字，你的密码就是百万分之一的概率。如果银行卡密码是一位，密码集合就 10 个数，所以你的密码就是十分之一的概率，傻子都可以试出来。所以现在很多网站都要求不少于8位数字加字母。</li>
-<li>可改。世上没有绝对的安全，不管你使用什么密码，总会让人知道，及时更改密码可以有效保护你的资源。这也是 Google 两步验证、短信验证码的优点，每次使用都是与上次不同的数字，即使被人知道，也很难造成损失。</li>
-</ol>
-<p>现在，看看指纹和虹膜的特点：</p>
-<ol>
-<li>唯一。每个人的每个手指（眼睛）都有独一无二的特征。</li>
-<li>不变。在很大程度上，指纹和虹膜都是长期不会改变，除非出现重大情况（eg：手指被大面积划破、眼睛受伤）。</li>
-<li>数量有限。一般来说，每个人有十个指纹、两个虹膜，顶多再加上十个趾头。</li>
-<li>不保密。指纹和虹膜都可以很容易被拍照等方式获取到。</li>
-</ol>
-<p>对比密码需要的特点，指纹和虹膜与密码背道而驰，使用现在而高清相机拍照，很容易把自己的指纹和虹膜特征展示出去，伪造简直易如反掌，只要的你这些特征被别人拿到，你就束手无策，因为你无法改变自己的指纹或虹膜。</p>
-<p>那么，为什么指纹和虹膜会如此火？</p>
-<p>可能主要是指纹和虹膜的是唯一性，这种唯一性相当于一个人的 ID，基于此特征，有了指纹门禁，可以畅想一下，其实，身份证、驾驶证等都可以使用指纹和虹膜代替。</p>
-<p>如果再搭配活体识别技术，在不需要高度保密的情况下，就可以使用指纹和虹膜来判定是不是你本人（而不是小偷）或者操作者是谁。这点在未来的畅想空间很大，如果未来到处都是设备，我们都有一个云端的数据中心和操作系统，当你在任何地方，在任何一个电子设备中，都可以通过指纹和密码登录自己的系统、查看自己的数据、付款、写笔记、打电话、购物等，你出差、旅游等都可以只身前往。</p>
-<p>但是这个只适用于非高度保密状态。</p>
-<p>目前来看，靠脑子记下来一个很长的密码反倒是一个最安全的密码（虽然显得没有技术含量），只要你做到：1）不要说梦话告诉别人，2）输入密码的时候不要让其他人有可乘之机。</p>
-<p>在读取大脑技术没有出现之前，大脑是最安全的地方（想想自己那些不为人知的龌龊想法，再看看自己衣冠楚楚讲大道理的形象，你就能清楚地明白这一点，不过，前提是你有一颗值得信赖的肉丸子）。</p>
-<hr>
-<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
-<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[或许 Windows 更安全]]></title>
-        <id>https://wolf3c.github.io/post/huo-xu-windows-geng-an-quan</id>
-        <link href="https://wolf3c.github.io/post/huo-xu-windows-geng-an-quan">
-        </link>
-        <updated>2017-06-19T15:09:12.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>time：2017-06-19</p>
-<p>author：wolf3c</p>
-<p>字数：1.0K</p>
-</blockquote>
-<hr>
-<p>前些日子 Windows 爆出了覆盖全球的勒索病毒 Wannacry，很多人开始叫嚣「Windows 垃圾」、「Windows 漏洞太多」、「Mac 才是最安全的电脑」、「赶紧转 Mac」……</p>
-<p>这让我想起一句话「他们一发声，上帝就发笑」。先不说 Windows 到底是不是有那么烂，就说 Mac 是不是有那么安全呢？我估计说 Mac 很安全的人都是一些不明就里的小白，甚至只是向往 Mac 却未曾使用过的 Windows 用户。他们大概不知道早在 16 年初，大批 Mac 用户的电脑内容遭到勒索软件加密，必须是交付赎金来拿回自己的数据。</p>
-<p>那么，Windows 和 Mac，到底哪个更安全呢？我认为是 Windows。</p>
-<p>这可能和大多数人的印象不一致，更多时候我们听到的报道都是 Windows 又怎么了，而对于 Mac 只有褒奖之词。但有几个现实常常被忽视：</p>
-<ul>
-<li>Windows 用户量和覆盖范围远大于其他系统：
-<ul>
-<li>病毒研发者不论出于什么目的，研发 Windows 病毒更容易达到自己的目的。向每个 Windows 用户收 1 元，远多于向每个 Mac 用户收 10 元，同样想要攻击政府组织等，使用 Windows 绝对更容易达到目的，要炫技，让用户更多的 Windows 用户知道是不二选择。</li>
-<li>Windows 网络效应更强，病毒的传播需要网络，如果你是 Mac 病毒，那意味着传播速度会变慢很多。</li>
-</ul>
-</li>
-<li>Windows 应用场景更多、app 更多。要知道大多数 ATM、医疗系统、工业设备管理系统等都是跑在 Windows 系统上，这就造就了更多可挖掘的利益点，自然吸引来更多的探险者。</li>
-<li>Windows 资料更多，老师更多，更易学。要知道，所有的黑客，都是从小白开始的，如果他们选择一个没有多少资料的方向，那必然很难快速成长。</li>
-</ul>
-<p>说直白点，Mac 不是更安全，只是大多数时候不值得被黑罢了。</p>
-<p>我说 Windows 更安全，是有实际依据的。如果你看看 Windows 和 Mac 的更新频次和更新 log，随便一比较，Windows 系统方面下的功夫有目共睹，而 Mac 大概把大部分精力都放到了 iOS 上，Mac 已经好几年没有长进了。</p>
-<p>（可以读我翻译的一篇国外友人的文章了解更多：<a href="https://wolf3c.github.io/articles/%5B%E8%AF%91%5D%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%BC%83%20Mac%20%E6%8A%95%20Windows%EF%BC%9A%E6%94%BE%E5%BC%83%20Apple.html">《[译]我为什么弃 Mac 投 Windows：放弃 Apple》</a>）</p>
-<p>微软对于 Windows 的重视及对危机的反应速度从这次 Wannacry 病毒事件中可见一斑。</p>
-<p>用户也是一个重要原因。</p>
-<ul>
-<li>对于 Windows 用户，每个人都知道一两个安全工具（不论是 360 还是 QQ 安全管家），大多数电脑上都有安全工具，如果电脑出了问题，每个人都有一套自己的方法尝试解决。估计 Mac 如果发现安全问题，用户只能等到 Apple 在百忙之中予以关注。</li>
-<li>对于 Windows 用户，打补丁和更新杀毒软件是一个常态，反观 Mac 用户，很多人都关闭了更新或从不更新。</li>
-<li>对于 Windows 用户，数据备份意识更强，这也许有点搞笑，但事实就是 Windows 用户因为经常发生重装系统等问题，很多人重要的数据是和系统分离的。</li>
-</ul>
-<p>最后，由于 Mac 用户的增多，必然有一帮人会关注 Mac OS，可以预见，未来 Mac 的病毒会越来越多，而 Mac 的防护机制仅仅是 Apple 自己封闭在自己的内部，缺少更多专业安全软件公司助力，有点命悬一线的味道。</p>
-<p>坐在狼堆中间奋力防御的 Windows 看着无狼问津的 Mac 说，「Mac 更安全？呵呵」。</p>
-<hr>
-<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
-<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Clutter Free：让 Chrome 学会节约资源]]></title>
-        <id>https://wolf3c.github.io/post/clutter-freerang-chrome-xue-hui-jie-yue-zi-yuan</id>
-        <link href="https://wolf3c.github.io/post/clutter-freerang-chrome-xue-hui-jie-yue-zi-yuan">
-        </link>
-        <updated>2017-06-14T15:19:35.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>time：2017-06-14</p>
-<p>author：wolf3c</p>
-<p>字数：0.7K</p>
-</blockquote>
-<hr>
-<p>内存不足大概是每个 Chrome 重度用户心中的隐痛。估计很多人已经尝试过 OneTab、The Great Suspender、Toby 等，它们的主要功能在于「把网页停掉以释放资源」。但是，他们没有解决重复打开网页的问题。因为通常情况下，我们使用浏览器和使用 app 类似，常用的总是那几个网站。</p>
-<p>我使用浏览器比较懒，要用什么网站，直接输入 URL 打开，用完就不管了，每天使用浏览器的场景大概是这样的：</p>
-<blockquote>
-<p>早晨，开始工作前，在浏览器打开「trello.com」看看自己项目安排，再打开 「mail.google.com」看看重要邮件，打开「calendar.google.com」看看今日事项，然后到「todoist.com」做一天的计划。</p>
-<p>完成计划后，便开始一天的工作。这期间，我会时常打开「trello.com」看看项目情况，使用「mail.google.com」处理邮件，使用「translate.google.cn」查一些单词，使用「slack.com」查看信息，等到中午，打开「readhub.me」看看新闻，这时候浏览器顶部挤了密密麻麻地一排标签，逼得我不得不处理这些网页，它们大多就是这几个常用网站。</p>
-</blockquote>
-<p>我也见到过一些用完网页就关的「强迫症」，但我正好相反，我喜欢「用完就走（懒得关）」。</p>
-<p>今天介绍一款 Chrome 扩展程序——Clutter Free——就是专门问解决「懒得关」而生的：</p>
-<blockquote>
-<p>当用户打开一个已经打开某一网页时，Clutter Free 会直接让你直接跳转到已经打开的网页，而不是重复打开一个新页面。</p>
-<p>使用 Clutter Free 有一个附加好处，由于不再重复打开网页，所以无形中省下很多内存。</p>
-</blockquote>
-<figure data-type="image" tabindex="1"><img src="https://wolf3c.github.io//post-images/1561821589181.gif" alt="Clutter_Free_show" loading="lazy"></figure>
-<p>我执着地认为，我们使用电脑是为了让自己更高效更轻松，需要花精力去整理浏览器标签并不是一个正确的方式。我喜欢 Clutter Free 的一个重要原因是，它会默默地做好这件事情，不需要我再浪费精力做什么操作。（这点和 The Great Suspender 很像）</p>
-<p>浏览器已经成为大多白领工作的重要场所，找到一帮默默帮助自己的「小助理」可以节省很多精力，如果说 The Great Suspender 是一个清理空闲网页的助理，那 Clutter Free 就是清理重复网页的助理，何不请来试试？</p>
-<hr>
-<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
-<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[吐槽=>无趣]]></title>
-        <id>https://wolf3c.github.io/post/tu-cao-greaterwu-qu</id>
-        <link href="https://wolf3c.github.io/post/tu-cao-greaterwu-qu">
-        </link>
-        <updated>2017-06-05T15:27:04.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>time：2017-06-05</p>
-<p>author：wolf3c</p>
-<p>字数：0.6k</p>
-</blockquote>
-<hr>
-<p>这将是一篇没有数据支持、没有理论支撑、没有现象证明的文章，纯粹是我在这几天的一点小感悟，或许过两天我就不这么想了。</p>
-<p>长久以来，我是一个爱吐槽的人，在朋友圈吐槽、在微博吐槽、在 Twitter 吐槽、在与朋友聊天时吐槽，吐槽让我感觉自己更高明，同时在内心深处给自己找到了一个不去努力的理由，「你看，都怪某某某，都怪某事，所以我也没办法，他们要是听我的早就万事大吉了」。</p>
-<p>吐槽多了便成了习惯，习惯吐槽后，我发现自己的思考方式往往是「吐槽模式」，总是能第一时间找到吐槽的地方，而我的沟通方式，也自然而然地转为了「吐槽模式」。</p>
-<p>直到有一天，我去翻自己的社交媒体内容，多半都是对各种事物的吐槽，大到国家政策，小到 app 设计，内容非常丰富。但是内容的模式却是千篇一律地单调。</p>
-<p>我惊觉自己如此无趣。</p>
-<p>反思自己的沟通内容，发现全都是吐槽，各种吐槽，就像祥林嫂絮叨。我估计很多人早就受够了我这种人吧，所以我可能不知不觉成了那种被周围人躲闪的人。</p>
-<p>最让我感到惊讶的是，长期吐槽后，我发现自己缺少了一颗发现趣味和美好的心，很多本来可能有趣的东西，都因为各种吐槽，让自己对那些事物的美好一面视而不见。</p>
-<p>我心中好玩的东西越来越少，我的生活变得越来越无趣。</p>
-<p>在吐槽中，我变得越来越无趣。所以我尝试中止这种态势。</p>
-<p>好在我还有自己喜欢的东西，从这里开始，去做自己喜欢的事情，先让自己活得乐趣。</p>
-<p>我认为愉悦的心情可以让自己看到积极地一面，所以，如果我活的开心了，我看事物的思维会发生变化，当然我会自己监督自己不断改变，让自己看到更多积极面，让自己发现更多乐趣。</p>
-<p>期待这种方式可以改善自己。</p>
-<hr>
-<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
-<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
 ]]></content>
     </entry>
 </feed>
