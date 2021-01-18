@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wolf3c.github.io/</id>
     <title>wolf3c&apos;s blog</title>
-    <updated>2021-01-12T09:34:27.617Z</updated>
+    <updated>2021-01-18T09:01:15.356Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wolf3c.github.io/"/>
     <link rel="self" href="https://wolf3c.github.io/atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://wolf3c.github.io/images/avatar.png</logo>
     <icon>https://wolf3c.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, wolf3c&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[读《如何系统思考》笔记]]></title>
+        <id>https://wolf3c.github.io/post/du-lesslessru-he-xi-tong-si-kao-greatergreater-bi-ji/</id>
+        <link href="https://wolf3c.github.io/post/du-lesslessru-he-xi-tong-si-kao-greatergreater-bi-ji/">
+        </link>
+        <updated>2021-01-18T08:40:33.000Z</updated>
+        <content type="html"><![CDATA[<p>前几天看到同事桌子上有一本《如何系统思考》一时好奇，拿来读了读，今天正好读完。</p>
+<p>该书语言比较学院派，书中有很多在实用中没有用的东西，导致本来不多的内容，写了两百多页，当然，这只是个人看法，里面的很多地方都有分析案例等，对于想详细了解的人来说还是很有必要的。</p>
+<p>而我最大的收获，便是学会了「因果回路图」——用来进行系统分析的一个工具，拿个洗澡调水温的例子来说：</p>
+<figure data-type="image" tabindex="1"><img src="https://wolf3c.github.io//post-images/1610959553375.jpeg" alt="因果回路图 —— 水温调节的回路" loading="lazy"></figure>
+<p>先说一下几个 概念：</p>
+<ul>
+<li>节点：系统中的一些关键因素，如上图中想要的水温、实际水温、水龙头调节等；</li>
+<li>连接：用来连接各个节点，如上图中的箭头。连接分为两种：
+<ul>
+<li>正连接：A 调节和 B 调节正相关，我们用加号表示，比如，我们想要的水温和实际水温差距越大，我们水龙头调节的幅度就越大；</li>
+<li>负连接：A 调节和 B 调节负相关，我们用减号表示，比如，我们的水温是从低温开始的，想要的水温比较高，这时候，实际水温越高，差距越小；</li>
+<li>连接延时：如果我们调节了 A，和其相连的 B 需要等一会才有反应，我们用等号标识，比如我们调节水龙头增加热水，需要等几秒，热水才会从水龙头留出来，实际水温才会增加。</li>
+</ul>
+</li>
+</ul>
+<p>我之前发现思考问题，缺少一种书面表述形式，而自己通过大脑思考的系统范围有限，对于一些比较复杂的系统，单单用大脑来思考，可能出现丢三落四的情况，如果有书面的方式，可能思考速度慢点，但是思考质量会高上不少。并且，将思考书面化，也方面自己下次复盘回顾，免得自己过两天记忆模糊。</p>
+<p>实践是检验工具是否好用的最好地方，希望因果回路图能够帮到我，及大家。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[从浪费一张礼品卡反思]]></title>
         <id>https://wolf3c.github.io/post/cong-lang-fei-yi-zhang-li-pin-qia-fan-si/</id>
@@ -226,30 +251,6 @@
 <p>资源方面，没把握。</p>
 <p>本来，谨慎起见，这种情况不应该出手，但我作为一个个人股票玩家，想要完全有把握再投，基本不用玩股票，我必须去承担一定风险，但要控制风险（或许我以后应该详细说一下我对于这点的想法）。</p>
 <p>所以我决定买一点😸。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[炒股炒的是什么]]></title>
-        <id>https://wolf3c.github.io/post/chao-gu-chao-de-shi-shi-me/</id>
-        <link href="https://wolf3c.github.io/post/chao-gu-chao-de-shi-shi-me/">
-        </link>
-        <updated>2020-06-22T12:14:58.000Z</updated>
-        <content type="html"><![CDATA[<p>炒股也有两个月了，也看了很多股票的涨跌，我一直思考，我到底在炒什么东西？</p>
-<p>有人说，买股票就是投资一家公司，但我看到虎牙财报发出来后，股价跌了一周，财报明明还不错，收入有上升，利润有上升，也传出了被腾讯全资的消息，但就是在跌。</p>
-<p>有人说，买股票就看跟庄家，这个我多少理解，毕竟对于 A 股有所了解，但是，如果说让我去跟庄家去炒股，我肯定不愿意，原因有二：</p>
-<ol>
-<li>从庄家角度，庄家玩股票也是为了赚钱，赚谁的钱，其他股民的钱，说到底，有小股民就赚小股民钱，没小股民才庄家互拼；</li>
-<li>从我自己角度，我作为小股民，没有一手信息，凭什么跟得住人家庄家？凭脑子肯定不靠谱，人家既然没有赔光，那都是有原因的。越想越觉得认为刀俎我为鱼肉。</li>
-</ol>
-<p>所以我不炒 A 股而去了美股，就是觉得市场够大，监管体系够成熟，你说有没有操纵股票的大佬？我想也是有的，但并不猖獗。</p>
-<p>我没有急着接受别人的观点，而是通过自己的实践体会，总结出了自己的理解。</p>
-<p><strong>炒股，其实炒的是这只股票关注者对于股票的预期集合（类似于向量求和），并且，大多数人的这个预期，是相对值，而不是绝对值。</strong></p>
-<p>还是拿虎牙财报前后的事情来说，中国游戏直播平台现在就两个虎牙和斗鱼，都在美股，虎牙要发财报，很多人都认为他今年收入不错，然后认为需要涨价，但是涨到多少没有概念，所以他们就买入，然后看着，后面的人类似。</p>
-<p>这种事情持续到虎牙即将发财报前一天，大家觉得现在涨了这么多了，距离财报这么近，如果财报不好怎么办？现在是不是虚高？所以大家不再疯狂往上抬价。</p>
-<p>财报发出后，持有股票的人觉得股价已经涨过了，现在需要落袋为安了，所以，抛了走人，股价不涨反掉，这种抛，会让很多人也开始倾向于抛，他们怕掉得比自己买入时低，就这样，股价被抛得掉了下来。</p>
-<p>其实很多公司发财报，都有这么一个过程，虎牙如此，搜狐、哔哩哔哩、Netflix、Twitter、拼多多、阿里巴巴……都有这种预期的影响。</p>
-<p>当然，我不是说「财报前涨、财报后跌」是规律，我只是举例来说大家在这个时候会有这么一个预期过程，这个预期也可能被其他事情影响。</p>
-<p>这个时候再去看那些妖股，瑞幸、赫兹、房多多，我对于他们疯长疯跌有点理解了。</p>
 ]]></content>
     </entry>
 </feed>
