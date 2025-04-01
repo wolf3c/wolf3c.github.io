@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+  <meta name="referrer" content="never">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="kveln">
+  <title>何为 Custom Block Helpers | wolf3c&#39;s blog</title>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="https://wolf3c.github.io//media/css/bootstrap.min.css" rel="stylesheet"> -->
+  <!--  <link href="https://wolf3c.github.io//media/css/all.min.css" rel="stylesheet" type="text/css"> -->
+  <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link rel="alternate" type="application/rss+xml" title="何为 Custom Block Helpers | wolf3c&#39;s blog » Feed" href="https://wolf3c.github.io//atom.xml">
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
+  <link href="https://wolf3c.github.io//styles/main.css" rel="stylesheet">
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/highlight.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/jquery.min.js"></script> -->
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RJP31JG0VN"></script>
+  <script>window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-RJP31JG0VN');</script>
+  
+
+    <meta property="og:description" content="何为 Custom Block Helpers"/>
+    <meta property="og:url" content="https://wolf3c.github.io/post/he-wei-custom-block-helpers/"/>
+    <meta property="og:locale" content="zh-CN"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="wolf3c&#39;s blog"/>
+  </head>
+  <body>
+  	<!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="https://wolf3c.github.io/">wolf3c&#39;s blog</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/">首页</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/archives">归档</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/tags">标签</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/post/about">关于</a>
+              
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('https://wolf3c.github.io//media/images/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+          	<span class="tags">
+          	 
+            <a href="https://wolf3c.github.io/tag/technology/" class="tag">技术</a>
+            
+        </span>
+            <h1>何为 Custom Block Helpers</h1>
+            <span class="meta">
+            	Posted on
+              2019-10-27，5 min read
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>我平时网站开发使用 Meteor，而前端则使用了以前被其推荐的 Blaze，不过开发是我的副业，搞得也是马马虎虎，加上 Blaze 的资料基本都是英文，所以，用起来也是一知半解。</p>
+<p>今天又想学习一下 Blaze，所以就去读它的文档，发现 <a href="http://blazejs.org/api/spacebars.html#Custom-Block-Helpers">Custom Block Helpers 相关内容</a>，看了半天，不明白为什么需要一个 Custom Block Helpers，搁以前我可能会跳过去，不过这次想「与其看一堆自己已经知道的东西，不如弄懂一个自己不懂的东西」，所以就开始研究。</p>
+<p>在网上搜了半天，终于找到<a href="http://www.petecorey.com/blog/2015/01/13/custom-block-helpers-and-meteor-composability/">一篇文章</a>，让我茅塞顿开。为了让自己加深记忆，在自己博客上写一遍。</p>
+<h2 id="为什么要用-custom-block-helpers">为什么要用 Custom Block Helpers</h2>
+<p>要理解 Custom Block Helpers，你需要先理解 template。</p>
+<p>template 就像一个明信片，你可以买长的完全一样的明信片，然后写上不同朋友的姓名和祝福，就会给不同朋友以各自的祝福。</p>
+<p>和 Custom Block Helpers 的区别在于，template 是商店已经提供好的，大家都能买到，都能随便拿来用，很普遍，但是缺少一些特别的东西。</p>
+<p>而 Custom Block Helpers 就是先自己按照自己的需要去定制一种明信片，比如我为自己的室友寄明信片，所以我在明信片中画上了大家的毕业合照，这是我自己设计和制作的，其他人都没有。我一次做很多张相同的明信片，然后，给每个室友发明信片的时候，就拿出来一张来往里面填上特定的祝福。</p>
+<p>这种方式让我既免去了每次写明信片都要往上面画毕业合照的麻烦，又不失独特性，让我可以每次都可以写上不同的内容。</p>
+<p>回到技术，Blaze 的 Spacebars 已经提供了  <code>{{#each...in}}</code> 、<code>{{#if...else}}</code> 等来制作自己的 template，同时也提供了  <code> {{&gt; myTemplate}}</code> 来直接调用自己的 template。但是，如果我要做好几个长得有点像，但还有点区别的 template，就很麻烦，因为，我要每次都需要重复写一遍那些相同的部分。为了避免这种重复，Blaze 提供了 Custom Block Helpers。</p>
+<p>如何使用 Custom Block Helpers</p>
+<p>下面来举个例子：</p>
+<pre><code>{{! template，我们自己制作的明信片 }}
+
+&lt;template name=&quot;note&quot;&gt;
+  &lt;div class=&quot;note&quot;&gt;
+    {{&gt; Template.contentBlock}} 		{{! 可以在这里填写自定义内容 }}
+  &lt;/div&gt;
+&lt;/template&gt;
+</code></pre>
+<p>这个 <code>note</code> 就是我们自己做的明信片（template），现在，我们需要使用它：</p>
+<pre><code class="language-html">{{! 引用，使用我们自己的明信片，往里面填上自己的东西 }}
+
+{{#note}}
+  &lt;p&gt; Any content here &lt;/p&gt;		{{!-- {{#note }}后面的内容将自动填写进 {{&gt; Template.contentBlock}} --}}
+{{/note}}
+</code></pre>
+<p>这样我们就直接引用了 <code>note</code> ，其中 <code>{{#note}}</code> 和 <code>{{/note}}</code> 中间的部分，直接对应到 template 中的 <code>{{&gt; Template.contentBlock}}</code>  ，引用后的结果就是：</p>
+<pre><code class="language-html">&lt;div class=&quot;note&quot;&gt;
+	&lt;p&gt; Any content here &lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+<p>如果明白了以上内容，我们继续学习。</p>
+<p>Blaze 除了提供 <code>{{&gt; Template.contentBlock}}</code>  ，还提供了 <code>{{&gt; Template.elseBlock}}</code>  来填如其他内容。这么说可能不太好理解，我从 blog <a href="http://www.petecorey.com/blog/2015/01/13/custom-block-helpers-and-meteor-composability/">Custom Block Helpers and Meteor Composability</a> 看到了一个很好的例子：</p>
+<pre><code class="language-html">&lt;template name=&quot;myTemplate&quot;&gt;
+    {{#if this}}
+    &lt;h1&gt;{{title}}&lt;/h1&gt;
+    &lt;div&gt;
+        {{&gt; Template.contentBlock}}
+    &lt;/div&gt;
+    {{else}}
+        &lt;h1&gt;No content provided&lt;/h1&gt;
+        &lt;div&gt;
+            {{#if Template.elseBlock}}
+                {{&gt; Template.elseBlock}}
+            {{else}}
+                &lt;p&gt;No elseBlock provided&lt;/p&gt;
+            {{/if}}
+        &lt;/div&gt;
+    {{/if}}
+&lt;/template&gt;
+
+&lt;body&gt;
+    {{#myTemplate title=&quot;My Title&quot;}}
+        &lt;p&gt;My custom content&lt;/p&gt;
+    {{else}}
+        &lt;p&gt;This is my else block&lt;/p&gt;	{{!-- 这里将填充进 {{&gt; Template.elseBlock}} --}}
+    {{/myTemplate}}
+&lt;/body&gt;
+</code></pre>
+<p>这时候，我们回头来看看 Blaze 提供的例子，使用<code>{{#if}}</code>来实现<code>{{#unless}}</code>：</p>
+<pre><code class="language-html">&lt;template name=&quot;unless&quot;&gt;
+  {{#if this}}
+    {{&gt; Template.elseBlock}}
+  {{else}}
+    {{&gt; Template.contentBlock}}
+  {{/if}}
+&lt;/template&gt;
+</code></pre>
+<p>以上，就是 Custom Block Helpers 的作用和使用方式。</p>
+
+          
+          <p class="next-post">下一篇：
+            <a href="https://wolf3c.github.io/post/guan-li-yi-ding-yao-rang-tuan-dui-de-mei-ge-ren-zhuan-zhu-di-gong-xian-zhi-li/">
+              <span class="post-title">
+                管理：一定要让团队的每个人专注地贡献智力&rarr;
+              </span>
+            </a>
+          </p>
+        
+        <div class="comment">
+          
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script>
+  var gitalk = new Gitalk({
+    clientID: '70978cecda92809a8738',
+    clientSecret: 'fcb8159e67874dea83c8c3ae3a1431515d169c6d',
+    repo: 'wolf3c.github.io',
+    owner: 'wolf3c',
+    admin: ['wolf3c'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+  gitalk.render('gitalk-container')
+</script>
+
+          
+          
+        
+        </div>
+      </div>
+    </div>
+  </article>
+ <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            
+            
+            <li class="list-inline-item">
+              <a href="https://github.com/wolf3c" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+              <li class="list-inline-item">
+              <a href="https://wolf3c.github.io//atom.xml" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy;<span>wolf3c&#39;s blog</span><br><a href="https://github.com/getgridea/gridea" class="Themeinfo">Powered by Gridea</a></p>
+        </div>
+      </div>
+    </div>
+   </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/bootstrap.bundle.min.js"></script> -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.jsdelivr.net/gh/Alanrk/clean-cdn@1.0/scripts/clean-blog.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/clean-blog.min.js"></script> -->
+  <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+  <style type="text/css">a.back_to_top{text-decoration:none;position:fixed;bottom:40px;right:30px;background:#f0f0f0;height:40px;width:40px;border-radius:50%;line-height:36px;font-size:18px;text-align:center;transition-duration:.5s;transition-propety:background-color;display:none}a.back_to_top span{color:#888}a.back_to_top:hover{cursor:pointer;background:#dfdfdf}a.back_to_top:hover span{color:#555}@media print,screen and(max-width:580px){.back_to_top{display:none!important}}</style>
+<a id="back_to_top" href="#" class="back_to_top">
+  <span>▲</span></a>
+<script>$(document).ready((function(_this) {
+    return function() {
+      var bt;
+      bt = $('#back_to_top');
+      if ($(document).width() > 480) {
+        $(window).scroll(function() {
+          var st;
+          st = $(window).scrollTop();
+          if (st > 30) {
+            return bt.css('display', 'block')
+          } else {
+            return bt.css('display', 'none')
+          }
+        });
+        return bt.click(function() {
+          $('body,html').animate({
+            scrollTop: 0
+          },
+          800);
+          return false
+        })
+      }
+    }
+  })(this));</script>
+  </body>
+</html>
+

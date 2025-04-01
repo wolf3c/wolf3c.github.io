@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://wolf3c.github.io/</id>
+    <title>wolf3c&apos;s blog</title>
+    <updated>2025-04-01T08:48:19.176Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://wolf3c.github.io/"/>
+    <link rel="self" href="https://wolf3c.github.io/atom.xml"/>
+    <subtitle>wolf3c  |  产品经理</subtitle>
+    <logo>https://wolf3c.github.io/images/avatar.png</logo>
+    <icon>https://wolf3c.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2025, wolf3c&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[人们需要的怎样的 AI？]]></title>
+        <id>https://wolf3c.github.io/post/ren-men-xu-yao-de-zen-yang-de-ai/</id>
+        <link href="https://wolf3c.github.io/post/ren-men-xu-yao-de-zen-yang-de-ai/">
+        </link>
+        <updated>2025-03-06T07:26:24.000Z</updated>
+        <content type="html"><![CDATA[<p>最近，AI的发展可真是太火太快了，昨天又看到一个被捧上天的新秀——Manus，但看<a href="https://x.com/dotey/status/1897493296492019896">其他人测试的结果</a>，随便一个问题，他就会引经据典，输出长篇大论，可真是太厉害了。前两天还有 Cursor/Trae/WindSurf、Claude 3.7 code、Grok 3、Deep Search、Deep Research、Reasoning……</p>
+<p>大家都在做的一个事情是，让AI输出的东西越来越「正确」，这当然没错，但当得我每次都看到一个长篇大论后（比如 <a href="https://manus.im/share/xFgpHb15vKqfRPWIs3JJPJ?replay=1">Manus 提供的Tesla分析示例</a>），我总有一个想法——让AI再给我总结一下他做出来的这篇报告😂</p>
+<p>BTW：不得不说，Manus 给出的HTML报告，丰富多彩，当然也能做出很多交互很好的页面来，这比以前的chat文字有进步，交付物也变的丰富起来，可预见未来AI的交付物可能更加丰富。</p>
+<p>虽然内容可能更正确、更丰富、更美观，但对于一群天天看抖音的人类来说，大家真的会想要详细看一份研究报告吗？</p>
+<p>我想我们每个人都有一个当老板的梦想，什么是老板？我们说的这个老板形象，一般符合「老板动动嘴，下面跑断腿」。老板就是直接看结果和发表意见的，你给他一片报道，他让你一句话告诉他内容是什么；你给他做了个精美的股票分析报告，他直接问题买还是卖。这就是老板，这也是每个想拥有AI的人最终极的梦想。</p>
+<p>对于老板来说，现在很多AI的产物都还是中间过程，还需要再挖掘老板的需求，给出一个精确的结果。</p>
+<p>类比抖音，我觉得，人们真正想要的 AI 还是需要满足「三八原则」——3秒知道这些东西是不是我想要的、8秒获取到我想要的东西。如果3秒知道不是我想要的，那么就是下一轮提问/澄清环节。</p>
+<p>当然，这些想法要真正实现，需要非常多的努力，现在的AI还在增强自己的各方面能力（智力、信息识别能力、操控能力），但我想未来，AI在做到了正确之后，会慢慢做到简单。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI产品的数据价值]]></title>
+        <id>https://wolf3c.github.io/post/ai-chan-pin-de-shu-ju-jie-zhi/</id>
+        <link href="https://wolf3c.github.io/post/ai-chan-pin-de-shu-ju-jie-zhi/">
+        </link>
+        <updated>2025-01-26T08:38:17.000Z</updated>
+        <content type="html"><![CDATA[<p>来自对 <a href="https://yezi.meteorapp.com/">Yezi AI</a> 的思考，接着 AI 产品的壁垒/竞争力是什么？继续思考。</p>
+<p>首先我们分析一下数据有哪些。</p>
+<p>从归属分，我们将数据分为：</p>
+<ol>
+<li>公开数据，也就是大家都能在网上找到的数据，比如行业销量、股价、组织公布数据、新闻……</li>
+<li>自有数据，也就是只有你自己拥有的数据，比如你调研了某个公司的真实销量，你拿着某个产品去做了研发化验以发现了成分和问题，只有你自己知道自己现在账户的钱，某个渠道获去的其他公司不知道信息……</li>
+<li>用户数据，这就是用户自己上传的数据，归属用户，比如用户的笔记，用户的日记，用户的账户信息，用户写得文章、做的视频</li>
+</ol>
+<p>从数据来源分，我们将数据分为：</p>
+<ol>
+<li>虚拟世界信息，信息时代所有的信息都是数据，这个很好理解；</li>
+<li>物理世界产生，但我们其实还有很多数据是从物理世界产生的，比如你的位置、车辆位置、你所在位置的光线、你的饥饿程度、你脚底板的舒服程度、你跑步的呼吸频次、你面对难题的心跳、路上的事故发生时间和解决进展、十字路口车辆的排队长度、某个车的起步速度……</li>
+</ol>
+<p>从数据的根源，我们分为：</p>
+<ol>
+<li>原始数据：即最初产生的数据；</li>
+<li>分析数据：针对原始数据的清洗、关联、组织分析、得出结论等；</li>
+</ol>
+<p>然而，如果我们做一款基于AI的产品，我们如何建立壁垒呢？</p>
+<p>首先，壁垒肯定不是大模型能力，因为你不是大模型公司，你能用的AI能力，其他人也可以买到。</p>
+<p>其次，很难是一种创新的idea，因为这个太容易抄袭了，甚至会出现很多免费的开源版本。</p>
+<p>以前我看到过一种说法，壁垒有两种：</p>
+<ol>
+<li>像数学定律，靠着聪明的「啊哈」时刻，想到别人不能想到的，这种除非你可以通过知识产权建立壁垒，不然很容易被抄袭，就像一个数学定律，你只要已发表，全世界所有人都会明白怎么回事；</li>
+<li>像肌肉一样一点点积累，这种就看谁积累的快积累得多，你可以积累的早，你就可能比别人优先，但这种优势是一种坚持的功夫，没有什么秘密，永远在一种你追我赶的状态。</li>
+</ol>
+<p>而AI产品，如果可以靠着数学式壁垒拿到先发优势，但之后只能靠着这点先发优势，快速建立肌肉壁垒，这个肌肉壁垒，在我看来就是数据，确切地说是：</p>
+<ol>
+<li>从归属上，是自有数据 和 用户数据，尤其是用户数据，可以让用户放弃成本不断变高；</li>
+<li>从数据来源讲，是尽量接入更多、更及时的物理世界产生的数据，因为虚拟世界数据要么已经被大模型压缩，要么很容易获取和接入；</li>
+<li>从根源上，最好是原始数据/原创数据，其次可以基于自由数据产生分析数据；</li>
+</ol>
+<p>那么，如何建立数据的壁垒的呢？</p>
+<ol>
+<li>首先积极获取数据源，尤其：
+<ol>
+<li>鼓励 or 通过某种机制，让用户产生数据（比如小红书、抖音、视频号等）；</li>
+<li>通过各种方式/触点，接入物理世界的数据（尤其是竞对无法接入的，保证独有）（比如高德接入红绿灯数据、天气数据、路况数据、停车场数据、充电桩数据）；</li>
+<li>自建数据渠道，比如类似浑水公司去调研某个公司的实际情况，当然，如果是一个本来可以产生数据的平台（比如拼多多、京东等）会更容易；</li>
+</ol>
+</li>
+<li>让数据源产生价值，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">价</mi><mi mathvariant="normal">值</mi><mo>=</mo><mi mathvariant="normal">受</mi><mi mathvariant="normal">影</mi><mi mathvariant="normal">响</mi><mi mathvariant="normal">主</mi><mi mathvariant="normal">体</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">价</mi><mi mathvariant="normal">值</mi><mo>∗</mo><mi mathvariant="normal">影</mi><mi mathvariant="normal">响</mi><mi mathvariant="normal">强</mi><mi mathvariant="normal">度</mi><mo>∗</mo><mi mathvariant="normal">受</mi><mi mathvariant="normal">众</mi><mi mathvariant="normal">范</mi><mi mathvariant="normal">围</mi></mrow><annotation encoding="application/x-tex">价值 = 受影响主体的价值 *  影响强度 *  受众范围</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mord cjk_fallback">价</span><span class="mord cjk_fallback">值</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.46528em;vertical-align:0em;"></span><span class="mord cjk_fallback">受</span><span class="mord cjk_fallback">影</span><span class="mord cjk_fallback">响</span><span class="mord cjk_fallback">主</span><span class="mord cjk_fallback">体</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">价</span><span class="mord cjk_fallback">值</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.46528em;vertical-align:0em;"></span><span class="mord cjk_fallback">影</span><span class="mord cjk_fallback">响</span><span class="mord cjk_fallback">强</span><span class="mord cjk_fallback">度</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0em;vertical-align:0em;"></span><span class="mord cjk_fallback">受</span><span class="mord cjk_fallback">众</span><span class="mord cjk_fallback">范</span><span class="mord cjk_fallback">围</span></span></span></span>（不严谨的表述），
+<ol>
+<li>直接让用户使用，尤其是影响市场、公司观感的数据，比如deepseek 发布论文说不需要那么多GPU了，直接影响NVIDIA股价；</li>
+<li>分析/发现 问题和议题，从而产生影响力；分析不止停留在当时当事，还需要关联其他类似事件、历史事件、时间维度的发展变化趋势等，挖掘出更多竞对没有的东西，影响强度更大的东西；</li>
+<li>扩大自己的受众，从而让价值增加，精确关联受众和其关心的主体，让受影响的主体的相关信息可以直达每个有需求的受众，但反之，噪音不会触达无需求的受众；</li>
+</ol>
+</li>
+<li>建立品牌壁垒。数据产生价值的前提是值得信赖，同样的消息路人和一个值得信赖的专家说出口，被关注的程度会有很大区别，一个平台如果能够建立被信赖的品牌，其输出的数据/信息往往能够产生更大价值，可以让数据的壁垒更牢靠。</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI 产品的壁垒/竞争力是什么？]]></title>
+        <id>https://wolf3c.github.io/post/ai-chan-pin-de-bi-lei-jing-zheng-li-shi-shi-me/</id>
+        <link href="https://wolf3c.github.io/post/ai-chan-pin-de-bi-lei-jing-zheng-li-shi-shi-me/">
+        </link>
+        <updated>2025-01-26T08:36:06.000Z</updated>
+        <content type="html"><![CDATA[<p>来自对 <a href="https://yezi.meteorapp.com/">Yezi AI</a> 的思考，接着 AI会改变什么？继续思考。</p>
+<p>基于之前的推理，我们看到AI带来的改变，自然也发现这里面有很多产品机会，但是，我们发现大家能用的AI就那么几家，prompt也可以抄袭，你的产品使用了AI，同行的产品自然也可以快速复制出现相同的产品/服务，我们之前如何建立壁垒呢？</p>
+<p>我想有两点：</p>
+<ol>
+<li>如果是在一个服务上叠加AI，你之前的壁垒理念依旧行得通，前提是你得跟得上AI对行业带来的变化，不然AI就变成了同行挤掉你的一条壁垒；</li>
+<li>如果是AI相关产品，我认为最大的壁垒就是<strong>数据</strong>，也唯有数据。</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI会改变什么？]]></title>
+        <id>https://wolf3c.github.io/post/ai-hui-gai-bian-shi-me/</id>
+        <link href="https://wolf3c.github.io/post/ai-hui-gai-bian-shi-me/">
+        </link>
+        <updated>2025-01-26T08:33:34.000Z</updated>
+        <content type="html"><![CDATA[<p>来自对 <a href="https://yezi.meteorapp.com/">Yezi AI</a> 的思考，接着 AI是什么 瞎说。</p>
+<p>说了AI是什么，那么，AI能改变什么呢？在我看来有2点：</p>
+<ol>
+<li><strong>所有的生产方式</strong>，这里不只是物质的生产，不只是工厂里面的生产方式，更是产品设计的生产、产品分发方式的生产。分别举例说明一下：
+<ol>
+<li>物质生产很好理解，工厂生产某个商品，比如汽车、手机、帽子、衣服……这些很多都已经被自动化生产，不足为奇，甚至没有AI的时代已经可以做到，但这个会进一步深化和彻底；</li>
+<li>产品设计的生产，在以前，工厂生产几万件相同的衣服，然后发往世界各地售卖，但在AI时代，用户使用AI设计出自己想要的衣服，然后工厂的AI拿到数据后具体设计这个衣服的尺寸、布料、裁剪方式、花色颜料等，最后生产并发给用户。不只是衣服，很多商品都慢慢地变的能够不同程度定制。房子、车子，甚至我们使用的app开始变的可以定制，通过AI去定制你自己的手机首页是什么样子，定制你自己的浏览器打开后应该长什么样，定制你自己的购物搜索页面应该长什么样子……</li>
+<li>产品的分发方式，我们生活中很大一部分时间都花在了信息检索上面，比如，花半小时在淘宝、拼多多、京东的搜索页面比较一个东西在各商家的价格、评价，比如跑了5个家装商场聊了8个家装商户，就为了找一个重装房子不被坑的商家，但这种产品分发方式在AI时代可能发生变化，AI可以按照你的诉求，帮你找到最合适你的，这种分发方式，比现在的搜索和寻找，高效智能很多。</li>
+</ol>
+</li>
+<li><strong>人类的学习和生活变了</strong>
+<ol>
+<li>填鸭式的学习变的没有意义，因为填鸭式的教育是为了给社会快速生产技术工人，但工作被AI做后，普通的技术工人失去了竞争力。预期花大力气和时间培养一个人可以在工厂维修喷漆机器的工人，AI就可以自己诊断、维修，而且一旦实现，往后边际成本会很低；</li>
+<li>生活中两极化，要么没有意义的混一辈子/凑合一辈子/享受一辈子，要么做一个有追求、有想法的人，不断去奋斗，追求自己的人生意义和价值。但人是有欲望的，哪些不能作为顶尖人群的人，他们是否能找到自己人生的意义，还是说很多底层是否会出现为了寻找意义or为了解决无聊，而开始做一些极端事情，都有可能。这些都会导致人们的内在和外在的环境越来越极端化，这种极端化会体现在经济、政治、文化等各个方面。</li>
+</ol>
+</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI是什么？]]></title>
+        <id>https://wolf3c.github.io/post/ai-shi-shi-me/</id>
+        <link href="https://wolf3c.github.io/post/ai-shi-shi-me/">
+        </link>
+        <updated>2025-01-26T08:29:18.000Z</updated>
+        <content type="html"><![CDATA[<p>来自对 <a href="https://yezi.meteorapp.com/">Yezi AI</a> 的思考。</p>
+<p>在我看来，我可以简单把AI比做一个知识工作助理/秘书，或者说在非物质世界的助理，他可以帮你写文档、画图、写代码、制作视频、制作app、处理邮件、网上购物/选货、挑选娱乐内容、输出专业报告……</p>
+<p>他现在还没有办法对物理世界产生太多实质帮助，但这并不绝对，未来 AI + 优秀的机器人能力（不局限于人形机器人，也不限于物理机器人），必然成为一个强大的助理。</p>
+<p>当然，如果想的更远一点，如果他的思考力比人优秀、信息处理比人优秀、工作能力比人优秀，那么他们会不会代替人呢？我认为，在很多行业和事情上，AI + 机器人都会代替人。</p>
+<p>那么问题来了，AI会改变的难道就是代替人吗？我想人还是有一些不会被代替，至少现在我的想法是，人不同于AI的点是，人有目的、有欲望、有无尽的需求和想法。而这些，正是推动人类社会从石器到了铁器，从蒸汽到了电气，从信息时代到了AI时代，人们做这一切，都是为了满足自己无尽的需求，而AI则是被设计成一种解决问题的好帮手，他会帮助人类更快、更好地实现梦想和目的。</p>
+<p>有人可能通过prompt让LLM创造一些想法来反驳我的观点，我想这种做法和我的观点并不相同，LLM对于他们生成的想法/欲望仅仅停留在纸面上，完全删除这些想法也不会有任何留恋，但如果一个人突然有个idea或需求，他会不断想起、抓耳挠腮，除非你让他失忆/兴趣转移/死亡，这就欲望带来的动力。你可以让a AI 去追问b AI 实现自己提出的想法誓不罢休，但这只是一种满足你反驳欲的死循环，可能在AI世界，这更像是一种原始的莫名欲望，但在人类世界看来，这更像是满足人类的某种欲望，而不是AI的。说到底，一切事情的源头和起始，都是人类的需求和欲望，这也是未来人类区别与AI的地方。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[人生就是拿时间投资]]></title>
+        <id>https://wolf3c.github.io/post/ren-sheng-jiu-shi-na-shi-jian-tou-zi/</id>
+        <link href="https://wolf3c.github.io/post/ren-sheng-jiu-shi-na-shi-jian-tou-zi/">
+        </link>
+        <updated>2024-09-02T02:42:51.000Z</updated>
+        <content type="html"><![CDATA[<p>大家对于人生的看法非常矛盾，社会很多事情常常以年龄论资排辈，比如学校、职场、家庭，但另一方面，大家又会将少年得志、英年早逝、大器晚成、蹉跎一生、虚度年华等词顺手拈来。其实，在我看来，这两种对人生的看法其实有本质的不同，这里我拿钱来类比：</p>
+<p>第一种，他们看到的是客观的时间在身体流过，就像一个人每 1 秒钟可以拿到 1 块钱，并且必须马上将它花出去，第一种看法就是统计只这个人从出生到现在总共拿了多少钱，而不去管你把这个钱花在什么地方，收益如何；</p>
+<p>第二种，他们看到的是一个人的收益，虽然每个人每 1 秒都可以拿到 1 块钱，但每个人怎么花这一块钱就大有来头，是花在抖音短视频，还是花在王者荣耀，还是花在研究AI，还是花在阅读巨著，还是花在创造新东西，不同的花钱会带来不同的结果。你要早早将钱花在正确的地方，那就可能少年得志，即便你只有30年的生命，也会得一个英年早逝。你要一辈子将钱花在短视频、奶头乐、赌博……那可能最后所有钱都会打水漂，收获的就是虚度年华。</p>
+<p>所以，我说人生就是拿自己的时间做投资。</p>
+<p>这个投资可能很短，比如给「如何煎制牛排」投资 5 分钟，看个小视频，就可以收获一项小技能和以后的美味。或者给「研究ChatGPT是个什么东西」投资3小时，然后可能会给自己打开一闪AI的大门。给「学习使用ComfyUI」投资四五个小时，然后收获 AI 作画的能力。</p>
+<p>这个投资可以是长期的，比如每天给学习编程投资2小时，几个月后就可以熟练掌握某一种编程，并开始创造自己的想要的东西。你也可以每天给健身投资1小时，一个月后，你大概就会发现自己的身体状态和以前完全不一样。甚至，给一项事业投资几十年时间，就像数学家<a href="https://www.wikiwand.com/zh-cn/articles/%E5%BC%A0%E7%9B%8A%E5%94%90">张益唐</a>那样。</p>
+<p>股民常说：投资有风险，入市需谨慎。我们生即入市，没办法拖着不去投资，只能在每次投资前，先花点钱投资在「分析股票」上，谨慎选择一个自认为收益更高的事情去投资。</p>
+<p>在人生的投资中，好的一点是，只要环境不算太差，人生的投资比股票投资失败的风险相对小一点，毕竟人生投资中，钱是一分一秒给你的，既没那么容易加杠杆，又是一笔稳定「现金流」，即使投资失败几次，还是有翻身的机会。但就像巴菲特说的，没人愿意慢慢变富，这是人性与客观规律相悖的一面，尤其是人生投资的大忌，有人不知不觉就将时间投资在了抖音、奶头乐上面，今朝有酒今朝醉，也有人梦想一夜暴富，所以投资在了各种暴利方向，优劣得失，唯有自知。</p>
+<p>很多人喜欢年终总结，就像很多股民喜欢看一年收益率一样，大家总是在年底才盯着结果看，却很少有人会去回看一年收益曲线的高低起伏，去回顾一年自己每一笔投资过程，但真正能把握住的东西，全在那每一次投资上面，而不是年底的数字上面。人生也是一样，最终归宿，老了坐在板凳上晒太阳还是坐在游轮上晒太阳，不是靠着活到六七十岁，而是过去六七十年的投资结果。</p>
+<p>希望人人都能做好人生投资。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大模型创业公司？尊重但不看好]]></title>
+        <id>https://wolf3c.github.io/post/da-mo-xing-chuang-ye-gong-si-zun-chong-dan-bu-kan-hao/</id>
+        <link href="https://wolf3c.github.io/post/da-mo-xing-chuang-ye-gong-si-zun-chong-dan-bu-kan-hao/">
+        </link>
+        <updated>2024-07-24T07:17:26.000Z</updated>
+        <content type="html"><![CDATA[<p>OpenAI带动大模型火了，很多公司开始搞自己的大模型，甚至很多大模型创业公司如雨后春笋展露出来，对于他们的执行力，表示佩服，但正如我所说，尊重但不看好。</p>
+<p>作为一个无足轻重的人，我说这大话应该也无伤大雅，权当自己的思考记录罢了。</p>
+<p>为啥不看好？我有3点看法：</p>
+<ol>
+<li>
+<p><strong>大模型创新成本奇高</strong>（我说的是真的自己做，不是拿开源套壳），AI基本三元素：算力、算法、数据，既然自研大模型，算法就是站在前人肩膀上创新，数据可以使用开源、自有、爬取、蒸馏其他模型等，但算力，就是自己实打实的 GPU，虽然算法创新可以让算力要求下降，但目前来看大模型的研发基本的算力门槛是很难平易近人的，23年初我给部门做分享时曾了解过，GPT3.5 动用了上万 英伟达当时最新 GPU 跑了几个月，这投入成本、时间成本、人才成本都不是一般的创业公司可以尝试的。并且这事情还不能靠着给云服务花钱就能解决，因为云服务公司也要搞自己的大模型，他们可以提供的资源也非常有限，尤其是，在ChatGPT 火起来之前，其实大家对于GPU的关注度并没有那么高，很多公司/云平台都没有太多投入，再加上现在政治管控受限，这方面算力资源十分紧俏，等你解决了，其他大公司又出现更牛的大模型了，创业永远处于追赶的位置，可不是个好事情；</p>
+</li>
+<li>
+<p><strong>大模型的收益并不明朗</strong>，大模型很可能是一个赢家通吃的服务，因为 LLM 这个东西是一个通用模型，而非个性化定制的模型，最智能的模型会被所有人蜂拥使用，其他服务可以快速切换到自己想要的大模型API，这样的情况会导致两个问题：</p>
+<ol>
+<li><strong>赢家通吃</strong>，最好的几个模型可能占据市场大部分利润，其他模型捡漏都不容易；</li>
+<li><strong>拼杀严重</strong>，虽然AI智力可能在未来一段时间一直持续上升，但行业的竞争愈加激烈，当产品差异较大的时候，是品质、产品的竞争，但在产品同质化、标准化的市场，就可能变成价格战的竞争；</li>
+</ol>
+<p>以上可以推测，大模型创业公司很可能在一路追赶的过程中越来越失去希望。</p>
+</li>
+<li>
+<p><strong>壁垒模糊</strong>，从AIGC、Stable Diffusion 的发展我看到了一个情况，保密可以建立一时的优势，但很难长久保持，这个行业发展太快了，<a href="https://wolf3c.github.io/post/kai-yuan-quan-qiu-hua-chuang-xin-xie-zuo-fang-shi/">尤其是大家都开源的情况下</a>，形成了一种全球行业范围的<em><strong>创新协作潮</strong></em>，你会发现，这个行业要么开放开源，要么靠着保密/闭源，来建立一点点优势，但在AIGC 方面看到了开源挑战闭源 甚至 挑翻了闭源的情况（比如SD 生态 对于 MD），大模型领域也有 Meta 开源，不知道Meta 及各种开源模型生态环境是否可以挑战 OpenAI 和 Claude 等。不论结果如何，我们发现开源是有一定攻势的，并且，我们可以预测，随着行业老大、老二真正开始大量盈利，绝对会有人对这门生意动心，即使不是开源挑战，也会出现个CloseAI来挖人才去挑战，会过来想想，在如此高度协作的研发创新时代，靠着几百年前「东家保密方子」的方法建立壁垒说多么不可靠，随便一次涨薪就可能挖走你的「方子」；</p>
+</li>
+</ol>
+<p>当然，虽然不看好，但越来越多的公司去研发大模型，对于推动大模型的发展肯定是有贡献的，而这种贡献都可能让AI的智力提升，都是一次创新探索，有助于全人类的AI发展，即使失败，也值得我们尊重。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[读《让时间陪你慢慢变富》]]></title>
+        <id>https://wolf3c.github.io/post/du-lesslessrang-shi-jian-pei-ni-man-man-bian-fu-greatergreater/</id>
+        <link href="https://wolf3c.github.io/post/du-lesslessrang-shi-jian-pei-ni-man-man-bian-fu-greatergreater/">
+        </link>
+        <updated>2024-07-19T08:00:55.000Z</updated>
+        <content type="html"><![CDATA[<p>看到有人分享李笑来老师的书《让时间陪你慢慢变富》，好奇，读了一遍，内容不多，但依旧保持朴素而实用的风格。</p>
+<p>这里记录一下我读到的东西。</p>
+<h1 id="个人成长方面">个人成长方面</h1>
+<ol>
+<li>成长背后是刻意练习，其实就是把自己的时间精力拿来做<strong>长期、定期、定量投资某个标底</strong>，你差距越大就需要的投入和时间越多；</li>
+<li><strong>主动地被动</strong>：在边界内主动（自身/可控事物），在边界外顺应趋势；</li>
+<li>研究趋势、顺应趋势、被动等待趋势来帮助自己；</li>
+<li>不要把时间精力浪费在和「趋势」无关的鸡毛蒜皮事情上（比如：发型、穿哪个衣服、坐哪种交通工具）；</li>
+<li>自教育（自学）是一个人出类拔萃的必由之路；</li>
+<li>勇气是唯一不可伪造的美德；</li>
+<li>迷信是思考有漏洞导致的；</li>
+<li>真正主动的人不信命，他可以切断过去和未来的联系，尽力不让过去不好的部分影响未来。人生一切值得挣扎的地方，就在这里了，只有这里；</li>
+<li>在自己的主动边界之内，运用认知改变自己的思考方式——强迫自己看到那主动边界之外的趋势在边界内外发生的作用——进而得到修正之后的思考结果，竟然能够改变自己内在的心态和外在的状态。</li>
+<li>一个自学者无论天资如何普通，只要他认真且决绝地接受并坚持这个简单到不能再简单的原则——重视一切老生常谈——那么，其后他在任何自学领域中的决策和行为都会因此自动变得更聪明，直至真的绝对聪明！</li>
+<li>赚到很多钱的意义在哪里？不就是为了保证自己去干自己喜欢干的事情的时候不被外界打扰吗？</li>
+</ol>
+<h1 id="观念认知">观念认知：</h1>
+<ol>
+<li>所谓的修养，可能并不是人们所说的过往长期培养的结果——反正，在我身上，是瞬间发生的事情，就好像生物进化过程中的基因突变那样。一旦你真正理解了长期对你来说意味着什么，你在主动边界内外的决策都可能发生巨大变化。当年我想明白长期对我意味着什么之后，惊奇地发现我的性格好像瞬间变了：我很难再因为某个人某件事而生气了。
+<ol>
+<li>这个人或这件事儿在两个大周期之后会是什么样子的呢？</li>
+<li>两个大周期之后的我会是什么样子的呢？</li>
+<li>两个大周期之后的我应该如何面对同样的人和事？</li>
+</ol>
+</li>
+<li>人生本无意义，意义是活出来的。为自己想做的、正在做的事情拼命赋予伟大的意义。只要你把你的某个行为赋予了极其伟大的意义，你就好像突然换了个人似的——因为接下来在你做那件事的时候，你无须强调坚持，你无须被鼓励，你根本就不怕挫折，你完全不在意别人不认同不支持，甚至，若是谁竟然拦着你不让你去做那件事，你会跟他彻底翻脸——强大的自驱动力。</li>
+<li></li>
+</ol>
+<h1 id="投资方面">投资方面：</h1>
+<ol>
+<li>资产的流动性非常重要；</li>
+<li>不要借钱/贷款投资；</li>
+<li>经济周期（康波周期）的时长正在缩短。经济周期是社会协作时而协调时而不协调导致的，随着信息传播速度增加，经济自我调节速度变快，所以，不协调可以更快变得协调，故而，经济周期时长缩短；</li>
+<li>定投策略中的要点：
+<ol>
+<li>首先，长期买入的结果就是自动完成了绝大多数人认为非常难以坚持的“长期持有”，你变成了有耐心的人。</li>
+<li>其次，定期买入的计划，自动把你变成了最难得的那种人：有纪律的人。</li>
+<li>最后，每次投入一定金额，这里的隐含意义在于，这是把你自动变成了量力而行的人。</li>
+</ol>
+</li>
+</ol>
+<p>End</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源——全球化创新协作方式]]></title>
+        <id>https://wolf3c.github.io/post/kai-yuan-quan-qiu-hua-chuang-xin-xie-zuo-fang-shi/</id>
+        <link href="https://wolf3c.github.io/post/kai-yuan-quan-qiu-hua-chuang-xin-xie-zuo-fang-shi/">
+        </link>
+        <updated>2024-07-04T08:13:51.000Z</updated>
+        <content type="html"><![CDATA[<p>在 <a href="https://wolf3c.github.io/post/po-su-qie-tong-yong-de-cheng-chang-fang-fa-pdca/">朴素且通用的成长方法——PDCA</a> 译文中，我将很多事情的发展总结成了PDCA，而最近两年的AI领域发展，着实展示了一种全球性 高频 PDCA 循环，而这一切所依赖的是开源（或者说 GitHub、HuggingFace、CivitAI 等平台）。</p>
+<p>先描述一个现象：</p>
+<p>在Stable Diffusion开源火起来后，相关的东西如雨后春笋般出现，刚开始速度还比较慢，今天webUI更新了，下个月出现个中文般的安装器，再下个月出现个可以直接节点连接的comfyUI，再下个月有人定制基于 Apple Silicon的工具……</p>
+<p>而模型领域表现更迅速，今天开源了2.0模型，明天在 CivitAI 上就已经出现了很多基于其的模型和Lora，今天大家还在讨论 文生图 新模型，明天已经有人想出办法将主体固化来实现图片逐帧实现视频的方法……</p>
+<p>昨天一个中国人开源了个TTS模型，可以将中英文声音搞得惟妙惟肖，你还没有部署好，明天就可能出现一个日本、以色列、美国或某个角落的人抛出一个基于此搞的多国语言版，后天可能冒出个公司可以直接生成音视频了；</p>
+<p>大家都在其他人的成果上继续贡献自己的智力成果，大家又都将成果公之于众，方便其他人研究、学习、使用。当你将自己搞出来的东西分享到GitHub后去睡觉时，西方的某个人可能看到了你做的东西，然后基于此在搞新东西，当你醒来时，他可能已将自己的想法实现并公诸于众，你做马桶上看手机时，可能看到了出现的新东西，然后有了新想法，白天开始尝试。甚至，你可以趁着对方还没睡，通过Discord、email、GitHub Issue 等渠道与对方交流一下想法。</p>
+<p>这就是我们最近所经历的AI产品在开源平台的创新大爆发，每天都有目不暇接的新东西出现在大家眼前，学都学不过来。而这背后，是世界领域的技术人员在开源环境中奉献各自的智力。这种行为可能不能产生直接地商业价值，但绝对比很多商业组织中保密的研发流程更高效。</p>
+<p>在我印象中，即使前些年全球化程度最高的年代，也很难找到如此全球化创新协作的案例。虽然以前 Linux/GNU 这种大型产品的开源开发历史，但其参与人数其实并不多，而这次的AIGC的开源协作，涉及人群更广、影响力更大、协作方式更去中心化（自发性），它所迸发出的活力也是少见的，而且相比以前的开源或闭源产品，大家的创意和智力在短时间内相互激荡，如此高频的出现了创新成果，也是以前少有的，呈现一种全球化创新的态势。</p>
+<p>所以说，开源，展现出了一种非常高效的全球化创新协作方式。</p>
+]]></content>
+    </entry>
+</feed>
