@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+  <meta name="referrer" content="never">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="kveln">
+  <title>十分钟学一门编程语言 | wolf3c&#39;s blog</title>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="https://wolf3c.github.io//media/css/bootstrap.min.css" rel="stylesheet"> -->
+  <!--  <link href="https://wolf3c.github.io//media/css/all.min.css" rel="stylesheet" type="text/css"> -->
+  <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link rel="alternate" type="application/rss+xml" title="十分钟学一门编程语言 | wolf3c&#39;s blog » Feed" href="https://wolf3c.github.io//atom.xml">
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
+  <link href="https://wolf3c.github.io//styles/main.css" rel="stylesheet">
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/highlight.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/jquery.min.js"></script> -->
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RJP31JG0VN"></script>
+  <script>window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-RJP31JG0VN');</script>
+  
+
+    <meta property="og:description" content="十分钟学一门编程语言"/>
+    <meta property="og:url" content="https://wolf3c.github.io/post/shi-fen-zhong-xue-yi-men-bian-cheng-yu-yan/"/>
+    <meta property="og:locale" content="zh-CN"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="wolf3c&#39;s blog"/>
+  </head>
+  <body>
+  	<!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="https://wolf3c.github.io/">wolf3c&#39;s blog</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/">首页</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/archives">归档</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/tags">标签</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/post/about">关于</a>
+              
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('https://wolf3c.github.io//media/images/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+          	<span class="tags">
+          	 
+            <a href="https://wolf3c.github.io/tag/technology/" class="tag">技术</a>
+            
+            <a href="https://wolf3c.github.io/tag/opinion/" class="tag">观点</a>
+            
+        </span>
+            <h1>十分钟学一门编程语言</h1>
+            <span class="meta">
+            	Posted on
+              2017-06-02，7 min read
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <blockquote>
+<p>time：2017-06-02</p>
+<p>author：wolf3c</p>
+<p>字数：2.2K</p>
+</blockquote>
+<hr>
+<p>这当然不是在骗人，因为我没有说「十分钟精通 X 」，我只是说学。</p>
+<p>对于很多学习过编程语言的人，尤其学了 PHP、Java、C++ 等语言的，一定不相信这句鬼话，他们忍着吐血的痛苦学了无数个日夜，到头来还是 bug 满天飞，别说十分钟，就是十小时也不可能。</p>
+<p>所以，我需要先详细定义一下我所谓的十分钟能学到什么效果。</p>
+<p>我这里说的十分钟，是让你在十分钟能看明白这个语言的代码，即使有很多细节不懂，但你一看就明白这是个啥，是要干嘛，我应该从哪里入手弄明白它。</p>
+<h2 id="why">why</h2>
+<p>我为什么要总结出这套方法呢？</p>
+<blockquote>
+<ol>
+<li>炫技。我自认为接触过比较多的语言，汇编、VB、C、Java、Shell、Python、HTML、CSS、JavaScript、Scheme、Common Lisp，虽然现在忘了很多，但我以前确实都接触过。</li>
+<li>总结方法。这套东西在我脑子里有一个模糊的印象，但都是隐性知识，我需要把它显性化， 所以考虑把它写出来。</li>
+<li>做铁证。我自己想在写出来后，再去读一些《七天七门语言》（好像是这个名字）类的书，看看自己的想法和其他大牛有什么出入，如果不写出来可能会忽略很多细节，到头来自认为和大牛想的一样，搞得自己洋洋得意。</li>
+<li>测试自己的想法。我想用自己的方法再去学一门语言，可以是自己已经忘记的，也可以是自己感兴趣的，再测试一下自己总结出来的这套方法效果是否如预期。</li>
+<li>这套方法可以让人语言初学者事半功万，不能私藏。很多时候，很多人在学习编程语言的时候一头雾水，我一直希望找到一个可以让初学者在学习语言过程中，如果看到不懂的东西，虽然他们不能马上懂，但明白这个东西属于什么，该从什么地方入手去弄明白它，这点很重要，因为我在以前学习语言的时候就因为没有做到这一点而一通乱撞而不得其法，最后花费了时间还不能让自己能力提升。我认为自己找的的这个十分钟方法可以达到这个目标。</li>
+</ol>
+</blockquote>
+<p>下面，直接开始说我的「十分钟学习一门编程语言」大法。</p>
+<h2 id="大法">大法</h2>
+<p>首先，我们要知道，一个编程语言的主要组成部分包括：</p>
+<ol>
+<li>数据单元。</li>
+<li>操作单元。</li>
+<li>抽象方式。</li>
+</ol>
+<p>「十分钟学习一门编程语言」大法就是要求你再学习一门编程语言时，先用十分钟弄明白一个语言的以上三部分。</p>
+<h3 id="数据单元">数据单元</h3>
+<p>数据单元就是指一个编程语言中数据都有哪几种类型，如何表示，如何用。</p>
+<p>在编程语言中，数据的类型一般有整型、浮点型、布尔型、字符、字符串、数组、字典、枚举等，你需要知道你学习的语言有哪些数据类型。</p>
+<p>然后你需要明白这些数据如何表示，或者说，你如何定义一个整形变量，如何定义一个数组。</p>
+<p>最后，你要知道这些数据的变量如何用。这点在很多语言中差不多。</p>
+<h3 id="操作单元">操作单元</h3>
+<p>操作单元就是处理数据的方式，这里说的是最基本的方式，比如条件语句、循环语句、赋值、计算、比较等。</p>
+<p>你需要知道他们是如何表示的，在很多类 C 语法的语言中，这些东西都很相近，但是其他语言就不是了，所以你需要注意这点。</p>
+<h3 id="抽象方式">抽象方式</h3>
+<p>所有的编程语言一定要有一种抽象方式，只有这样，这个语言才能够组织成一个越来越大型的工程。</p>
+<p>抽象方式分为对数据的抽象和对操作的抽象。</p>
+<p>对数据的抽象，举例来说，如果我需要用一组数据表示一个人，可以是：</p>
+<pre><code class="language-json">{
+  name: String,
+  borthday: Date,
+  job: String,
+  marry: boolean,
+  children: Array
+}
+</code></pre>
+<p>这样，任何一个人都可以用这么一组数据抽象，就比如你说 Tom，你说 Tom，其他人就知道你说的这个人名字是什么，什么时候出生，工作是什么，有没有结婚，孩子都是谁。</p>
+<p>C 语言用结构体（struct），JavaScript 用对象，Lisp 用 List……</p>
+<p>对操作的抽象，就是把很多操作抽象出来，还是举一个例子：</p>
+<pre><code class="language-javascript">function clone(people) {
+  let newPeople = new People();
+  newPeople.name = people.name;
+  newPeople.borthday = people.borthday;
+  newPeople.job = people.job;
+  newPeople.marry = people.marry;
+  newPeople.children = people.children;
+  
+  return newPeople;
+}
+</code></pre>
+<p>然后，我们使用<code>let Tom2 = clone(Tom)</code> 就可以复制一个 Tom 出来，我们把克隆一个人的复杂事情抽象成 <code>clone()</code> ，然后，我们要复制谁，只需要<code>clone()</code> 一下就好了，而不是需要些一大堆东西来复制这个人的姓名、生日、工作等。</p>
+<p>C 语言用函数，Java 用对象……</p>
+<p>以上就是「十分钟学习一门编程语言」大法的全部内容。</p>
+<h2 id="开始吧">开始吧</h2>
+<p>千万不要急着买一本八百页的某编程语言官方权威指南，你永远不会读的。</p>
+<p>去找找那种简单的小册子或小文章，找到我说的这三类东西，快速弄明白它们。相信你十分钟就可以搞定。「十分钟学习一门编程语言」大法的目标就已经达到了。</p>
+<p>（如果你十分钟没能搞定，那就再花十分钟。）</p>
+<h2 id="下一步">下一步</h2>
+<p>如果你知道了以上三种东西，下一步，建议你去读读其他人的代码，看看他们如何运用这三样东西，看不懂的地方就去查资料，这个时候就应该拿出你的各种大部头，不过，这个时候你看那本书，你会发现，整整一本书，不过就是在讲述这三种东西罢了。</p>
+<p>当你看了一些人的代码后，你会越来越有信心，你会有一种想要写点什么的冲动，那么，不用再等待，找一个小项目练习一下吧。通常你会碰到很多问题，每个人都一样，多去 Google 就好。最主要的是，在你碰无法解决的问题时，先考虑一下，你现在需要对以上三类东西中哪一部分发力，免得自己走错方向。</p>
+<h2 id="拓展">拓展</h2>
+<p>很多写代码的人到后来成了半个哲学家，好像世界就是一个大的电脑一样，都可以用计算机知识套。</p>
+<p>「十分钟学习一门编程语言」大法的原理也有类似功效。</p>
+<p>拿一家建筑公司举例，数据单元就是砖、瓦、水泥、沙子等物料，操作单元就是一个个拥有各种技能的工人和他们的生产工具，他们把这些物料组合成地基、墙面、地面等，抽象方式就是金字塔状组织结构，有些小包工头拉一帮工人负责搭架子，有些小包工头拉一帮人负责粉墙装修；而一个更大的包工头可以负责一两栋楼，他们主要是管理一帮小包工头；再大的包工头则负责一两片区域，为了管理，这些大的包工头可能会成立一家大的建筑公司来运作。</p>
+<p>不只是公司，小到细胞，大到人类社会，都可以用这种方式解构。</p>
+<h2 id="免责">免责</h2>
+<p>方法就是这么方法，用不用由你。如果用了，没成功或走火入魔都不管我事。</p>
+<p>Let's try. Just for fun.</p>
+<p>Coding, not war.</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+
+          
+          <p class="next-post">下一篇：
+            <a href="https://wolf3c.github.io/post/kan-huo-ying-mai-te-kai/">
+              <span class="post-title">
+                看火影：迈特凯&rarr;
+              </span>
+            </a>
+          </p>
+        
+        <div class="comment">
+          
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script>
+  var gitalk = new Gitalk({
+    clientID: '70978cecda92809a8738',
+    clientSecret: 'fcb8159e67874dea83c8c3ae3a1431515d169c6d',
+    repo: 'wolf3c.github.io',
+    owner: 'wolf3c',
+    admin: ['wolf3c'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+  gitalk.render('gitalk-container')
+</script>
+
+          
+          
+        
+        </div>
+      </div>
+    </div>
+  </article>
+ <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            
+            
+            <li class="list-inline-item">
+              <a href="https://github.com/wolf3c" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+              <li class="list-inline-item">
+              <a href="https://wolf3c.github.io//atom.xml" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy;<span>wolf3c&#39;s blog</span><br><a href="https://github.com/getgridea/gridea" class="Themeinfo">Powered by Gridea</a></p>
+        </div>
+      </div>
+    </div>
+   </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/bootstrap.bundle.min.js"></script> -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.jsdelivr.net/gh/Alanrk/clean-cdn@1.0/scripts/clean-blog.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/clean-blog.min.js"></script> -->
+  <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+  <style type="text/css">a.back_to_top{text-decoration:none;position:fixed;bottom:40px;right:30px;background:#f0f0f0;height:40px;width:40px;border-radius:50%;line-height:36px;font-size:18px;text-align:center;transition-duration:.5s;transition-propety:background-color;display:none}a.back_to_top span{color:#888}a.back_to_top:hover{cursor:pointer;background:#dfdfdf}a.back_to_top:hover span{color:#555}@media print,screen and(max-width:580px){.back_to_top{display:none!important}}</style>
+<a id="back_to_top" href="#" class="back_to_top">
+  <span>▲</span></a>
+<script>$(document).ready((function(_this) {
+    return function() {
+      var bt;
+      bt = $('#back_to_top');
+      if ($(document).width() > 480) {
+        $(window).scroll(function() {
+          var st;
+          st = $(window).scrollTop();
+          if (st > 30) {
+            return bt.css('display', 'block')
+          } else {
+            return bt.css('display', 'none')
+          }
+        });
+        return bt.click(function() {
+          $('body,html').animate({
+            scrollTop: 0
+          },
+          800);
+          return false
+        })
+      }
+    }
+  })(this));</script>
+  </body>
+</html>
+

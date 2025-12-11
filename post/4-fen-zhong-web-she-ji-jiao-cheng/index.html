@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+  <meta name="referrer" content="never">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="kveln">
+  <title>4 分钟 web 设计教程 | wolf3c&#39;s blog</title>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="https://wolf3c.github.io//media/css/bootstrap.min.css" rel="stylesheet"> -->
+  <!--  <link href="https://wolf3c.github.io//media/css/all.min.css" rel="stylesheet" type="text/css"> -->
+  <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link rel="alternate" type="application/rss+xml" title="4 分钟 web 设计教程 | wolf3c&#39;s blog » Feed" href="https://wolf3c.github.io//atom.xml">
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
+  <link href="https://wolf3c.github.io//styles/main.css" rel="stylesheet">
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/highlight.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/jquery.min.js"></script> -->
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RJP31JG0VN"></script>
+  <script>window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-RJP31JG0VN');</script>
+  
+
+    <meta property="og:description" content="4 分钟 web 设计教程"/>
+    <meta property="og:url" content="https://wolf3c.github.io/post/4-fen-zhong-web-she-ji-jiao-cheng/"/>
+    <meta property="og:locale" content="zh-CN"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="wolf3c&#39;s blog"/>
+  </head>
+  <body>
+  	<!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="https://wolf3c.github.io/">wolf3c&#39;s blog</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/">首页</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/archives">归档</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/tags">标签</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/post/about">关于</a>
+              
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('https://wolf3c.github.io//media/images/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+          	<span class="tags">
+          	 
+            <a href="https://wolf3c.github.io/tag/technology/" class="tag">技术</a>
+            
+            <a href="https://wolf3c.github.io/tag/translation/" class="tag">翻译</a>
+            
+        </span>
+            <h1>4 分钟 web 设计教程</h1>
+            <span class="meta">
+            	Posted on
+              2016-08-06，5 min read
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <blockquote>
+<p>time：2016-08-06</p>
+<p>author：wolf3c</p>
+</blockquote>
+<p>译自<a href="http://jgthms.com/web-design-in-4-minutes">《Web Design in 4 minutes》</a></p>
+<p>目录：</p>
+<p>[TOC]</p>
+<p>假设你有一款产品、一个投资组合或仅仅是一个想法，你想要在自己的网站上分享给每个人，在你将它发布网上之前，你需要让它看起来很吸引人、很专业，或者至少能拿出手。</p>
+<p>那么你首先需要做什么？</p>
+<h2 id="内容content">内容（Content）</h2>
+<p><strong>设计</strong> 的目的是更好地帮助内容的呈现，这貌似是显而易见的，但 “内容是一个网站<strong>主要</strong>元素” 这件事情不应该是被最后关注。</p>
+<p>被写入的内容（就像你现在读的这段），撑起了这个 web 的 90%，这种样式的文本内容将一直延续下去。</p>
+<p>我们先假定你已经有了想要发布的内容了，却只有一个空的 style.css 文件，那么你首先需要写什么规则呢？</p>
+<h2 id="主体centering">主体（Centering）</h2>
+<p>太长的文本行既难被解析，也难以阅读，设定每行的最大字符数将大大提升可读性和长文本的吸引力。</p>
+<pre><code class="language-css">body {
+  margin: 0 auto;
+  max-width: 50em;
+}
+</code></pre>
+<p>设定好了文本块的样式后，我们怎么设置文本自身的样式呢？</p>
+<h2 id="字体库font-family">字体库（Font family）</h2>
+<p>浏览器的字体默认是 &quot;Times&quot;，没有一点吸引力（主要是因为它是“无样式”字体）换成一种无衬线字体（比如 &quot;Helvetica&quot; 或 &quot;Arial&quot; ）将瞬间提升网页的可观性。</p>
+<pre><code class="language-css">body {
+  font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
+}
+</code></pre>
+<p>如果你坚持使用有衬线字体，可以试试 &quot;Georgia&quot;。</p>
+<p>文字已经很具有吸引离了，我们需要让它更具可读性。</p>
+<h2 id="间距spacing">间距（Spacing）</h2>
+<p>当用户感到一个页面支离破碎，那多半是间距的问题，无论是内容周围还是内容之中，提供一些空间总能提升页面的吸引力。</p>
+<pre><code class="language-css">body {
+  line-height: 1.5;
+  padding: 4em 1em;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+</code></pre>
+<p>当布局提升了一大截后，我们需要做一下微调。</p>
+<h2 id="颜色和对比color-contrast">颜色和对比（Color &amp; contrast）</h2>
+<p>白底黑字太刺眼，为主体文本选择一个浅黑色 ( a softer shade of black ) 会让阅读变得舒服很多。</p>
+<pre><code class="language-css">body {
+  color: #555;
+}
+</code></pre>
+<p>为了体现不同层级的对比，我们需要为重要内容选择一个更深的颜色。</p>
+<pre><code class="language-css">h1,
+h2,
+strong {
+  color: #333;
+}
+</code></pre>
+<p>我们已经提升了大多数页面的视觉感受，一些元素（比如代码块）依旧格格不入。</p>
+<h2 id="平衡性balance">平衡性（Balance）</h2>
+<p>只需要略施小计就可以改善页面的平衡性。</p>
+<pre><code class="language-css">code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+</code></pre>
+<p>到了这一步，你大概已经想要将你的页面打上自己的标识并拿出去了。</p>
+<h2 id="主色primary-color">主色（Primary color）</h2>
+<p>大多数品牌都有一个主色调作为自己的视觉标识，在一个网站上，这种特色常被用在一些主要的互动元素上，比如链接。</p>
+<pre><code class="language-css">a {
+  color: #e81c4f;
+}
+</code></pre>
+<p>但是为了保持平衡性，我们需要一些其他颜色。</p>
+<h2 id="辅色secondary-colors">辅色（Secondary colors）</h2>
+<p>还可以在边框、背景或正文中找一些浅色来补充标识性颜色。</p>
+<pre><code class="language-css">body {
+  color: #566b78;
+}
+
+code,
+pre {
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  color: #a7adba;
+}
+
+pre {
+  border-left: 2px solid #69c;
+}
+</code></pre>
+<p>做了这些调整以后，何不对形状做些调整呢。</p>
+<h2 id="自定义字体custom-font">自定义字体（Custom font）</h2>
+<p>既然文本是网页主要内容，那使用一个自定义字体让页面更引人注目就无可厚非了。</p>
+<p>你既可以嵌入自己的字体，也可以使用线上服务（比如 <a href="https://typekit.com/">Typekit</a> ），我们可以使用免费的 <a href="https://fonts.google.com/">Google 字体</a> 服务：</p>
+<pre><code class="language-css">@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+  font-family: &quot;Roboto&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
+}
+
+</code></pre>
+<p>在文本方面提升了标识度后，何不加入“千言万语”   ( a thousand words )。</p>
+<figure data-type="image" tabindex="1"><img src="https://wolf3c.github.io//post-images/1561820091621.png" alt="" loading="lazy"></figure>
+<p>图形和图标既可以作为装饰品支撑你的内容，还可以作为你想要传达的信息中的一部分。</p>
+<p>我们可以用一张来自 <a href="https://unsplash.com/photos/qH36EgNjPJY">Unsplash</a> 的漂亮背景图提升我们的 header。</p>
+<pre><code class="language-css">header {
+  background-color: #263d36;
+  background-image: url(&quot;header.jpg&quot;);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align: center;
+}
+
+</code></pre>
+<p>再加一个 logo</p>
+<pre><code class="language-css">header img {
+  display: inline-block;
+  height: 120px;
+  vertical-align: top;
+  width: 120px;
+}
+
+</code></pre>
+<p>同样，我们可以再次提升文本样式。</p>
+<pre><code class="language-css">header h1 {
+  color: white;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+header a {
+  border: 1px solid #e81c4f;
+  border-radius: 290486px;
+  color: white;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
+}
+
+header a:hover {
+  background:  #e81c4f;
+  color: white;
+}
+
+</code></pre>
+<p><a href="http://jgthms.com/web-design-in-4-minutes/#header">瞧瞧看</a></p>
+<p>我们仅仅用几分钟就靠基础的页面设计原则设计了一个像样的页面，还有最后一件事：</p>
+<p>去<a href="http://jgthms.com/web-design-in-4-minutes/#share">原文</a>中分享吧。</p>
+<hr>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a></p>
+
+          
+          <p class="next-post">下一篇：
+            <a href="https://wolf3c.github.io/post/wo-wei-shi-me-xi-huan-arrow-launcher/">
+              <span class="post-title">
+                我为什么喜欢arrow launcher&rarr;
+              </span>
+            </a>
+          </p>
+        
+        <div class="comment">
+          
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script>
+  var gitalk = new Gitalk({
+    clientID: '70978cecda92809a8738',
+    clientSecret: 'fcb8159e67874dea83c8c3ae3a1431515d169c6d',
+    repo: 'wolf3c.github.io',
+    owner: 'wolf3c',
+    admin: ['wolf3c'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+  gitalk.render('gitalk-container')
+</script>
+
+          
+          
+        
+        </div>
+      </div>
+    </div>
+  </article>
+ <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            
+            
+            <li class="list-inline-item">
+              <a href="https://github.com/wolf3c" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+              <li class="list-inline-item">
+              <a href="https://wolf3c.github.io//atom.xml" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy;<span>wolf3c&#39;s blog</span><br><a href="https://github.com/getgridea/gridea" class="Themeinfo">Powered by Gridea</a></p>
+        </div>
+      </div>
+    </div>
+   </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/bootstrap.bundle.min.js"></script> -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.jsdelivr.net/gh/Alanrk/clean-cdn@1.0/scripts/clean-blog.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/clean-blog.min.js"></script> -->
+  <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+  <style type="text/css">a.back_to_top{text-decoration:none;position:fixed;bottom:40px;right:30px;background:#f0f0f0;height:40px;width:40px;border-radius:50%;line-height:36px;font-size:18px;text-align:center;transition-duration:.5s;transition-propety:background-color;display:none}a.back_to_top span{color:#888}a.back_to_top:hover{cursor:pointer;background:#dfdfdf}a.back_to_top:hover span{color:#555}@media print,screen and(max-width:580px){.back_to_top{display:none!important}}</style>
+<a id="back_to_top" href="#" class="back_to_top">
+  <span>▲</span></a>
+<script>$(document).ready((function(_this) {
+    return function() {
+      var bt;
+      bt = $('#back_to_top');
+      if ($(document).width() > 480) {
+        $(window).scroll(function() {
+          var st;
+          st = $(window).scrollTop();
+          if (st > 30) {
+            return bt.css('display', 'block')
+          } else {
+            return bt.css('display', 'none')
+          }
+        });
+        return bt.click(function() {
+          $('body,html').animate({
+            scrollTop: 0
+          },
+          800);
+          return false
+        })
+      }
+    }
+  })(this));</script>
+  </body>
+</html>
+

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+  <meta name="referrer" content="never">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="kveln">
+  <title>巧用 github - 10min 建博客站 | wolf3c&#39;s blog</title>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="https://wolf3c.github.io//media/css/bootstrap.min.css" rel="stylesheet"> -->
+  <!--  <link href="https://wolf3c.github.io//media/css/all.min.css" rel="stylesheet" type="text/css"> -->
+  <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link rel="alternate" type="application/rss+xml" title="巧用 github - 10min 建博客站 | wolf3c&#39;s blog » Feed" href="https://wolf3c.github.io//atom.xml">
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
+  <link href="https://wolf3c.github.io//styles/main.css" rel="stylesheet">
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/highlight.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/jquery.min.js"></script> -->
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RJP31JG0VN"></script>
+  <script>window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-RJP31JG0VN');</script>
+  
+
+    <meta property="og:description" content="巧用 github - 10min 建博客站"/>
+    <meta property="og:url" content="https://wolf3c.github.io/post/qiao-yong-github-10min-jian-bo-ke-zhan/"/>
+    <meta property="og:locale" content="zh-CN"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="wolf3c&#39;s blog"/>
+  </head>
+  <body>
+  	<!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="https://wolf3c.github.io/">wolf3c&#39;s blog</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/">首页</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/archives">归档</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/tags">标签</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/post/about">关于</a>
+              
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('https://wolf3c.github.io//media/images/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+          	<span class="tags">
+          	 
+            <a href="https://wolf3c.github.io/tag/technology/" class="tag">技术</a>
+            
+        </span>
+            <h1>巧用 github - 10min 建博客站</h1>
+            <span class="meta">
+            	Posted on
+              2016-08-06，4 min read
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <blockquote>
+<p>time：2016-08-06</p>
+<p>author：wolf3c</p>
+</blockquote>
+<p>目录：</p>
+<p>[TOC]</p>
+<p>需要用到的工具：</p>
+<ul>
+<li><a href="https://pages.github.com/">GitHub Pages 网站</a> （你需要有一个自己的 GitHub 账号）</li>
+<li><a href="https://www.typora.io/">Typora</a> （markdown 工具，如果没有，现在就开始下载吧）</li>
+<li>一点点 HTML 知识</li>
+</ul>
+<p>那么现在开始吧~</p>
+<h2 id="1-创建-github-pages-项目">1、创建 GitHub Pages 项目</h2>
+<h4 id="11-打开github-pages-网站-创建博客项目">1.1 打开<a href="https://pages.github.com/">GitHub Pages 网站</a> ，创建博客项目：</h4>
+<p>具体步骤 GitHub Pages 页面已经给出了。</p>
+<figure data-type="image" tabindex="1"><img src="https://wolf3c.github.io//post-images/1561820209923.png" alt="" loading="lazy"></figure>
+<h4 id="12-填写一个名称">1.2 填写一个名称</h4>
+<p>这个名称必须没有被别人使用，最好取一个有意义的，比如xiaolizi，那么你的博客域名以后就是：xiaolizi.github.io。</p>
+<p><strong>这个名字于你GitHub账号名字保持一致</strong>，据说不一致会出现问题。</p>
+<figure data-type="image" tabindex="2"><img src="https://wolf3c.github.io//post-images/1561820239796.png" alt="" loading="lazy"></figure>
+<h2 id="2-设置博客主页">2、设置博客主页</h2>
+<h4 id="21-进入设置页">2.1 进入设置页：</h4>
+<figure data-type="image" tabindex="3"><img src="https://wolf3c.github.io//post-images/1561820250190.png" alt="" loading="lazy"></figure>
+<h4 id="22-打开页面生成器">2.2 打开页面生成器</h4>
+<figure data-type="image" tabindex="4"><img src="https://wolf3c.github.io//post-images/1561820258313.png" alt="" loading="lazy"></figure>
+<h4 id="23-写主页面内容">2.3 写主页面内容：</h4>
+<p>内容如下：</p>
+<pre><code class="language-markdown"># 2016 年
+
+2016年 8月
+
+&gt; ### [巧用 github - 10min 建博客站](articles/巧用 github - 10min 建博客站.html) 
+</code></pre>
+<p>其中，“巧用 github - 10min 建博客站” 改为你自己的文章名字。</p>
+<p>然后复制写的内容。</p>
+<figure data-type="image" tabindex="5"><img src="https://wolf3c.github.io//post-images/1561820287857.png" alt="巧用GitHub10min 建博客站_7" loading="lazy"></figure>
+<h4 id="24-配置博客页面">2.4 配置博客页面：</h4>
+<figure data-type="image" tabindex="6"><img src="https://wolf3c.github.io//post-images/1561820303735.png" alt="巧用GitHub10min 建博客站_8" loading="lazy"></figure>
+<h4 id="25-选择一个样式完成设置">2.5 选择一个样式，完成设置：</h4>
+<figure data-type="image" tabindex="7"><img src="https://wolf3c.github.io//post-images/1561820321790.png" alt="巧用GitHub10min 建博客站_9" loading="lazy"></figure>
+<p>现在，到你的博客中看看效果吧，域名是 yourname.github.io （其中，yourname 就是你在步骤 1.2 中设置的名字）</p>
+<h2 id="3-上传文章">3、上传文章</h2>
+<h4 id="31-写-markdown-文章">3.1 写 markdown 文章</h4>
+<p>markdown 是一个非常有用的工具，以后写博客会常常使用，如果你不会，可以学习<a href="http://lutaf.com/markdown-simple-usage.htm"> 《1 分钟学会 Markdown 语法》</a>  。大家可以使用 Typora 来写自己的文章，它是一款优秀的 markdown 工具。</p>
+<h4 id="32-将文章转换为-html-格式">3.2 将文章转换为 HTML 格式</h4>
+<p><em>以 Typora</em></p>
+<figure data-type="image" tabindex="8"><img src="https://wolf3c.github.io//post-images/1561820343975.png" alt="巧用GitHub10min 建博客站_13" loading="lazy"></figure>
+<h4 id="32-上传文章">3.2 上传文章</h4>
+<h5 id="321-创建articles文件">3.2.1 创建articles文件</h5>
+<figure data-type="image" tabindex="9"><img src="https://wolf3c.github.io//post-images/1561820363323.png" alt="巧用GitHub10min 建博客站_9.5" loading="lazy"></figure>
+<p><img src="https://wolf3c.github.io//post-images/1561820391469.png" alt="巧用GitHub10min 建博客站_10" loading="lazy"> 这里只是为了有一个articles文件夹，所以随便写一个<code>1111</code>， 一会删掉就好了。</p>
+<h5 id="322-上传文章文件">3.2.2 上传文章文件</h5>
+<figure data-type="image" tabindex="10"><img src="https://wolf3c.github.io//post-images/1561820415793.png" alt="巧用GitHub10min 建博客站_11" loading="lazy"></figure>
+<figure data-type="image" tabindex="11"><img src="https://wolf3c.github.io//post-images/1561820430916.png" alt="巧用GitHub10min 建博客站_12" loading="lazy"></figure>
+<figure data-type="image" tabindex="12"><img src="https://wolf3c.github.io//post-images/1561820443975.png" alt="巧用GitHub10min 建博客站_14" loading="lazy"></figure>
+<p>等待一分钟，然后点击你博客页面中的链接看看是否已经有了这片文章。</p>
+<h2 id="4-问题与更新博客">4、 问题与更新博客</h2>
+<h4 id="41-没有看到自己的文章">4.1 没有看到自己的文章</h4>
+<p>你需要确定在步骤 <code>2.3 写主页面内容</code> 的markdown文件中 <code>&gt; ### [巧用 github - 10min 建博客站](articles/巧用 github - 10min 建博客站.html) </code> 小括号内的名称，与你在步骤 <code>3.2.2 上传文章文件</code>上传上去的文件名一致。</p>
+<h4 id="42-有了新文章怎么更新">4.2 有了新文章，怎么更新？</h4>
+<p>你可以先按照步骤 <code>3、上传文章</code>  中的内容上传文章，然后按照步骤 <code>2、设置博客主页</code> 的内容，在对于位置加入一行格式如</p>
+<p><code>&gt; ### [巧用 github - 10min 建博客站](articles/巧用 github - 10min 建博客站.html)</code> 的内容，其他步骤一致，再次发布即可。</p>
+<p>如果你懂 HTML ，也可以直接修改index.html 文件内容，达到同样的目的。</p>
+<h4 id="43-如果我的文章里面有图片怎么办">4.3 如果我的文章里面有图片怎么办？</h4>
+<p>可以在 articles 文件夹下建立一个 imgs 文件夹来放图片，同样，在你自己电脑上，也建立一个 imgs 文件夹，把图片放在里面，注意，这个 imgs 文件夹要和你的 markdown 文件放在同一个目录下，然后在写 markdown 文件时直接使用就好。</p>
+<p>注意，引用图片时一定要使用相对路径。</p>
+<p>最后，记着将自己的图片上传到 imgs 文件夹中。</p>
+<h2 id="5-其他说明">5、其他说明</h2>
+<h4 id="51-这个方法定制性太差">5.1 这个方法定制性太差</h4>
+<p>这个方法只是针对小白用户，我也是一个小白，我只是需要一个可以写内容的地方即可，不丑就好，我不想为这个事情花费太多时间。那些高手，可以自行去玩 GitHub + Jekyll、ghost……</p>
+<h4 id="52-为什么不用现成的博客平台">5.2 为什么不用现成的博客平台？</h4>
+<p>昨天写了点东西，没有找到一个比较好的发文章平台，微信公众号没法其他网站链接，简书无法将写好的 markdown 格式粘贴进去，Medium、tumblr 国人用的太少，博客园的界面有点太乱……</p>
+<p>所以，我就想自己有个可直接上传自己的 markdown文件的博客站，并且要免费、要简洁，最后我选了这个方案。</p>
+<h4 id="53-提升">5.3 提升</h4>
+<p>其实有很多没有提到的，大家以后再使用中多去研究，慢慢提高吧。</p>
+<hr>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a></p>
+
+          
+          <p class="next-post">下一篇：
+            <a href="https://wolf3c.github.io/post/4-fen-zhong-web-she-ji-jiao-cheng/">
+              <span class="post-title">
+                4 分钟 web 设计教程&rarr;
+              </span>
+            </a>
+          </p>
+        
+        <div class="comment">
+          
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script>
+  var gitalk = new Gitalk({
+    clientID: '70978cecda92809a8738',
+    clientSecret: 'fcb8159e67874dea83c8c3ae3a1431515d169c6d',
+    repo: 'wolf3c.github.io',
+    owner: 'wolf3c',
+    admin: ['wolf3c'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+  gitalk.render('gitalk-container')
+</script>
+
+          
+          
+        
+        </div>
+      </div>
+    </div>
+  </article>
+ <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            
+            
+            <li class="list-inline-item">
+              <a href="https://github.com/wolf3c" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+              <li class="list-inline-item">
+              <a href="https://wolf3c.github.io//atom.xml" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy;<span>wolf3c&#39;s blog</span><br><a href="https://github.com/getgridea/gridea" class="Themeinfo">Powered by Gridea</a></p>
+        </div>
+      </div>
+    </div>
+   </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/bootstrap.bundle.min.js"></script> -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.jsdelivr.net/gh/Alanrk/clean-cdn@1.0/scripts/clean-blog.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/clean-blog.min.js"></script> -->
+  <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+  <style type="text/css">a.back_to_top{text-decoration:none;position:fixed;bottom:40px;right:30px;background:#f0f0f0;height:40px;width:40px;border-radius:50%;line-height:36px;font-size:18px;text-align:center;transition-duration:.5s;transition-propety:background-color;display:none}a.back_to_top span{color:#888}a.back_to_top:hover{cursor:pointer;background:#dfdfdf}a.back_to_top:hover span{color:#555}@media print,screen and(max-width:580px){.back_to_top{display:none!important}}</style>
+<a id="back_to_top" href="#" class="back_to_top">
+  <span>▲</span></a>
+<script>$(document).ready((function(_this) {
+    return function() {
+      var bt;
+      bt = $('#back_to_top');
+      if ($(document).width() > 480) {
+        $(window).scroll(function() {
+          var st;
+          st = $(window).scrollTop();
+          if (st > 30) {
+            return bt.css('display', 'block')
+          } else {
+            return bt.css('display', 'none')
+          }
+        });
+        return bt.click(function() {
+          $('body,html').animate({
+            scrollTop: 0
+          },
+          800);
+          return false
+        })
+      }
+    }
+  })(this));</script>
+  </body>
+</html>
+

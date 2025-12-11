@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+  <meta name="referrer" content="never">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="kveln">
+  <title>Chrome 书签管理新方案 —— Neater Bookmarks | wolf3c&#39;s blog</title>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="https://wolf3c.github.io//media/css/bootstrap.min.css" rel="stylesheet"> -->
+  <!--  <link href="https://wolf3c.github.io//media/css/all.min.css" rel="stylesheet" type="text/css"> -->
+  <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link rel="alternate" type="application/rss+xml" title="Chrome 书签管理新方案 —— Neater Bookmarks | wolf3c&#39;s blog » Feed" href="https://wolf3c.github.io//atom.xml">
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
+  <link href="https://wolf3c.github.io//styles/main.css" rel="stylesheet">
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/highlight.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/jquery.min.js"></script> -->
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RJP31JG0VN"></script>
+  <script>window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-RJP31JG0VN');</script>
+  
+
+    <meta property="og:description" content="Chrome 书签管理新方案 —— Neater Bookmarks"/>
+    <meta property="og:url" content="https://wolf3c.github.io/post/chrome-shu-qian-guan-li-xin-fang-an-neater-bookmarks/"/>
+    <meta property="og:locale" content="zh-CN"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="wolf3c&#39;s blog"/>
+  </head>
+  <body>
+  	<!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="https://wolf3c.github.io/">wolf3c&#39;s blog</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/">首页</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/archives">归档</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/tags">标签</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/post/about">关于</a>
+              
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('https://wolf3c.github.io//media/images/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+          	<span class="tags">
+          	 
+            <a href="https://wolf3c.github.io/tag/app/" class="tag">app</a>
+            
+        </span>
+            <h1>Chrome 书签管理新方案 —— Neater Bookmarks</h1>
+            <span class="meta">
+            	Posted on
+              2017-08-15，4 min read
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <blockquote>
+<p>time：2017-08-15</p>
+<p>author：wolf3c</p>
+<p>字数：0.9K</p>
+</blockquote>
+<hr>
+<p>作为一个 Chrome 重度用户，我保存了大量书签，但 Chrome 的书签功能实难用：</p>
+<ol>
+<li>左键单击书签，会在当前标签页打开页面，而不是新开标签页打开页面，为此我必须每次按住 command（Mac） 或 Ctrl（Windows）键来打开一个书签。在一个打字可以不用手的时代，打开一个书签居然需要两个手；</li>
+<li>存放在多级文件夹中的书签，每次打开时都需要从头逐级找，简直抓狂。我一直怀疑 Chrome 的书签功能就不是为我这种人做的；</li>
+<li>书签栏中可以放得内容有限，Chrome 把超出的内容全部收在右边的小箭头中，使用起来非常憋屈，这逼得我不得不把文件夹和标签的名字改的更短，以放置更多的内容。</li>
+</ol>
+<p>有病就得治，作为一个 Chrome 用户，遇到问题最先想到的解决办法就是「<strong>找个插件</strong>」。</p>
+<p>在 chrome web store 一通乱翻后，果然找到了「药」—— Neater Bookmarks。</p>
+<h3 id="树状结构">树状结构</h3>
+<p>Neater Bookmarks 作为插件，需要在插件栏中点击图标打开，书签在弹出窗中树状呈现，很适合管理大量书签。</p>
+<figure data-type="image" tabindex="1"><img src="https://wolf3c.github.io//post-images/1561821517169.png" alt="Neater Bookmarks_tree" loading="lazy"></figure>
+<p>同时，Neater Bookmarks 提供了非常实用的自定义设置，我最喜欢「左键单击书签在新标签打开」和「记住上次状态」。</p>
+<h3 id="左键单击书签在新标签打开">左键单击书签在新标签打开</h3>
+<p>这个功能解决了一直被我吐槽的 Chrome 自带书签打开方式，只需要点击左键即可在新标签页中打开书签。</p>
+<p>如果配合「鼠标中键或按住 Ctrl 键左击时在后台打开书签」设置项，一次性打开多个书签变得非常高效。</p>
+<p>再也不用跟傻子似的一遍又一遍地沿着相同的路径点开文件夹打开书签了。</p>
+<figure data-type="image" tabindex="2"><img src="https://wolf3c.github.io//post-images/1561821537043.gif" alt="NeaterBookmarks_newTab" loading="lazy"></figure>
+<h3 id="记住上次状态">记住上次状态</h3>
+<p>开启「记住上次状态」功能后，每次打开 Neater Bookmarks 时，显示位置就是使用时打开的位置。</p>
+<p>我根据自己使用场景建了几个文件夹，并将同类书签放在相同的文件夹下。比如，我有一个叫「开发常用」的文件夹，里面放着Underscore.js、MongoDB、Materialize……的 document 网站和开发资源网站，在写代码的时候，常需要查文档，每次打开 Neater Bookmarks，位置就在已经打开的「开发常用」文件夹，使用起来方便很多。</p>
+<figure data-type="image" tabindex="3"><img src="https://wolf3c.github.io//post-images/1561821550942.gif" alt="NeaterBookmarks_rememberStatus" loading="lazy"></figure>
+<h3 id="不足">不足</h3>
+<p>在使用过程中也发现 Neater Bookmarks 一些小问题。</p>
+<p>中文支持不足。「地址栏搜索」功能是在地址栏输入星号「*」，再按 tab 或空格，就可以搜索 Neater Bookmarks 中的标签，但使用中文搜索经常出现搜索不到的情况，该功能在几年前还是很有用的（Neater Bookmarks 是 2010 年发布，最后一次更新是 2014 年），但现在 Chrome 自己已经把书签搜索加入到地址栏中，所以该功能好坏变得无足轻重。</p>
+<p>打开速度有点慢，点击后会延迟 0.5 ~ 1 秒，这是所有扩展的通病，不过，想想 Chrome 的书签功能，我感觉这个延迟完全可以接受。</p>
+<p>如果你也喜欢使用 Chrome 书签，强烈建议你试试 Neater Bookmarks。</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+
+          
+          <p class="next-post">下一篇：
+            <a href="https://wolf3c.github.io/post/zuo-you-mei-li-de-chan-pin-zhi-chu-ci-jian-mian/">
+              <span class="post-title">
+                做有魅力的产品 之 初次见面&rarr;
+              </span>
+            </a>
+          </p>
+        
+        <div class="comment">
+          
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script>
+  var gitalk = new Gitalk({
+    clientID: '70978cecda92809a8738',
+    clientSecret: 'fcb8159e67874dea83c8c3ae3a1431515d169c6d',
+    repo: 'wolf3c.github.io',
+    owner: 'wolf3c',
+    admin: ['wolf3c'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+  gitalk.render('gitalk-container')
+</script>
+
+          
+          
+        
+        </div>
+      </div>
+    </div>
+  </article>
+ <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            
+            
+            <li class="list-inline-item">
+              <a href="https://github.com/wolf3c" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+              <li class="list-inline-item">
+              <a href="https://wolf3c.github.io//atom.xml" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy;<span>wolf3c&#39;s blog</span><br><a href="https://github.com/getgridea/gridea" class="Themeinfo">Powered by Gridea</a></p>
+        </div>
+      </div>
+    </div>
+   </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/bootstrap.bundle.min.js"></script> -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.jsdelivr.net/gh/Alanrk/clean-cdn@1.0/scripts/clean-blog.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/clean-blog.min.js"></script> -->
+  <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+  <style type="text/css">a.back_to_top{text-decoration:none;position:fixed;bottom:40px;right:30px;background:#f0f0f0;height:40px;width:40px;border-radius:50%;line-height:36px;font-size:18px;text-align:center;transition-duration:.5s;transition-propety:background-color;display:none}a.back_to_top span{color:#888}a.back_to_top:hover{cursor:pointer;background:#dfdfdf}a.back_to_top:hover span{color:#555}@media print,screen and(max-width:580px){.back_to_top{display:none!important}}</style>
+<a id="back_to_top" href="#" class="back_to_top">
+  <span>▲</span></a>
+<script>$(document).ready((function(_this) {
+    return function() {
+      var bt;
+      bt = $('#back_to_top');
+      if ($(document).width() > 480) {
+        $(window).scroll(function() {
+          var st;
+          st = $(window).scrollTop();
+          if (st > 30) {
+            return bt.css('display', 'block')
+          } else {
+            return bt.css('display', 'none')
+          }
+        });
+        return bt.click(function() {
+          $('body,html').animate({
+            scrollTop: 0
+          },
+          800);
+          return false
+        })
+      }
+    }
+  })(this));</script>
+  </body>
+</html>
+

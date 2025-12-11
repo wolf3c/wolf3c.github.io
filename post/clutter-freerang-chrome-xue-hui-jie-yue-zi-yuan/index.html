@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+  <meta name="referrer" content="never">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="kveln">
+  <title>Clutter Free：让 Chrome 学会节约资源 | wolf3c&#39;s blog</title>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="https://wolf3c.github.io//media/css/bootstrap.min.css" rel="stylesheet"> -->
+  <!--  <link href="https://wolf3c.github.io//media/css/all.min.css" rel="stylesheet" type="text/css"> -->
+  <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link rel="alternate" type="application/rss+xml" title="Clutter Free：让 Chrome 学会节约资源 | wolf3c&#39;s blog » Feed" href="https://wolf3c.github.io//atom.xml">
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
+  <link href="https://wolf3c.github.io//styles/main.css" rel="stylesheet">
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/highlight.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/jquery.min.js"></script> -->
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RJP31JG0VN"></script>
+  <script>window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-RJP31JG0VN');</script>
+  
+
+    <meta property="og:description" content="Clutter Free：让 Chrome 学会节约资源"/>
+    <meta property="og:url" content="https://wolf3c.github.io/post/clutter-freerang-chrome-xue-hui-jie-yue-zi-yuan/"/>
+    <meta property="og:locale" content="zh-CN"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="wolf3c&#39;s blog"/>
+  </head>
+  <body>
+  	<!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="https://wolf3c.github.io/">wolf3c&#39;s blog</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/">首页</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/archives">归档</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/tags">标签</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/post/about">关于</a>
+              
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('https://wolf3c.github.io//media/images/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+          	<span class="tags">
+          	 
+            <a href="https://wolf3c.github.io/tag/app/" class="tag">app</a>
+            
+        </span>
+            <h1>Clutter Free：让 Chrome 学会节约资源</h1>
+            <span class="meta">
+            	Posted on
+              2017-06-14，3 min read
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <blockquote>
+<p>time：2017-06-14</p>
+<p>author：wolf3c</p>
+<p>字数：0.7K</p>
+</blockquote>
+<hr>
+<p>内存不足大概是每个 Chrome 重度用户心中的隐痛。估计很多人已经尝试过 OneTab、The Great Suspender、Toby 等，它们的主要功能在于「把网页停掉以释放资源」。但是，他们没有解决重复打开网页的问题。因为通常情况下，我们使用浏览器和使用 app 类似，常用的总是那几个网站。</p>
+<p>我使用浏览器比较懒，要用什么网站，直接输入 URL 打开，用完就不管了，每天使用浏览器的场景大概是这样的：</p>
+<blockquote>
+<p>早晨，开始工作前，在浏览器打开「trello.com」看看自己项目安排，再打开 「mail.google.com」看看重要邮件，打开「calendar.google.com」看看今日事项，然后到「todoist.com」做一天的计划。</p>
+<p>完成计划后，便开始一天的工作。这期间，我会时常打开「trello.com」看看项目情况，使用「mail.google.com」处理邮件，使用「translate.google.cn」查一些单词，使用「slack.com」查看信息，等到中午，打开「readhub.me」看看新闻，这时候浏览器顶部挤了密密麻麻地一排标签，逼得我不得不处理这些网页，它们大多就是这几个常用网站。</p>
+</blockquote>
+<p>我也见到过一些用完网页就关的「强迫症」，但我正好相反，我喜欢「用完就走（懒得关）」。</p>
+<p>今天介绍一款 Chrome 扩展程序——Clutter Free——就是专门问解决「懒得关」而生的：</p>
+<blockquote>
+<p>当用户打开一个已经打开某一网页时，Clutter Free 会直接让你直接跳转到已经打开的网页，而不是重复打开一个新页面。</p>
+<p>使用 Clutter Free 有一个附加好处，由于不再重复打开网页，所以无形中省下很多内存。</p>
+</blockquote>
+<figure data-type="image" tabindex="1"><img src="https://wolf3c.github.io//post-images/1561821589181.gif" alt="Clutter_Free_show" loading="lazy"></figure>
+<p>我执着地认为，我们使用电脑是为了让自己更高效更轻松，需要花精力去整理浏览器标签并不是一个正确的方式。我喜欢 Clutter Free 的一个重要原因是，它会默默地做好这件事情，不需要我再浪费精力做什么操作。（这点和 The Great Suspender 很像）</p>
+<p>浏览器已经成为大多白领工作的重要场所，找到一帮默默帮助自己的「小助理」可以节省很多精力，如果说 The Great Suspender 是一个清理空闲网页的助理，那 Clutter Free 就是清理重复网页的助理，何不请来试试？</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+
+          
+          <p class="next-post">下一篇：
+            <a href="https://wolf3c.github.io/post/tu-cao-greaterwu-qu/">
+              <span class="post-title">
+                吐槽=&gt;无趣&rarr;
+              </span>
+            </a>
+          </p>
+        
+        <div class="comment">
+          
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script>
+  var gitalk = new Gitalk({
+    clientID: '70978cecda92809a8738',
+    clientSecret: 'fcb8159e67874dea83c8c3ae3a1431515d169c6d',
+    repo: 'wolf3c.github.io',
+    owner: 'wolf3c',
+    admin: ['wolf3c'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+  gitalk.render('gitalk-container')
+</script>
+
+          
+          
+        
+        </div>
+      </div>
+    </div>
+  </article>
+ <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            
+            
+            <li class="list-inline-item">
+              <a href="https://github.com/wolf3c" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+              <li class="list-inline-item">
+              <a href="https://wolf3c.github.io//atom.xml" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy;<span>wolf3c&#39;s blog</span><br><a href="https://github.com/getgridea/gridea" class="Themeinfo">Powered by Gridea</a></p>
+        </div>
+      </div>
+    </div>
+   </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/bootstrap.bundle.min.js"></script> -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.jsdelivr.net/gh/Alanrk/clean-cdn@1.0/scripts/clean-blog.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/clean-blog.min.js"></script> -->
+  <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+  <style type="text/css">a.back_to_top{text-decoration:none;position:fixed;bottom:40px;right:30px;background:#f0f0f0;height:40px;width:40px;border-radius:50%;line-height:36px;font-size:18px;text-align:center;transition-duration:.5s;transition-propety:background-color;display:none}a.back_to_top span{color:#888}a.back_to_top:hover{cursor:pointer;background:#dfdfdf}a.back_to_top:hover span{color:#555}@media print,screen and(max-width:580px){.back_to_top{display:none!important}}</style>
+<a id="back_to_top" href="#" class="back_to_top">
+  <span>▲</span></a>
+<script>$(document).ready((function(_this) {
+    return function() {
+      var bt;
+      bt = $('#back_to_top');
+      if ($(document).width() > 480) {
+        $(window).scroll(function() {
+          var st;
+          st = $(window).scrollTop();
+          if (st > 30) {
+            return bt.css('display', 'block')
+          } else {
+            return bt.css('display', 'none')
+          }
+        });
+        return bt.click(function() {
+          $('body,html').animate({
+            scrollTop: 0
+          },
+          800);
+          return false
+        })
+      }
+    }
+  })(this));</script>
+  </body>
+</html>
+

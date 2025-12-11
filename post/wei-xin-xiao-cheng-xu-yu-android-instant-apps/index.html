@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+  <meta name="referrer" content="never">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="kveln">
+  <title>微信小程序与 Android Instant Apps | wolf3c&#39;s blog</title>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="https://wolf3c.github.io//media/css/bootstrap.min.css" rel="stylesheet"> -->
+  <!--  <link href="https://wolf3c.github.io//media/css/all.min.css" rel="stylesheet" type="text/css"> -->
+  <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link rel="alternate" type="application/rss+xml" title="微信小程序与 Android Instant Apps | wolf3c&#39;s blog » Feed" href="https://wolf3c.github.io//atom.xml">
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
+  <link href="https://wolf3c.github.io//styles/main.css" rel="stylesheet">
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/highlight.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/jquery.min.js"></script> -->
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RJP31JG0VN"></script>
+  <script>window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-RJP31JG0VN');</script>
+  
+
+    <meta property="og:description" content="微信小程序与 Android Instant Apps"/>
+    <meta property="og:url" content="https://wolf3c.github.io/post/wei-xin-xiao-cheng-xu-yu-android-instant-apps/"/>
+    <meta property="og:locale" content="zh-CN"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="wolf3c&#39;s blog"/>
+  </head>
+  <body>
+  	<!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="https://wolf3c.github.io/">wolf3c&#39;s blog</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/">首页</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/archives">归档</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/tags">标签</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="/post/about">关于</a>
+              
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('https://wolf3c.github.io//media/images/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+          	<span class="tags">
+          	 
+            <a href="https://wolf3c.github.io/tag/chan-pin-jing-li/" class="tag">产品经理</a>
+            
+            <a href="https://wolf3c.github.io/tag/opinion/" class="tag">观点</a>
+            
+        </span>
+            <h1>微信小程序与 Android Instant Apps</h1>
+            <span class="meta">
+            	Posted on
+              2017-05-24，10 min read
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <blockquote>
+<p>time：2017-05-24</p>
+<p>author：wolf3c</p>
+<p>字数：2.8K</p>
+</blockquote>
+<hr>
+<h2 id="介绍">介绍</h2>
+<p><strong>小程序</strong></p>
+<p>微信小程序已经被吵了一年多时间，期间，百度的轻应用、Firefox 的 Firefox OS、Google 的 Chrome OS 等被几度讨论，毕竟这些都不算是成功的案例，好在自小程序发布后，一切尘埃落定。</p>
+<p>年初张小龙做了一个公开演讲，说了小程序的使用场景——比如你到饭馆吃饭，坐在位子上，掏出手机扫描桌子上的二维码，打开点菜小程序，点好菜后，使用微信付费，等待服务员端上菜。</p>
+<p>事实上，这样的事情在没有小程序的时候，一些人就已经使用 web 技术实现了这类产品，并且已经在一些饭馆中使用了。</p>
+<p>不得不说，张小龙提出的这个愿景确实很好，但是，小程序一直没有在这种好想法下找到一个强需求场景，就拿饭馆的例子说。</p>
+<p>饭馆会自己找人做一个小程序吗？作为一个小老板你愿意浪费这份钱吗？每个小老板都会想一想这里面的利益和成本，结果自然是放弃。</p>
+<p>那些做饭馆应用的人会做一个小程序吗？这个有可能，不过前提是小程序可以开发非常高效，同时实现效果远好于自己以前的方案，可是，目前来看，小程序开发过程掣肘太多，而他们原有方案并非那么难以接受，所以他们变得动力不足。</p>
+<p>那么用户会强烈要求使用小程序吗？事实上，对于一个用户，我就吃顿饭，直接到点菜台或者直接和服务员点菜，既符合自己原有习惯，也更容易询问。当然确实有很多人进入饭馆就是想自己点好等菜，但是他们对目前点菜方式也没有反感到不用小程序就不吃饭的程度。</p>
+<p>所以，小程序发布后风声大雨点小，出现的第一批小程序都是一些互联网 app 的小程序简化版，比如小睡眠、得到、GET 小资讯、虎嗅精选、Qdaily（好奇心日报）等，这些和张小龙提到的场景关系不大。</p>
+<p>我一直不认为这是小程序该做的，原因是：</p>
+<blockquote>
+<ol>
+<li>体验不好：他们其中一些确实不错，但是如果做成原生应用，会更好。并且，用小程序实现还有网络、微信壳子等限制；</li>
+<li>操作复杂：为了使用他们，我必须打开微信，进入小程序，通过搜索或浏览来找到他，微信只能置顶一个小程序，Android 用户，虽然可以把小程序放到桌面，但是这又有什么意义呢？这种程序除了互联网工作者通过二维码发现，普通人连小程序口都发现不了。</li>
+</ol>
+</blockquote>
+<p>在我看来这些小程序都是冲着微信大量的用户流量，说白了，他们把微信小程序作为获取用户时间的手段罢了。</p>
+<p>这并不是说小程序的想法错了，我认为张小龙提出的使用案例确实好，但需要时间来让人们改变。</p>
+<p>或者说，小程序需要几个真正符合自己产品愿景的应用来打开用户认知大门。</p>
+<p>估计，微信团队对此心知肚明，但是他们等不及，所以，小程序随后做出了很多重大调整，比如，新的小程序码、公众号可以关联小程序、手机可以长按扫小程序码、文章中关联小程序码等。</p>
+<p>或许是小程序内部对于小程序的使用场景扩大了，他们确实希望自己成为一个「OS」。或许他们希望通过让那些想进来分一杯羹的人把小程序炒火了，让大家生活中熟悉小程序，进而让大众慢慢把小程序用起来，算是一种曲线救国。</p>
+<p><strong>Android Instant Apps</strong></p>
+<p>就在微信小程序大干快上的同时，Google 在今年自家 I/O 大会中公布了 Android Instant Apps，概念类似于 Google 几年前就提出来的一直不温不火的 PWA，用户可以通过连接直接访问一个 Instant App，这个 app 会根据你自己的使用需要，把对应的功能通过网络安到你的手机中，也就是说，你不需要一个下载安装的过程，就可以使用这个 app 的功能，同时，而且他又比以前的 web app 体验更优。（具体可以看 Google I/O 对于这部分的介绍：https://www.youtube.com/watch?v=9Jg1D07NgeI）</p>
+<p>Android Instant Apps 看起来是新瓶装老酒，但是他的影响确实巨大的（至少我个人从这一点往后想，认为这个事情如果做成，影响是巨大的。）：</p>
+<p>对于 app 厂商来说，app 传播更加容易，要知道目前来看，app 的推广越来越难，很多人因为下载就可以放弃使用一个 app，就算下载后，打开率也很低。尤其是对于那些中内容的 app，如果 Android Instant Apps 普及，大家看到一个连接就可以直接使用自家的应用，那么自家的 app 和用户之间的阻碍就消失了。</p>
+<p>进一步，大家的信息被拍的更平，就好比以前是一个个城堡，现在，是一片草原。想要通过一个 app 建立起自己的用户围栏简直不可能，各个厂商只能靠自己的服务来吸引用户，更直白的说，未来，服务的好坏变得更重要。</p>
+<p>对于 Android 用户，大家没有了安装 app 的概念后，大家其实是在各种内容和服务中游荡，也就是说，手机就是一个手机，是一个整体，不是一个个割裂的应用，通过连接直接打开自己需要的东西，用完即走。或许有一天，大家唯一要记住的就是在 Google 搜索框中输入自己需要的内容。</p>
+<p>对于 Google，从 app 时代又回到的互联网时代，Google 的搜索功力又被发挥出来，Google 可以看到所有用户的点击情况，可以评估每个 app 的优劣，可以做各种数据服务，可以继续玩 PageRank，可以提供更精准的广告。</p>
+<p>再畅想一下，Google Chrome OS 虽然不温不火，但以前多次传出 Chrome OS 跑 Android 应用，如果让 Chrome 浏览器跑 Android 应用呢？</p>
+<p>或者说，让 Android 上 web app  的体验接近原生呢？这对开发者是利好的，一次开发，获得终端用户。对用户也是利好的，在不同终端体验一致的 app。</p>
+<h2 id="对比">对比</h2>
+<p>对比一下小程序和 Android Instant Apps，他们虽然在有一些相同点，比如他们都不需要安装的过程，但是，我总感觉他们俩背后的思想是完全不同的：</p>
+<p>小程序，他们希望让微信渗入到人们生活的各个角落，当微信和用户耦合越来越紧密后，微信就变成了一个无法被抛弃的应用，只要这种耦合不被解开，那么微信就立于不败之地。</p>
+<p>这种耦合不止是用户侧，不是简单的聊天、看朋友圈、看公众号，当你到超市，发现有微信支付快速通道，当你坐黑车，发现要么微信支付、要么现金，当你在路边买个煎饼果子，发现老板忙到不收现金只能微信扫码支付……这是一种和环境进行耦合的过程，这种耦合正在发生，小程序是重要的一环。</p>
+<p>等到一切完成，微信就是一个不折不扣的帝国，而这之后会发生什么，就只能看那时候腾讯是什么嘴脸了。</p>
+<p>前几天昙花一现的匿名聊天被小程序禁了，也就是说，回头看看原因，仿佛就是「莫须有」。</p>
+<p>开发小程序和发布小程序需要各种审核流程，这确实和政策有关，但是总让人感受到一股「顺我者昌逆我者亡」的味道。</p>
+<p>Android Instant Apps，由于使用链接，可以很明显的看出来，Google 选择了一种更通用的方案，链接容易和现有的虚拟世界（互联网）联系在一起。（当然，如果你硬要和实体世界联系，也是可以的，只需把链接转为二维码贴出来就好了。）</p>
+<p>从整个发布情况来看，Android Instant Apps 技术的气息更浓重，这种方向几年前就有人向往了，但是一直没有好的解决方案，Google 这个方案更多地是考虑用技术解决一个难题，而商业上的利益考虑只是一个大方向，并没有急于在这方面着重建立收费站。</p>
+<p>小程序大概的路线就是：看到需求 -&gt; 找解决办法 -&gt; 找好商业模式 -&gt; 实现 -&gt; 运营及时跟进，建立利益控制权。</p>
+<p>Android Instant Apps 走的路显得比较不完善：看到需求 -&gt; 找解决办法 -&gt; 知道大概的商业模式。</p>
+<h2 id="诛心">诛心</h2>
+<p>前几天爆出苹果向微信公众号打赏功能收 30% 的费用，很多人对苹果口诛笔伐，但是，微信会不会对其他小程序、公众号等做类似的事情呢？他会不会因为自己的「相关规定」、国家的「相关规定」来突然封杀某个小程序？或者突然收取过桥费？</p>
+<p>目前，微信已经成为了一个类似 Apple 的平台，在使用微信优质服务的同时，我们也看到，很多公众号因为文章言论而被封，你自己发的内容可能被禁掉……这总让人感觉自己被监视着。</p>
+<p>Google 会不会做的比微信好？</p>
+<p>如果 Android Instant Apps 变成了每个 Android 的必备，那 Google 会不会就像互联网中 Google 一样呢？</p>
+<p>Google 会不会在表面不做强制性的控制，但在后面借着用户的数据做什么事情呢？可能他会像一朵云彩的影子，让人身在其中时无法感知，他又可以无形中获得利益。</p>
+<h2 id="错的">错的</h2>
+<p>都是猜测，都是瞎说，可能都是错的。</p>
+<hr>
+<p>请在<a href="https://github.com/wolf3c/wolf3c.github.io/issues">这里</a>留言讨论</p>
+<p>&lt;&lt;&lt; <a href="https://wolf3c.github.io/">回到首页</a> &lt;&lt;&lt;</p>
+
+          
+          <p class="next-post">下一篇：
+            <a href="https://wolf3c.github.io/post/workflowy-yu-mu-bu/">
+              <span class="post-title">
+                Workflowy 与幕布&rarr;
+              </span>
+            </a>
+          </p>
+        
+        <div class="comment">
+          
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script>
+  var gitalk = new Gitalk({
+    clientID: '70978cecda92809a8738',
+    clientSecret: 'fcb8159e67874dea83c8c3ae3a1431515d169c6d',
+    repo: 'wolf3c.github.io',
+    owner: 'wolf3c',
+    admin: ['wolf3c'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+  gitalk.render('gitalk-container')
+</script>
+
+          
+          
+        
+        </div>
+      </div>
+    </div>
+  </article>
+ <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            
+            
+            <li class="list-inline-item">
+              <a href="https://github.com/wolf3c" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+              <li class="list-inline-item">
+              <a href="https://wolf3c.github.io//atom.xml" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy;<span>wolf3c&#39;s blog</span><br><a href="https://github.com/getgridea/gridea" class="Themeinfo">Powered by Gridea</a></p>
+        </div>
+      </div>
+    </div>
+   </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/bootstrap.bundle.min.js"></script> -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.jsdelivr.net/gh/Alanrk/clean-cdn@1.0/scripts/clean-blog.min.js"></script>
+  <!-- <script src="https://wolf3c.github.io//media/scripts/clean-blog.min.js"></script> -->
+  <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+  <style type="text/css">a.back_to_top{text-decoration:none;position:fixed;bottom:40px;right:30px;background:#f0f0f0;height:40px;width:40px;border-radius:50%;line-height:36px;font-size:18px;text-align:center;transition-duration:.5s;transition-propety:background-color;display:none}a.back_to_top span{color:#888}a.back_to_top:hover{cursor:pointer;background:#dfdfdf}a.back_to_top:hover span{color:#555}@media print,screen and(max-width:580px){.back_to_top{display:none!important}}</style>
+<a id="back_to_top" href="#" class="back_to_top">
+  <span>▲</span></a>
+<script>$(document).ready((function(_this) {
+    return function() {
+      var bt;
+      bt = $('#back_to_top');
+      if ($(document).width() > 480) {
+        $(window).scroll(function() {
+          var st;
+          st = $(window).scrollTop();
+          if (st > 30) {
+            return bt.css('display', 'block')
+          } else {
+            return bt.css('display', 'none')
+          }
+        });
+        return bt.click(function() {
+          $('body,html').animate({
+            scrollTop: 0
+          },
+          800);
+          return false
+        })
+      }
+    }
+  })(this));</script>
+  </body>
+</html>
+
